@@ -1,0 +1,271 @@
+---
+layout: default
+title: Zephyr Foundation
+subTitle: Advancing Travel Analysis to Improve Society
+---
+
+<!-- About Section -->
+<section id="about" class="container content-section text-left">
+	<div class="row">
+    <div class="col-lg-12">
+    <br/><br/>
+    
+	<h1 class="text-center">About</h1>
+	<hr class="section-heading-spacer-center">
+		<div class="row">
+		
+			<div class="col-md-6">
+				<h3>Mission</h3>
+				<p>The Foundation’s mission is to advance rigorous transportation and land use decision-making for the public good by advocating for, facilitating, and supporting improved travel analysis and forecasting methods. </p>
+			</div>
+			
+			<div class="col-md-6">
+				<h3>Vision</h3>
+				<p>Be the primary venue through which leading researchers and practitioners seek to develop and improve travel analysis methods and tools that are demonstrably valuable, credible, transparent, tractable, reproducible, and usable. </p>
+			</div>
+			
+		</div>
+		<hr class="sub-section-heading-spacer">
+		<h3>Goals</h3>
+		<p>The Foundation’s goals are to support, incubate, guide, encourage, teach, and convene, as follows:</p>
+		<div class="row">
+		
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Support</h4>
+				<p>Provide robust infrastructure, including financial, administrative, and legal support.</p>
+			</div> 
+			
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Incubate</h4>
+				<p>Incubate innovative and useful planning methods in preparation for deployment by regions, cities, and neighborhoods.</p>
+			</div> 
+			
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Guide</h4>
+				<p>Guide research towards useful avenues and products.</p>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Encourage</h4>
+				<p>Encourage the use of open data standards, rigorous development practices, interoperability, reproducible research methods, and evaluation of research. </p>
+			</div> 
+			
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Teach</h4>
+				<p>Teach core competencies and next generation travel analysis skills to researchers and practitioners.</p>
+			</div> 
+			
+			<div class="col-sm-4">
+				<h4><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Convene</h4>
+				<p>Convene leading academics and practitioners to guide the Foundation’s efforts.</p>
+			</div>
+	
+		</div>
+
+	<hr class="sub-section-heading-spacer">
+	<h3>Principles</h3>
+		<p>The Foundation is guided by the following principles:</p>
+			<div class="row">
+			<div class="col-md-10">
+			<div class="col-sm-5 highlight-text-block">Respectful, honest, technical-based interaction;</div>
+			<div class="col-sm-5 highlight-text-block">Collegial and collaborative;</div>
+			<div class="col-sm-5 highlight-text-block">Driven by useful innovation;</div>
+			<div class="col-sm-5 highlight-text-block">Acting in support of the public good;</div>
+			<div class="col-sm-5 highlight-text-block">User-friendly packaging and licensing;</div>
+			<div class="col-sm-5 highlight-text-block">Consistently high-quality work products;</div>
+			<div class="col-sm-5 highlight-text-block">Faithful implementation of standards; and,</div>
+			<div class="col-sm-5 highlight-text-block">Lawfulness as mandatory. </div>
+			</div>
+			</div>
+
+	<hr class="sub-section-heading-spacer">
+	<h3>Why a Foundation?</h3>
+		<div class="row">
+		<div class="col-md-6">
+		<p>We have been asked [ and have asked ourselves ] why we think a new Foundation is the best structure for improving the travel analysis industry.  The short answer is that our current options for furthering our profession have various drawbacks that prevent them from pushing our industry forward.  Specific attributes that we need include: flexibility, agility, stability [ of staffing and funding ], and ability to contribute funding from public and private sources on multiple levels.  
+		</div>
+		</div>
+
+    </div>
+    </div>
+</section>
+
+
+
+<hr class="section-divider">
+<section id="activities">
+<!-- Page Content -->
+	<div class="container content-section text-left">
+	<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+    <br/><br/>
+    
+	<h1 class="text-center">Projects</h1>
+	<hr class="section-heading-spacer-center">
+	
+	<div class="col-md-offset-1">
+	<p>This is a list of potential projects that could be undertaken by the Foundation.  				 The initial board will consider and prioritize these projects along with many others.
+	<br>
+	<br>
+	</div>
+	</div>
+	</div>
+{% for project in site.projects %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ project.title }}</h2>
+                    {% if project.img != 'none' %}
+                    	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
+                    {% endif %}
+                    {% if project.icon != 'none' %}
+                    	<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="lead highlight-text">{{ project.description }}</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ project.title }}</h2>
+                    {% if project.img != 'none' %}
+                    	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
+                    {% endif %}
+                    {% if project.icon != 'none' %}
+                    	<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
+                    {% endif %}
+                    
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  	<div class="lead highlight-text">{{ project.description }}</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+{% endfor %}
+</section>
+
+<!-- Governance Section -->
+<hr class="section-divider">
+<section id="finer-print" class="container content-section text-left">
+	<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+    <br/><br/>
+    
+	<h1 class="text-center">Finer Print</h1>
+	<hr class="section-heading-spacer-center">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Governance</h3>
+				<p>The Foundation will be directed by a five-member volunteer board of diverse backgrounds.  The founding stakeholders [ a pool of individuals selected to represent the will of the industry and those that it serves ] will select the initial board.  The board will guide the organization, selecting officers to oversee the day-to-day affairs of the Foundation and forming committees to focus on the immediate tasks at hand.  We believe the Apache Foundation serves as an excellent organizational model. 
+				<p>The initial board members must embrace the significant task of getting the organization off the ground.  This will include seeking contributors, handling a host of administrative duties, and continually making the case for the Foundation’s existence.  For us to succeed, the board’s duties in year one will be very different than their duties in year five.  
+				<p>In the future, the bulk of the day-to-day work of the Foundation will be completed within the structure of project management committees.  The board will create project management committees and select's their chair but does not interfere with the technical decision-making of the committee.
+				</p>
+			</div>
+			
+			<div class="col-md-6">
+				<h3>Business Plan [ in brief ]</h3>
+				<p>We estimate annual costs during our first five years to be approximately $400,000.  Costs include legal assistance, insurance, accounting services, board member travel, and other administrative overhead, as well as salaries and office space for two (2) full-time staff equivalents.  During the start-up phase, consultants will staff the organization and will be directly overseen by board-appointed officers.  Our revenue plan seeks annual contributions in the $5,000 to $25,000 range from a variety of governmental entities, including:
+				<ul class="fa-ul">
+					 <li><i class="fa-li fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>Metropolitan Planning Organizations;</li>
+ 					<li><i class="fa-li fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>State Departments of Transportation;</li>
+ 					<li><i class="fa-li fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>Federal Highway and Transit Administrations;</li>
+ 					<li><i class="fa-li fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>University Transportation Centers;</li>
+ 					<li><i class="fa-li fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>Associations of Governments, e.g., National Association of City Transportation Officials (NACTO), Association of Metropolitan Planning Organizations (AMPO), American Association of State Highway and Transportation Officials (AASHTO).</li>
+				</ul>
+				<p>At an annual contribution level of $10,000, approximately 40 contributing entities are required to sustain our expected baseline operations. 
+ </p>
+			</div>
+
+
+		</div>
+		
+</section>
+
+
+<!-- Timeline Section -->
+<hr class="section-divider">
+<section id="timeline" class="container content-section text-left">
+	<div class="row">
+    <div class="col-md-12">
+    <br/><br/>
+	<h1 class="text-center">Timeline</h1>
+	<hr class="section-heading-spacer-center">
+	
+	<div class="row">
+		
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> August 2016</h3>
+				<p>Finalize list of Founding Stakeholders</p>
+			</div> 
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> September 2016</h3>
+				<p>Convene meeting of Founding Stakeholders to discuss, develop, and approve:
+				<ul><li>mission + vision</li><li>governance documents and board structure</li><li>membership structure</li><li>near-term objectives and projects</li></ul></p>
+			</div> 
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> October 2016</h3>
+				<p>Elect initial board and file articles of incorporation.</p>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right"  style="color:#{{ site.highlight-color }}"aria-hidden="true"></i> November 2016</h3>
+				<p>Solicit near-term objectives and project ideas into those selected by the board and develop a TRB workshop to develop them.</p>
+			</div> 
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> December 2016</h3>
+				<p>Finalize TRB workshop to develop initial project roadmaps.</p>
+			</div> 
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> January 2017</h3>
+				<p>Develop roadmaps for and prioritize projects at TRB workshop. </p>
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> February 2017</h3>
+				<p>Board approves staffing plan, budget, initial priority projects and their roadmaps. </p>
+			</div> 
+			<div class="col-sm-4">
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> March 2017</h3>
+				<p>Operations commence. <p>File for 501c3 status.</p>
+			</div>
+		</div>
+	<br><br>
+	
+	</div>
+	</div>
+		
+		
+</section>
+
+

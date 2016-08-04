@@ -1,0 +1,47 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://e-lo.github.io/zephyr-foundation
+title: Zephyr Foundation for Advancing Travel Analysis Methods
+email: e@z.org
+author: Elizabeth Sall
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: 'Copyright &copy; 2016 Zephyr Foundation. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+collections:
+    - projects
+
+# ----------------------- #
+#   Look Settings         #
+# ----------------------- #
+
+top-bg-img: tunnel-swoosh-bg.jpg
+bottom-bh-img: nyc-bg.jpg
+highlight-color: 00aced
+
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/zephyrtransport
+  - title: github
+    url: https://github.com/zephyrtransport
+  - title: email list
+    url: #
+
