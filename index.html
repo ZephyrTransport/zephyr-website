@@ -86,7 +86,21 @@ subTitle: Advancing Travel Analysis to Improve Society
 		<p>We have been asked [ and have asked ourselves ] why we think a new Foundation is the best structure for improving the travel analysis industry.  The short answer is that our current options for furthering our profession have various drawbacks that prevent them from pushing our industry forward.  Specific attributes that we need include: flexibility, agility, stability [ of staffing and funding ], and ability to contribute funding from public and private sources on multiple levels.  
 		</div>
 		</div>
-
+		
+	<hr class="sub-section-heading-spacer">
+	<h3>Who's Behind This?</h3>
+		<div class="row">
+		<div class="col-md-6">
+			<h4><i class="fa fa-rocket" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>&nbsp &nbsp Instigators</h4>
+			<p>Group working to bring this idea to reality:
+			<ul><li>Billy Charlton</li><li>Gregory Erhardt</li><li>David Ory</li><li>Elizabeth Sall</li><li>Joan Walker</li></ul>
+		</div>
+		<div class="col-md-6">
+			<h4><i class="fa fa-users" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>&nbsp &nbsp Founding Stakeholders</h4>
+			<p>Industry leaders who have agreed to help shape the initial direction of the Foundation.
+		</div>
+		</div>
+		
     </div>
     </div>
 </section>
@@ -111,6 +125,7 @@ subTitle: Advancing Travel Analysis to Improve Society
 	</div>
 	</div>
 	</div>
+	</div>
 {% for project in site.projects %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
@@ -120,18 +135,22 @@ subTitle: Advancing Travel Analysis to Improve Society
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <hr class="project-heading-spacer-left">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ project.title }}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
                     {% if project.img != 'none' %}
                     	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
                     {% endif %}
                     {% if project.icon != 'none' %}
-                    	<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
+                    		<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
                     {% endif %}
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <div class="lead highlight-text">{{ project.description }}</div>
+                    <div class="lead">{{ project.description }}</div>
                 </div>
             </div>
 
@@ -148,19 +167,23 @@ subTitle: Advancing Travel Analysis to Improve Society
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                    <hr class="project-heading-spacer-right">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ project.title }}</h2>
+                    <h2 class="section-heading text-right">{{ project.title }}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     {% if project.img != 'none' %}
                     	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
                     {% endif %}
                     {% if project.icon != 'none' %}
-                    	<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
+                    		<div class="text-right"><i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i></div>
                     {% endif %}
                     
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  	<div class="lead highlight-text">{{ project.description }}</div>
+                  	<div class="lead">{{ project.description }}</div>
                 </div>
             </div>
 
@@ -223,11 +246,11 @@ subTitle: Advancing Travel Analysis to Improve Society
 	<div class="row">
 		
 			<div class="col-sm-4">
-				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> August 2016</h3>
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> September 2016</h3>
 				<p>Finalize list of Founding Stakeholders</p>
 			</div> 
 			<div class="col-sm-4">
-				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> September 2016</h3>
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> October 2016</h3>
 				<p>Convene meeting of Founding Stakeholders to discuss, develop, and approve:
 				<ul><li>mission + vision</li><li>governance documents and board structure</li><li>membership structure</li><li>near-term objectives and projects</li></ul></p>
 			</div> 

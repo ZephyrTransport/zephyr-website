@@ -22,7 +22,10 @@ collections:
 
 top-bg-img: tunnel-swoosh-bg.jpg
 bottom-bh-img: nyc-bg.jpg
-highlight-color: 00aced
+highlight-color: 00aced         #turquoise blue
+dark-gray-color: 2F4F4F         #dark gray
+background-highlight: fafafa    #light gray - blueish
+highlight-text: f8f8f8          #light gray
 
 
 # ----------------------- #
