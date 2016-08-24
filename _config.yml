@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://e-lo.github.io/zephyr-foundation
+url: http://zephyrtransport.org
 title: Zephyr Foundation for Advancing Travel Analysis Methods
-email: e@z.org
+email: info@zephyrtransport.org
 author: Elizabeth Sall
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
@@ -46,5 +46,5 @@ social:
   - title: github
     url: https://github.com/zephyrtransport
   - title: email list
-    url: #
+    url: http://eepurl.com/ccQL7z
 
