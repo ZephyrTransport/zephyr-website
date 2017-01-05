@@ -39,6 +39,13 @@ body {
 	font-size: 18px;
 }
 
+.zephyr {
+	#font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Nova Square', cursive;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
