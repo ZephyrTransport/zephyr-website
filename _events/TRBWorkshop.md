@@ -4,7 +4,7 @@ img: /img/conv-center-bikes.jpg
 category: TRB
 title: From Ad-Hoc to Organized
 type: A TRB Workshop by Zephyr
-day: Sunday January 8th 2016
+day: Sunday January 8th 2017
 time: 5:00 - 7:00 PM
 place: Convention Center 145A
 additional-msg: Join us for the Zephyr inaugural reception after the workshop at Lost & Found at 1240 9th St NW
