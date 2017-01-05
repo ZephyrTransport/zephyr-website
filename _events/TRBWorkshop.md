@@ -53,14 +53,14 @@ The following is a list of the projects that we will discuss at the workshop.  T
 
 Effective travel analysis, planning, and policy-making requires credible and useful data that can be efficiently exchanged, analyzed, and validated.  The status quo does not support standardized measures of data validity, data management and maintenance, data schema, or dissemination.  The inconsistency of data across geographies, jurisdictions, and companies creates significant costs to researchers, analysts and data consumers that could be remedied with market-supported data standards and guidelines.  This group will explore why and how Zephyr and professional organizations can develop data standards and guidelines.
 
-**Suggested Specific Questions / Structure**
- * Inventory of things that we should be providing data standards around
- * What will constitute a data standard?
- * Quality standard [ can be a scale ]
- * Collection methodology
- * Maintenance frequency and activities
- * Data topology and terminology
- * File format
+**Suggested Specific Questions / Structure**  
+ * Inventory of things that we should be providing data standards around  
+ * What will constitute a data standard?  
+ * Quality standard [ can be a scale ]  
+ * Collection methodology  
+ * Maintenance frequency and activities  
+ * Data topology and terminology  
+ * File format  
 
 ## General Travel Network Specification
 
@@ -145,12 +145,13 @@ Travel analysis will increasingly be relying on massive amounts of data collecte
 The travel analysis community has developed and contributed to a multitude of open-source software projects.  These projects have been motivated for a multitude of reasons and are often either complementary to commercial analysis products or fulfill a need that is not yet commercially viable.
  
 The following list is a sample of the types of open-source travel analysis software under active development:
-1. Travel Modeling Frameworks in use by Agencies: ActivitySim, DaySim, CT-RAMP, MATSIM, etc.
-2. Dynamic network assignment: Dynus-T, DTALite, and Fast-Trips
-1. Sketch Planning Packages: the VisionEval Family
-1. Transit Assignment: Fast-Trips
-1. Land Use Models: UrbanSim
-1. Supporting packages and tools: Benefit Cost tools, ORCA, Pandanas, Wrangler, CountDracula, dtaAnyway, helper scripts, population synthesizers
+
+1. Travel Modeling Frameworks in use by Agencies: ActivitySim, DaySim, CT-RAMP, MATSIM, etc.  
+2. Dynamic network assignment: Dynus-T, DTALite, and Fast-Trips  
+3. Sketch Planning Packages: the VisionEval Family  
+4. Transit Assignment: Fast-Trips  
+5. Land Use Models: UrbanSim  
+6. Supporting packages and tools: Benefit Cost tools, ORCA, Pandanas, Wrangler, CountDracula, dtaAnyway, helper scripts, population synthesizers  
 
 These projects are wide ranging in scope, management, standards, and ownership.  A common theme is that if well managed and designed, they could be broadly applicable to a number of public needs obviating unnecessary duplication.  Unfortunately many of these projects lack a permanent and actively managed home due to projects and funding ending or public agencies being [ necessarily ] focused on their specific needs rather than designing and maintaining for a broader audience.  Would Zephyr be a good home for projects such as these and provide (with assistance from others) the necessary administrative, financial, and technical resources?  Should Zephyr also create a directory of open-source projects and code such that one could find what already exists?
 
@@ -180,15 +181,16 @@ _Special Journal Issue_: Zephyr could sponsor a special issue of a  leading jour
 
 This workshop will discuss what a reproducible research initiative might look like within Zephyr and develop it into a practical roadmap that could be implemented.  
 
-Suggested Specific Questions / Structure
- * Why is reproducible research important? What are different stakeholders and their needs? 
- * What are the reasons why research isn’t reproducible?
- * What activities should Zephyr undertake and who needs to be involved?
-  * Peer Reviews
-  * Special Journal 
-  * Other?
- * What research is most important to be reproducible / where should we focus our efforts?
- * What priority/urgency should this initiative have compared to others for Zephyr?
+**Suggested Specific Questions / Structure**  
+
+ * Why is reproducible research important? What are different stakeholders and their needs?   
+ * What are the reasons why research isn’t reproducible?  
+ * What activities should Zephyr undertake and who needs to be involved?  
+  * Peer Reviews  
+  * Special Journal  
+  * Other?  
+ * What research is most important to be reproducible / where should we focus our efforts?  
+ * What priority/urgency should this initiative have compared to others for Zephyr?  
 
 ## Before & After Studies
 
