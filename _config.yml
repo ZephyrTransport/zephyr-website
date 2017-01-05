@@ -3,6 +3,7 @@
 # ----------------------- #
 
 url: http://zephyrtransport.org
+
 title: Zephyr Foundation for Advancing Travel Analysis Methods
 email: info@zephyrtransport.org
 author: Elizabeth Sall
@@ -14,7 +15,11 @@ copyright: 'Copyright &copy; 2016 Zephyr Foundation. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 collections:
-    - projects
+    projects:
+        output: false
+    events:
+        output: true
+    
 
 # ----------------------- #
 #   Look Settings         #
