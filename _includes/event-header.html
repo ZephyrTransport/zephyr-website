@@ -35,43 +35,22 @@
 
 <section id="home">
 <!-- Header -->
-	<div class="intro-header">
+	<div class="event-header img" style="background:url('{{ page.img }}' ) no-repeat center center; background-size: cover;>
 
 		<div class="container">
 				
 			<div class="row">
 				<div class="col-md-2">
 					<div class="intro-callout">
-					  <h4>TRB Annual Meeting</h4>
-					  <p>
-					  	<u>Workshop:</u> 
-					  	<br><a href={{  "/events/TRBWorkshop" | absolute_url }} > Ad-Hoc to Organized</a>
-					  	<br>SUN 1/8 
-					  	<br>1:30 - 4:30pm
-					  	<br>Conv. Center 145A
-					  </p>
-			
-					  <p>
-					  	<u>Reception:</u> 
-					  	<br>SUN 1/8 
-					  	<br>5:00 - 7:00pm
-					  	<br>Lost & Found
-					  	<br>1240 9th St NW
-					  </p>
+                      <p>{{ page.additional-msg }}</p>
 					</div>
 				</div>
 				<div class="col-md-10">
 					<div class="intro-message">
-						<h1 class="zephyr">{{ page.title }}</h1>
-						<h3 class="highlight-text">{{ page.subTitle }}</h3>
+						<h1 class="event-title zephyr">{{ page.title }}</h1>
+						<h3 class="highlight-text">{{ page.type }}</h3>
 						<hr class="intro-divider">
-						<ul class="list-inline intro-social-buttons">
-							{% for social in site.social %}
-							<li>
-								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-							</li>
-							{% endfor %}
-						</ul>
+						<h3>{{ page.day }} &middot;  {{ page.time }} &middot; {{ page.place }}
 					</div>
 				</div>
 
