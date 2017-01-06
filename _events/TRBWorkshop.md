@@ -72,22 +72,6 @@ Much like Google standardized the data format for current (and archived) transit
  * Who should be involved ?
  * Inventory of what already exists and some pros/cons.
 
-
-## Before & After Studies
-
-Via a grant program, Zephyr could fund and support before-and-after data collection efforts. These efforts would best occur before construction/implementation of a significant transportation policy and project, and then again after regular operations began (similar to how FTA's New Starts program works). The focus of this effort will be on understanding the changes in travel behavior that should allow for the development and validation of more robust prediction tools.
-
-**Questions to Tackle**
-
- * What are different stakeholders and their needs and motivations? 
- * What goals/specific outcomes should this initiative have?
-  * Offer guidance?
-  * Fund Specific studies?
-  * Advocate for grant programs?
-  * Document/categorize solutions?
-  * Specific work?
- * What budget/funding would be needed?
- * What priority/urgency should before and after studies have compared to others for Zephyr?
  
 ## Forecasting Uncertain Topics
 
@@ -146,7 +130,7 @@ The travel analysis community has developed and contributed to a multitude of op
  
 The following list is a sample of the types of open-source travel analysis software under active development:
 
-1. Travel Modeling Frameworks in use by Agencies: ActivitySim, DaySim, CT-RAMP, MATSIM, etc.  
+1. Travel Modeling Frameworks in use by Agencies: ActivitySim, DaySim, CT-RAMP, MATSIM, Tranus, etc.  
 2. Dynamic network assignment: Dynus-T, DTALite, and Fast-Trips  
 3. Sketch Planning Packages: the VisionEval Family  
 4. Transit Assignment: Fast-Trips  
