@@ -17,6 +17,8 @@ collections:
         output: false
     events:
         output: true
+    trb17projects:
+        output: true
     
 
 # ----------------------- #

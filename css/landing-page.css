@@ -52,6 +52,12 @@ body {
 	letter-spacing: 10px;
 }
 
+.project-title h1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 10px;
+}
+
 .event-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 10px;
@@ -216,7 +222,20 @@ body {
     background-size: cover;
 }
 
+.discuss-banner {
+    padding: 40px 0;
+    color: #C0C0C0;
+    background-size: cover;
+}
+
 .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+    text-align: left;
+}
+
+.discuss-banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
