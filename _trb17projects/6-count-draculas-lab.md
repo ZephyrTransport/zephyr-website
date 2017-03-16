@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 img: TRB2017-Workshop-CountDraculaTable.jpg
 category: Project TRB Workshop 2017
 title: Count Dracula's Lab
