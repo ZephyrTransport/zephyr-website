@@ -7,6 +7,7 @@ short-description: This team explored what it would take to rigorously assess mo
 description:  Zephyr could consider providing research grants to academics and other researchers to calibrate their model systems for a single metropolitan area. Then, assess the models’ performance across time, ideally a period of ten years, to see how well they perform. This project would explore what it would take to do this in a rigorous and useful way; how to select the test bed and identify the set of stakeholders; and determine what resources would be needed to make it successful.
 latest-update: As discussed at the 2017 TRB Annual Meeting
 ---
+.
 
 ## What goals/specific outcomes should this initiative have?
 

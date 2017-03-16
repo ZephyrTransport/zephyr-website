@@ -2,11 +2,12 @@
 layout: default
 img: TRB2017-Workshop-CountDraculaTable.jpg
 category: Project TRB Workshop 2017
-title: Count Dracula's Lab – Standardizing Observed Travel Data
+title: Count Dracula's Lab
 short-description: Travel analysis will increasingly be relying on massive amounts of data collected using imperfect and inconsistent methods. Yet data wrangling can easily eat up a lot of bandwidth or budget.  This team explored if it would be helpful for Zephyr to incubate an open-source data wrangling interface.
 description:  Travel analysis will increasingly be relying on massive amounts of data collected using imperfect and inconsistent methods. Agencies and consultants that have the bandwidth for utilizing these data sources undertake a significant amount of start-up time in wrangling the data, while others rely on either data providers, who typically do not divulge their methods, or consultants, who often are doing the same thing over and over again, reducing efficiency. Some agencies like SFCTA have developed nascent open source tools to store and wrangle data and interface with travel models, such as “CountDracula.” However, public agencies are not good owners of open source products. This project would (A) create standardized data schema for observed travel data; (B) build upon the CountDracula data management tool; (C) extend CountDracula to add a “Count Dracula’s Lab” which would add data fusion and cleaning features; and (D) extend CountDracula’s visualization features to be more public facing.
 latest-update: As discussed at the 2017 TRB Annual Meeting
 ---
+.
 
 ## What are different users and their needs?
 

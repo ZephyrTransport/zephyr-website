@@ -7,6 +7,7 @@ short-description:  How do we consider impending transformational changes within
 description:  Current travel demand models are observed conditions models. For the first time in decades, the industry is faced with transformational changes within the span of our forecasts that renders those conditions obsolete. This proposal is to create a parallel version of a model which considers “uncertain topics” such as the introduction of automated and connected vehicles. The model would exist as a set of alternate procedures that could be toggled on and off, and would inform certain changes to the structure of the observed conditions model necessary to invoke these changes. What would such a model need to consider? Changes to highway operations such as capacities, speeds, volume/delay functions, signal operations; changes to how travel costs are experienced or perceived; Changes in how passenger vehicles are allocated and used; and more. How could Zephyr help spearhead this work?
 latest-update: As discussed at the 2017 TRB Annual Meeting
 ---
+.
 
 ## What are different stakeholders and their needs and motivations?
 **Decision-makers** need both answers they can use and full understanding of spectrum of likelihoods.  How can policymakers organize themselves to maximize their impact in affecting technology development that is favorable for society?  In many cases policymakers are already skeptical of the results of these models, so we should seek to minimize their uncertainty.

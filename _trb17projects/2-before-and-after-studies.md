@@ -7,7 +7,7 @@ short-description: Before and after studies are useful to to analysis and model 
 description: Before and after studies are useful to to analysis and model developers as well as planners and policy-makers. Analysts and model developers can use these studies to learn from mistakes and provide data to calibrate their tools. Planners and policy-makers can use them to bookend probable outcomes, learn from mistakes, and point to other successes as examples. However, most existing efforts to systematically document before and after states have focused on a specific type of forecast (major transit projects or toll roads) or as specific agency, which makes it difficult to draw comparisons between types of models and methods.  Zephyr could support before-and-after data collection efforts and analysis that would best occur before construction/implementation of a significant transportation policy and project, and then again after regular operations began (similar to how FTA’s New Starts program works). Zephyr could also support, maintain, and manage the data storage perpetually rather than on a project-by-project basis.
 latest-update: As discussed at the 2017 TRB Annual Meeting
 ---
-
+.
 
 ## What are different stakeholders and their needs and motivations? 
 
