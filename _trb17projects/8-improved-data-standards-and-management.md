@@ -10,14 +10,14 @@ latest-update: As discussed at the 2017 TRB Annual Meeting
 
 Examples of recent headaches with Data Management: 
  
--Using observed traffic signal data to predict what an operator would do. No consistently formatted data available. 
--Merging data from across states not from Connecticut.
--Confidentiality when collecting data. Hard to guarantee confidentiality with the Feds reading emails.
--Getting a data server set up is challenging
--Quality of household travel survey for questionable for a research project. 
--Anonymizing schemes for fare card met lots of legal challenges. 
--Connect call record data with other data sources. Privacy, and anonymization are challenging
--Survey response rates.
+- Using observed traffic signal data to predict what an operator would do. No consistently formatted data available.   
+- Merging data from across states not from Connecticut.  
+- Confidentiality when collecting data. Hard to guarantee confidentiality with the Feds reading emails.  
+- Getting a data server set up is challenging  
+- Quality of household travel survey for questionable for a research project. 
+- Anonymizing schemes for fare card met lots of legal challenges.   
+- Connect call record data with other data sources. Privacy, and anonymization are challenging  
+- Survey response rates.  
 
 ## What can Zephyr do?
 
