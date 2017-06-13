@@ -33,13 +33,9 @@
 	</div>
 	<h5><p class="zephyr">Recent Updates</p></h5>											
 		{% for post in site.posts limit: 5 %}
-		{% for ptag in page.tags %}
-  		{% if post.tags contains ptag %}
   		{% if post.title != page.title %}
     	<h6><a href={{ site.url }}{{ post.url }}>{{ post.title }}</a></h6>
   		{% endif %}
-  		{% endif %}
-		{% endfor %}
 		{% endfor %}
 	</div>
 </div>
