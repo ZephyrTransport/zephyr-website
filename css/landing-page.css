@@ -39,11 +39,16 @@ body {
 	font-size: 18px;
 }
 
+.caption {
+    font-size: 14px;
+    font-color: #f8f8f8;
+}
+
 .zephyr {
 	#font-family: 'Julius Sans One', sans-serif;
 	font-family: 'Nova Square', cursive;
 	text-transform: uppercase;
-	letter-spacing: 20px;
+	letter-spacing: 12px;
 }
 
 .event-title h1 {
@@ -88,6 +93,13 @@ body {
 	color: #00aced;
 }
 
+.gray-text {
+	color: #D3D3D3;
+}
+
+.sidebar {
+    padding-top: 15px;
+}
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */

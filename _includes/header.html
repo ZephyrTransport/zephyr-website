@@ -24,7 +24,7 @@
                     <a class="page-scroll" href="{{ site.url }}#finer-print">Finer Print</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ site.url }}#timeline">Timeline</a>
+                    <a class="page-scroll" href="{{ site.url }}#timeline">Events + Timeline</a>
                 </li>
             </ul>
         </div>
@@ -42,14 +42,14 @@
 			<div class="row">
 				<div class="col-md-2">
 					<div class="intro-callout">
-					  <h4>Updates</h4>
+					  <h4><a href="{{ site.baseurl }}/updates">Updates</a></h4>
 					  <p>
-					  	<a href={{  "/events/AppCon2017-Workshop" | absolute_url }} >2017 TRB Planning Applications Conference Workshop</a>
+					    {% for post in site.posts limit:4  %}
+                            <i class="fa fa-angle-right" style="color:#{{ site.highlight-text }}" aria-hidden="true"></i> 
+                            <a href={{  post.url }} style="color:#{{ site.highlight-text }}">{{ post.title }}</a>
+                            <br>
+                        {% endfor %}
 					  </p>
-					  <p>
-					  	<a href={{  "/events/TRBWorkshop" | absolute_url }} >2017 TRB Annual Meeting Event Summary</a>
-					  </p>
-			
 					  
 					</div>
 				</div>
