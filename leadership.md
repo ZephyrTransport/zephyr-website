@@ -3,7 +3,9 @@ layout: simple
 title: "Leadership"
 ---
 
-### Board of Directors
+Zephyr is governed by a Board of Directors supported by the Founding Stakeholders and a team of Instigators.  
+
+### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).  
 
  * **[Clint Daniels](https://www.linkedin.com/in/clintdaniels/)**, *RSG in San Diego*, **President and Chair**     
@@ -14,7 +16,7 @@ This initial Board was elected by the Zephyr Founding Stakeholders in order to r
  * **[Rosella Picado](https://www.linkedin.com/in/rosella-picado-265507)**, *WSP in Seattle*, **Treasurer**  
  * **[Thomas Adler](https://www.linkedin.com/in/tjadler)**, *RSG in White River Junction*  
 
-### Committees
+#### Committees
 Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  
 
 **Executive** | **Communications** | **Programs** | **Workforce Development**
@@ -25,9 +27,10 @@ Mario Scott | Rosella Picado     | David Ory | Elizabeth Sall
 Tom Adler |  | Gregory Erhardt     | Hani Mahmassani  
  |  | Billy Charlton |   
 
-### Founding stakeholders
+### <i class="fa fa-users" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Founding stakeholders
+
 Industry leaders who have agreed to help shape the initial direction of the Foundation and elect the initial Board.
-**Place of work for identification purpose only and does not indicate the endorsement of that institution.**
+*Place of work for identification purpose only and does not indicate the endorsement of that institution.*
  * Alexei Pozdnukhov, University of California at Berkeley
  * Aruna Sivakumar, Imperial College
  * Beverly Scott, Beverly Scott and Associates
@@ -51,7 +54,7 @@ Industry leaders who have agreed to help shape the initial direction of the Foun
  * Therese McMillan, LA MTA
  * Vladimir Livshits, Maricopa Association of Governments
 
-### Instigators
+### <i class="fa fa-rocket" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Instigators
 
 The small group who have to bring this idea to reality starting from ideas discussed at the Transportation Research Board Annual Meeting many years ago.
 
