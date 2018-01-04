@@ -367,3 +367,7 @@ p.copyright {
 .card .card-action a:hover {
     text-decoration:none;
 }
+
+#simple-layout {
+  padding-top: 72px;
+}
