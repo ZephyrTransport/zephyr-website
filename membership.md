@@ -47,23 +47,25 @@ By joining today, you will help us build a tight-knit community of motivated tra
 
 ### Types of memberships
 
-You can join Zephyr as either a student/youth membership or with a standard membership.
+- **Individuals** can choose "Standard" or "Student/Youth" membership. Student/Youth memberships are limited to students in a degree-seeking program, or anyone under the age of thirty at the time of application.
 
-Please contact us for business/corporate sponsorships.
+- **Agencies** should consider a [Zephyr Subscription](/subscriptions) instead of individual memberships.
+
+- Please contact us for business, corporate, and institution memberships.
 
 ### How to become a member
 
 You can sign up right now using your credit card! We support one-time payments as well as annual subscriptions. We use the secure [Stripe](https://stripe.com) payment system, which means we never see your credit card number and thus cannot lose it.
+
+- All individual members must agree to the [Zephyr Terms of Membership](/terms-of-membership).
+- We'll need your name, email, and a valid credit/debit card info to process your membership
+- If you prefer to pay by check, please email us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)
 
 <!-- stripe -->
 
 ---
 
 ## Select from the membership options below:
-
-- **Agencies** should consider a [Zephyr Subscription](/subscriptions) instead of individual memberships.
-
-- **Individuals** can choose "Standard" or "Student/Youth" membership. Student/Youth memberships are limited to students in a degree-seeking program, or anyone under the age of thirty at the time of application.
 
 <div class="striperow">
   {% for product in site.memberships %}
@@ -76,3 +78,9 @@ Thanks for considering joining Zephyr. We look forward to building great things 
 
 
 <br/><br/><br/><br/><br/>
+
+<script>
+  function validateForm() {
+    return false;
+  }
+</script>

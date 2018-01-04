@@ -11,7 +11,11 @@
     </div><!-- card content -->
     <div class="card-action">
 
-      <form id="stripe" action="{{ site.post_url }}" method="POST">
+      <form id="stripe" onsubmit="validateForm()" action="{{ site.post_url }}" method="POST">
+        <input name="customer_name" value="" placeholder="Your full name" required><br/><br/>
+        <input type="checkbox" name="terms" required>&nbsp;I agree to abide by the<br/>
+          <a href="/terms-of-membership">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Membership</a><br/>
+        <br/>
         <script
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-amount="{{ product.price | remove: '.' }}"
