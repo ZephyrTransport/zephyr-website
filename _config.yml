@@ -13,15 +13,13 @@ copyright: 'Copyright &copy; 2018 Zephyr Foundation. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 collections:
-    projects:
-        output: false
     events:
         output: true
+    memberships:
+        output: false
+    projects:
+        output: false
     trb17projects:
-        output: true
-    join:
-        output: true
-    student:
         output: true
 
 

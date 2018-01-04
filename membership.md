@@ -5,8 +5,6 @@ subTitle: "Become a member to support Zephyr!"
 ---
 
 <br/>
-<br/>
-
 <img src="/img/logo-small.png" width="150px" style="float:left; margin-right:20px;" />
 <br/>
 # Join Zephyr Today!
@@ -20,10 +18,24 @@ subTitle: "Become a member to support Zephyr!"
 <div style="float:right; margin: 5px 10px;">
 <img src="/img/reception.jpg" width="400px" />
 <h5 style="text-align:right;"><i>The Zephyr reception at the 2017 TRB Annual Meeting</i></h5>
-
 </div>
 
+Members are at the heart of the Zephyr Foundation’s organizational structure.  Members are responsible for electing the Board of Directors and play a key role in supporting the organizational core through volunteership as well as their membership dues.
+
+This structure was selected based on extensive consultation within our community as well as research on similar organizations in other fields and has the following advantages:
+- Allows the foundation to undertake shared “backbone” support roles for the industry rather than relying on project- or program-specific grants which tend to ebb and flow.
+- Priorities are responsive to both grassroots (member) needs as well as strategic (top-down) priorities.
+- Shared ownership of the Foundation by the community creates buy-in.
+
+### Membership Process
+
+Any individual shall be eligible for membership if they have paid their dues and agree to abide by terms of membership. Any member reported to the Executive Committee for violating the Terms of Membership shall have their membership suspended and potentially revoked upon confirmation of a violation.
+- *Report violations of terms of membership to [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)*
+
+### Membership Benefits
+
 By becoming a member of the nonprofit Zephyr Foundation, you can directly support our goals.
+
 Membership has the following benefits:
 
 - Preferential event registrations
@@ -31,7 +43,7 @@ Membership has the following benefits:
 - Eligibility for committee participation
 - Commemorative decal!
 
-And by joining today, you will help us build a tight-knit community of motivated travel analysis professionals, working together to improving our industry.
+By joining today, you will help us build a tight-knit community of motivated travel analysis professionals, working together to improving our industry.
 
 ### Types of memberships
 
@@ -49,23 +61,18 @@ You can sign up right now using your credit card! We support one-time payments a
 
 ## Select from the membership options below:
 
-### Standard memberships:
+- **Agencies** should consider a [Zephyr Subscription](/subscriptions) instead of individual memberships.
+
+- **Individuals** can choose "Standard" or "Student/Youth" membership. Student/Youth memberships are limited to students in a degree-seeking program, or anyone under the age of thirty at the time of application.
 
 <div class="striperow">
-  {% for product in site.join %}
+  {% for product in site.memberships %}
     {% include item.html %}
   {% endfor %}
 </div>
 
----
-### Student/Youth memberships
+<br/>
+Thanks for considering joining Zephyr. We look forward to building great things with you!
 
-Zephyr values and encourages full participation from students and youth (defined as below age 30).
-
-<div class="striperow">
-  {% for product in site.student %}
-    {% include item.html %}
-  {% endfor %}
-</div>
 
 <br/><br/><br/><br/><br/>
