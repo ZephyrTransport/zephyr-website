@@ -1,20 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
 {% include head.html %}
-{% include post-header.html %}
+
 <body>
+{% include post-header.html %}
 
 <div class="container-fluid" id="main">
 <div class="row">
 <div class="col-md-6">
 
-	<h2><p class="zephyr">{{ page.title }}</p></h2>	
-	
+	<h2><p class="zephyr">{{ page.title }}</p></h2>
+
     {% for post in site.posts %}
     <hr>
-    <h4><span class="gray-text">{{ post.date | date: '%B %d, %Y' }}</span> &nbsp<a href={{ site.baseurl }}{{ post.url }}>{{ post.title }}</a></h4>
+    <h4><span class="gray-text">{{ post.date | date: '%B %d, %Y' }}</span> &nbsp;<a href={{ site.baseurl }}{{ post.url }}>{{ post.title }}</a></h4>
 	<p class="caption">{{ post.short-description }}</p>
-	
+
 	{% endfor %}
-	
+
 </div>
 </div>
 </div>

@@ -1,18 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
 {% include head.html %}
-{% include post-header.html %}
+
 <body>
+{% include post-header.html %}
 
 <div class="container-fluid" id="main">
 <div class="row">
 <div class="col-md-9">
 
-	<h3><p class="zephyr">{{ page.title }}</p></h3>	
+	<h3><p class="zephyr">{{ page.title }}</p></h3>
 	<p class="lead gray-text">By {{ page.author }}	<br>
-	{{ page.date | date: '%B %d, %Y' }}</p>	
+	{{ page.date | date: '%B %d, %Y' }}</p>
 	<section id="article-content">
 	{{ content }}
 	</section>
-	
+
 </div>
 
 <div class="col-md-3">
@@ -20,7 +23,7 @@
 	<h4><p class="zephyr"><a href="{{ site.baseurl }}/updates">Updates</a></p></h4>
 	</div>
 	<div>
-	<h5><p class="zephyr">Relevant Updates</p></h5>											
+	<h5><p class="zephyr">Relevant Updates</p></h5>
 		<p>{% for post in site.posts %}
 		{% for ptag in page.tags %}
   		{% if post.tags contains ptag %}</p>
@@ -31,7 +34,7 @@
 		{% endfor %}
 		{% endfor %}
 	</div>
-	<h5><p class="zephyr">Recent Updates</p></h5>											
+	<h5><p class="zephyr">Recent Updates</p></h5>
 		{% for post in site.posts limit: 5 %}
   		{% if post.title != page.title %}
     	<h6><a href={{ site.url }}{{ post.url }}>{{ post.title }}</a></h6>
@@ -39,7 +42,7 @@
 		{% endfor %}
 	</div>
 </div>
-        
+
 </div>
 
 <div class="discuss-banner" style="background-color: #f1f1f1;">
@@ -63,7 +66,7 @@
     		</script>
     		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
    		 </div>
-   		 
+
    		 </div>
    		 </div>
    		 </div>

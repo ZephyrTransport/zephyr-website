@@ -35,7 +35,7 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-body { 
+body {
 	font-size: 18px;
 }
 
@@ -295,4 +295,75 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+/** STRIPE PRODUCT CARDS **/
+
+/***
+* Simple grid
+*/
+.striperow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stripecol {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .stripecol {
+    flex: 1;
+  }
+  .stripecol-33 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+}
+
+/***
+* Cards
+*/
+.card .card-image{
+    overflow: hidden;
+}
+
+.card{
+    margin: 20px 20px 20px 0px;
+    position: relative;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-content {
+    padding: 10px;
+}
+
+.card .card-content .card-title {
+    display: block;
+    font-size: 24px;
+}
+
+.card .card-content .card-subtitle {
+    display: block;
+    font-size: 14px;
+}
+
+.card .card-action {
+    padding: 20px;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+.card .card-action a {
+    font-size: 15px;
+    text-transform:uppercase;
+    margin-right: 20px;
+}
+
+
+.card .card-action a:hover {
+    text-decoration:none;
 }

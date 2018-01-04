@@ -1,0 +1,35 @@
+<div class="stripecol stripecol-33">
+  <div class="card">
+    <div class="card-image">
+      <img class="img-responsive" src="{{ product.image }}" alt="{{ product.name }}">
+    </div><!-- card image -->
+
+    <div class="card-content">
+      <span class="card-title">{{ product.name }}</span>
+      <span class="card-subtitle">${{ product.price }}</span>
+      {{ product.description }}
+    </div><!-- card content -->
+    <div class="card-action">
+
+      <form id="stripe" action="{{ site.post_url }}" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-amount="{{ product.price | remove: '.' }}"
+          data-currency="usd"
+          data-description="{{ product.description }}"
+          data-image="{{ site.baseurl }}/img/logo-small.png"
+          data-key="{{ site.stripe_key }}"
+          data-label="Join Now!"
+          data-panel-label="Pay {{amount}}"
+          data-locale="us"
+          data-zip-code="true"
+          data-name="{{ product.name }}"
+        >
+        </script>
+        <input name="amount" value="{{ product.price | remove: '.' }}" type="hidden">
+        <input name="description" value="{{ product.description }}" type="hidden">
+      </form>
+
+    </div><!-- card actions -->
+  </div>
+</div>
