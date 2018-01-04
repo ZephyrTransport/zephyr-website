@@ -371,3 +371,39 @@ p.copyright {
 #simple-layout {
   padding-top: 72px;
 }
+  /***
+  * Tables
+  */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: auto;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+th{
+    border:inherit;
+    background-color: #0daee1;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr{
+  padding: 20px;
+}
+
+td{
+  padding: 10px;
+}
