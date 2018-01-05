@@ -368,9 +368,6 @@ p.copyright {
     text-decoration:none;
 }
 
-#simple-layout {
-  padding-top: 72px;
-}
   /***
   * Tables
   */
@@ -410,4 +407,11 @@ td{
 
 .terms-form {
   display: none;
+}
+
+#home {
+ font-family: 'Nova Square', cursive;
+ padding-top: 72px;
+ padding-left: 15px;
+ padding-bottom: 10px;
 }
