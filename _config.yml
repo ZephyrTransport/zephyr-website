@@ -2,7 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: ""
+url: "http://zephyrtransport.org"
+url_secure: "https://zephyr-membership.surge.sh"
 
 title: Zephyr Foundation for Advancing Travel Analysis Methods
 
