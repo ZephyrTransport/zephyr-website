@@ -407,3 +407,7 @@ tr{
 td{
   padding: 10px;
 }
+
+.terms-form {
+  display: none;
+}

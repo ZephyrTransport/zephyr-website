@@ -9,13 +9,17 @@
       <span class="card-subtitle">${{ product.price }}</span>
       {{ product.description }}
     </div><!-- card content -->
+
     <div class="card-action">
 
-      <form id="stripe" onsubmit="validateForm()" action="{{ site.post_url }}" method="POST">
-        <input name="customer_name" value="" placeholder="Your full name" required><br/><br/>
-        <input type="checkbox" name="terms" required>&nbsp;I agree to abide by the<br/>
-          <a href="/terms-of-membership">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Membership</a><br/>
+      <form id="form-{{product.sku}}" method="POST">
+        <input id="terms-{{product.sku}}" type="checkbox" name="terms">&nbsp;I agree to abide by the<br/>
+        <a href="/terms-of-membership">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Membership</a><br/>
+      </form>
+
+      <form class="terms-form" id="stripe-{{product.sku}}" action="{{ site.post_url }}" method="POST">
         <br/>
+        <input name="customer_name" value="" placeholder="Your full name" required><br/><br/>
         <script
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-amount="{{ product.price | remove: '.' }}"

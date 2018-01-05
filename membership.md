@@ -79,8 +79,27 @@ Thanks for considering joining Zephyr. We look forward to building great things 
 
 <br/><br/><br/><br/><br/>
 
+<!-- Hide form until terms are approved -->
+
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script>
-  function validateForm() {
-    return false;
-  }
+    $(document).ready(function(){
+        $("#terms-1").click(function (){
+            if ($("#terms-1").prop("checked")){
+                $("#stripe-1").show();
+            }else{
+                $("#stripe-1").hide();
+            }
+        });
+
+    $(document).ready(function(){
+        $("#terms-2").click(function (){
+            if ($("#terms-2").prop("checked")){
+                $("#stripe-2").show();
+            }else{
+                $("#stripe-2").hide();
+            }
+        });
+    });
+});
 </script>
