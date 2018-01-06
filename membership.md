@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: simple
 title: "Membership"
 subTitle: "Become a member to support Zephyr!"
 ---
