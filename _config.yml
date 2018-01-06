@@ -2,8 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: "http://zephyrtransport.org"
-url_secure: "https://zephyr-membership.surge.sh"
+url: "https://zephyrtransport.org"
 
 title: Zephyr
 

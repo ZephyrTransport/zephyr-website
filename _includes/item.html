@@ -24,14 +24,15 @@
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-amount="{{ product.price | remove: '.' }}"
           data-currency="usd"
-          data-description="{{ product.description }}"
-          data-image="https://zephyr-membership.surge.sh/img/logo-small.png"
+          data-description="{{ product.name }}"
+          data-image="{{ site.url }}/img/logo-small.png"
           data-key="{{ site.stripe_key }}"
           data-label="Join Now!"
           data-panel-label="Pay {{amount}}"
           data-locale="us"
           data-zip-code="true"
-          data-name="{{ product.name }}"
+          data-name="Zephyr Foundation"
+          data-allow-remember-me="false"
         >
         </script>
         <input name="amount" value="{{ product.price | remove: '.' }}" type="hidden">
