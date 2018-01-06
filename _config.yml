@@ -28,7 +28,7 @@ collections:
 #   Stripe Settings       #
 # ----------------------- #
 post_url: https://zephyr-membership.herokuapp.com/
-stripe_key: pk_test_3H900QQseJBoByGKOakot25V
+stripe_key: pk_live_qT7xpgL72eNH765lj0s9EaT4
 
 products:
   - name: Standard Annual Subscription
