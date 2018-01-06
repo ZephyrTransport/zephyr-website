@@ -12,7 +12,7 @@ Public agencies can subscribe to services provided by the Zephyr Foundation. Upo
 - Commemorative laptop decal
 - Preferential support and assistance for [shared code repository](https://zephyrtransport.github.io/zephyr-directory/) or other projects as may be selected by the board.
 
-*Note that if you Agency allows it, you should consider [becoming a member](/membership) in lieu of a subscription which will allow you to vote in elections.*
+*Note that if you Agency allows it, you should consider [becoming an agency member](/membership) in lieu of a subscription which will allow you to vote in elections.*
 
 ### Subscription levels
 
