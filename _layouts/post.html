@@ -19,7 +19,7 @@
 
 <div class="col-md-3">
 	<div class="sidebar">
-	<h4><p><a href="{{ site.baseurl }}/updates">Updates</a></p></h4>
+	<h4><p><a href="/updates">Updates</a></p></h4>
 	</div>
 	<div>
 	<h5><p class="zephyr">Relevant Updates</p></h5>
@@ -27,7 +27,7 @@
 		{% for ptag in page.tags %}
   		{% if post.tags contains ptag %}</p>
   		{% if post.title != page.title %}
-    	<h6><a href={{ site.url }}{{ post.url }}>{{ post.title }}</a></h6>
+    	<h6><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h6>
   		{% endif %}
   		{% endif %}
 		{% endfor %}
@@ -36,7 +36,7 @@
 	<h5><p class="zephyr">Recent Updates</p></h5>
 		{% for post in site.posts limit: 5 %}
   		{% if post.title != page.title %}
-    	<h6><a href={{ site.url }}{{ post.url }}>{{ post.title }}</a></h6>
+    	<h6><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h6>
   		{% endif %}
 		{% endfor %}
 	</div>
