@@ -5,7 +5,7 @@
 url: "http://zephyrtransport.org"
 url_secure: "https://zephyr-membership.surge.sh"
 
-title: Zephyr Foundation for Advancing Travel Analysis Methods
+title: Zephyr
 
 email: info@zephyrtransport.org
 author: Elizabeth Sall
@@ -60,8 +60,8 @@ products:
 
 top-bg-img: tunnel-swoosh-bg.jpg
 bottom-bh-img: nyc-bg.jpg
-highlight-color: 00aced         #turquoise blue
-dark-gray-color: 2F4F4F         #dark gray
+highlight-color: 0daee1         #turquoise blue
+dark-gray-color: 4e4f58         #dark gray
 background-highlight: fafafa    #light gray - blueish
 highlight-text: f8f8f8          #light gray
 
@@ -85,4 +85,3 @@ social:
     url: https://github.com/zephyrtransport
   - title: email list
     url: http://eepurl.com/ccQL7z
-

@@ -45,8 +45,7 @@ body {
 }
 
 .zephyr {
-	#font-family: 'Julius Sans One', sans-serif;
-	font-family: 'Nova Square', cursive;
+	font-family: 'Cabin', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 12px;
 }
@@ -68,7 +67,7 @@ body {
     padding-bottom: 10px;
     text-align: center;
     color: #f8f8f8;
-    border-bottom:  2px solid #00aced;
+    border-bottom:  2px solid #0daee1
 }
 
 .lead {
@@ -90,7 +89,7 @@ body {
 }
 
 .highlight-text {
-	color: #00aced;
+	color: #0daee1;
 }
 
 .gray-text {
@@ -121,7 +120,7 @@ body {
 
 .intro-callout {
     position: relative;
-	background-color:#00aced;
+	background-color:#0daee1;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 4px;

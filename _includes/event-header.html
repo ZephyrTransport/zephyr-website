@@ -9,14 +9,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ site.url }}#home">{{ site.title }}</a>
+            <div class="navbar-brand">
+	             <a href="http://zephyrtransport.org/#home">
+		             <img src="{{ site.baseurl }}/img/logo-small.png" width="30" height="30" class="d-inline-block align-top" alt="zephyr logo">
+	             </a>
+               <a class="zephyr page-scroll" href="http://zephyrtransport.org/#home">&nbsp&nbsp{{ site.title }}</a>
+            </div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">  
+            <ul class="nav navbar-nav navbar-right">
             	<li>
                     <a class="page-scroll" href="{{ site.url }}#about">About</a>
-                </li>            
+                </li>
                 <li>
                     <a class="page-scroll" href="{{ site.url }}#activities">Activities</a>
                 </li>
@@ -38,7 +43,7 @@
 	<div class="event-header img" style="background:url('{{ page.img }}' ) no-repeat center center; background-size: cover;>
 
 		<div class="container">
-				
+
 			<div class="row">
 				<div class="col-md-2">
 					<div class="intro-callout">
@@ -58,7 +63,7 @@
 
 		</div>
 		<!-- /.container -->
-	
+
 	</div>
 	<!-- /.intro-header -->
 </section>
