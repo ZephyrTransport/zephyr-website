@@ -15,14 +15,14 @@ To become a member of the Founder's Circle, contact a board member or [sponsorsh
 
 ### Give at any level
 
-Thanks for considering a gift to the Zephyr Foundation.  We welcome all donations large and small.  
+Thanks for considering a gift to the Zephyr Foundation.  We welcome all donations large and small.
 
 Checks can be made out to:
 
-Zephyr Foundation  
-c/o CT Corp  
-4701 Cox Road - Suite 285   
-Glen Allen, VA 23060-6802  
+>Zephyr Foundation <br/>
+>c/o CT Corp <br/>
+>4701 Cox Road - Suite 285 <br/>
+>Glen Allen, VA 23060-6802 <br/>
 
 *Credit card payments for processing donations coming soon*
 

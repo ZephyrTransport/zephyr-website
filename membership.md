@@ -29,7 +29,7 @@ This structure was selected based on extensive consultation within our community
 
 By joining today, you will help us build a tight-knit community of motivated travel analysis professionals, working together to improving our industry.
 
-*Scroll down to join today!!!*
+[*Scroll down to join today!!!*](#join)
 
 ### Who Can Be a Member?
 
@@ -46,13 +46,17 @@ Benefits for individual members include:
 - Preferential and discounted event registration
 - Eligible to participate in project committees
 
+<br/>
+
 **Type** | **Annual Dues** | **Notes**
 --- | --- | ---
 Standard | $200 | Open to all!
 Student | $25 | Must be in a degree-seeking program in a related field.
 Youth   | $25 | Under thirty at the time of application.
 
-*Scroll down to join today!!!*
+[*Scroll down to join today!!!*](#join)
+
+<br/>
 
 ### Public Agencies
 
@@ -98,6 +102,8 @@ Business and institutional membership is available through the following self-se
 
 <br/>
 
+<a id="join"></a> <!-- #join anchor -->
+
 Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) so we can discuss the best way to get your business or institution on board. Zephyr can even send you an invoice.
 
 ## How to become a member
@@ -106,13 +112,13 @@ You can sign up right now using your credit card, but other options are availabl
 
 **All individual members must agree to the [Zephyr Terms of Membership](/terms-of-membership).**
 
-We'll need your name, email, and a valid credit/debit card info to process your membership.  We use the [Stripe](https://stripe.com) payment system, which means we never see your credit card number and thus cannot lose it.
 
+We'll need your name, email, and a valid credit/debit card info to process your membership.  We use the [Stripe](https://stripe.com) payment system, which means we never see your credit card number and thus cannot lose it.
 #### Other payment options
 If you prefer to pay by check, please send a check and a signed copy of the [Zephyr Terms of Membership](/terms-of-membership) to:
->Zephyr Foundation
->c/o CT Corp
->4701 Cox Road - Suite 285
+>Zephyr Foundation <br/>
+>c/o CT Corp <br/>
+>4701 Cox Road - Suite 285 <br/>
 >Glen Allen, VA 23060-6802
 
 To do a bank transfer or request an invoice, please email: [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)
