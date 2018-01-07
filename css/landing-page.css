@@ -172,6 +172,27 @@ body {
     .intro-divider {
         width: 100%;
     }
+
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* chrome mobile is placing nav button wrongly
+    .container { width: 100vw; }
+    .navbar { width: 100vw; }
+    } */
 }
 
 .network-name {
@@ -214,14 +235,14 @@ body {
 
 .section-heading-spacer-center {
     float: center;
-    width: 400px;
+    width: 300px;
     border-top: 3px solid #e7e7e7;
     padding: 20px 20px 20px 20px;
 }
 
 .sub-section-heading-spacer {
     float: center;
-    width: 1000px;
+    width: 300px;
     border-top: 2px solid #e7e7e7;
     padding: 10px 10px 10px 10px;
 }
@@ -266,24 +287,6 @@ body {
     ul.banner-social-buttons {
         float: right;
         margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
     }
 }
 
