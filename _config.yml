@@ -22,6 +22,26 @@ collections:
     trb17projects:
         output: true
 
+donations:
+  - amt: 5
+    color: "#b6e1f6;"
+  - amt: 10
+    color: "#b6f6e1;"
+  - amt: 25
+    color: "#d4f4b8;"
+  - amt: 50
+    color: "#ece1a9;"
+  - amt: 100
+    color: "#f4f8a3;"
+  - amt: 250
+    color: "#f7d5c0;"
+  - amt: 500
+    color: "#f4bdae;"
+  - amt: 1000
+    color: "#f4aeb4;"
+  - amt: 2500
+    color: "#f39f9f;"
+
 
 # ----------------------- #
 #   Stripe Settings       #

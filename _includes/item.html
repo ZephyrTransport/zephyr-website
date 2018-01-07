@@ -19,7 +19,7 @@
 
       <form class="terms-form" id="stripe-{{product.sku}}" action="{{ site.post_url }}" method="POST">
         <br/>
-        <input name="customer_name" value="" placeholder="Your full name" required><br/><br/>
+        <input name="customer_name" value="" style="width:100%" placeholder="Your full name" required><br/><br/>
         <script
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-amount="{{ product.price | remove: '.' }}"

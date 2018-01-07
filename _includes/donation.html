@@ -1,0 +1,40 @@
+<div class="stripecol stripecol-33">
+  <div class="card">
+    <div class="card-image" >
+      <!--<img class="img-responsive" src="{{ product.image }}" alt="{{ product.name }}"> -->
+    </div><!-- card image -->
+
+    <div class="card-content"  style="background-color:{{level.color}}">
+      <span class="card-title" style="font-weight:bold; font-size:5em;">${{ level.amt }}</span>
+      A one-time donation of ${{ level.amt }}
+    </div><!-- card content -->
+
+    <div class="card-action">
+
+      {% assign pennies = {{level.amt}}| times:100 %}
+
+      <form id="stripe-{{product.sku}}" action="{{ site.post_url }}" method="POST">
+        <br/>
+        <input name="customer_name" value="" style="width:100%" placeholder="Your full name" required><br/><br/>
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-amount="{{ pennies }}"
+          data-currency="usd"
+          data-description="${{ level.amt }} donation"
+          data-image="{{ site.url }}/img/logo-small.png"
+          data-key="{{ site.stripe_key }}"
+          data-label="Donate!"
+          data-panel-label="Donate {{amount}}"
+          data-locale="us"
+          data-zip-code="true"
+          data-name="Zephyr Foundation"
+          data-allow-remember-me="false"
+        >
+        </script>
+        <input name="amount" value="{{ pennies }}" type="hidden">
+        <input name="description" value="One-time donation of ${{ level.amt }}" type="hidden">
+      </form>
+
+    </div><!-- card actions -->
+  </div>
+</div>
