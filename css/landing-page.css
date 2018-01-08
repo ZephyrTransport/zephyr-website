@@ -119,7 +119,7 @@ body {
 }
 
 .intro-callout {
-    position: relative;
+  position: relative;
 	background-color:#0daee1;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -129,7 +129,9 @@ body {
 
 .intro-callout p {
 	text-align: left;
-     font-size: 13px;
+  font-size: 13px;
+  margin-left: 0.25em;
+  text-indent: -0.25em
 }
 
 .intro-message > h1 {
