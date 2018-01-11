@@ -18,3 +18,15 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
 [Become a member today!](/membership)
 
 **Founding Member Roster**
+
+ * Rolf Moeckel   
+ * Joan Walker
+ * Ram Pendyala
+ * Clint Daniels
+ * David Ory
+ * Charles Gorugantula
+ * Julie Dunbar
+ * Joe Flood
+ * Jason Soria
+ * Greg Erhardt
+ * Elizabeth Sall
