@@ -29,4 +29,8 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Joe Flood
  * Jason Soria
  * Greg Erhardt
- * Elizabeth Sall
+ * Elizabeth Sall  
+ * Jason Hawkins  
+ * Rosella Picado  
+ * Stacey Bricka  
+ * Daniel Florian  
