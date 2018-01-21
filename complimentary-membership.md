@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: "Complementary Membership"
+title: "Complimentary Membership"
 subTitle: "Become a member to support Zephyr!"
 ---
 
@@ -29,9 +29,9 @@ This structure was selected based on extensive consultation within our community
 
 By joining today, you will help us build a tight-knit community of motivated travel analysis professionals, working together to improving our industry.
 
-## Complementary Membership
+## Complimentary Membership
 
-As a **Zephyr founding stakeholder** you are entitled to a one year complementary individual membership to the Zephyr Foundation.
+As a **Zephyr founding stakeholder** you are entitled to a one year complimentary individual membership to the Zephyr Foundation.
 
 All members must agree to the [Terms of Membership](/terms-of-membership) in order to become a member.
 
@@ -50,13 +50,13 @@ We'll need your name and email address, in addition to your agreement to the Ter
     <div class="card-image">
       <img class="img-responsive"
            src="/img/steam-locomotive.jpg"
-           alt="Complementary membership">
+           alt="Complimentary membership">
     </div><!-- card image -->
 
     <div class="card-content">
-      <span class="card-title">Complementary Membership</span>
+      <span class="card-title">Complimentary Membership</span>
       <span class="card-subtitle">Free: $0</span>
-      One-year complementary membership to the Zephyr Foundation
+      One-year complimentary membership to the Zephyr Foundation
     </div><!-- card content -->
 
     <div class="card-action">
@@ -82,7 +82,7 @@ We'll need your name and email address, in addition to your agreement to the Ter
 
         <input name="terms" value="Agreed" type="hidden"><br/><br/>
 
-        <input name="description" value="One-year complementary membership" type="hidden">
+        <input name="description" value="One-year complimentary membership" type="hidden">
 
         <input type="submit" value="Register">
       </form>
