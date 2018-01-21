@@ -51,3 +51,6 @@ Donate right now using a credit card. Just select a donation level below. We use
 <br/>
 <br/>
 <br/>
+
+<!-- wake up. heroku server! -->
+<img src="{{site.post_url}}wakeup" style="display:none">

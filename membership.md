@@ -141,6 +141,9 @@ Thanks for considering joining Zephyr. We look forward to building great things 
 
 <br/><br/><br/><br/><br/>
 
+<!-- wake up. heroku server! -->
+<img src="{{site.post_url}}wakeup" style="display:none">
+
 <!-- Hide form until terms are approved -->
 
 <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
@@ -163,5 +166,6 @@ Thanks for considering joining Zephyr. We look forward to building great things 
             }
         });
     });
+
 });
 </script>
