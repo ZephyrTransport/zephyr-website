@@ -43,5 +43,6 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Mohammad Molla  
  * Robert Chaney
  * Brian Higgs 
- * Patricia Mokhtarian
+ * Patricia Mokhtarian  
+ * Aruna Sivakumar  
   
