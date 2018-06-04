@@ -33,4 +33,13 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Jason Hawkins  
  * Rosella Picado  
  * Stacey Bricka  
- * Daniel Florian  
+ * Daniel Florian 
+ * Melvin Wong  
+ * Alec Biehl   
+ * Raphael Dumas  
+ * Scott Ramming  
+ * Jeff Pierson  
+ * Jalal Jahir  
+ * Mohammad Molla  
+ * Robert Chaney
+ * Brian Higgs  
