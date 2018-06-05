@@ -45,4 +45,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Brian Higgs 
  * Patricia Mokhtarian  
  * Aruna Sivakumar  
+ * Eric Anderson  
+ * Vladimir Livshits  
+ * Michael Clarke  
   
