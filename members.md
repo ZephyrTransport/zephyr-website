@@ -48,4 +48,5 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Eric Anderson  
  * Vladimir Livshits  
  * Michael Clarke  
+ * Stephen Lawe 
   
