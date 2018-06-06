@@ -51,4 +51,5 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Stephen Lawe  
  * Kay Axhausen  
  * Rick Donnelly  
+ * Greg Giaimo  
   
