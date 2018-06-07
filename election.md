@@ -57,6 +57,7 @@ Eligible members per the Bylaws are determined the evening prior to the announce
  * Kay Axhausen  
  * Rick Donnelly  
  * Greg Giaimo  
+ * Billy Charlton
   
 ### IV. Meeting Scheduling and Announcement  
 
