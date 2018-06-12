@@ -17,7 +17,7 @@ Please fill out the form below with your email address and your consent to follo
 
 ---
 
-<iframe style="width: 100%; height: 500px" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
+<iframe style="width: 100%; height: 100%" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
 
 ---
 
