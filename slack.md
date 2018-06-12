@@ -15,7 +15,7 @@ subtitle: "Zephyr has a free Slack channel for discussions and questions. Join u
 
 Slack is an online discussion platform with multiple channels, direct messages, and more.
 
-We're hoping our use of Slack makes the "barrier to entry" to Zephyr low for everyone. Plus, it's a great way to ask questions or just engage with other Zephyr members who share our goals of improving transportation research!
+We're hoping our use of Slack keeps the "barrier to entry" for Zephyr as low as possible. Plus, it's a great way to ask questions or just engage with other Zephyr members who share our goals of improving transportation research!
 
 ---
 #### Already joined us?
