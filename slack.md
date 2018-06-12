@@ -29,7 +29,7 @@ Simply fill out the form below with your email address along with your consent t
 
 <div class="holds-the-slack-iframe" style="background:url(/img/loader.gif) center center no-repeat;">
 
-<iframe style="width: 100%; height: 500px; border-style: none; overflow:hidden;" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
+<iframe style="width: 100%; height: 550px; border-style: none; overflow:hidden;" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
 
 </div>
 
