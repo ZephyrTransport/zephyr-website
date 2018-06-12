@@ -419,3 +419,7 @@ td{
  padding-left: 15px;
  padding-bottom: 10px;
 }
+
+.holds-the-slack-iframe {
+  background:url(/img/loader.gif) center center no-repeat;
+}
