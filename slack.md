@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: "Slack discussion channel"
+title: "Slack channel"
 subtitle: "Zephyr has a free Slack channel for discussions and questions. Join us on Slack now!"
 ---
 
@@ -9,16 +9,24 @@ subtitle: "Zephyr has a free Slack channel for discussions and questions. Join u
 <br/>
 <br/>
 
-### Zephyr has a free Slack channel for discussions and questions. Join us on Slack now!
-
-Slack is an online discussion platform with multiple channels, direct messages, and more. We're hoping our use of Slack makes the "barrier to entry" to Zephyr even lower for everyone.
-
-Please fill out the form below with your email address and your consent to follow our Code of Conduct, and you'll receive an invite right away!
-
 ---
 
-<iframe style="width: 100%; height: 1000px" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
+### Zephyr has a free Slack discussion channel.
+
+Slack is an online discussion platform with multiple channels, direct messages, and more.
+
+We're hoping our use of Slack makes the "barrier to entry" to Zephyr low for everyone. Plus, it's a great way to ask questions or just engage with other Zephyr members who share our goals of improving transportation research!
 
 ---
+#### Already joined us?
 
-<br/><br/><br/><br/><br/>
+* Go to our Slack workspace here: <https://zephyrtransport.slack.com>
+
+---
+#### Haven't joined us on Slack yet? Join right now!
+
+Simply fill out the form below with your email address along with your consent to follow our Code of Conduct, and you'll receive an invite right away.
+
+<iframe style="width: 100%; height: 500px; border-style: none; overflow:hidden;" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
+
+<br/><br/><br/>
