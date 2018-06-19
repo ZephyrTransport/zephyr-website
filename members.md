@@ -56,5 +56,6 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Alexey Pozdnukhov   
  * Kimon Proussaloglou 
  * Eric J. Miller  
- * Marty Milkovits
+ * Marty Milkovits  
+ * Lisa Zorn  
   
