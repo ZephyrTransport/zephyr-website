@@ -58,5 +58,6 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Eric J. Miller  
  * Marty Milkovits  
  * Lisa Zorn  
- * Jeffrey Newman 
+ * Jeffrey Newman  
+ * Elisa Borowski  
   
