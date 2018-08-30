@@ -115,13 +115,7 @@ You can sign up right now using your credit card, but other options are availabl
 
 We'll need your name, email, and a valid credit/debit card info to process your membership.  We use the [Stripe](https://stripe.com) payment system, which means we never see your credit card number and thus cannot lose it.
 #### Other payment options
-If you prefer to pay by check, please send a check and a signed copy of the [Zephyr Terms of Membership](/terms-of-membership) to:
->Zephyr Foundation <br/>
->c/o CT Corp <br/>
->4701 Cox Road - Suite 285 <br/>
->Glen Allen, VA 23060-6802
-
-To do a bank transfer or request an invoice, please email: [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)
+To do a check, bank transfer or request an invoice, please email: [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)
 
 <!-- stripe -->
 

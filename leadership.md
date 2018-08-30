@@ -8,16 +8,19 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 ### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).  
 
+ * **[Billy Charlton](https://github.com/billyc)**, *Technical University of Berlin*, **Incoming President and Chair**    
  * **[Clint Daniels](https://www.linkedin.com/in/clintdaniels/)**, *RSG in San Diego*, **President and Chair**     
  * **[Eric Miller](http://civil.engineering.utoronto.ca/staff/professors/eric-miller/)**, *University of Toronto*   
  * **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, *Northwestern University*, **Diversity Officer**  
+ * **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, *San Francisco County Transportation Authority in San Francisco CA*  
  * **[Leah Silen](https://www.linkedin.com/in/leah-silen-95733840/)**, *NumFocus in Austin*  
+ * **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, *Metropolitan Transportation Commission in San Francisco CA*  
  * **[Mario Scott](https://www.linkedin.com/in/mario-scott-38822917/)**, *SDG in New York*, **Secretary**  
  * **[Rosella Picado](https://www.linkedin.com/in/rosella-picado-265507)**, *WSP in Seattle*, **Treasurer**  
- * **[Thomas Adler](https://www.linkedin.com/in/tjadler)**, *RSG in White River Junction*  
+ 
 
 #### Committees
-Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  
+Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  Committee membership will be updated with new board members in September 2018.  
 
 **Executive** | **Communications** | **Programs** | **Workforce Development**
 --- | --- | --- | ---
