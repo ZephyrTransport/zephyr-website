@@ -31,7 +31,7 @@ A Member may waive any required notice before or after the date and time of the 
 The business and affairs of the Corporation shall be managed by the Board of Directors, which shall have all voting power except the power to elect Directors, which power is vested in the voting Members of the Corporation, and the power to remove Directors, which may be exercised either by the Board of Directors or by the voting Members.
 
 ### II.2 Number of Directors.
-The Board of Directors shall consist of seven (7) individuals.  The number of Directors may be changed by amendment of these bylaws but shall not be less than three (3).
+The Board of Directors shall consist of nine (9) individuals.  The number of Directors may be changed by amendment of these bylaws but shall not be less than three (3).
 
 ### II.3 Election and Term.  
 Directors shall be elected by the voting Members of the Corporation and shall be divided into four (4) classes as nearly equal in number as possible.  Except as provided in the Articles of Incorporation for the initial Board of Directors, the terms of Directors in all classes shall be four (4) years.  If the number of Directors is changed, the increase or decrease shall be apportioned among the classes so as to make all classes as nearly equal in number as possible.
@@ -106,7 +106,7 @@ The provisions of these bylaws that govern meetings, action without meeting, not
 No committee may (1) approve or recommend to Members any action that state law requires to be approved by Members, (2) fill vacancies on the Board or on any of its committees, (3) amend the Articles of Incorporation, (4) amend, adopt, or repeal Bylaws, (5) approve a plan of merger or consolidation, (6) approve the sale, lease, exchange or other disposition, or the mortgage, pledge or other encumbrance, of all or substantially all of the property and assets of the Corporation, or (7) approve the dissolution of the Corporation or revoke a voluntary dissolution.
 
 ### IV.5 Project Management and Other Advisory Groups.  
-The Board of Directors may appoint one or more Project Management Groups or other Advisory Groups consisting of individuals familiar with the goals and activities of the Corporation, whether or not they be Members or Directors.  Such an Advisory Group will assist the Board of Directors, as the Board may request, with the active management of projects including, without limitation, creating or maintaining “open-source” software for distribution to the public at no charge.  The chair of each Advisory Group must be a Director.
+The Board of Directors may appoint one or more Project Management Groups or other Advisory Groups consisting of individuals familiar with the goals and activities of the Corporation, whether or not they be Members or Directors.  Such an Advisory Group will assist the Board of Directors, as the Board may request, with the active management of projects including, without limitation, creating or maintaining “open-source” software for distribution to the public at no charge.  A member of each Advisory Group must be a Director.
 
 ## ARTICLE V. Conflicts of Interests
 ### V.1 Duty of Directors, Officers, and Employees.  
