@@ -24,7 +24,7 @@ collections:
     memberships:
         output: false
     projects:
-        output: false
+        output: true
     trb17projects:
         output: true
 

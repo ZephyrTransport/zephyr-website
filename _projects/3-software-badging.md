@@ -3,7 +3,7 @@ layout: simple
 img: none
 icon: fa-code
 category: Activities
-title: Tool and Project Badging
+title: Software Badging
 description: Develop a set of badges to award software tools that meet various criteria.  
 front: True
 ---

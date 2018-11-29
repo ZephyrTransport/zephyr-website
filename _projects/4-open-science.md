@@ -1,9 +1,9 @@
 ---
 layout: simple
 img: none
-icon: fa-flask
+icon: fa-star
 category: Activities
-title: Tool and Project Badging
+title: Open Science
 description: Develop a set of badges projects that meet criteria for openness and reproducibility.
 front: True  
 ---
