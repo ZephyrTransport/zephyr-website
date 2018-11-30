@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: simple
 category: Activities
 title: Zephyr Awards
 ---
@@ -8,7 +8,7 @@ The Zephyr Board will present two awards at the Zephyr Reception at the 2019 TRB
 
 **Submit your nominations now, thru December 30th**
 
-# [Outstanding Industry Contributor Award](industry-contributor-award.html)
+# [Outstanding Industry Contributor Award](/industry-contributor-award)
 This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
 
 Outstanding Industry Contributor shall be:
@@ -20,7 +20,7 @@ Outstanding Industry Contributor shall be:
 
 **Make a nomination using [this form thru December 30th](https://goo.gl/forms/A0e1rd7bOfgN1Au83)**. 
 
-# [Zephyr Leadership Award](leadership-award.html)
+# [Zephyr Leadership Award](/leadership-award)
 The Zephyr Foundation is seeking nominations through the end of the year for the inaugural Zephyr Leadership Award.  This award shall be given to an individual who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
 **Make a nomination [using this form thru December 30th](https://goo.gl/forms/vru3aRGPd1qRgjYA2).** Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval. Awards anticipated to be made at the TRB Annual Meeting.
