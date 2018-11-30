@@ -49,19 +49,18 @@
 					<div class="intro-callout">
 					  <h4><a href="https://medium.com/zephyrfoundation">Blog</a></h4>
             <h4>Announcements</h4>
-            		  <p>
+            		 <p>
+                            <i class="fa fa-angle-right" style="color:#{{ site.highlight-text }}"  aria-hidden="true"></i>
+                            <a href="{{ site.baseurl }}/events/2019-TRBAM.html" style="color:#{{ site.highlight-text }}">Join Zephyr at the 2019 TRB Annual Meeting</a>
+                      </p>
+                      <p>
                             <i class="fa fa-angle-right" style="color:#{{ site.highlight-text }}"  aria-hidden="true"></i>
                             <a href="{{ site.baseurl }}/projects/5-transit-ridership-standard/" style="color:#{{ site.highlight-text }}">GTFS-ride becomes a Zephyr project</a>
                       </p>
 					  <p>
                             <i class="fa fa-angle-right" style="color:#{{ site.highlight-text }}"  aria-hidden="true"></i>
-                            <a href="https://medium.com/zephyrfoundation/the-2018-zephyr-agenda-2a5771c0939c" style="color:#{{ site.highlight-text }}">What is Zephyr going to DO in 2018?</a>
+                            <a href="{{ site.baseurl }}/awards.html" style="color:#{{ site.highlight-text }}">Seeking award nominations thru Dec 30 2018</a>
                       </p>
-                      <p>
-                            <i class="fa fa-angle-right" style="color:#{{ site.highlight-text }}"  aria-hidden="true"></i>
-                            <a href="https://medium.com/zephyrfoundation/dc-in-january-2018-edition-93056a7b6ae3" style="color:#{{ site.highlight-text }}">Join Zephyr at the 2018 TRB Annual Meeting</a>
-                      </p>
-
 					</div>
 				</div>
 				<div class="col-md-10">
@@ -72,7 +71,7 @@
 						<ul class="list-inline intro-social-buttons">
 							{% for social in site.social %}
 							<li>
-								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fab fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
 							</li>
 							{% endfor %}
 						</ul>
