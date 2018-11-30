@@ -27,7 +27,7 @@ There is also a GTFS-ride consortium group that acts in advisory capacity.  All 
 
 Led by the Oregon Department of Transportation and Oregon State University, a substantial amount of progress has been made both on the standard side as well as the documentation, outreach and coalition-building.
 
-Existing standard: 	[https://github.com/ODOT-PTS/GTFS-ride](https://github.com/ODOT-PTS/GTFS-ride)
+Existing standard: 	[https://github.com/ODOT-PTS/GTFS-ride](https://github.com/ODOT-PTS/GTFS-ride)  
 Landing Page: 	[https://www.gtfs-ride.org/](https://www.gtfs-ride.org/)
 
 ## Approach
