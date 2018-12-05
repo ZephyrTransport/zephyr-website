@@ -39,6 +39,10 @@ body {
 	font-size: 18px;
 }
 
+a {
+    font-color: #0daee1;
+}
+
 .small {
  font-size: 85%;
 }
@@ -54,24 +58,47 @@ body {
 	letter-spacing: 12px;
 }
 
-.event-title h1 {
+.event-title {
 	text-transform: uppercase;
 	font-size: 18px;
+	text-align: center;
 	letter-spacing: 10px;
+}
+
+.event-date {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 4px;
+	font-color: #f2f2f2;
+}
+
+.event-place {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 4px;
+	font-color: #f8f8f8;
+}
+
+.event {
+    padding: 10px;
+    margin-top: 65px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */    
+    margin-bottom: 15px;
+    border-top:  2px solid #0daee1;
+    border-bottom:  2px solid #0daee1;
+    background: #f8f8f8;
+}
+
+.event-img{
+    margin-top: 65px;
+    height: 200px;
 }
 
 .project-title h1 {
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 10px;
-}
-
-.event-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 10px;
-    text-align: center;
-    color: #f8f8f8;
-    border-bottom:  2px solid #0daee1
 }
 
 .lead {

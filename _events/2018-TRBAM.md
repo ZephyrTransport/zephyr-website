@@ -7,13 +7,11 @@ type: Reception
 day: Tuesday January 9th, 2018
 time: 8:00 - 10:00 PM +
 place: Busboys + Poets (5th and K)
-additional-msg: <b><u>Join Zephyr! Learn about the 2018 Agenda!</b></u><br>
+summary: "Join the <a href='/leadership'>Zephyr Board</a>, <a href='/leadership'>Instigators</a>, and the travel analysis community for a festive evening celebrating our 2018 Agenda.
+<p>Learn how to get involved, <a href='/membership'>become a member</a>, and voice your opinion and needs.
+<p>We look forward to seeing you all there.
+Did we mention there will be cookies?"
 ---
 
-Join the [Zephyr Board](/leadership), [Instigators](/leadership), and the travel analysis community for a festive evening celebrating our 2018 Agenda.
 
-Learn how to get involved, [become a member](/membership), and voice your opinion and needs.
 
-We look forward to seeing you all there.
-
-Did we mention there will be cookies?

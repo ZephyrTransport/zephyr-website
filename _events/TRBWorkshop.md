@@ -8,9 +8,8 @@ day: Sunday January 8th 2017
 time: 1:30 - 4:30 PM
 place: Convention Center 145A
 additional-msg: <b><u>Summary Notes Now Posted</b></u><br>Scroll down and click-thru to get a summary of take-aways that will help inform the future of Zephyr.
+summary: This workshop represents the next step in establishing the Zephyr Foundation, a rigorous, community-wide framework for improving travel analysis methods. Attendees will work in teams to develop scopes for specific projects that improve travel analysis in order to support better decision-making and the public good.  
 ---
-
-This workshop represents the next step in establishing the Zephyr Foundation, a rigorous, community-wide framework for improving travel analysis methods. Attendees will work in teams to develop scopes for specific projects that improve travel analysis in order to support better decision-making and the public good.  
 
 # Projects Explored
 
