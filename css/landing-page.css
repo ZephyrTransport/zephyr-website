@@ -39,6 +39,10 @@ body {
 	font-size: 18px;
 }
 
+.small {
+ font-size: 85%;
+}
+
 .caption {
     font-size: 14px;
     font-color: #f8f8f8;
@@ -119,7 +123,7 @@ body {
 }
 
 .intro-callout {
-  position: relative;
+    position: relative;
 	background-color:#0daee1;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -128,10 +132,15 @@ body {
 }
 
 .intro-callout p {
-	text-align: left;
+  text-align: left;
   font-size: 13px;
   margin-left: 0.25em;
   text-indent: -0.25em
+}
+
+.intro-callout a {
+    border-bottom: 0.5px dotted currentColor;
+    color: #fff;
 }
 
 .intro-message > h1 {
