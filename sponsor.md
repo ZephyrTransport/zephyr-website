@@ -15,7 +15,7 @@ Contribute the initial support the Foundation needs in order to build for our sh
 **Type** | **Price** | **Benefits**
 --- | --- | ---
 Founding Leader | $100,000 | Organizational [membership benefits](/membership) for five years; preferential logo placement on website and verbal thanks at events; commemorative plaque.
-Founders Circle | $25,000 | Commemorative plaque, preferential logo placement and verbal thanks at events for 2018.
+Founders Circle | $25,000 | Commemorative plaque, preferential logo placement and verbal thanks at events for 2018-2023.
 
 <br/>
 To become a member of the Founder's Circle, contact a board member or [sponsorships@zephyrtransport.org](mailto://sponsorships@zephyrtransport.org).
@@ -27,11 +27,9 @@ To become a member of the Founder's Circle, contact a board member or [sponsorsh
 Zephyr accepts donations by check or by credit card.
 
 **By Check.** Checks can be made out to:
+Zephyr Foundation.
 
->Zephyr Foundation <br/>
->c/o CT Corp <br/>
->4701 Cox Road - Suite 285 <br/>
->Glen Allen, VA 23060-6802 <br/>
+Please [email](mailto://info@zephyrtransport.org) to find out where to send them!
 
 **By Credit Card**
 
