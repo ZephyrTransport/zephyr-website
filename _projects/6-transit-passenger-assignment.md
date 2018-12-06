@@ -14,7 +14,7 @@ As an open source tool licensed under a permissive license, it can also serve as
 
 **Meeting Announcement**
 
-The Fast-Trips Project Management Group will meet at the TRB Annual Meeting in Washington DC.
+The Fast-Trips Project Management Group [will meet at the TRB Annual Meeting](/events/2019-jan-fasttrips-pmg) in Washington DC.
 
   - Mon Jan 14th 3:30-5:00  
   - Eastern Market (M3) / Marriott Marquis in Washington DC.  

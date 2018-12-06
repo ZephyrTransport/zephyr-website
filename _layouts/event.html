@@ -16,7 +16,7 @@
             </div>
             <div class="col-sm-4">
             <div class="event-img">
-                <img src="{{ page.img }}" alt="Event Photo" style="height:200px;">
+                {% if page.img %}<img src="{{ page.img }}" alt="Event Photo" style="height:200px;">{% endif %}
                 <p class="small"> <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> {{ page.additional-msg}}</p>
             </div>
             </div>

@@ -12,7 +12,7 @@ Badges distributed by Zephyr to recognize open and reproducible research will in
 
 **Meeting Announcement**
 
-The Open Science Project Management Group will meet at the TRB Annual Meeting in Washington DC.
+The Open Science Project Management Group [will meet at the TRB Annual Meeting](/events/2019-jan-openscience-pmg) in Washington DC.
 
   - Mon Jan 14th 10:30-12:00 
   - Eastern Market (M3) / Marriott Marquis in Washington DC.  

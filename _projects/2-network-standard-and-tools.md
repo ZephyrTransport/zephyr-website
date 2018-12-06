@@ -10,7 +10,7 @@ front: True
 
 **Meeting Announcement**
 
-The GNFS Project Management Group will meet at the TRB Annual Meeting in Washington DC.
+The GNFS Project Management Group [will meet at the TRB Annual Meeting in Washington DC](/events/2019-jan-gnfs-pmg).
 
   - Mon Jan 14th 1:30-3:00   
   - Eastern Market (M3) / Marriott Marquis in Washington DC.  
