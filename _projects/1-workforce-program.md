@@ -15,6 +15,7 @@ front: True
  - [**Blog**](https://medium.com/zephyrfoundation):  [Want to contribute?](mailto://info@zephyrtransport.org) We are looking for contributions of all kinds including research notes and industry member profiles.  
  - [**Slack Community**](http://zephyrtransport.org/slack): Please join, add the app, and chat amongst ourselves.  
  - [**Newsletter**](https://us14.list-manage.com/subscribe?u=ceb4ce0ac1c3256b66457d9d7&id=1c7de457b3): monthly briefs about what Zephyr is up to as well as things around the industry. 
+ - [**Sage Musings blog series**](http://zephyrtransport.org/sage-musings.md)
  - **Tutorials**: Machine Learning intro is currently in development.  
  - **Graduate Student Engagement**: First annual blast to graduate students about Zephyr activities and to welcome them to the community.  Did we miss you? [Add your school to our list](mailto://info@zephyrtransport.org)  
  - **Young Professional Engagement**: Young professionals have their own private slack channel to communicate about issues pertinent to them and give them latitude to ask questions they might not otherwise feel comfortable with.   
