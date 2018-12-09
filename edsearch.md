@@ -83,7 +83,8 @@ Submit your application materials to <ed@zephyrtransport.org>. Applications must
 - Cover letter
 - Curriculum vitae / resume including employment history, educational background, etc
 - Employment history
-- Written answers to the following questions:
+- Brief written answers to the following questions. We don't need long essays at this stage; 
+  a paragraph or so will suffice:
    1. Tell us about your experience in raising money and managing back-office functions.  What would you take on and what would you seek outside assistance with?
    2. Given the Foundation's established mission, goals, and principles, what would be on your near-term todo list for Zephyr to achieve its mission and have a real and lasting positive impact on travel forecasting?
    3. What would you, as an Executive Director, need from the Board and volunteers?
