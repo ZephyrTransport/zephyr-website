@@ -4,6 +4,8 @@ title: "Executive Director Search"
 subTitle: "Zephyr is ready to hire its first Executive Director"
 ---
 
+*December 11, 2018*
+
 The Zephyr Foundation (“Zephyr”) is seeking a motivated and ambitious Executive Director to oversee and advance its mission: to advance rigorous transportation and land use decision-making for the public good, by advocating for and supporting improved travel analysis and facilitating its implementation.
 
 The Executive Director will have the overall operational responsibility for the Zephyr staff, volunteers and programs according to the strategic direction set with the Board of Directors. As a new organization, Zephyr needs an executive who can prioritize fundraising, since without funding it will be impossible to realize any of the foundation’s goals. In addition, the Executive Director will be responsible for building organizational culture and an operational environment that aligns with the following
