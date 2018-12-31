@@ -62,5 +62,6 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Elisa Borowski  
  * Juan David Caicedo Castro 
  * Asadul Hoque Tanvir 
- * Like Liu 
+ * Like Liu   
+ * Simon J. Berrebi   
   
