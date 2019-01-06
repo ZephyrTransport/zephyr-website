@@ -64,4 +64,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Asadul Hoque Tanvir 
  * Like Liu   
  * Simon J. Berrebi   
+ * Scott Thompson-Graves 
+ 
+ 
   
