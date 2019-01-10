@@ -65,6 +65,10 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Like Liu   
  * Simon J. Berrebi   
  * Scott Thompson-Graves 
+ * Ken Kaltenbach  
+ * Johnny Han  
+ * Srinivas Varanasi  
+ 
  
  
   
