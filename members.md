@@ -66,7 +66,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Ken Kaltenbach  
  * Johnny Han  
  * Srinivas Varanasi  
- 
+ * Yu-Chu Huang 
  
 ### Founding Leader
 *A limited number of Founding Leader slots are available and include corporate membership benefits for five years for the price of four.*  
