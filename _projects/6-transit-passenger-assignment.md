@@ -26,7 +26,8 @@ The Fast-Trips Project Management Group [will meet at the TRB Annual Meeting](/e
 This project is overseen by a board-approved Project Management Group (PMG) as follows:
  - Lisa Zorn, Metropolitan Transportation Commission (chair and board representative)
  - Bhargava Sana, SFCTA  
- - Joe Flood, DVRPC  
+ - Joe Flood, DVRPC    
+ - Natalia Ruiz Juri, University of Texas CTR  
  
  *More to come!* 
 

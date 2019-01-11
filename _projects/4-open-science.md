@@ -24,6 +24,8 @@ The Open Science Project Management Group [will meet at the TRB Annual Meeting](
 This project is overseen by a board-approved Project Management Group (PMG) as follows:
  - Greg Erhardt, University of Kentucky (chair)
  - Rolf Moeckel, TU Munich  
+ - Leah Silen, NumFocus  
+ - Kay Axhausen, ETH Zurich  
  
  *More to come!* 
 

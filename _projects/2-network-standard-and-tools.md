@@ -27,7 +27,9 @@ This project is overseen by a board-approved Project Management Group (PMG) as f
  - Chetan Joshi, PTV  
  - Jeff Frkonja, Portland Metro  
  - Scott Smith, Volpe  
-
+ - Natalia Ruiz Juri, University of Texas Center for Transportation Research  
+ - Song Gao, UMass Amherst  
+ 
 ## Project Background
 
 Winner of the project "shark tank" as [presented here](https://docs.google.com/presentation/d/1D2j67Q7006XssLuRhAx5_cupeF51W9VQVvpWjtvf8y8/) by Lisa Zorn of the Metropolitan Transportation Commission at the 2017 TRB Planning Applications Conference. 
