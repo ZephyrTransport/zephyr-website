@@ -13,4 +13,9 @@ Outstanding Industry Contributor shall be:
  - Respectful and thoughtful in their interactions; and  
  - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Nominations can be made using [this form thru December 30th](https://goo.gl/forms/A0e1rd7bOfgN1Au83)**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards anticipated to be made at the TRB Annual Meeting.
+**Nominations will be considered annually and can be made on a rolling basis using [this form](https://goo.gl/forms/A0e1rd7bOfgN1Au83)**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+
+
+**Recipients**
+
+ - Julie Dunbar, 2019
