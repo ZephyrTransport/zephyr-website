@@ -10,7 +10,7 @@ front: True
 
 **Meeting Announcement**
 
-The GNFS Project Management Group [will meet at the TRB Annual Meeting in Washington DC](/events/2019-jan-gnfs-pmg).
+The GMNS Project Management Group [will meet at the TRB Annual Meeting in Washington DC](/events/2019-jan-gnfs-pmg).
 
   - Mon Jan 14th 1:30-3:00   
   - Eastern Market (M3) / Marriott Marquis in Washington DC.  
@@ -98,4 +98,4 @@ Existing attempts suffer from:
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the GNFS chair: [gnfs@zephyrtransport.org](mailto://gnfs@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the GNFS chair: [gmns@zephyrtransport.org](mailto://gmns@zephyrtransport.org).
