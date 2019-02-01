@@ -4,14 +4,9 @@ title: "Membership"
 subTitle: "Become a member to support Zephyr!"
 ---
 
+<img src="/img/logo-small.png" width="75px" style="float:left; margin-right:20px; margin-top: 10px;" />
 <br/>
-<img src="/img/logo-small.png" width="150px" style="float:left; margin-right:20px;" />
-<br/>
-# Join Zephyr Today!
-
-<br/>
-<br/>
-<br/>
+# Join Zephyr Today or Renew Your Membership
 
 ---
 
@@ -40,7 +35,7 @@ Institutions, corporations, and public agencies can also be members and pass alo
 
 ### Individual Membership
 
-Benefits for individual members include:
+Memberships are valid for one year. Benefits for individual members include:
 - Vote in board elections
 - Commemorative laptop decal!
 - Preferential and discounted event registration
@@ -60,7 +55,7 @@ Youth   | $25 | Under thirty at the time of application.
 
 ### Public Agencies
 
-Benefits for public agency membership include
+Memberships are valid for one year.  Benefits for public agency membership include
 - Vote in board elections
 - Commemorative laptop decals and plaque
 - Preferential and discounted event registration for employees
@@ -84,7 +79,7 @@ Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtr
 
 ### Businesses and Institutions
 
-Benefits for business and institutional members include
+Memberships are valid for one year. Benefits for business and institutional members include
 - Vote in board elections
 - Commemorative laptop decals and plaque
 - Preferential and discounted event registration for employees
@@ -106,7 +101,7 @@ Business and institutional membership is available through the following self-se
 
 Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) so we can discuss the best way to get your business or institution on board. Zephyr can even send you an invoice.
 
-## How to become a member
+## How to join or renew your membership
 
 You can sign up right now using your credit card, but other options are available below.
 
@@ -121,7 +116,7 @@ To do a check, bank transfer or request an invoice, please email: [membership@ze
 
 ---
 
-### To join today using a credit card, select from the membership options below:
+### To join or renew today using a credit card, select from the membership options below:
 
 <div class="striperow">
   {% for product in site.memberships %}
