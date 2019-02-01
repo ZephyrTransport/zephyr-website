@@ -4,9 +4,7 @@ title: "Membership"
 subTitle: "Become a member to support Zephyr!"
 ---
 
-<img src="/img/logo-small.png" width="75px" style="float:left; margin-right:20px; margin-top: 10px;" />
-<br/>
-# Join Zephyr Today or Renew Your Membership
+## Join Zephyr Today or Renew Your Membership
 
 ---
 
@@ -24,7 +22,7 @@ This structure was selected based on extensive consultation within our community
 
 By joining today, you will help us build a tight-knit community of motivated travel analysis professionals, working together to improving our industry.
 
-[*Scroll down to join today!!!*](#join)
+[*Scroll down to join or renew today!!!*](#join)
 
 ### Who Can Be a Member?
 
