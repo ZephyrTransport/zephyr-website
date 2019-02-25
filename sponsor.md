@@ -5,7 +5,7 @@ title: "Sponsorship"
 
 Thank you for considering a gift to the Zephyr Foundation.  We welcome all donations large and small.
 
-* *To find out if your donation is tax-deductible, visit our [501c3 status page](/501c3).*
+* *Zephyr is a [501c3 organization](/501c3).*
 
 ---
 
