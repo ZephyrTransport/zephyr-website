@@ -10,12 +10,10 @@ front: True
 
 Badges distributed by Zephyr to recognize open and reproducible research will incentivize authors to archive and share data, code and models associated with their research articles and generally enable other authors to more easily build upon that research.  
 
-**Meeting Announcement**
+**Meetings**
 
-The Open Science Project Management Group [will meet at the TRB Annual Meeting](/events/2019-jan-openscience-pmg) in Washington DC.
+2019-01-14 The Open Science Project Management Group [met at the TRB Annual Meeting](/events/2019-jan-openscience-pmg) in Washington DC.  We discussed the mechanisms to enable and promote data sharing and transparency in transportation research.
 
-  - Mon Jan 14th 3:30-5:00 
-  - Eastern Market (M3) / Marriott Marquis in Washington DC.  
 
 *Note that seating may be limited and will be prioritized for PMG members*
 
@@ -27,7 +25,8 @@ This project is overseen by a board-approved Project Management Group (PMG) as f
  - Leah Silen, NumFocus  
  - Kay Axhausen, ETH Zurich  
  
- *More to come!* 
+ *More to come! Please let Greg Erhardt([open-science@zephyrtransport.org](mailto://open-science@zephyrtransport.org)) know if you are interested in contributing* 
+ 
 
 
 ## Approach
