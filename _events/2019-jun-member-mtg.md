@@ -15,27 +15,23 @@ summary: "<br/>
 <ul>
 <li>Membership report</li>
 <li>State of the Workforce: Findings from survey and actions</li>
-<li>RFP Database</li>
+<li>RFP and Job Database</li>
 <li>Elections process</li>
 </ul>
 
-<b>10:30 - 12:00 Committee Updates</b>
-<ul>
-<li>Fast-Trips (10:30-10:50)</li>
-<li>Code Badging (10:50-11:10)</li>
-<li>GMNS (11:10-11:30)</li>
-<li>GTFS-Ride (11:30-11:50)</li>
-<li>Open Science Badging (11:50-12:00)</li>
-</ul>
-
-<b>12:00 - 1:30 Committee Working Lunches</b>
-<p><i>Committees will meet at nearby restaurants for follow-up discussions</i></p>
+<b>10:30 - 12:00 Project Updates</b>
 <ul>
 <li>Fast-Trips</li>
 <li>Code Badging</li>
-<li>GMNS</li>
+<li>Network Standard</li>
 <li>GTFS-Ride</li>
 <li>Open Science Badging</li>
+</ul>
+
+<b>12:00 - 1:30 Project Working Lunches</b>
+<p><i>Project Groups will meet at nearby restaurants for follow-up discussions</i></p>
+<ul>
+
 </ul>
 "
 ---
