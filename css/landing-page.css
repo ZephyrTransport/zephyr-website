@@ -52,25 +52,37 @@ a {
     font-color: #f8f8f8;
 }
 
+.btn-z {
+    font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	background: #0daee1;
+	letter-spacing: 6px;
+	margin-top: 10px;
+}
+
 .zephyr {
 	font-family: 'Cabin', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 12px;
 }
 
+.event-header {
+    text-align: center;
+}
+
 .event-title {
 	text-transform: uppercase;
 	font-size: 18px;
-	text-align: center;
 	letter-spacing: 10px;
 }
 
 .event-date {
 	text-transform: uppercase;
 	font-size: 14px;
-	text-align: center;
 	letter-spacing: 4px;
-	font-color: #f2f2f2;
+	color: #0daee1;
 }
 
 .event-place {
@@ -78,7 +90,7 @@ a {
 	font-size: 14px;
 	text-align: center;
 	letter-spacing: 4px;
-	font-color: #f8f8f8;
+	color: #0daee1;
 }
 
 .event {

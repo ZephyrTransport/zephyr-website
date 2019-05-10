@@ -7,6 +7,7 @@ type: Meeting
 day: Sunday June 2, 2019
 time: 10:00a - 12:00p
 place: Hilton Portland Downtown - Parlor B/C
+registration: https://www.eventbrite.com/e/2019-zephyr-summer-member-meeting-tickets-61667117007
 additional-msg: <a href='mailto://info@zephyrtransport.org'>Have a suggestion? Want to help?</a>
 summary: "<br/>
 <hr/>
