@@ -1,7 +1,7 @@
 ---
 layout: simple
 title: "Election"
-subTitle: "2018 Board Election Process"
+subTitle: "2019 Board Election Process"
 ---
 .
 
@@ -17,54 +17,14 @@ The Secretary will confirm the number of board members with expired terms and an
 
 ### II. Nominations  
 
-The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://goo.gl/forms/bSnVe7nic2ksVl2Z2) distributed to members no later than ten days before the election.   The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
+The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://forms.gle/M4exbHVa2LsmYAmd6) distributed to members no later than ten days before the election.   The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
 
 ### III. Eligible Members
-Eligible members per the Bylaws are determined the evening prior to the announcement of the Annual Member Meeting.  The Secretary will be responsible for compiling a list of eligible members and giving them access to online voting.
+Eligible members per the Bylaws are determined the evening prior to the announcement of the Annual Member Meeting/Election.  The Secretary will be responsible for compiling a list of eligible members and giving them access to voting.
 
-**Member Roster (as of 6/6/2018)**
-
- * Rolf Moeckel   
- * Joan Walker
- * Ram Pendyala
- * Clint Daniels
- * David Ory
- * Charles Gorugantula
- * Julie Dunbar
- * Joe Flood
- * Jason Soria
- * Greg Erhardt
- * Elizabeth Sall  
- * Jason Hawkins  
- * Rosella Picado  
- * Stacey Bricka  
- * Daniel Florian 
- * Melvin Wong  
- * Alec Biehl   
- * Raphael Dumas  
- * Scott Ramming  
- * Jeff Pierson  
- * Jalal Jahir  
- * Mohammad Molla  
- * Robert Chaney
- * Brian Higgs 
- * Patricia Mokhtarian  
- * Aruna Sivakumar  
- * Eric Anderson  
- * Vladimir Livshits  
- * Michael Clarke  
- * Stephen Lawe  
- * Kay Axhausen  
- * Rick Donnelly  
- * Greg Giaimo  
- * Billy Charlton  
- * Alexey Pozdnukhov   
- * Kimon Proussaloglou 
- * Eric J. Miller  
-  
 ### IV. Meeting Scheduling and Announcement  
 
-The President is responsible for scheduling the annual member meeting.  The Secretary is responsible for sending out an announcement of the meeting and the election to the membership.  The election announcement can be combined with a call for nominations.
+The President is responsible for scheduling the annual member meeting/election.  The Secretary is responsible for sending out an announcement of the meeting and the election to the membership.  The election announcement can be combined with a call for nominations.
 
 ### V. Ballot
 
@@ -81,24 +41,17 @@ The online poll will commence no later than two days prior to the member meeting
 
 Members also have the opportunity to publicly cast their votes at the member meeting, but must declare their voter-ID in the online poll so as to preclude any double-counting.  Declaring a fraudulent voter-ID is grounds for membership termination.
 
-### Member Meeting  
+### Member Meeting / Election
 
-The main purpose of the member meeting is to discuss board elections.  
-
-The agenda will be:
- * Welcome and discussion of meeting purpose (President)  
- * Review of nominations (Secretary)  
- * Opportunity for candidate statements (<5 min each)  
- * Discussion of candidates (2 min per person)  
- * Opportunity to publicly cast votes (5 min)  
- * Review of remainder of process (Secretary)  
- * Reminder of next events (President)  
+The main purpose of the member meeting/election is to discuss board elections.  
 
 ### Results Certification 
 
 The Secretary will certify the results no later than 72 hours following the poll closure and will be responsible for announcing the results to the membership and posting to the website.
 
 ### Schedule  
+
+The 2019 schedule will be set shortly.  Once it is announced, eligible voting membership will be closed and certified by the secretary. 
 
 The following serves as a summary schedule for the 2018 Zephyr board election process:
 
