@@ -20,7 +20,7 @@ summary: "<br/>
 <p>We will also have project- and initiative-specific experts on hand at the booth according to the following schedule.
 <h3>Monday 6/3</h3>
 <ul>
-<li>Breakfast: State of the Workforce Survey, with Stacey Bricka</li>
+<li>Breakfast: GTFS-ride</li>
 <li>Morning Break: Network Standard, with Joe Castiglione</li>
 <li>Afternoon Break: Software Badging, with David Ory</li>
 </ul>
@@ -28,7 +28,7 @@ summary: "<br/>
 <ul>
 <li>Breakfast: Scope and job database, with Elizabeth Sall</li>
 <li>Morning Break: Dynamic Transit Passenger Model, with Lisa Zorn</li>
-<li>Afternoon Break: GTFS-ride</li>
+<li>Afternoon Break: State of the Workforce Survey, with Stacey Bricka</li>
 </ul>
 "
 ---
