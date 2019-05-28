@@ -45,6 +45,8 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Joe Castiglione
  * Philip Carleton
  * Charles Baber
+ * Rosella Picado 
+ * Patricia Mokhtarian  
 
 **Founding Member Roster**
 
