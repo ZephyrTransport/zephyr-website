@@ -8,14 +8,47 @@ subTitle: "Become a member to support Zephyr!"
 <img src="/img/logos/MTC-logo.png" height="50px" style="float:left; margin-left:20px; margin-top: 50px; margin-right:40px;" />
 <img src="/img/logos/MetCouncil-logo.jpg" height="150px" style="float:left; margin-right:40px;" />
 <img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" />
+<img src="/img/logos/OregonDOT.jpg" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
 </div>
 
 ### Zephyr Members
 Member’s are at the heart of the Zephyr Foundation’s organizational structure.  Members are responsible for electing the [Board of Directors](/leadership) and play a key role in supporting the organizational [core programs](/programs) through volunteership as well as their membership dues.
 
-[Become a member today!](/membership)
+[Become a member or renew today!](/membership)
+
+**Current Individual Members**
+  
+ * Joan Walker
+ * Ram Pendyala
+ * Julie Dunbar
+ * Joe Flood
+ * Jason Hawkins  
+ * Stacey Bricka  
+ * Alec Biehl   
+ * Raphael Dumas  
+ * Scott Ramming  
+ * Patricia Mokhtarian  
+ * Aruna Sivakumar  
+ * Marty Milkovits  
+ * Lisa Zorn  
+ * Jeffrey Newman  
+ * Elisa Borowski  
+ * Juan David Caicedo Castro 
+ * Asadul Hoque Tanvir 
+ * Like Liu   
+ * Simon J. Berrebi   
+ * Scott Thompson-Graves 
+ * Ken Kaltenbach  
+ * Johnny Han  
+ * Srinivas Varanasi  
+ * Yu-Chu Huang 
+ * Joe Castiglione
+ * Philip Carleton
+ * Charles Baber
 
 **Founding Member Roster**
+
+*January 2018-January 2019*
 
  * Rolf Moeckel   
  * Joan Walker
@@ -69,9 +102,8 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Yu-Chu Huang 
  * Joe Castiglione
  * Philip Carleton
- * Charles Baber
  
-### Founding Leader
+### Zephyr Leader
 *A limited number of Founding Leader slots are available and include corporate membership benefits for five years for the price of four.*  
 [Become a Founding Leader](/sponsor)
 
