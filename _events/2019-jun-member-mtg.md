@@ -15,9 +15,9 @@ summary: "<br/>
 <b>10:00 - 10:30 Zephyr Organizational Updates</b>
 <ul>
 <li>Membership report</li>
-<li>State of the Workforce: Findings from survey and actions</li>
-<li>RFP and Job Database</li>
+<li>State of the Workforce Survey</li>
 <li>Elections process</li>
+<li>RFP and Job Database</li>
 </ul>
 
 <b>10:30 - 12:00 Project Updates</b>
