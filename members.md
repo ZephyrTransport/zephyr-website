@@ -9,6 +9,7 @@ subTitle: "Become a member to support Zephyr!"
 <img src="/img/logos/MetCouncil-logo.jpg" height="150px" style="float:left; margin-right:40px;" />
 <img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" />
 <img src="/img/logos/OregonDOT.jpg" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
+<img src="/img/logos/sfcta.png" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
 </div>
 
 ### Zephyr Members
