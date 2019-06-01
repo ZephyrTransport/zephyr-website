@@ -48,7 +48,8 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Charles Baber
  * Rosella Picado 
  * Patricia Mokhtarian  
- * David Ory
+ * David Ory  
+ * Daniel Florian
 
 **Founding Member Roster**
 
