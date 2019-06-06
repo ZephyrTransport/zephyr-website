@@ -50,6 +50,11 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Patricia Mokhtarian  
  * David Ory  
  * Daniel Florian
+ * Peter Bosa
+ * Chris Johnson
+ * Aaron Breakstone
+ * Cindy Pederson
+ * Jeff Frkonja
 
 **Founding Member Roster**
 
