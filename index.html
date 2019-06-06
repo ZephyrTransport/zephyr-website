@@ -7,20 +7,53 @@ subTitle: Advancing Travel Analysis to Improve Society
 <section id="announce" class="container content-section text-left">
 
 <div class="row">
-<div class="col-md-6 col-xl-4 col-md-offset-3 col-xl-offset-4">
 
+<div class="col-md-8 col-lg-5 col-md-offset-2 col-lg-offset-1">
 <div class="card">
-  <div class="card-body" style="padding-top: 1px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px;">
-    <h3 class="card-title">Now Hiring</h5>
-    <h4 class="card-subtitle text-muted">Executive Director</h4>
+  <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px;">
+    <h3 class="card-title">Now Hiring</h3>
+    <h4 class="card-subtitle text-muted">Zephyr Executive Director</h4>
     <p class="card-text">The Zephyr Board is excited to announce the position of Zephyr's Executive Director.</p>
     <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/edsearch" class="card-link">Learn more + apply</a>
 
   </div>
 </div>
+</div>
+<div class="col-md-8 col-lg-5">
 
-</div>
-</div>
+<div class="card">
+
+<div class="carousel slide" data-ride="carousel" id="opportunities-carousel">
+  <!-- Carousel Slides -->
+  <div class="carousel-inner">
+    {% for opp in site.data.opportunities %}{% if opp.front %}
+    <div class="item">
+      <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
+        <h3 class="card-title">{{ opp.headline }}</h3>
+        <h4 class="card-subtitle text-muted">{{ opp.name }}</h4>
+        <p class="card-text">{{ opp.lead }}</p>
+        <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href='{{ opp.link }}' class="card-link">Learn more + apply</a>
+      </div>
+    </div>
+    {% endif %}{% endfor %}
+    <div class="item active">
+      <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
+        <h3 class="card-title">Opportunities Board</h3>
+        <h4 class="card-subtitle text-muted">See them all!</h4>
+        <p class="card-text">List of available opportunities: jobs, internships, fellowships and more.</p>
+        <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/opportunities" class="card-link">See the list</a>
+      </div>
+    </div>
+
+</div> <!-- Carousel Inner-->
+<!-- Carousel Buttons Next/Prev -->
+<a data-slide="prev" href="#opportunities-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+<a data-slide="next" href="#opportunities-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+</div> <!-- Carousel Slides-->
+</div> <!-- Card-->
+</div> <!-- Col-->
+
+</div> <!-- Row-->
 </section>
 
 

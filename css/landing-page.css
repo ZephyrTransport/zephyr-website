@@ -95,7 +95,7 @@ a {
 
 .event {
     padding: 10px;
-    margin-top: 65px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */    
+    margin-top: 65px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     margin-bottom: 15px;
     border-top:  2px solid #0daee1;
     border-bottom:  2px solid #0daee1;
@@ -470,4 +470,24 @@ td{
 
 .holds-the-slack-iframe {
 
+}
+
+/* Control buttons  */
+#opportunities-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 60px;
+}
+/* Previous button  */
+#opportunities-carousel .carousel-control.left
+{
+  left: -12px;
+}
+/* Next button  */
+#opportunities-carousel .carousel-control.right
+{
+  right: -12px !important;
 }
