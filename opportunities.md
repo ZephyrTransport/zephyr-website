@@ -1,8 +1,28 @@
 ---
 layout: simple
 title: "Opportunities"
-subTitle: "Jobs, Fellowships, Internships"
+subTitle: "Conferences, Jobs, Fellowships, Internships"
 ---
+### Conferences
+
+<table>
+<thead>
+<tr>
+  <th>Conference</th>
+  <th>Opportunity</th>
+  <th>Location</th>
+  <th>Deadline</th>
+</tr>
+</thead>
+{% for opp in site.data.opportunities %}{% if opp.post %}{% if opp.type == 'conference'%}
+<tr>
+   <td><a href='{{ opp.link }}'>{{ opp.name }}</a></td>
+   <td>{{ opp.headline }}</td>
+   <td>{{ opp.location }}</td>
+   <td>{{ opp.closing }}</td>
+</tr>
+{% endif %}{% endif %}{% endfor %}
+</table>
 
 ### Jobs
 

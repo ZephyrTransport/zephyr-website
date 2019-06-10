@@ -1,3 +1,25 @@
+- name: Urban Computing Summit
+  headline: Session proposals open
+  front: true
+  post: true
+  lead: Applying open-source tools and techniques to urban computing and smart city applications.
+  type: conference
+  institution: Open Source Summit Europe
+  location: Lyon, FR
+  closing: July 1st, 2019
+  link: http://bit.ly/eu19cfp
+  summary:
+- name: Innovations in Travel Modeling Conference
+  headline: Call for Content Open
+  front: true
+  post: true
+  lead: Tracks on data solutions, modeling approaches, useful forecasts, and learning.
+  type: conference
+  institution: TRB
+  location: Seattle, WA
+  closing: June 30, 2019
+  link: http://itmconference.com
+  summary:
 - name: Data Science Client Services Division Manager
   time: full-time
   headline: Full-time Position
