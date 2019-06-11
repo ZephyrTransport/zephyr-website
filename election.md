@@ -3,7 +3,13 @@ layout: simple
 title: "Election"
 subTitle: "2019 Board Election Process"
 ---
-.
+
+Schedule announced!
+
+ - [Board seat nominations](https://forms.gle/M4exbHVa2LsmYAmd6) close **Thursday June 13th at Midnight PDT.**  
+ - Annual Election Meeting will be **Monday June 24th at 10AM PDT.**   
+
+See below for more election schedule details.
 
 ### I. Open Seats  
 
@@ -45,29 +51,23 @@ Members also have the opportunity to publicly cast their votes at the member mee
 
 The main purpose of the member meeting/election is to discuss board elections.  
 
-### Results Certification 
+### Results Certification
 
 The Secretary will certify the results no later than 72 hours following the poll closure and will be responsible for announcing the results to the membership and posting to the website.
 
 ### Schedule  
 
-The 2019 schedule will be set shortly.  Once it is announced, eligible voting membership will be closed and certified by the secretary. 
+The 2019 election schedule is as follows:
 
-The following serves as a summary schedule for the 2018 Zephyr board election process:
-
- * Announcement about upcoming election, completed June 4th
- * Member Finalization, June 6th  
- * Meeting Announcement, June 7th; 10-60 days in advance of meeting.  
- * Nominations Announcement, June 7th    
- * Open Seat Finalization, June 10th   
- * Nominations Close, June 11th  
- * Ballot Finalization, June 15th  
- * Online Voting Opens, June 16th  
- * Member Meeting, June 19th  
- * Online Voting Closes, June 20th  
- * Results Certification, June 21st  
- * Results Announcement, June 21st  
- * Annual Board Meeting, June 23rd  
-
-
-
+**Date** | **Time** | **Item**
+--- | --- | ---
+Monday June 10th | Midnight PDT | Eligible Member Finalization
+Tuesday June 11th | | Meeting Announcement
+Thursday June 13th | Midnight PDT | [Nominations Close](https://forms.gle/M4exbHVa2LsmYAmd6)
+Monday June 17th |  COB PDT | Ballot Finalization
+Wed June 19th | When you get your email | Online Voting Opens
+Monday June 24th | 10AM PDT | Member Meeting
+June 25th | Midnight PDT | Online Voting Closes
+June 26th | | Results Certification by Secretary
+June 27th | | Results Announcement
+June 28th | | Annual Board Meeting
