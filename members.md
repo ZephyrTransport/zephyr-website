@@ -10,6 +10,7 @@ subTitle: "Become a member to support Zephyr!"
 <img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" />
 <img src="/img/logos/OregonDOT.jpg" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
 <img src="/img/logos/sfcta.png" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
+<img src="/img/logos/RSG.jpg" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
 </div>
 
 ### Zephyr Members
@@ -18,7 +19,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
 [Become a member or renew today!](/membership)
 
 **Current Individual Members**
-  
+
  * Joan Walker
  * Ram Pendyala
  * Julie Dunbar
@@ -34,19 +35,19 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Lisa Zorn  
  * Jeffrey Newman  
  * Elisa Borowski  
- * Juan David Caicedo Castro 
- * Asadul Hoque Tanvir 
+ * Juan David Caicedo Castro
+ * Asadul Hoque Tanvir
  * Like Liu   
  * Simon J. Berrebi   
- * Scott Thompson-Graves 
+ * Scott Thompson-Graves
  * Ken Kaltenbach  
  * Johnny Han  
  * Srinivas Varanasi  
- * Yu-Chu Huang 
+ * Yu-Chu Huang
  * Joe Castiglione
  * Philip Carleton
  * Charles Baber
- * Rosella Picado 
+ * Rosella Picado
  * Patricia Mokhtarian  
  * David Ory  
  * Daniel Florian
@@ -74,7 +75,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Jason Hawkins  
  * Rosella Picado  
  * Stacey Bricka  
- * Daniel Florian 
+ * Daniel Florian
  * Melvin Wong  
  * Alec Biehl   
  * Raphael Dumas  
@@ -83,7 +84,7 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Jalal Jahir  
  * Mohammad Molla  
  * Robert Chaney
- * Brian Higgs 
+ * Brian Higgs
  * Patricia Mokhtarian  
  * Aruna Sivakumar  
  * Eric Anderson  
@@ -95,24 +96,24 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
  * Greg Giaimo  
  * Billy Charlton  
  * Alexey Pozdnukhov   
- * Kimon Proussaloglou 
+ * Kimon Proussaloglou
  * Eric J. Miller  
  * Marty Milkovits  
  * Lisa Zorn  
  * Jeffrey Newman  
  * Elisa Borowski  
- * Juan David Caicedo Castro 
- * Asadul Hoque Tanvir 
+ * Juan David Caicedo Castro
+ * Asadul Hoque Tanvir
  * Like Liu   
  * Simon J. Berrebi   
- * Scott Thompson-Graves 
+ * Scott Thompson-Graves
  * Ken Kaltenbach  
  * Johnny Han  
  * Srinivas Varanasi  
- * Yu-Chu Huang 
+ * Yu-Chu Huang
  * Joe Castiglione
  * Philip Carleton
- 
+
 ### Zephyr Leader
 *A limited number of Founding Leader slots are available and include corporate membership benefits for five years for the price of four.*  
 [Become a Founding Leader](/sponsor)
@@ -120,4 +121,3 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
 ### Founders Circle
 *A limited number of Founders Circle slots are available.*  
 [Join the Founders Circle](/sponsor) and show your commitment to building a baseline of support for Zephyr today!
-  
