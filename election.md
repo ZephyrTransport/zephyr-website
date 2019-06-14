@@ -6,8 +6,16 @@ subTitle: "2019 Board Election Process"
 
 Schedule announced!
 
- - [Board seat nominations](https://forms.gle/M4exbHVa2LsmYAmd6) close **Thursday June 13th at Midnight PDT.**  
  - Annual Election Meeting will be **Monday June 24th at 10AM PDT.**   
+ 
+Meeting Agenda:  
+
+1. Review of election process    
+2. Opportunity for candidate statements   
+3. Discussion and Q+A   
+4. Opportunity to publicly cast votes  
+5. Election next steps    
+6. Other upcoming items  
 
 See below for more election schedule details.
 
@@ -63,7 +71,7 @@ The 2019 election schedule is as follows:
 --- | --- | ---
 Monday June 10th | Midnight PDT | Eligible Member Finalization
 Tuesday June 11th | | Meeting Announcement
-Thursday June 13th | Midnight PDT | [Nominations Close](https://forms.gle/M4exbHVa2LsmYAmd6)
+Thursday June 13th | Midnight PDT | Nominations Close
 Monday June 17th |  COB PDT | Ballot Finalization
 Wed June 19th | When you get your email | Online Voting Opens
 Monday June 24th | 10AM PDT | Member Meeting
