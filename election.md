@@ -4,9 +4,7 @@ title: "Election"
 subTitle: "2019 Board Election Process"
 ---
 
-Schedule announced!
-
- - Annual Election Meeting will be **Monday June 24th at 10AM PDT.**   
+Annual Election Meeting will be **Monday June 24th at 10AM PDT.**   
  
 Meeting Agenda:  
 
@@ -18,6 +16,26 @@ Meeting Agenda:
 6. Other upcoming items  
 
 See below for more election schedule details.
+
+## 2019 Ballot
+
+Here are your nominees for the two board slots open for the 2019 election. In alphabetical order by first name:
+
+<div class='row'>
+{% for p in site.data.candidates %}
+<div class='col-lg-10'>
+<h4>{{ p.name }}, {{ p.affil }}&nbsp;&nbsp;&nbsp;<span class="badge">{{ p.affil-type }}</span></h4>
+<em>Self-Identified Diversity Identity</em>: <span class="badge">{{ p.diversity }}</span><br/>
+<small>{{ p.statement }}
+</small>
+</div>
+{% endfor %}
+</div>
+
+<br/>
+Thank you so much to all of them for being willing to put in the time and put themselves out there!
+
+## Election Processes
 
 ### I. Open Seats  
 
