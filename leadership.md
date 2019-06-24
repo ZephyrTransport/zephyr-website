@@ -8,9 +8,9 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 ### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).  
 
- * **[Billy Charlton](https://github.com/billyc)**, *Technical University of Berlin*, **Incoming President and Chair**    
- * **[Clint Daniels](https://www.linkedin.com/in/clintdaniels/)**, *RSG in San Diego*, **President and Chair**     
- * **[Eric Miller](http://civil.engineering.utoronto.ca/staff/professors/eric-miller/)**, *University of Toronto*   
+ * **[Billy Charlton](https://github.com/billyc)**, *Technical University of Berlin*, **President and Chair**    
+ * **[Clint Daniels](https://www.linkedin.com/in/clintdaniels/)**, *RSG in San Diego* (outgoing)     
+ * **[Eric Miller](http://civil.engineering.utoronto.ca/staff/professors/eric-miller/)**, *University of Toronto* (outgoing) 
  * **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, *Northwestern University*, **Diversity Officer**  
  * **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, *San Francisco County Transportation Authority in San Francisco CA*  
  * **[Leah Silen](https://www.linkedin.com/in/leah-silen-95733840/)**, *NumFocus in Austin*  
@@ -20,7 +20,7 @@ This initial Board was elected by the Zephyr Founding Stakeholders in order to r
  
 
 #### Committees
-Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  Committee membership will be updated with new board members in September 2018.  
+Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  Committee membership will be updated with new board members after the board rotation in summer 2019.
 
 **Executive** | **Communications** | **Programs** | **Workforce Development**
 --- | --- | --- | ---
