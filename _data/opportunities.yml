@@ -9,6 +9,26 @@
   closing: July 1st, 2019
   link: http://bit.ly/eu19cfp
   summary:
+- name: DTA Symposium 
+  headline: Abstract submission open
+  front: false
+  post: true
+  lead: Modeling Multi-Modal Dynamic Transportation Network Systems in Smart Cities in the Era of Connectivity, Automation, and Sharing
+  type: conference
+  institution: 
+  location: Seattle WA
+  closing: 2019-11-01
+  link: http://bit.ly/eu19cfp
+  summary:
+- name: Integrative Research and Planning Grants for Smart + Connected Communities
+  headline: Research + solutions piloting together with communities.
+  front: true
+  post: true
+  lead: Support fundamental integrative research that addresses technological and social science dimensions of smart and connected communities and pilots solutions together with communities.
+  type: funding 
+  institution: National Science Foundation
+  closing: 2019-09-06
+  link: https://www.grants.gov/web/grants/view-opportunity.html?oppId=313513
 - name: Innovations in Travel Modeling Conference
   headline: Call for Content Open
   front: true
@@ -20,6 +40,19 @@
   closing: June 30, 2019
   link: http://itmconference.com
   summary:
+- name: Transportation Planner/Analyst I/II
+  time: full-time
+  headline: Travel demand modeling and analytics practice.
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: Connectics Transportation Group
+  salary_low:
+  salary_high: 
+  location: Orlando/Fort Lauderdale, Florida or Nationwide
+  closing: open until filled
+  link: https://tmip.org/content/transportation-planneranalyst-positions-available-ctg
 - name: Transportation Modeler I/II
   time: full-time
   headline: Full-time Position
