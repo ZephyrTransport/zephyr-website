@@ -7,7 +7,11 @@ It is critical that the people responsible for conducting analysis that determin
 
 As our decisions are increasingly able to be informed by data and analysis, it is critical to develop a workforce that is able to both identify appropriate analysis techniques as well as communicate insights. It is well known that data and models reflect the biases of those who collect and create it, and bringing in and empowering underrepresented voices will improve important decisions based on data and models.
 
-As we develop a more proactive diversity program (i.e. [Emerging Leaders Fellowship](https://medium.com/zephyrfoundation/zephyr-fellowship-for-emerging-travel-analysis-leaders-6c1261405c4f)) we have been coming across a multitude of resources that are applicable to our field. 
+As we develop a more proactive diversity program (i.e. [Emerging Leaders Fellowship](https://medium.com/zephyrfoundation/zephyr-fellowship-for-emerging-travel-analysis-leaders-6c1261405c4f)) we have been coming across a multitude of resources that are applicable to our field that we wanted to document. 
+
+### NumFocus 
+*[Diversity and Inclusion in Scientific Computing (DISC)](https://numfocus.org/programs/diversity-inclusion)*  
+*[Diversity and Inclusion at Conferences Cookbook](https://discover-cookbook.numfocus.org/)*  
 
 ### UW ADVANCE Center for Institutional Change 
 
@@ -19,6 +23,15 @@ As we develop a more proactive diversity program (i.e. [Emerging Leaders Fellows
 *[Characteristics of Effective Meetings](https://advance.washington.edu/resources/docs/Handout_How-to-Run-a-Meeting_OHSU-Presentation.pdf)* – not just for academics!   
 *[Keeping a meeting moving](https://advance.washington.edu/resources/docs/Handout_How-to-Keep-a-Meeting-Moving.pdf)* – not just for academics!  
 *[Effectiveness and Power](https://advance.washington.edu/resources/docs/ureffectiveness.312.pdf)*  
+
+### Transportation Research Board
+*[Minority Student Program](http://www.trb.org/AboutTRB/MinorityStudent.aspx)*   
+
+
+### Women's Transportation Seminar 
+*[Glass Ceiling Report](http://www.wtsinternational.org/assets/84/22/WTS_Report_FINAL_VERSION.pdf)*  
+*[Leadership Development](https://www.wtsinternational.org/leadership/)*  
+
 
 ### Hunter College Gender Equity Project
 *[Resource Home](http://www.hunter.cuny.edu/genderequity)*  
