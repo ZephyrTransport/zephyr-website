@@ -5,7 +5,7 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
 ---
 ### Conferences
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
   <th>Conference</th>
@@ -26,7 +26,7 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
 
 ### Jobs
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
   <th>Title</th>
@@ -47,7 +47,7 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
 
 ### Internships
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
   <th>Title</th>
@@ -68,7 +68,7 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
 
 ### Fellowships
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
   <th>Title</th>
@@ -83,6 +83,27 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
    <td>{{ opp.institution }}</td>
    <td>{{ opp.location }}</td>
    <td>{{ opp.closing }}</td>
+</tr>
+{% endif %}{% endif %}{% endfor %}
+</table>
+
+### Funding Opportunities
+
+<table style="width:100%;">
+<thead>
+<tr>
+  <th>Funding Opportunity</th>
+  <th>Funder</th>
+  <th>Deadline</th>
+  <th>Summary</th>
+</tr>
+</thead>
+{% for opp in site.data.opportunities %}{% if opp.post %}{% if opp.type == 'funding'%}
+<tr>
+   <td><a href='{{ opp.link }}'>{{ opp.name }}</a></td>
+   <td>{{ opp.institution }}</td>
+   <td>{{ opp.closing }}</td>
+   <td>{{ opp.Headline }}</td>
 </tr>
 {% endif %}{% endif %}{% endfor %}
 </table>
