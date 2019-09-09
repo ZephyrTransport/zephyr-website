@@ -119,7 +119,6 @@
   summary: >
     H-GAC is seeking a Senior Data Analyst to join the Transportation Department.  The incumbent will work as a member of a team of planners and analysts that perform day-to-day updates and maintenance of the regional model.  They will receive supervision from the principle for model development and report to the program manager.
     The incumbent will provide assistance and technical support related to the development of the generation state-of-the-art regional travel demand model. In addition, the individual will be responsible for assisting with model application projects and delivering results and any needed analysis of results to both internal and external clients.  Responsibilities also include responding to numerous time-sensitive requests for travel demand analysis data.  Does this role sound interesting to you?  If so, apply now!
-  
 - name: Travel Forecasting Specialist
   time: full-time or part-time
   headline: Full- or Part-time position
@@ -169,8 +168,8 @@
 - name: Transportation Data Scientist
   time: full-time
   headline: Entry-level job
-  front: false
-  post: false
+  front: true
+  post: true
   lead: Travel demand modeling and analytics practice
   type: job
   institution: Connectics Transportation Group
@@ -184,8 +183,8 @@
 - name: Travel Demand Modeler / Transportation Planner
   time: full-time
   headline: Full-time Position
-  front: false
-  post: false
+  front: true
+  post: true
   lead: Assist with the development and application of travel demand models
   type: job
   institution: C and M Associates
@@ -199,8 +198,8 @@
 - name: Senior Travel Demand Modeler
   time: full-time
   headline: 
-  front: false
-  post: false
+  front: true
+  post: true
   lead: Travel demand modeling and analytics practice
   type: job
   institution: CDM Smith
