@@ -1,6 +1,6 @@
 - name: Urban Computing Summit
   headline: Session proposals open
-  front: true
+  front: false
   post: true
   lead: Applying open-source tools and techniques to urban computing and smart city applications.
   type: conference
@@ -22,17 +22,17 @@
   summary:
 - name: Integrative Research and Planning Grants for Smart + Connected Communities
   headline: Research + solutions piloting together with communities.
-  front: true
-  post: true
+  front: false
+  post: false
   lead: Support fundamental integrative research that addresses technological and social science dimensions of smart and connected communities and pilots solutions together with communities.
   type: funding 
   institution: National Science Foundation
   closing: 2019-09-06
   link: https://www.grants.gov/web/grants/view-opportunity.html?oppId=313513
 - name: Innovations in Travel Modeling Conference
-  headline: Call for Content Open
-  front: true
-  post: true
+  headline: Call for content submissions being assessed
+  front: false
+  post: false
   lead: Tracks on data solutions, modeling approaches, useful forecasts, and learning.
   type: conference
   institution: TRB
@@ -43,8 +43,8 @@
 - name: Transportation Planner/Analyst I/II
   time: full-time
   headline: Travel demand modeling and analytics practice.
-  front: true
-  post: true
+  front: false
+  post: false
   lead: 
   type: job
   institution: Connectics Transportation Group
@@ -69,8 +69,8 @@
 - name: Data Science Client Services Division Manager
   time: full-time
   headline: Full-time Position
-  front: true
-  post: true
+  front: false
+  post: false
   lead: Using data and analytics to inform decisions.
   type: job
   institution: Oregon Metro
@@ -88,3 +88,96 @@
      - Marketing the Research Center and managing client relationships in and outside of Metro
      - Leading people and supporting staff development
      - Managing business development and projects
+- name: Senior Travel Demand Modeler
+  time: full-time
+  headline: Full-time Position
+  front: true
+  post: true
+  lead: Technical leader for regional and subarea travel models
+  type: job
+  institution: Charlotte Department of Transportation 
+  salary_low: 
+  salary_high: 
+  location: Charlotte, NC
+  closing: 9/16/2019
+  link: https://careers.charlottenc.gov/psp/ER92PRD/CAREERS/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?
+  summary: >
+   The person selected for this position will serve as a technical leader in the development, enhancement, and programming of the regional travel demand model as well as subarea models for high growth and congestion areas.  He/She will conduct and manage detailed analyses of transportation demand and performance in a team setting using transportation modeling, air quality modeling, and geographic information systems software and databases. This position will perform computer programming related to travel demand modeling and analysis of transportation supply and performance.  The ideal candidate will be a self-motivated individual with strong macro and micro model development and application skills preferably using TransCAD and TransModeler/VISSIM.  The ideal candidate will be able to communicate complex, technical work to a non-technical audience.  The selected person will monitor, train, and mentor junior modeling staff.
+- name: Senior Data Analyst
+  time: full-time
+  headline: Full-time position
+  front: true
+  post: true
+  lead: perform day-to-day updates and maintenance of the regional model
+  type: job
+  institution: Houston Galveston Area Council
+  salary_low: 
+  salary_high: 
+  location: Houston Region
+  closing: unknown
+  link: https://chp.tbe.taleo.net/chp02/ats/careers/requisition.jsp?org=HGAC&cws=1&rid=560
+  summary: >
+    H-GAC is seeking a Senior Data Analyst to join the Transportation Department.  The incumbent will work as a member of a team of planners and analysts that perform day-to-day updates and maintenance of the regional model.  They will receive supervision from the principle for model development and report to the program manager.
+    The incumbent will provide assistance and technical support related to the development of the generation state-of-the-art regional travel demand model. In addition, the individual will be responsible for assisting with model application projects and delivering results and any needed analysis of results to both internal and external clients.  Responsibilities also include responding to numerous time-sensitive requests for travel demand analysis data.  Does this role sound interesting to you?  If so, apply now!
+  
+- name: Travel Forecasting Specialist
+  time: full-time or part-time
+  headline: Full- or Part-time position
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: Fehr and Peers
+  salary_low: 
+  salary_high: 
+  location: Southern California
+  closing: unknown
+  link: https://www.fehrandpeers.com/travel-demand-forecasting-specialist/
+  summary: >
+   Analyze and solve complex transportation planning or engineering problems dealing with all travel modes.
+   Use TransCAD and a variety of software programs effectively and make timely and informed recommendations to elected officials, managers and other decision makers
+   Manage projects and develop high quality internal and client relationships
+   Apply knowledge of the theory, principles, and practices of transportation planning, travel demand forecasting, travel behavior analysis, and data analysis
+   Participate in travel forecasting research through our Forecasting and Operations discipline group
+   Prepare papers and presentations for technical conference
+- name: Senior Travel Demand Modler
+  time: full-time
+  headline: Full-time Position
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: CDM Smith
+  salary_low: 
+  salary_high: 
+  location: Southern California
+  closing: unknown
+  link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25038&siteid=5220&Areq=24155BR#jobDetails=1388264_5220
+  summary: >
+   CDM Smith has an exciting opportunity to be our technical leader for complex regional travel demand model development and application in California. In this role you will lead development and application of four-step travel demand models for transportation planning and traffic and toll revenue analysis in TransCAD and Cube. Opportunities to work with activity based models will be critical for future assignments. Duties will also include leading technical project teams in: 
+   -Calibrating and validating highway assignment model. 
+   -Collecting and analyzing traffic and survey data. 
+   -Conducting micro-simulation modeling, including base year model calibration and future  year model volume delay function validation in support of HOT/ managed lane analyses. Performing sensitivity/stress tests. 
+   -Analyzing and interpreting the impacts of different factors on toll transactions and revenue. 
+   -Developing tools to analyze and summarize traffic modeling databases. 
+   -Performing research on toll financing, congestion pricing, value of reliability, value of time and multinomial logit model. 
+   -Conducting interchange justification studies, signal design, signal timing and capacity analyses using highway capacity manual. 
+   -Performing due diligence, quality assurance/quality control (QA/QC) procedures on various phases of studies. 
+   -Applying risk modeling procedures to develop baseline, midline and modified scenarios by understanding the uncertainty and variability in critical input parameters. 
+   -Writing sections of reports describing work completed, processes used, results observed and support/justification for any recommendations and conclusions. 
+   -Assisting project managers with tasks by completing them within deadlines and budget requirements.
+- name: Transportation Data Scientist
+  time: full-time
+  headline: Entry-level job
+  front: false
+  post: false
+  lead: Travel demand modeling and analytics practice
+  type: job
+  institution: Connectics Transportation Group
+  salary_low:
+  salary_high: 
+  location: Fairfax, CA
+  closing: open until filled
+  link: mailto://dschmitt@ctgconsult.com.
+  summary: >
+   The position requires candidates to assist in: (1) development, calibration and application of travel demand models; (2) developing new and innovative analytical tools for transportation planning; (3) processing and analyzing big travel data; (4) alternatives analysis and evaluation for project/corridor studies; and (5) develop and lead statistical and machine learning efforts in relation to the projects.
