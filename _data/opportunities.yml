@@ -91,8 +91,8 @@
 - name: Senior Travel Demand Modeler
   time: full-time
   headline: Full-time Position
-  front: true
-  post: true
+  front: false
+  post: false
   lead: Technical leader for regional and subarea travel models
   type: job
   institution: Charlotte Department of Transportation 
@@ -147,7 +147,7 @@
   salary_low:
   salary_high: 
   location: Denver, CO
-  closing: 
+  closing: October 2, 2019
   link: https://www.governmentjobs.com/careers/colorado/jobs/2562367/modeling-and-mobility-analyst
   summary: >
     This Analyst IV position is part of the CDOT's Division of Transportation Development – Information Management Branch.  This unit is primarily responsible for the development, implementation and maintenance of mobility analysis processes from a multi-model perspective. 
@@ -156,7 +156,7 @@
     - The position will serve as a technical expert in the Unit, developing approaches to tasks and projects through consultation with supervisors, then carrying out the approach with limited supervision.  This position will take an active role in interacting with customers, and presenting the Unit's work to all audiences.  Technical activities will include presenting Travel Demand Modeling and reliability performance measure information to staff and planning partners.
     - Travel demand forecasting and modeling – Participates in implementation, upgrade and operation of a statewide travel demand model, including acquisition/production of input data, implementation of models using appropriate software tools, operation of models as necessary in support of planning efforts, provision of the model to planning partners and support of their use of it, and analysis of model outputs.
     - Transportation planning analytical support – Works with planning staff, environmental staff, and others, both within CDOT and with planning partners, to provide advice on the uses of data and analytical tools for planning support, and to produce data and model outputs that address planning requirements for corridor plans, regional plans, and statewide plans.
-    - Data development support – works with data producers at CDOT, consultants, and planning partners to identify needed data, formulate acquisition and storage and use plans, and help check data as acquired.
+    - Data development support – works with data producers at CDOT, consultants, and planning partners to identify needed data, formulate acquisition and storage and use plans, and help check data as acquired.  
 - name: Travel Forecasting Specialist
   time: full-time or part-time
   headline: Full- or Part-time position
@@ -176,7 +176,7 @@
    Manage projects and develop high quality internal and client relationships
    Apply knowledge of the theory, principles, and practices of transportation planning, travel demand forecasting, travel behavior analysis, and data analysis
    Participate in travel forecasting research through our Forecasting and Operations discipline group
-   Prepare papers and presentations for technical conference
+   Prepare papers and presentations for technical conferences.
 - name: Senior Travel Demand Modler
   time: full-time
   headline: Full-time Position
@@ -285,7 +285,7 @@
   link: https://www.governmentjobs.com/careers/metrocouncil/jobs/2555271-0/data-or-associate-data-scientist
   summary: >
     The Metropolitan Council of the Twin Cities has a vacancy for a full-time Associate Data Scientist OR a Data Scientist. The person in this role will support multi modal transportation planning in the Minneapolis and St. Paul region through innovative approaches to collecting and analyzing transportation data and through development and application of cutting-edge travel forecasting models and tools. The Data Scientist or Associate Data Scientist will join a vibrant travel research and modeling team working on travel demand forecasting, travel behavior surveys, and creative analysis of all kinds of transportation data to drive planning and policy analysis.  
-- name: 
+- name: Assistant/Associate Data Analyst
   time: full-time
   headline: 
   front: true
@@ -293,13 +293,15 @@
   lead: 
   type: job
   institution: Puget Sound Regional Council
-  salary_low: 
-  salary_high: 
+  salary_low: 52,000
+  salary_high: 69,000
   location: Seattle, WA
   closing: October 1st, 2019
   link: https://www.psrc.org/about/careers
   summary: >
-- name:  
+   PSRC is seeking an Assistant/Associate Data Analyst to join its Data Science Group in the Data Department and perform a variety of data analytics and data engineering tasks under supervision. A qualified applicant for this position will have exceptional technical and communication skills, keen interests in scripting and data analytics to support complex planning and policy questions, and enthusiasm for learning new techniques and tools to tackle dynamic problems with data. 
+   The position will conduct statistics, scripting, data analyses, visualization, and other data-related tasks using demographic, economic, land use, and transportation datasets. It will also involve written and oral communication of analytic needs, processes, and findings, and provide general assistance for data engineering work in support of modernizing the agency’s technical capabilities. Additional responsibilities include conducting database development and maintenance tasks, performing quantitative and qualitative research, and responding to information requests from external member jurisdictions and organizations.   
+- name: Assistant Planner
   time: full-time
   headline: 
   front: true
@@ -307,24 +309,25 @@
   lead: 
   type: job
   institution: Puget Sound Regional Council
-  salary_low: 
-  salary_high: 
+  salary_low: 52,000
+  salary_high: 62,000
   location: Seattle, WA
   closing: October 1st, 2019
   link: https://www.psrc.org/about/careers
   summary: >
-- name:  
+    PSRC is seeking an Assistant Planner to join its Data Department to perform a variety of technical planning activities under general supervision. A qualified applicant for this position will have exceptional technical and communication skills, keen interest in applying data analytics to support complex planning and policy questions, and enthusiasm for learning new techniques and tools to tackle dynamic problems with data. 
+    The position will conduct data analytics and other planning-related tasks using a variety of demographic, economic, housing, land use, and/or transportation datasets. It will involve effective written, oral, and visual communication of data trends, findings, processes, and other technical subject matter to planning lay audiences. Key responsibilities include conducting database development and maintenance tasks, performing quantitative and qualitative research, and providing general data analysis and technical assistance in support of the agency’s various planning programs.   
+- name: Data and Planning Intern    
   time: part-time
-  
   headline: 
   front: true
   post: true
   lead: 
-  type: job
+  type: internship
   institution: Puget Sound Regional Council
   salary_low: 
-  salary_high: 
+  salary_high: $19/hr
   location: Seattle, WA
   closing: October 7th, 2019
   link: https://www.psrc.org/about/careers
-  summary: >
+  summary: 
