@@ -7,7 +7,7 @@ title: Zephyr Awards
 
 **2020 Awards are open for nominations through November 30, 2019!**
 
-# [Decision-Making Hero](/decision-making-hero-award
+# [Decision-Making Hero](/decision-making-hero-award)
 
 This award shall be given to a travel analysis professional or a team who has made a significant contribution to decision-making.
 

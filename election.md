@@ -4,18 +4,14 @@ title: "Election"
 subTitle: "2019 Board Election Process"
 ---
 
-Annual Election Meeting will be **Monday June 24th at 10AM PDT.**   
- 
-Meeting Agenda:  
+Annual Election Meeting was held on Monday June 24th at 10AM PDT. Following that meeting and an online balloting process, the 2019 Zephyr Membership selected the following two individuals to join the Zephyr Board:
 
-1. Review of election process    
-2. Opportunity for candidate statements   
-3. Discussion and Q+A   
-4. Opportunity to publicly cast votes  
-5. Election next steps    
-6. Other upcoming items  
+ - Julie Dunbar, Dunbar Transportation  
+ - Jonathan Erhrlich, Metropolitan Council (MN)  
 
-See below for more election schedule details.
+Since Jonathan and Julie currently recide in Minnesota and Illinois respectfully, this greatly rounds out our midwestern representation.
+
+Welcome to our new board members and thank you to all the nominees for participating.
 
 ## 2019 Ballot
 

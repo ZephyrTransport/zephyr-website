@@ -1,21 +1,12 @@
 ---
 layout: simple
-title: "Outstanding Industry Contributor"
+title: "Exceptional Technical Achievement Award"
 subTitle: "Nominations"
 ---
 
-The Zephyr Foundation is seeking nominations through the end of the year for the inaugural Outstanding Industry Contributor Award.  This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
-
-Outstanding Industry Contributor shall be:
-
- - Collegial and collaborative, investing in shared technical knowledge and community assets in order to reach common goals (e.g. open access papers, code, documentation, and data);  
- - Generous with their time such as investment in mentorship, community-assets, and other volunteer roles;  
- - Respectful and thoughtful in their interactions; and  
- - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
-
-**Nominations for the 2020 award should be made using [this form](https://forms.gle/wLuDWPGYbeh6M17KA) and submitted by  November 30, 2019**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+The Zephyr Foundation is seeking nominations through the end of the year for the inaugural Exceptional Technical Achievement Award.  This award shall be given to an individual or team for superior innovation and creativity in developing a project, method, study, or product that contributes to a positive impact on transportation and/or land use decision-making.
 
 
-**Recipients**
+**Nominations for the 2020 award should be made using [this form](https://forms.gle/3QE3MJ4rpeGnd5857) and submitted by  November 30, 2019**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
- - Julie Dunbar, 2019
+
