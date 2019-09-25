@@ -4,7 +4,7 @@ title: "Outstanding Industry Contributor"
 subTitle: "Nominations"
 ---
 
-The Zephyr Foundation is seeking nominations through the end of the year for the 2020 Outstanding Industry Contributor Award.  This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
+The Zephyr Foundation is seeking nominations through the end of the year for the inaugural Outstanding Industry Contributor Award.  This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
 
 Outstanding Industry Contributor shall be:
 
