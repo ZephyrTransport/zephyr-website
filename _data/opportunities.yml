@@ -1,7 +1,7 @@
 - name: Urban Computing Summit
   headline: Session proposals open
   front: false
-  post: true
+  post: false
   lead: Applying open-source tools and techniques to urban computing and smart city applications.
   type: conference
   institution: Open Source Summit Europe
@@ -301,6 +301,21 @@
   summary: >
    PSRC is seeking an Assistant/Associate Data Analyst to join its Data Science Group in the Data Department and perform a variety of data analytics and data engineering tasks under supervision. A qualified applicant for this position will have exceptional technical and communication skills, keen interests in scripting and data analytics to support complex planning and policy questions, and enthusiasm for learning new techniques and tools to tackle dynamic problems with data. 
    The position will conduct statistics, scripting, data analyses, visualization, and other data-related tasks using demographic, economic, land use, and transportation datasets. It will also involve written and oral communication of analytic needs, processes, and findings, and provide general assistance for data engineering work in support of modernizing the agency’s technical capabilities. Additional responsibilities include conducting database development and maintenance tasks, performing quantitative and qualitative research, and responding to information requests from external member jurisdictions and organizations.   
+- name: Planning Specialist-Adv (Senior Modeler)
+  time: full-time
+  headline: travel demand modeling, statistics, and data analytics.
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: Tennessee DOT
+  salary_low: 
+  salary_high: 49,092
+  location: Davidson County, TN
+  closing: October 1st, 2019
+  link: https://agency.governmentjobs.com/tennessee/default.cfm?action=viewJob&jobID=2571509&hit_count=yes&headerFooter=1&promo=0&transfer=0&WDDXJobSearchParams=%3CwddxPacket%20version%3D%271%2E0%27%3E%3Cheader%2F%3E%3Cdata%3E%3Cstruct%3E%3Cvar%20name%3D%27TRANSFER%27%3E%3Cstring%3E0%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27CATEGORYID%27%3E%3Cstring%3E36%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27FIND%5FKEYWORD%27%3E%3Cstring%3E%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27PROMOTIONALJOBS%27%3E%3Cstring%3E0%3C%2Fstring%3E%3C%2Fvar%3E%3C%2Fstruct%3E%3C%2Fdata%3E%3C%2FwddxPacket%3E
+  summary: >
+    Under general supervision, is responsible for professional transportation planning work of considerable difficulty and performs related work as required. This is the advanced level classification in the TDOT Planning Specialist series. An employee in this classification is a lead worker performing the most complex transportation planning duties. An incumbent may be assigned to work in any area of transportation planning and may participate in the varied development, monitoring, and coordination of transportation planning projects. This class differs from that of TDOT Planning Specialist* in that an incumbent of the latter is not a lead worker and is responsible for planning duties of average difficulty. This classification differs from the TDOT Planning Supervisor in that the incumbent of the latter is responsible for the supervision of subordinate staff.
 - name: Assistant Planner
   time: full-time
   headline: 
@@ -331,3 +346,37 @@
   closing: October 7th, 2019
   link: https://www.psrc.org/about/careers
   summary: 
+- name:  Travel Demand Modeler - Traffic Analysis Specialist
+  time: full-time
+  headline: 
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: Charlotte DOT
+  salary_low: 
+  salary_high: 
+  location: Charlotte, NC
+  closing: October 7th, 2019
+  link: https://careers.charlottenc.gov/psp/ER92PRD/CAREERS/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?
+  summary: >
+   The Travel Demand Modeler – Traffic Analysis Specialist assists with the development and application of the Metrolina Regional Travel Demand Model.  Preparation of travel demand forecasts, conducting detailed analyses of transportation demand & performance in a team setting. This position also performs computer programming related to travel demand modeling and traffic analysis. 
+- name: Transportation Modeler   
+  time: full-time
+  headline: activity-based model development and application; network modeling; data visualization.
+  front: true
+  post: true
+  lead: 
+  type: job
+  institution: San Francisco County Transportation Authority
+  salary_low: 86,730
+  salary_high: 119,683
+  location: San Francisco, CA
+  closing: September 30, 2019
+  link: https://www.sfcta.org/transportation-modeler
+  summary: >
+   You’ll initially focus on activity-based model development and application, with an emphasis on network modeling, running and improving the agency’s activity-based model system, and analyzing model outputs, including developing data visualizations. Other projects you may work on include:
+
+   Congestion pricing: We are looking at congestion pricing alternatives as a means to help manage congestion in the City’s core, and you’ll contribute to this effort by helping to adapt the agency’s activity-based model to support rapid scenario analysis, and contributing to analysis of the equity effects of congestion pricing scenarios using new smartphone-based travel diaries.
+   Travel Demand Management (TDM) research: The City of San Francisco has prioritized the use of TDM strategies as part of both land use and transportation project development to help reduce vehicle miles traveled. However, there is little empirical research on TDM strategies.  Which strategies are effective?  How effective they are?  You’ll be involved in collecting and analyzing travel behavior survey data to help answer these research questions.
+   Transportation Network Companies (TNC) Research:  We are completing a series of TNC research papers, which started with the TNCs Today paper in June 2017, and was followed by the TNCs & Congestion paper in October 2018. You’ll help support the development of upcoming papers which consider TNCs & Equity and TNCs & Transit Ridership.
