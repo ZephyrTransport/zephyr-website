@@ -3,9 +3,9 @@ layout: simple
 category: Activities
 title: Zephyr Awards
 ---
- 
 
-**2020 Awards are open for nominations through November 30, 2019!**
+
+**2020 Awards are open for nominations through December 10, 2019!**
 
 # [Decision-Making Hero](/decision-making-hero-award)
 
@@ -27,10 +27,9 @@ Outstanding Industry Contributor shall be:
  - Respectful and thoughtful in their interactions; and  
  - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Congratulations to Julie Dunbar as the 2019 inaugural recipient of this award!**. 
+**Congratulations to Julie Dunbar as the 2019 inaugural recipient of this award!**.
 
 # [Zephyr Leadership Award](/leadership-award)
 The Zephyr Leadership award shall be given to an individual who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**Congratulations to Joe Castiglione as the 2019 inaugural recipient of this award!**. 
-
+**Congratulations to Joe Castiglione as the 2019 inaugural recipient of this award!**.
