@@ -349,8 +349,8 @@
 - name:  Travel Demand Modeler - Traffic Analysis Specialist
   time: full-time
   headline:
-  front: true
-  post: true
+  front: false
+  post: false
   lead:
   type: job
   institution: Charlotte DOT
