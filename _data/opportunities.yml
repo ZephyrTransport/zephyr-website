@@ -515,3 +515,18 @@
   link: www.ubjobs.buffalo.edu
   summary: >
     Tenure-track faculty position in the area of transportation systems engineering, starting in August 2020. Priority is for candidates at the assistant professor level, although highly qualified individuals will be considered at the associate or full professor level. We are particularly looking for candidates who can operate effectively in a diverse community of students and faculty and share our vision of helping all constituents reach their full potential. These positions will expand and strengthen the current faculty capabilities and capitalize on a recent endowment for the Stephen Still Institute for Sustainable Transportation and Logistics (ISTL), a joint initiative between UB’s School of Engineering and Applied Sciences and School of Management (http://www.buffalo.edu/istl).
+- name: Postdoctoral Researcher
+  time: full-time
+  headline: Research at the Network Modeling Center 
+  front: true
+  post: true
+  lead:
+  type: fellowship
+  institution: University of Texas Network Modeling Center at the Center for Transportation Research
+  salary_low:
+  salary_high:
+  location: Austin, TX
+  closing:
+  link: mailto:bsavarese@utexas.edu
+  summary: >
+    The Network Modeling Center at the Center for Transportation Research is looking for a postdoctoral researcher to conduct transportation-related research for projects sponsored by agencies such as local and regional Texas transportation agencies, the Texas Department of Transportation, and the U.S. Department of Transportation. The postdoctoral fellow may also have the opportunity to collaborate with graduate students, faculty, and researchers at other research institutions. In addition to requiring a PhD in civil engineering (transportation), we are looking for someone with experience using transportation data, such as data from ITS sensors and probe vehicles; demonstrated performance in the area of transportation network modeling, including travel demand and dynamic traffic assignment; and experience in the development of web applications using R and its Shiny package, including applications that connect to live data streams.
