@@ -12,7 +12,7 @@
 - name: DTA Symposium
   headline: Abstract submission open
   front: false
-  post: true
+  post: false
   lead: Modeling Multi-Modal Dynamic Transportation Network Systems in Smart Cities in the Era of Connectivity, Automation, and Sharing
   type: conference
   institution:
@@ -106,8 +106,8 @@
 - name: Senior Data Analyst
   time: full-time
   headline: Full-time position
-  front: true
-  post: true
+  front: false
+  post: false
   lead: perform day-to-day updates and maintenance of the regional model
   type: job
   institution: Houston Galveston Area Council
@@ -122,8 +122,8 @@
 - name: Senior Transportation Modeler
   time: full-time
   headline:
-  front: true
-  post: true
+  front: false
+  post: false
   lead:
   type: job
   institution: Northeast Ohio Areawide Coordinating Agency (NOACA)
@@ -139,8 +139,8 @@
 - name: Modeling and Mobility Analyst
   time: full-time
   headline:
-  front: true
-  post: true
+  front: false
+  post: false
   lead: Technical expert for Modeling and Mobility Analysis Unit
   type: job
   institution: Colorado Department of Transportation
@@ -455,20 +455,6 @@
   link: https://www.dvrpc.org/HumanResources/JobOpenings/TransportationModeler.html
   summary: >
     DVRPC is seeking a Transportation Modeler/Analyst with good knowledge of computer programming, travel demand modeling, and data analytics to join a vibrant modeling and research team. The Office of Travel Modeling maintains DVRPC’s regional travel simulation models, including a best-in-class trip-based model and a newly developed activity-based model, and applies the models to evaluate the impacts and benefits of various transportation investment and planning scenarios. The Office is also very active in integrating emerging technology and data for model enhancement and analysis. DVRPC’s travel demand models are highly customized, and rely on numerous Python scripts to prepare model inputs and summarize model outputs.  The position will assist the development and enhancement of DVRPC’s regional travel models, and support model applications for various projects. Based on the employee’s experience and desire to learn, assignments may include programming for model development and data analysis; conducting and analyzing travel surveys; preparing travel model inputs such as land use, transportation, demographic and employment data; estimating future demand for the design of individual highway and transit facilities; and calculating travel time, delay, and level-of-service. Work is performed in accordance with well-defined objectives and professional standards under the close technical direction of senior engineers and planners.
-- name: Senior Travel Demand Modeler
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: CDM Smith
-  salary_low:
-  salary_high:
-  location:  Tallahassee, FL / Raleigh, NC
-  closing:
-  link:  https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25038&siteid=5220&Areq=24928BR#jobDetails=1404433_5220
-  summary:
 - name: Modeler/ Engineer I or II
   time: full-time
   headline: Looking for an innovative, collaborative, and driven individual that embodies systems-level thinking, a knack for efficient problem solving, and a passion for our region and its future.
