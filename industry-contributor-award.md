@@ -13,8 +13,13 @@ Outstanding Industry Contributor shall be:
  - Respectful and thoughtful in their interactions; and  
  - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Nominations for the 2020 award should be made using [this form](https://forms.gle/wLuDWPGYbeh6M17KA) and submitted by  November 30, 2019**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
+The 2020 Outstanding Industry Contributor Committee is:  
+
+ - Rick Donnelly, WSP Inc. (chair)  
+ - Brian Gardner, FHWA  
+ - Julie Dunbar, Dunbar Transportation  
 
 **Recipients**
 

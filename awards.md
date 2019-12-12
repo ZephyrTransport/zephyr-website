@@ -5,7 +5,7 @@ title: Zephyr Awards
 ---
 
 
-**2020 Awards are open for nominations through December 10, 2019!**
+**2020 Awards nominations are closed and committees are making selections**
 
 # [Decision-Making Hero](/decision-making-hero-award)
 

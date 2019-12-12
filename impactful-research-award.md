@@ -8,5 +8,10 @@ The Zephyr Foundation is seeking nominations through the end of the year for the
 
 This award shall be considered no less than three years from the publication of the specified work and should have been introduced within the past two decades.
 
-**Nominations for the 2020 award should be made using [this form](https://forms.gle/TLGMY3FdZa8FBQPo9) and submitted by  November 30, 2019**. Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
+The 2020 Impactful Research Award Committee is:  
+
+ - Daniel Florian, INRO Software    
+ - Jeffrey Newman, Georgia Tech/Cambridge Systematics Inc.    
+ - Joan Walker, UC Berkeley  
