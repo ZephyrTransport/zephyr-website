@@ -8,26 +8,36 @@ description: An open-source person-based dynamic transit assignment tool.
 front: True
 ---
 
+**Meeting Announcement**
+
+The Fast-Trips Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC](/events/2020-jan-fasttrips-pmg).
+
+  - Mon Jan 13th 1:30-3:00   
+  - Marquis Salon 7 - M2 / Marriott Marquis Washington DC
+
+*Note that seating may be limited and will be prioritized for PMG members*
+
+
 Fast-Trips is a bleeding edge, open-source person-based dynamic transit assignment tool that addresses an urgent need in many urban areas to measure and estimate benefits of projects that address transit congestion and reliability.
 
 As an open source tool licensed under a permissive license, it can also serve as a testbed environment for researchers but can also be leveraged by commercial vendors to add the technology to their products.  
 
 
-## Governance 
+## Governance
 
 This project is overseen by a board-approved Project Management Group (PMG) as follows:
  - Lisa Zorn, Metropolitan Transportation Commission (chair and board representative)
  - Bhargava Sana, SFCTA  
  - Joe Flood, DVRPC    
  - Natalia Ruiz Juri, University of Texas CTR  
- 
- *More to come!* 
+
+ *More to come!*
 
 ## Progress
 
 **Project Website**: [fast-trips.mtc.ca.gov](fast-trips.mtc.ca.gov)  
 **Main Github Repository**: [github.com/bayareametro/fast-trips](github.com/bayareametro/fast-trips)  
-**Associated Github Repositories**: [github.com/fast-trips](github.com/fast-trips), includes tutorials and learning materials. 
+**Associated Github Repositories**: [github.com/fast-trips](github.com/fast-trips), includes tutorials and learning materials.
 
 ## Background
 
@@ -43,7 +53,7 @@ At the termination of the C10 IAP project, the project management team voted to 
 
 This tentative workplan was developed at the conclusion of the C10 IAP project.  The plan of work should process along several tracks.  Tracks will have velocities based on their relative priority, but progress on one track should not necessarily block or substitute progress on another.
 
-**Software Engineering Track** 
+**Software Engineering Track**
 
  - Fast-Trips runtime and memory palatable to be used as a planning tool  
  - Fast-Trips runtime and memory palatable to be used within demand model  
@@ -52,7 +62,7 @@ This tentative workplan was developed at the conclusion of the C10 IAP project. 
  - Run summary tools  
  - Model calibration tools  
  - User interface that planners could use  
- 
+
  *PMG Supported using remaining funds to fund this track*
 
 **Algorithm Track**
@@ -62,9 +72,9 @@ This tentative workplan was developed at the conclusion of the C10 IAP project. 
  - Test link-based approach (i.e. recursive logit)   
  - Develop methods for stochastic supply  
  - Test decision-tree-based or random-forest approach (for example…)  
- 
+
   *PMG Supported applying for grant funds for this track*
- 
+
 **Usability Track**
  - useful as a transit planning tool when fed an OD matrix  
  - good enough for planning studies using CHAMP or TM2 as input  

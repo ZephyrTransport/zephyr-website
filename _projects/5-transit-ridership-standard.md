@@ -1,14 +1,23 @@
 ---
 layout: simple
 img: none
-icon: fa-bus 
+icon: fa-bus
 category: Activities
 title: GTFS-ride
 description: A data standard for fixed-route ridership.
 front: True
 ---
 
-Data standards have been pivotal in creating a shared ecosystem of client-, public-, regulator- and manager-centric data discovery. Starting with Tri-Met and GTFS and more recently GBFS, data standards have made it commonplace to know how and when to use transit or other mobility services.  GTFS-ride complements LA and Santa Monica’s MDS efforts (which is currently restricted to dockless mobility) to provide a picture of where people are using the system, which can provide insight into deficiencies or opportunities to improve the experience of the travelling public. 
+**Meeting Announcement**
+
+The GTFS-ride Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC](/events/2020-jan-gtfsride-pmg).
+
+  - Tuesday Jan 14th 1:30-3:00   
+  - Room 142 Washington DC Convention Center
+
+*Note that seating may be limited and will be prioritized for PMG members*
+
+Data standards have been pivotal in creating a shared ecosystem of client-, public-, regulator- and manager-centric data discovery. Starting with Tri-Met and GTFS and more recently GBFS, data standards have made it commonplace to know how and when to use transit or other mobility services.  GTFS-ride complements LA and Santa Monica’s MDS efforts (which is currently restricted to dockless mobility) to provide a picture of where people are using the system, which can provide insight into deficiencies or opportunities to improve the experience of the travelling public.
 
 ## Governance
 
@@ -61,4 +70,3 @@ Administratively, the project needs:
 ## Feedback + Involvement
 
 Feedback or requests to be involved can be sent to to the GTFS-ride chair: [gtfs-ride@zephyrtransport.org](mailto://gtfs-ride@zephyrtransport.org).
-

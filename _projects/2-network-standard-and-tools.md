@@ -10,10 +10,10 @@ front: True
 
 **Meeting Announcement**
 
-The GMNS Project Management Group [will meet at the TRB Annual Meeting in Washington DC](/events/2019-jan-gnfs-pmg).
+The GMNS Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC](/events/2020-jan-gmns-pmg).
 
-  - Mon Jan 14th 1:30-3:00   
-  - Eastern Market (M3) / Marriott Marquis in Washington DC.  
+  - Mon Jan 13th 1:30-3:00   
+  - 159B / Washington DC Convention Center
 
 *Note that seating may be limited and will be prioritized for PMG members*
 
@@ -29,10 +29,10 @@ This project is overseen by a board-approved Project Management Group (PMG) as f
  - Scott Smith, Volpe  
  - Natalia Ruiz Juri, University of Texas Center for Transportation Research  
  - Song Gao, UMass Amherst  
- 
+
 ## Project Background
 
-Winner of the project "shark tank" as [presented here](https://docs.google.com/presentation/d/1D2j67Q7006XssLuRhAx5_cupeF51W9VQVvpWjtvf8y8/) by Lisa Zorn of the Metropolitan Transportation Commission at the 2017 TRB Planning Applications Conference. 
+Winner of the project "shark tank" as [presented here](https://docs.google.com/presentation/d/1D2j67Q7006XssLuRhAx5_cupeF51W9VQVvpWjtvf8y8/) by Lisa Zorn of the Metropolitan Transportation Commission at the 2017 TRB Planning Applications Conference.
 
 **The Problem**
 Coding networks is a waste of time and prone to errors.

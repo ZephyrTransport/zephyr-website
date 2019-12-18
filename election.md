@@ -15,7 +15,7 @@ Welcome to our new board members and thank you to all the nominees for participa
 
 ## 2019 Ballot
 
-Here are your nominees for the two board slots open for the 2019 election. In alphabetical order by first name:
+The nominees for the two board slots open for the 2019 election. In alphabetical order by first name:
 
 <div class='row'>
 {% for p in site.data.candidates %}

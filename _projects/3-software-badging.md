@@ -8,19 +8,29 @@ description: Develop a set of badges to award software tools that meet various c
 front: True
 ---
 
-Badges distributed by Zephyr that software projects display in their GitHub repositories are a simple and low-stakes way for Zephyr to signal our support for software development projects. 
+**Meeting Announcement**
+
+The Software Badging Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC](/events/2020-jan-badging-pmg).
+
+  - Tuesday Jan 14th 1:30-3:00   
+  - 157 / Washington DC Convention Center
+
+*Note that seating may be limited and will be prioritized for PMG members*
+
+
+Badges distributed by Zephyr that software projects display in their GitHub repositories are a simple and low-stakes way for Zephyr to signal our support for software development projects.
 
 ## Updates
 
-The Software Badging Project Management Group (aka, the "Badgers"), initially divided ourselves into the following four teams: 
+The Software Badging Project Management Group (aka, the "Badgers"), initially divided ourselves into the following four teams:
 
  - **Tech**: this team focused on building out the technology to support the deployment of badges;
  - **Image**: this team focused on building versions of what the badge would look like;
  - **Criteria**: this team focused on what criteria we should use to award badges; and,
  - **Process**: this team focused on what the process should be to award badges.
 
-The "criteria" issue was, as expected, the most difficult -- but also the most collaborative, interesting, and awarding. 
- 
+The "criteria" issue was, as expected, the most difficult -- but also the most collaborative, interesting, and awarding.
+
 ## Approach
 
 The badge program should have the following features:
@@ -39,7 +49,7 @@ The badge program should have the following features:
 5. Public draft criteria document (goal: April 1, 2019);
 6. Public draft process form or forms (goal: May 1, 2019);
 7. Public draft badge image (goal: April 1, 2019);
-8. Beta badging process in place for submittals (goal: April 15, 2019). 
+8. Beta badging process in place for submittals (goal: April 15, 2019).
 
 ## Feedback + Involvement
 
@@ -55,9 +65,9 @@ This project is overseen by a board-approved Project Management Group (PMG) as f
  - Dan Florian, INRO
  - Jeffrey Newman, Cambridge Systematics
  - Ben Stabler, RSG
- - Kyle Ward, Caliper 
- - Lisa Zorn, Metropolitan Transportation Commission 
- 
+ - Kyle Ward, Caliper
+ - Lisa Zorn, Metropolitan Transportation Commission
+
 ## Meetings
 
 2019-01-15 The Software Badging Project Management Group [met at the TRB Annual Meeting](/events/2019-jan-badging-pmg) in Washington DC.
