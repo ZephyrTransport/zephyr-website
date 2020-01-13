@@ -79,7 +79,7 @@ products:
 
 top-bg-img: tunnel-swoosh-bg.jpg
 bottom-bh-img: nyc-bg.jpg
-highlight-color: fdaee1         #turquoise blue
+highlight-color: 0daee1         #turquoise blue
 dark-gray-color: 4e4f58         #dark gray
 background-highlight: fafafa    #light gray - blueish
 highlight-text: f8f8f8          #light gray
