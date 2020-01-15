@@ -28,7 +28,7 @@ Committee's of the board are chaired by board members but also contain some inst
 Billy Charlton (chair) | Mario Scott (chair) | Julie Dunbar (chair) | Leah Silen (chair)
 Rosella Picado     | Billy Charlton | Leah Silen | Joan Walker
 Mario Scott | Rosella Picado     | David Ory | Elizabeth Sall
-Julie Dinbar |  | Gregory Erhardt     | Hani Mahmassani
+Julie Dunbar |  | Gregory Erhardt     | Hani Mahmassani
  |  | Billy Charlton | Jonathan Ehrlich
 
 ### <i class="fa fa-users" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Founding stakeholders
