@@ -3,37 +3,39 @@ layout: simple
 title: "Leadership"
 ---
 
-Zephyr is governed by a Board of Directors supported by the Founding Stakeholders and a team of Instigators.  
+Zephyr is governed by a Board of Directors supported by the Founding Stakeholders and a team of Instigators.
 
 ### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
-This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).  
+This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).
 
- * **[Billy Charlton](https://github.com/billyc)**, *Technical University of Berlin*, **President and Chair**    
- * **[Julie Dunbar](https://www.linkedin.com/in/julie-dunbar-a219879/)**, *Dunbar Transportation*      
- * **[Jonathan Ehrlich](https://www.linkedin.com/in/jnehrlich/)**, *Metropolitan Council (MN)* 
- * **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, *Northwestern University*, **Diversity Officer**  
- * **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, *San Francisco County Transportation Authority in San Francisco CA*  
- * **[Leah Silen](https://www.linkedin.com/in/leah-silen-95733840/)**, *NumFocus in Austin*  
- * **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, *Metropolitan Transportation Commission in San Francisco CA*  
- * **[Mario Scott](https://www.linkedin.com/in/mario-scott-38822917/)**, *SDG in New York*, **Secretary**  
- * **[Rosella Picado](https://www.linkedin.com/in/rosella-picado-265507)**, *WSP in Seattle*, **Treasurer**  
- 
+ * **[Billy Charlton](https://github.com/billyc)**, *Technical University of Berlin*, **President and Chair**
+ * **[Julie Dunbar](https://www.linkedin.com/in/julie-dunbar-a219879/)**, *Dunbar Transportation*
+ * **[Jonathan Ehrlich](https://www.linkedin.com/in/jnehrlich/)**, *Metropolitan Council (MN)*
+ * **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, *Northwestern University*, **Diversity Officer**
+ * **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, *San Francisco County Transportation Authority in San Francisco CA*
+ * **[Leah Silen](https://www.linkedin.com/in/leah-silen-95733840/)**, *NumFocus in Austin*
+ * **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, *Metropolitan Transportation Commission in San Francisco CA*
+ * **[Mario Scott](https://www.linkedin.com/in/mario-scott-38822917/)**, *SDG in New York*, **Secretary**
+ * **[Rosella Picado](https://www.linkedin.com/in/rosella-picado-265507)**, *WSP in Seattle*, **Treasurer**
+
 
 #### Committees
+
 Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done.  Committee membership will be updated with new board members after the board rotation in summer 2019.
 
 **Executive** | **Communications** | **Programs** | **Workforce Development**
 --- | --- | --- | ---
-Clint Daniels (chair) | Mario Scott (chair) | Eric Miller (chair) | Leah Silen (chair)  
-Rosella Picado     | Billy Charlton | Leah Silen | Joan Walker  
-Mario Scott | Rosella Picado     | David Ory | Elizabeth Sall  
-Tom Adler |  | Gregory Erhardt     | Hani Mahmassani  
- |  | Billy Charlton |   
+Billy Charlton (chair) | Mario Scott (chair) | Julie Dunbar (chair) | Leah Silen (chair)
+Rosella Picado     | Billy Charlton | Leah Silen | Joan Walker
+Mario Scott | Rosella Picado     | David Ory | Elizabeth Sall
+Julie Dinbar |  | Gregory Erhardt     | Hani Mahmassani
+ |  | Billy Charlton | Jonathan Ehrlich
 
 ### <i class="fa fa-users" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Founding stakeholders
 
 Industry leaders who have agreed to help shape the initial direction of the Foundation and elect the initial Board.
 *Place of work for identification purpose only and does not indicate the endorsement of that institution.*
+
  * Alexei Pozdnukhov, University of California at Berkeley
  * Aruna Sivakumar, Imperial College
  * Beverly Scott, Beverly Scott and Associates
