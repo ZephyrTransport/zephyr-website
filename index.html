@@ -3,82 +3,128 @@ layout: default
 title: Zephyr
 subTitle: Advancing Travel Analysis to Improve Society
 ---
-<!-- Announce Section -->
-<section id="announce" class="container content-section text-left">
 
+<!-- Introducing Zephyr Section -->
+<section id="mission" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; ">
 <div class="row">
 
-<div class="col-md-8 col-lg-5 col-md-offset-2 col-lg-offset-1">
-<div class="card">
-  <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px;">
-    <h3 class="card-title">Now Hiring</h3>
-    <h4 class="card-subtitle text-muted">Zephyr Program Officer</h4>
-    <p class="card-text">The Zephyr Board is excited to announce its search for a Program Officer.</p>
-    <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/hiring" class="card-link">Learn more + apply</a>
+	<div class="col-lg-3">
+		<div style="padding:0rem 6rem;">
+			<img src="/img/logo-small.png" width=200px />
+		</div>
+	</div>
 
-  </div>
+	<div class="col-lg-9">
+		<h1 class="text-left">The Zephyr Foundation</h1>
+		<hr class="section-heading-spacer">
+			<div class="row">
+
+				<div class="col-md-6">
+					<h3>Mission</h3>
+					<p>The Foundation’s mission is to advance rigorous transportation and land use decision-making
+					for the public good by advocating for and supporting improved travel analysis,
+					and facilitating its implementation.  </p>
+				</div>
+
+				<div class="col-md-6">
+					<h3>Vision</h3>
+					<p>Become the primary venue through which leading researchers and practitioners seek to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable in order to support decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability. </p>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-lg-5 col-md-offset-2 col-lg-offset-1">
+					<div class="card">
+					<div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px;">
+						<h3 class="card-title">Now Hiring</h3>
+						<h4 class="card-subtitle text-muted">Zephyr Program Officer</h4>
+						<p class="card-text">The Zephyr Board is excited to announce its search for a Program Officer.</p>
+						<i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/hiring" class="card-link">Learn more + apply</a>
+					</div>
+					</div>
+					</div>
+
+					<div class="col-md-8 col-lg-5">
+					<div class="card">
+					<div class="carousel slide" data-ride="carousel" id="opportunities-carousel">
+						<!-- Carousel Slides -->
+						<div class="carousel-inner">
+							{% for opp in site.data.opportunities %}{% if opp.front %}
+							<div class="item">
+							<div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
+								<h3 class="card-title">{{ opp.headline }}</h3>
+								<h4 class="card-subtitle text-muted">{{ opp.name }}</h4>
+								<p class="card-text">{{ opp.lead }}</p>
+								<i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href='{{ opp.link }}' class="card-link">Learn more + apply</a>
+							</div>
+							</div>
+							{% endif %}{% endfor %}
+							<div class="item active">
+							<div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
+								<h3 class="card-title">Opportunities Board</h3>
+								<h4 class="card-subtitle text-muted">See them all!</h4>
+								<p class="card-text">List of available opportunities: jobs, internships, fellowships and more.</p>
+								<i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/opportunities" class="card-link">See the list</a>
+							</div>
+							</div>
+						</div> <!-- Carousel Inner-->
+						<!-- Carousel Buttons Next/Prev -->
+						<a data-slide="prev" href="#opportunities-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+						<a data-slide="next" href="#opportunities-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+					</div> <!-- Carousel Slides-->
+					</div> <!-- Card-->
+					</div> <!-- Col-->
+
+
+			</div>
+	</div>
 </div>
-</div>
-<div class="col-md-8 col-lg-5">
+</section>
 
-<div class="card">
+<!-- What's On Section -->
+<section id="whatson" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; background: #f4f4f4;">
+	<div class="row">
 
-<div class="carousel slide" data-ride="carousel" id="opportunities-carousel">
-  <!-- Carousel Slides -->
-  <div class="carousel-inner">
-    {% for opp in site.data.opportunities %}{% if opp.front %}
-    <div class="item">
-      <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
-        <h3 class="card-title">{{ opp.headline }}</h3>
-        <h4 class="card-subtitle text-muted">{{ opp.name }}</h4>
-        <p class="card-text">{{ opp.lead }}</p>
-        <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href='{{ opp.link }}' class="card-link">Learn more + apply</a>
-      </div>
-    </div>
-    {% endif %}{% endfor %}
-    <div class="item active">
-      <div class="card-body" style="height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
-        <h3 class="card-title">Opportunities Board</h3>
-        <h4 class="card-subtitle text-muted">See them all!</h4>
-        <p class="card-text">List of available opportunities: jobs, internships, fellowships and more.</p>
-        <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> <a href="/opportunities" class="card-link">See the list</a>
-      </div>
-    </div>
+	<div class="col-lg-3">
+		<div style="padding:0rem 6rem;">
+			<img src="/img/schedule.svg" width=200px />
+		</div>
+	</div>
 
-</div> <!-- Carousel Inner-->
-<!-- Carousel Buttons Next/Prev -->
-<a data-slide="prev" href="#opportunities-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-<a data-slide="next" href="#opportunities-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-</div> <!-- Carousel Slides-->
-</div> <!-- Card-->
-</div> <!-- Col-->
+	<div class="col-lg-8">
+		<h1 class="text-left">What's On</h1>
+		<hr class="section-heading-spacer">
+			<div class="row" style="padding-left: 2rem;">
+				<h3><a href="/events/2020-TRBAM/">Zephyr Reception at 2020 TRB Annual Meeting</a></h3>
+				<p>Join us for cookies, the annual Zephie Awards, and an introduction to our 2020 Agenda</p>
+				<p>Jan 14 8:00-10:00PM: Zephyr Reception (Busboys + Poets 450 K St NW) </p>
 
-</div> <!-- Row-->
+				<h3>Zephyr Project Committee Meetings at TRB: Monday January 13</h3>
+				<ul>
+					<li>10:15-12:00: Software Badging PMG Mtg. (Convention Center 159B)</li>
+					<li>1:30-3:00: Fast-Trips PMG Mtg. (Marriott Marquis Salon 7 - M2)</li>
+					<li>1:30-3:00: General Network Feed Specification PMG Mtg. (Convention Center 159B)</li>
+				</ul>
+			</div>
+
+	</div>
+	</div>
 </section>
 
 
-<!-- About Section -->
-<section id="about" class="container content-section text-left">
-<div class="row">
-<div class="col-lg-12">
+<!-- What's On Section -->
+<section id="about" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; background: white;">
+	<div class="row">
 
-  <h1 class="text-center">About</h1>
-	<hr class="section-heading-spacer-center">
-		<div class="row">
-
-			<div class="col-md-6">
-				<h3>Mission</h3>
-				<p>The Foundation’s mission is to advance rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.  </p>
-			</div>
-
-			<div class="col-md-6">
-				<h3>Vision</h3>
-				<p>Become the primary venue through which leading researchers and practitioners seek to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable in order to support decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability. </p>
-			</div>
-
+	<div class="col-lg-3">
+		<div style="padding:0rem 6rem;">
+			<img src="/img/logo-small.png" width=200px />
 		</div>
+	</div>
 
-		<hr class="sub-section-heading-spacer" />
+<div class="col-lg-9">
+  <h1 class="text-left">About the Zephyr Foundation</h1>
+	<hr class="section-heading-spacer">
 		<h3>Goals</h3>
 
 		<p>The Foundation’s goals are to advance the field through flexible and efficient support, education, guidance, encouragement, and incubation as outlined below in support of the Mission: </p>
@@ -169,142 +215,120 @@ subTitle: Advancing Travel Analysis to Improve Society
 
 
 <!-- Activitites Section -->
-<hr class="section-divider">
-<section id="activities">
-
-	<div class="container content-section text-left">
+<section id="activities" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; background: #f4f4f4;">
 	<div class="row">
-    <div class="col-md-10 col-md-offset-1">
-    <br/><br/>
+		<div class="col-lg-3">
+			<div style="padding:0rem 6rem;">
+				<img src="/img/logo-small.png" width=200px />
+			</div>
+		</div>
 
-	<h1 class="text-center">2018 Programs and Projects</h1>
-	<hr class="section-heading-spacer-center">
+		<div class="col-lg-9">
+			<h1 class="text-left">Programs and Projects</h1>
+			<hr class="section-heading-spacer">
 
-	<div class="col-md-offset-1">
-	<p>This is a list of the projects and programs that comprise the <a href="https://medium.com/zephyrfoundation/the-2018-zephyr-agenda-2a5771c0939c">2018 Zephyr Agenda</a>.
-	<br>
-	<br>
-	</div>
-	</div>
-	</div>
-	</div>
+			<p>This is a list of the projects and programs that comprise the <a href="https://medium.com/zephyrfoundation/the-2018-zephyr-agenda-2a5771c0939c">Zephyr Agenda</a>.</p>
 
 {% for project in site.projects %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
-
-        <div class="container">
-
+		<div style="padding: 0rem 2rem">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
                     <hr class="project-heading-spacer-left">
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><a href={{ site.baseurl }}{{ project.url }}>{{ project.title }}</a></h2>
-                </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
                     {% if project.img != 'none' %}
                     	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
                     {% endif %}
                     {% if project.icon != 'none' %}
                     		<i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i>
                     {% endif %}
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <div class="lead">{{ project.description }}</div>
-                </div>
             </div>
-
-        </div>
-
+		</div>
     </div>
 
     {% else %}
-
     <div class="content-section-b">
-
-        <div class="container">
-
+		<div style="padding: 0rem 2rem">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="project-heading-spacer-right">
                     <div class="clearfix"></div>
                     <h2 class="section-heading text-right"><a href={{ site.baseurl }}{{ project.url }}>{{ project.title }}</a></h2>
-                </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     {% if project.img != 'none' %}
                     	<img class="img-responsive" src="img/activities/{{ project.img }}" alt="">
                     {% endif %}
                     {% if project.icon != 'none' %}
                     		<div class="text-right"><i class="fa {{ project.icon }} fa-5x" aria-hidden="true"></i></div>
                     {% endif %}
-
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  	<div class="lead">{{ project.description }}</div>
-                </div>
+                  	<div class="lead" style="text-align: right;">{{ project.description }}</div>
             </div>
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
 
-        </div>
-
-    </div>
-    {% endif %}
-{% endfor %}
-
+	</div>
+	</div>
 </section>
+
 
 <!-- Governance Section -->
-
-<hr class="section-divider">
-<section id="finer-print" class="container content-section text-left">
+<section id="finer-print" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; background: white;">
 	<div class="row">
-    <div class="col-md-10 col-md-offset-1">
-    <br/><br/>
+		<div class="col-lg-3">
+			<div style="padding:0rem 6rem;">
+				<img src="/img/notes.svg" width=200px />
+			</div>
+		</div>
 
-	<h1 class="text-center">Finer Print</h1>
-	<hr class="section-heading-spacer-center">
-		<div class="row">
-			<div class="col-md-6">
-				<h3>Governance + Legal</h3>
-				<a href="/bylaws">Corporate Bylaws</a><br>
-				<a href="/library/articles-of-incorporation.pdf">Articles of Incorporation</a><br>
-				<a href="/501c3">501(c)(3) Status</a><br>
-				<a href="/code-of-conduct">Member Code of Conduct</a><br>
-				<a href="/terms-of-membership">Terms of Membership</a><br>
-				<a href="/terms-of-use">Terms of Use</a><br>
-				<a href="/privacy-policy">Privacy Policy</a><br>
-				<a href="/conflict-of-interest">Conflict of Interest Policy</a><br>
-				<h3>Board Meeting Minutes</h3>
-				<a href="/library/2017-11-03-Board-Minutes.pdf">2017 November</a><br>
-				<a href="/library/2018-02-07-Board-Minutes.pdf">2018 February</a><br>
-				<a href="/library/2018-09-17-Board-Minutes.pdf">2018 September</a><br>
-				<a href="/library/2018-10-Proxy-Vote.pdf">2018 October</a><br>
-				<a href="/library/2018-11-19-Board-Minutes.pdf">2018 November</a><br>
+		<div class="col-lg-9">
+			<h1 class="text-left">Finer Print</h1>
+			<hr class="sub-section-heading-spacer" />
+			<div class="row">
+			<div class="col-lg-12">
+				<h3>Why a Foundation?</h3>
+				<p>A Foundation offers us the needed flexibility, agility, stability [ of staffing and funding ], and ability to contribute funding from public and private sources on multiple levels.</p>
+			</div>
+			</div>
+			<hr class="section-heading-spacer">
+
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Governance + Legal</h3>
+					<a href="/bylaws">Corporate Bylaws</a><br>
+					<a href="/library/articles-of-incorporation.pdf">Articles of Incorporation</a><br>
+					<a href="/501c3">501(c)(3) Status</a><br>
+					<a href="/code-of-conduct">Member Code of Conduct</a><br>
+					<a href="/terms-of-membership">Terms of Membership</a><br>
+					<a href="/terms-of-use">Terms of Use</a><br>
+					<a href="/privacy-policy">Privacy Policy</a><br>
+					<a href="/conflict-of-interest">Conflict of Interest Policy</a><br>
+					<h3>Board Meeting Minutes</h3>
+					<a href="/library/2017-11-03-Board-Minutes.pdf">2017 November</a><br>
+					<a href="/library/2018-02-07-Board-Minutes.pdf">2018 February</a><br>
+					<a href="/library/2018-09-17-Board-Minutes.pdf">2018 September</a><br>
+					<a href="/library/2018-10-Proxy-Vote.pdf">2018 October</a><br>
+					<a href="/library/2018-11-19-Board-Minutes.pdf">2018 November</a><br>
+				</div>
+
+				<div class="col-md-6">
+					<h3>Business Plan [ in brief ]</h3>
+					<p>We estimate annual costs during our first five years to be approximately $400,000.  Costs include legal assistance, insurance, accounting services, board member travel, and other administrative overhead, as well as salaries and office space for two (2) full-time staff equivalents.</p>
+					<p>During the start-up phase, consultants will staff the organization and will be directly overseen by board-appointed officers.  Our revenue plan seeks annual contributions in the $5,000 to $25,000 range from a variety of governmental entities.</p>
+				</div>
 			</div>
 
-			<div class="col-md-6">
-				<h3>Business Plan [ in brief ]</h3>
-				<p>We estimate annual costs during our first five years to be approximately $400,000.  Costs include legal assistance, insurance, accounting services, board member travel, and other administrative overhead, as well as salaries and office space for two (2) full-time staff equivalents.</p>
-                <p>During the start-up phase, consultants will staff the organization and will be directly overseen by board-appointed officers.  Our revenue plan seeks annual contributions in the $5,000 to $25,000 range from a variety of governmental entities.</p>
-            </div>
-        </div>
-  </div>
-  </div>
-
-  <hr class="sub-section-heading-spacer" />
-  <div class="row">
-  <div class="col-md-10 col-md-offset-1">
-	<h3>Why a Foundation?</h3>
-	<p>A Foundation offers us the needed flexibility, agility, stability [ of staffing and funding ], and ability to contribute funding from public and private sources on multiple levels.</p>
-  </div>
-  </div>
+		</div>
+	</div>
 </section>
 
-<!-- Timeline Section -->
+<!-- Timeline Section
 <hr class="section-divider">
 <section id="timeline" class="container content-section text-left">
 	<div class="row">
@@ -402,20 +426,22 @@ subTitle: Advancing Travel Analysis to Improve Society
 </div>
 </div>
 </section>
+-->
 
 <!-- Events Section -->
-<hr class="section-divider">
-<section id="events" class="container content-section text-left">
+<section id="events" class="content-section text-left" style="padding: 2rem 2rem 6rem 2rem; background: #f4f4f4;">
 	<div class="row">
-    <div class="col-md-12">
-    <br/><br/>
-	<h1 class="text-center">Events</h1>
-	<hr class="section-heading-spacer-center">
+		<div class="col-lg-3">
+			<div style="padding:0rem 6rem;">
+				<img src="/img/event.svg" width=200px />
+			</div>
+		</div>
 
-	<div class="row">
-
+		<div class="col-lg-9">
+			<h1 class="text-left">Events</h1>
+			<hr class="sub-section-heading-spacer" />
 			<div class="col-sm-4" id="Winter 2020">
-                <h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Winter 2019</h3>
+                <h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Winter 2020</h3>
                 <p><b>Jan 13 10:15-12:00</b>: <a href='{{ site.baseurl }}/events/2020-jan-badging-pmg'>Software Badging PMG Mtg.</a> (Convention Center 159B)
                 <p><b>Jan 13 1:30-3:00</b>: <a href='{{ site.baseurl }}/events/2020-jan-fasttrips-pmg'>Fast-Trips PMG Mtg.</a> (Marriott Marquis Salon 7 - M2)
                 <p><b>Jan 13 1:30-3:00</b>: <a href='{{ site.baseurl }}/events/2020-jan-gmns-pmg'>General Network Feed Specification PMG Mtg.</a> (Convention Center 159B)</p>
@@ -423,18 +449,14 @@ subTitle: Advancing Travel Analysis to Improve Society
 			</div>
 
 			<div class="col-sm-4" id="Spring 2020">
-			<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Spring 2019</h3>
-			</div>
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Spring 2020</h3>
+	            <p><b>Jun 14-17</b>: <a href='http://itmconference.com'>TRB Innovations in Travel Modeling Conference (Seattle, WA)</a>
+				</div>
 
 			<div class="col-sm-4" id="Summer 2020">
-				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Fall 2019</h3>
-              <p><b>Jun 14-17</b>: <a href='http://itmconference.com'>TRB Innovations in Travel Modeling Conference (Seattle, WA)</a>
-        </div>
-
-
-	<br><br>
-
-	</div>
+				<h3><i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i>Summer 2020</h3>
+        	</div>
+		</div>
 	</div>
   </div>
 </section>
