@@ -109,4 +109,4 @@ subTitle: "Conferences, Jobs, Fellowships, Internships"
 </table>
 
 <br/>
-<p>If you would like to post a position or opportunity, please email <a href='mailto://info@zephyrtransport.org'>info@zephyrtransport.org</a>.
+<p>If you would like to post a position or opportunity, please email <a href='mailto:info@zephyrtransport.org'>info@zephyrtransport.org</a>.

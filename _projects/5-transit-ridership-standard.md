@@ -69,4 +69,4 @@ Administratively, the project needs:
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the GTFS-ride chair: [gtfs-ride@zephyrtransport.org](mailto://gtfs-ride@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the GTFS-ride chair: [gtfs-ride@zephyrtransport.org](mailto:gtfs-ride@zephyrtransport.org).

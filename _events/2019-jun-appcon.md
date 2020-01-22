@@ -6,7 +6,7 @@ type: Meeting
 day: Sunday June 2 - Wednesday June 5, 2019 
 place: Hilton Portland Downtown
 registration: https://www.trbappcon.org/
-additional-msg: Feel free to contact us at <a href='mailto://info@zephyrtransport.org'>info@zephyrtransport.org</a> if you would like to schedule a meeting to learn more or discuss an idea.
+additional-msg: Feel free to contact us at <a href='mailto:info@zephyrtransport.org'>info@zephyrtransport.org</a> if you would like to schedule a meeting to learn more or discuss an idea.
 summary: "<br/>
 <hr/>
 <br/>

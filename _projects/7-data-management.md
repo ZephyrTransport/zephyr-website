@@ -14,7 +14,7 @@ This project has been identified as a priority but has not yet been initiated.
 
 ## Governance 
 
-This project does not yet have a project management group to initiate the project. Interested in helping out? Let us know: [info@zephyrtransport.org](mailto://info@zephyrtransport.org)  
+This project does not yet have a project management group to initiate the project. Interested in helping out? Let us know: [info@zephyrtransport.org](mailto:info@zephyrtransport.org)  
 
 ## Background
 

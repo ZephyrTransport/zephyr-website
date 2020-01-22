@@ -18,7 +18,7 @@ The software badging effort was [established](https://medium.com/zephyrfoundatio
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the Software Badging chair: [software-badging@zephyrtransport.org](mailto://software-badging@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the Software Badging chair: [software-badging@zephyrtransport.org](mailto:software-badging@zephyrtransport.org).
 
 ## Governance
 

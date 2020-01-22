@@ -18,7 +18,7 @@ Founding Leader | $100,000 | Organizational [membership benefits](/membership) f
 Founders Circle | $25,000 | Commemorative plaque, preferential logo placement and verbal thanks at events for 2018.
 
 <br/>
-To become a member of the Founder's Circle, contact a board member or [sponsorships@zephyrtransport.org](mailto://sponsorships@zephyrtransport.org).
+To become a member of the Founder's Circle, contact a board member or [sponsorships@zephyrtransport.org](mailto:sponsorships@zephyrtransport.org).
 
 ---
 

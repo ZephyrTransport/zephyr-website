@@ -25,7 +25,7 @@ This project is overseen by a board-approved Project Management Group (PMG) as f
  - Leah Silen, NumFocus  
  - Kay Axhausen, ETH Zurich  
  
- *More to come! Please let Greg Erhardt([open-science@zephyrtransport.org](mailto://open-science@zephyrtransport.org)) know if you are interested in contributing* 
+ *More to come! Please let Greg Erhardt([open-science@zephyrtransport.org](mailto:open-science@zephyrtransport.org)) know if you are interested in contributing* 
  
 
 
@@ -56,4 +56,4 @@ In defining the program, the PMG should address the following questions:
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the Open Science chair: [open-science@zephyrtransport.org](mailto://open-science@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the Open Science chair: [open-science@zephyrtransport.org](mailto:open-science@zephyrtransport.org).

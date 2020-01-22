@@ -85,7 +85,7 @@ This tentative workplan was developed at the conclusion of the C10 IAP project. 
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the GTFS-ride chair: [fast-trips@zephyrtransport.org](mailto://fast-trips@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the GTFS-ride chair: [fast-trips@zephyrtransport.org](mailto:fast-trips@zephyrtransport.org).
 
 ## Meetings
 

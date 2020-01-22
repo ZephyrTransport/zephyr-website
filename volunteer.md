@@ -17,5 +17,5 @@ Thanks for your interest in volunteering for the Zephyr Foundation. We are curre
  - Hosting a meeting/training 
  - Compiling research agendas  
  
-If you are interested in any of these things, please [let us know](mailto://info@zephyrtransport.org)
+If you are interested in any of these things, please [let us know](mailto:info@zephyrtransport.org)
 

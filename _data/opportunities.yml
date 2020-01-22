@@ -215,7 +215,7 @@
   salary_high:
   location: Fairfax, CA
   closing: open until filled
-  link: mailto://dschmitt@ctgconsult.com.
+  link: mailto:dschmitt@ctgconsult.com.
   summary: >
    The position requires candidates to assist in: (1) development, calibration and application of travel demand models; (2) developing new and innovative analytical tools for transportation planning; (3) processing and analyzing big travel data; (4) alternatives analysis and evaluation for project/corridor studies; and (5) develop and lead statistical and machine learning efforts in relation to the projects.
 - name: Travel Demand Modeler / Transportation Planner
@@ -230,7 +230,7 @@
   salary_high:
   location: Arlington, VA and Dallas, TX
   closing: open until filled
-  link: mailto://opportunities@candm-associates.com
+  link: mailto:opportunities@candm-associates.com
   summary: >
     The Travel Demand Modeler position involves data development, management, and analysis using standard databases and GIS, as well as statistical analysis and programming to support the development and application of travel forecasting models. This position also involves a wide range of transportation modeling activities, including model design, data analysis and scripting, development and evaluation of forecasts, and documentation of technical work. More specifically, modeling activities include specification and estimation of models, data analysis, scripting, model implementation, software development, and calibrating and validating model components. You will be part of a team that is dedicated to developing innovative “best in class” models, software, and forecasts for regions and states throughout the United States.
 - name: Senior Travel Demand Modeler

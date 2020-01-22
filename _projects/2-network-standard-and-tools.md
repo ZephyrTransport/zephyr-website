@@ -98,4 +98,4 @@ Existing attempts suffer from:
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the GNFS chair: [gmns@zephyrtransport.org](mailto://gmns@zephyrtransport.org).
+Feedback or requests to be involved can be sent to to the GNFS chair: [gmns@zephyrtransport.org](mailto:gmns@zephyrtransport.org).
