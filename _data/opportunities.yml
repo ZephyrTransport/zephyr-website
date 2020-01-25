@@ -1,45 +1,3 @@
-- name: Urban Computing Summit
-  headline: Session proposals open
-  front: false
-  post: false
-  lead: Applying open-source tools and techniques to urban computing and smart city applications.
-  type: conference
-  institution: Open Source Summit Europe
-  location: Lyon, FR
-  closing: July 1st, 2019
-  link: http://bit.ly/eu19cfp
-  summary:
-- name: DTA Symposium
-  headline: Abstract submission open
-  front: false
-  post: false
-  lead: Modeling Multi-Modal Dynamic Transportation Network Systems in Smart Cities in the Era of Connectivity, Automation, and Sharing
-  type: conference
-  institution:
-  location: Seattle WA
-  closing: 2019-11-01
-  link: http://bit.ly/eu19cfp
-  summary:
-- name: Integrative Research and Planning Grants for Smart + Connected Communities
-  headline: Research + solutions piloting together with communities.
-  front: false
-  post: false
-  lead: Support fundamental integrative research that addresses technological and social science dimensions of smart and connected communities and pilots solutions together with communities.
-  type: funding
-  institution: National Science Foundation
-  closing: 2019-09-06
-  link: https://www.grants.gov/web/grants/view-opportunity.html?oppId=313513
-- name: Innovations in Travel Modeling Conference
-  headline: Call for content submissions being assessed
-  front: false
-  post: false
-  lead: Tracks on data solutions, modeling approaches, useful forecasts, and learning.
-  type: conference
-  institution: TRB
-  location: Seattle, WA
-  closing: June 30, 2019
-  link: http://itmconference.com
-  summary:
 - name: Transportation Planner/Analyst I/II
   time: full-time
   headline: Travel demand modeling and analytics practice.
@@ -88,21 +46,6 @@
      - Marketing the Research Center and managing client relationships in and outside of Metro
      - Leading people and supporting staff development
      - Managing business development and projects
-- name: Senior Travel Demand Modeler
-  time: full-time
-  headline: Full-time Position
-  front: false
-  post: false
-  lead: Technical leader for regional and subarea travel models
-  type: job
-  institution: Charlotte Department of Transportation
-  salary_low:
-  salary_high:
-  location: Charlotte, NC
-  closing: 9/16/2019
-  link: https://careers.charlottenc.gov/psp/ER92PRD/CAREERS/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?
-  summary: >
-   The person selected for this position will serve as a technical leader in the development, enhancement, and programming of the regional travel demand model as well as subarea models for high growth and congestion areas.  He/She will conduct and manage detailed analyses of transportation demand and performance in a team setting using transportation modeling, air quality modeling, and geographic information systems software and databases. This position will perform computer programming related to travel demand modeling and analysis of transportation supply and performance.  The ideal candidate will be a self-motivated individual with strong macro and micro model development and application skills preferably using TransCAD and TransModeler/VISSIM.  The ideal candidate will be able to communicate complex, technical work to a non-technical audience.  The selected person will monitor, train, and mentor junior modeling staff.
 - name: Senior Data Analyst
   time: full-time
   headline: Full-time position
@@ -136,27 +79,6 @@
    The Northeast Ohio Areawide Coordinating Agency (NOACA) in Cleveland is seeking a Senior Transportation Modeler with experience in travel demand modeling. NOACA and its partner agencies in Ohio are in the process of developing an activity based travel demand model, and NOACA continues to upgrade its modeling capabilities including a dynamic traffic assignment process.  This position will be an integral part of NOACA’s development, implementation, and application of the Ohio 3C CT-RAMP Activity Based Model and dynamic traffic assignment process.
    The primary responsibilities of this position include all aspects of travel demand modeling efforts such as preparation of model inputs, data and system management, model estimation, calibration, validation, post-processing of model outputs, project-level forecasts, project management, and technical assistance.  In addition, this position will conduct sub-area and corridor level modeling and participate in maintaining a traditional 4-step travel demand model.
    This position involves advanced application of planning, management, and coordination skills, under little supervision in an office environment.  The position also requires the ability to write and effectively present technical information to diverse groups, ranging from professional conferences to a lay audience.  This position will be located within the Planning Division as part of the Transportation Modeling group.
-- name: Modeling and Mobility Analyst
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead: Technical expert for Modeling and Mobility Analysis Unit
-  type: job
-  institution: Colorado Department of Transportation
-  salary_low:
-  salary_high:
-  location: Denver, CO
-  closing: October 2, 2019
-  link: https://www.governmentjobs.com/careers/colorado/jobs/2562367/modeling-and-mobility-analyst
-  summary: >
-    This Analyst IV position is part of the CDOT's Division of Transportation Development – Information Management Branch.  This unit is primarily responsible for the development, implementation and maintenance of mobility analysis processes from a multi-model perspective.
-    Major duties and responsibilities include, but are not limited to:
-    - This position will participate in all aspects of the Modeling and Mobility Analysis    Unit's responsibilities, as described below.  The position will serve a technical supporting role in the Unit, carrying out tasks under the direction of supervisors.  This position also will take on a supporting role in interacting with customers, and presenting the Unit's work to selected audiences.  Technical activities will include:
-    - The position will serve as a technical expert in the Unit, developing approaches to tasks and projects through consultation with supervisors, then carrying out the approach with limited supervision.  This position will take an active role in interacting with customers, and presenting the Unit's work to all audiences.  Technical activities will include presenting Travel Demand Modeling and reliability performance measure information to staff and planning partners.
-    - Travel demand forecasting and modeling – Participates in implementation, upgrade and operation of a statewide travel demand model, including acquisition/production of input data, implementation of models using appropriate software tools, operation of models as necessary in support of planning efforts, provision of the model to planning partners and support of their use of it, and analysis of model outputs.
-    - Transportation planning analytical support – Works with planning staff, environmental staff, and others, both within CDOT and with planning partners, to provide advice on the uses of data and analytical tools for planning support, and to produce data and model outputs that address planning requirements for corridor plans, regional plans, and statewide plans.
-    - Data development support – works with data producers at CDOT, consultants, and planning partners to identify needed data, formulate acquisition and storage and use plans, and help check data as acquired.
 - name: Travel Forecasting Specialist
   time: full-time or part-time
   headline: Full- or Part-time position
@@ -255,146 +177,6 @@
     -Oversee developing supporting graphics, tables, charts and graphs, PowerPoint slides and other supporting materials for both internal meetings/presentations as well as client presentations.
     -Presentation of results to clients and stakeholders.
     -Provide mentoring and guidance to junior modelers.
-- name: Postdoctoral Fellow Position in Transportation
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: fellowship
-  institution: University of Memphis
-  salary_low:
-  salary_high:
-  location: Memphis, TN
-  closing: October 11, 2019
-  link: https://tmip.org/content/job-opening-postdoctoral-candidate
-  summary: >
-    The Department of Civil Engineering at the University of Memphis invites applications for a postdoctoral fellow position in transportation beginning as soon as possible in the broader area of demand-responsive technology-enhanced shared transportation systems, smart cities, autonomous and connected vehicles. Outstanding candidates with expertise in related areas will also be considered. The successful candidate will work with Dr. Sabya Mishra and other faculty members as needed on projects related to transportation demand modeling, planning and operations (both on passenger and freight). Salary is extremely competitive and includes full benefits. The appointment period will be for 12 months initially with possibility of extension to the second year based on performance.
-- name: Data Scientist / Associate Data Scientist
-  time: full-time
-  headline: Opportunity to make a difference and positively influence the Twin Cities metropolitan area.
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Metropolitan Council
-  salary_low: 61,381
-  salary_high: 94,120
-  location: St Paul, MN
-  closing: October 11, 2019
-  link: https://www.governmentjobs.com/careers/metrocouncil/jobs/2555271-0/data-or-associate-data-scientist
-  summary: >
-    The Metropolitan Council of the Twin Cities has a vacancy for a full-time Associate Data Scientist OR a Data Scientist. The person in this role will support multi modal transportation planning in the Minneapolis and St. Paul region through innovative approaches to collecting and analyzing transportation data and through development and application of cutting-edge travel forecasting models and tools. The Data Scientist or Associate Data Scientist will join a vibrant travel research and modeling team working on travel demand forecasting, travel behavior surveys, and creative analysis of all kinds of transportation data to drive planning and policy analysis.
-- name: Assistant/Associate Data Analyst
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Puget Sound Regional Council
-  salary_low: 52,000
-  salary_high: 69,000
-  location: Seattle, WA
-  closing: October 1st, 2019
-  link: https://www.psrc.org/about/careers
-  summary: >
-   PSRC is seeking an Assistant/Associate Data Analyst to join its Data Science Group in the Data Department and perform a variety of data analytics and data engineering tasks under supervision. A qualified applicant for this position will have exceptional technical and communication skills, keen interests in scripting and data analytics to support complex planning and policy questions, and enthusiasm for learning new techniques and tools to tackle dynamic problems with data.
-   The position will conduct statistics, scripting, data analyses, visualization, and other data-related tasks using demographic, economic, land use, and transportation datasets. It will also involve written and oral communication of analytic needs, processes, and findings, and provide general assistance for data engineering work in support of modernizing the agency’s technical capabilities. Additional responsibilities include conducting database development and maintenance tasks, performing quantitative and qualitative research, and responding to information requests from external member jurisdictions and organizations.
-- name: Planning Specialist-Adv (Senior Modeler)
-  time: full-time
-  headline: travel demand modeling, statistics, and data analytics.
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Tennessee DOT
-  salary_low:
-  salary_high: 49,092
-  location: Davidson County, TN
-  closing: October 1st, 2019
-  link: https://agency.governmentjobs.com/tennessee/default.cfm?action=viewJob&jobID=2571509&hit_count=yes&headerFooter=1&promo=0&transfer=0&WDDXJobSearchParams=%3CwddxPacket%20version%3D%271%2E0%27%3E%3Cheader%2F%3E%3Cdata%3E%3Cstruct%3E%3Cvar%20name%3D%27TRANSFER%27%3E%3Cstring%3E0%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27CATEGORYID%27%3E%3Cstring%3E36%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27FIND%5FKEYWORD%27%3E%3Cstring%3E%3C%2Fstring%3E%3C%2Fvar%3E%3Cvar%20name%3D%27PROMOTIONALJOBS%27%3E%3Cstring%3E0%3C%2Fstring%3E%3C%2Fvar%3E%3C%2Fstruct%3E%3C%2Fdata%3E%3C%2FwddxPacket%3E
-  summary: >
-    Under general supervision, is responsible for professional transportation planning work of considerable difficulty and performs related work as required. This is the advanced level classification in the TDOT Planning Specialist series. An employee in this classification is a lead worker performing the most complex transportation planning duties. An incumbent may be assigned to work in any area of transportation planning and may participate in the varied development, monitoring, and coordination of transportation planning projects. This class differs from that of TDOT Planning Specialist* in that an incumbent of the latter is not a lead worker and is responsible for planning duties of average difficulty. This classification differs from the TDOT Planning Supervisor in that the incumbent of the latter is responsible for the supervision of subordinate staff.
-- name: Assistant Planner
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Puget Sound Regional Council
-  salary_low: 52,000
-  salary_high: 62,000
-  location: Seattle, WA
-  closing: October 1st, 2019
-  link: https://www.psrc.org/about/careers
-  summary: >
-    PSRC is seeking an Assistant Planner to join its Data Department to perform a variety of technical planning activities under general supervision. A qualified applicant for this position will have exceptional technical and communication skills, keen interest in applying data analytics to support complex planning and policy questions, and enthusiasm for learning new techniques and tools to tackle dynamic problems with data.
-    The position will conduct data analytics and other planning-related tasks using a variety of demographic, economic, housing, land use, and/or transportation datasets. It will involve effective written, oral, and visual communication of data trends, findings, processes, and other technical subject matter to planning lay audiences. Key responsibilities include conducting database development and maintenance tasks, performing quantitative and qualitative research, and providing general data analysis and technical assistance in support of the agency’s various planning programs.
-- name: Data and Planning Intern
-  time: part-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: internship
-  institution: Puget Sound Regional Council
-  salary_low:
-  salary_high: $19/hr
-  location: Seattle, WA
-  closing: October 7th, 2019
-  link: https://www.psrc.org/about/careers
-  summary:
-- name:  Travel Demand Modeler - Traffic Analysis Specialist
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Charlotte DOT
-  salary_low:
-  salary_high:
-  location: Charlotte, NC
-  closing: October 7th, 2019
-  link: https://careers.charlottenc.gov/psp/ER92PRD/CAREERS/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?
-  summary: >
-   The Travel Demand Modeler – Traffic Analysis Specialist assists with the development and application of the Metrolina Regional Travel Demand Model.  Preparation of travel demand forecasts, conducting detailed analyses of transportation demand & performance in a team setting. This position also performs computer programming related to travel demand modeling and traffic analysis.
-- name: Transportation Modeler
-  time: full-time
-  headline: activity-based model development and application; network modeling; data visualization.
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: San Francisco County Transportation Authority
-  salary_low: 86,730
-  salary_high: 119,683
-  location: San Francisco, CA
-  closing: September 30, 2019
-  link: https://www.sfcta.org/transportation-modeler
-  summary: >
-   You’ll initially focus on activity-based model development and application, with an emphasis on network modeling, running and improving the agency’s activity-based model system, and analyzing model outputs, including developing data visualizations. Other projects you may work on include:
-
-   Congestion pricing: We are looking at congestion pricing alternatives as a means to help manage congestion in the City’s core, and you’ll contribute to this effort by helping to adapt the agency’s activity-based model to support rapid scenario analysis, and contributing to analysis of the equity effects of congestion pricing scenarios using new smartphone-based travel diaries.
-   Travel Demand Management (TDM) research: The City of San Francisco has prioritized the use of TDM strategies as part of both land use and transportation project development to help reduce vehicle miles traveled. However, there is little empirical research on TDM strategies.  Which strategies are effective?  How effective they are?  You’ll be involved in collecting and analyzing travel behavior survey data to help answer these research questions.
-   Transportation Network Companies (TNC) Research:  We are completing a series of TNC research papers, which started with the TNCs Today paper in June 2017, and was followed by the TNCs & Congestion paper in October 2018. You’ll help support the development of upcoming papers which consider TNCs & Equity and TNCs & Transit Ridership.
-- name: Data Scientist/Travel Modeler
-  time: full-time
-  headline: help stand up a transportation data program!
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Portland Metro
-  salary_low: 66,809
-  salary_high: 89,564
-  location: Portland, OR
-  closing: October 14, 2019
-  link: https://www.governmentjobs.com/careers/oregonmetro/jobs/2573137/data-scientist-travel-demand-modeler?pagetype=jobOpportunitiesJobs
-  summary: >
-   We’re looking for a Data Scientist/Travel Demand Modeler to join our team in beautiful Portland, OR and help us stand up a Transportation Data Program. We’re seeking an independent self-starter, critical thinker, data explorer and solutions-oriented data scientist or travel demand modeler with a passion for service excellence and continual learning. Are you someone who takes pride in your ability to look at a problem and engineer a solution, and you're looking to bring your skill set to a large organization that offers something "different" or new? Or perhaps you want the opportunity to apply an innovative, equity-focused approach to projects that impact our communities in a meaningful way while getting the chance to blaze your path in the career you've always desired? Prepare to learn and be challenged! If you think you're the person we're looking for, we want to know more about you.
 - name: New Mobility Modeling Engineer
   time: full-time
   headline:
@@ -412,7 +194,7 @@
    The candidate will play a pivotal role in guiding Ford’s future mobility and autonomous vehicle offerings and strategies. As part of Ford’s Mobility Research Group, they will join a varied and interdisciplinary group within Research and Advanced Engineering that is dedicated to cutting-edge research to improve transportation accessibility, mobility, and sustainability for all.  They will work closely with other groups at Ford, including giving presentations to senior-level leadership. The candidate will act as a touchpoint with cities, universities, research labs, and other key stakeholders in helping Ford develop and simulate new and innovative mobility solutions, including microtransit, dynamic shuttles, smart cities, and connected and automated vehicles.
 - name: Program Engineer/Planner
   time: full-time
-  headline: Manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation.
+  headline:
   front: true
   post: true
   lead:
@@ -424,7 +206,7 @@
   closing:
   link: https://www.sjtpo.org/careers/
   summary: >
-    The South Jersey Transportation Planning Organization (SJTPO), the regional transportation planning agency for southern New Jersey, is seeking an experienced professional to manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation in the SJTPO region. Specific tasks include, but are not limited to, representative of the SJTPO at local, state, and federal events, program management, project identification, and development related to SJTPO’s capital program, Congestion Management Process (CMP), and related areas. The Program Engineer/Planner shall report directly to the Executive Director and will supervise the Assistant Engineer. Field work and travel required.
+    Manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation. The South Jersey Transportation Planning Organization (SJTPO), the regional transportation planning agency for southern New Jersey, is seeking an experienced professional to manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation in the SJTPO region. Specific tasks include, but are not limited to, representative of the SJTPO at local, state, and federal events, program management, project identification, and development related to SJTPO’s capital program, Congestion Management Process (CMP), and related areas. The Program Engineer/Planner shall report directly to the Executive Director and will supervise the Assistant Engineer. Field work and travel required.
 - name: Associate Director for Regional Modeling and Analysis
   time: full-time
   headline: Contribute to the strategic development and/or expansion of the modeling efforts undertaken by CTPS.
@@ -455,21 +237,6 @@
   link: https://www.dvrpc.org/HumanResources/JobOpenings/TransportationModeler.html
   summary: >
     DVRPC is seeking a Transportation Modeler/Analyst with good knowledge of computer programming, travel demand modeling, and data analytics to join a vibrant modeling and research team. The Office of Travel Modeling maintains DVRPC’s regional travel simulation models, including a best-in-class trip-based model and a newly developed activity-based model, and applies the models to evaluate the impacts and benefits of various transportation investment and planning scenarios. The Office is also very active in integrating emerging technology and data for model enhancement and analysis. DVRPC’s travel demand models are highly customized, and rely on numerous Python scripts to prepare model inputs and summarize model outputs.  The position will assist the development and enhancement of DVRPC’s regional travel models, and support model applications for various projects. Based on the employee’s experience and desire to learn, assignments may include programming for model development and data analysis; conducting and analyzing travel surveys; preparing travel model inputs such as land use, transportation, demographic and employment data; estimating future demand for the design of individual highway and transit facilities; and calculating travel time, delay, and level-of-service. Work is performed in accordance with well-defined objectives and professional standards under the close technical direction of senior engineers and planners.
-- name: Modeler/ Engineer I or II
-  time: full-time
-  headline: Looking for an innovative, collaborative, and driven individual that embodies systems-level thinking, a knack for efficient problem solving, and a passion for our region and its future.
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: Wasatch Front Range Regional Council
-  salary_low:
-  salary_high:
-  location: Salt Lake City, UT
-  closing: December 11, 2019
-  link: https://www.wfrc.org/Contact/Careers/ModelerJobAnnouncementWFRC13Nov9.pdf
-  summary: >
-    The Modeler/Engineer positions will be an integral part of the WFRC Analytics Group. Under supervision, the position will perform a variety of professional and complex technical duties as part of the team responsible for the development, enhancement, and maintenance of a suite of regional models.
 - name: Public Health Modeling PhD
   time: full-time
   headline:  Interdisciplinary PhD studentship
@@ -485,21 +252,6 @@
   link: http://www.mrc-epid.cam.ac.uk/work-and-study/studentships/phd-topics/integrating-health-into-travel-demand-models/
   summary: >
     Travel demand models are widely used in transport research and practice. Activity based models simulate a high level of detail what people are doing and where they are doing it [1]. Increasingly these models attempt to more accurately represent active travel (walking and cycling) [2]. However, most health impact modelling of transport has been based on city wide estimates and not represented spatial variation in where people are exposed (e.g. air pollution or injury risk), or the exposures they generate (e.g. emissions or road traffic danger) [3]. This PhD will work with the open source SILO, MITO, and MATSim models [4] to develop methods that fully utilise the spatial and temporal detail of these models to estimate health impacts, and to compare this against simpler, aggregate approaches.
-- name: Graduate Research Assistantship in  Transportation Planning, Modeling and Policy Analysis
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead:
-  type: fellowship
-  institution: National Center for Smart Growth Research and Education University of Maryland College Park
-  salary_low:
-  salary_high:
-  location: College Park, MD
-  closing: January 15, 2020
-  link: https://tmip.org/sites/freightmodelimprovementprogram.localhost/files/attachments/UMD_NCSG%20RA%20position_2019_11_0.pdf
-  summary: >
-    The University of Maryland, College Park, Urban and Regional Planning and Design Ph.D. program has graduate research assistant positions available with a focus on transportation planning, modeling and policy analysis. The position is offered through the National Center for Smart Growth Research and Education (NCSG), a multidisciplinary research institution affiliated with four academic schools (Engineering, Architecture, Planning and Preservation, Agriculture and Natural Resources, and Public Policy). The research assistant will join the transportation focus group at the NCSG.
 - name: Tenure-track faculty position
   time: full-time
   headline: Tenure-track faculty position in the area of transportation systems engineering.
