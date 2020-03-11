@@ -1,8 +1,8 @@
 - name: Transportation Modeler
   time: full-time
   headline: Activity-based model development and application in San Francisco
-  front: false
-  post: false
+  front: true
+  post: true
   lead:
   type: job
   institution: San Francisco County Transportation Authority
@@ -15,8 +15,8 @@
 - name: Modeling/Technology, Data, and Analysis Internship
   time: intern 
   headline: Transportation Authority Internship Program
-  front: false
-  post: false
+  front: true
+  post: true
   lead:
   type: internship
   institution: San Francisco County Transportation Authority
