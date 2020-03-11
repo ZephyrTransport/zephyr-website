@@ -11,6 +11,7 @@
   location: San Francisco, California
   closing: priority given to applications by March 13
   link: https://sfcta.org/transportation-modeler
+
 - name: Modeling/Technology, Data, and Analysis Internship
   time: intern 
   headline: Transportation Authority Internship Program
@@ -24,6 +25,7 @@
   location: San Francisco, California
   closing: March 20
   link: https://sfcta.org/modeling-technology-data-and-analysis-internship
+
 - name: Transportation Planner/Analyst I/II
   time: full-time
   headline: Travel demand modeling and analytics practice.
@@ -37,6 +39,7 @@
   location: Orlando/Fort Lauderdale, Florida or Nationwide
   closing: open until filled
   link: https://tmip.org/content/transportation-planneranalyst-positions-available-ctg
+
 - name: Transportation Modeler I/II
   time: full-time
   headline: Full-time Position
@@ -47,7 +50,7 @@
   institution: Southern California Association of Governments
   salary_low: 63835.20
   salary_high: 98113.60
-  location: LosAngeles, CA
+  location: Los Angeles, CA
   closing: open until filled
   link: https://tmip.org/sites/freightmodelimprovementprogram.localhost/files/attachments/Transportation%20Modeler_Job%20Bulletin.pdf
 - name: Data Science Client Services Division Manager
