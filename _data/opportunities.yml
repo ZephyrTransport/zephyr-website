@@ -1,3 +1,29 @@
+- name: Transportation Modeler
+  time: full-time
+  headline: Activity-based model development and application in San Francisco
+  front: false
+  post: false
+  lead:
+  type: job
+  institution: San Francisco County Transportation Authority
+  salary_low: 86730
+  salary_high: 119683
+  location: San Francisco, California
+  closing: priority given to applications by March 13
+  link: https://sfcta.org/transportation-modeler
+- name: Modeling/Technology, Data, and Analysis Internship
+  time: intern 
+  headline: Transportation Authority Internship Program
+  front: false
+  post: false
+  lead:
+  type: internship
+  institution: San Francisco County Transportation Authority
+  salary_low: 
+  salary_high:
+  location: San Francisco, California
+  closing: March 20
+  link: https://sfcta.org/modeling-technology-data-and-analysis-internship
 - name: Transportation Planner/Analyst I/II
   time: full-time
   headline: Travel demand modeling and analytics practice.
