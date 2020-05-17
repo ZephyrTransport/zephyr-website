@@ -11,11 +11,17 @@ title: Zephyr Awards
 
 This award shall be given to a travel analysis professional or a team who has made a significant contribution to decision-making.
 
+**Congratulations to Sarah Sun as the 2020 recipient of this award!**.
+
 # [Exceptional Technical Achievement](/technical-achievement-award)
 This award shall be given to an individual or team for superior innovation and creativity in developing a project, method, study, or product that contributes to a positive impact on transportation and/or land use decision-making.
 
+**Congratulations to SACOG Technical Team as the 2020 recipient of this award!**.
+
 # [Impactful Research](/impactful-research-award)
 This award shall be given to an individual or team of researchers for a research project that has had the most [relatively recent] impact on bettering the travel analysis field for the public good.  
+
+**Congratulations to Michel Bierlaire as the 2020 recipient of this award!**.
 
 # [Outstanding Industry Contributor Award](/industry-contributor-award)
 This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
@@ -27,9 +33,9 @@ Outstanding Industry Contributor shall be:
  - Respectful and thoughtful in their interactions; and  
  - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Congratulations to Julie Dunbar as the 2019 inaugural recipient of this award!**.
+**Congratulations to Michael Mahut as the 2020 recipient of this award!**.
 
 # [Zephyr Leadership Award](/leadership-award)
 The Zephyr Leadership award shall be given to an individual who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**Congratulations to Joe Castiglione as the 2019 inaugural recipient of this award!**.
+**Congratulations to Joan Walker as the 2020 recipient of this award!**.
