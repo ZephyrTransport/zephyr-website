@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Learning Session: Introduction to ActivitySim.
+title: Learning Session – Introduction to ActivitySim
 type: Learning Session
 day: July  TBD
 time: TBD

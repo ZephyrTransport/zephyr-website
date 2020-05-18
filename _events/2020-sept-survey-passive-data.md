@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Panel on the intersection of Survey and Passive Data.
+title: Panel on the intersection of Survey and Passive Data
 type: Panel
 day: September TBD
 time: TBD

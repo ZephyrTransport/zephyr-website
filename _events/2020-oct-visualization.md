@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Learning Session: Visualization Tools + Tricks.
+title: Learning Session – Visualization Tools + Tricks
 type: Panel
 day: September TBD
 time: TBD

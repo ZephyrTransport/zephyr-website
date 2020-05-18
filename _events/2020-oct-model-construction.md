@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Panel on Model Construction Techniques.
+title: Panel on Model Construction Techniques
 type: Panel
 day: September TBD
 time: TBD

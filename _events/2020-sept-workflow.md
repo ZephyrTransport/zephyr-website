@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Learning Session: Workflow Tools + Tricks.
+title: Learning Session – Workflow Tools + Tricks
 type: Learning
 day: September TBD
 time: TBD
