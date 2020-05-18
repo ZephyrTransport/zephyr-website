@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Learning
-title: Panel on Behavior Dynamics: The Future...Accelerated.
+title: Panel on Behavior Dynamics – The Future...Accelerated.
 type: Panel
 day: August TBD
 time: TBD
