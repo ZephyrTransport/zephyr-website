@@ -4,7 +4,7 @@ category: Learning
 title: Panel on industry data standards
 type: Panel
 day: June 17, 2020
-time: 2:00-3:30 PM PDT / 11:00 AM-12:30 PM PDT
+time: 2:00-3:30 PM EDT / 11:00 AM-12:30 PM PDT
 place: Zoom Webinar - <a href="https://zoom.us/webinar/register/2415899459915/WN_qZCYQ3qGQbGnK9iYMyWOYg">Registration Open</a>
 additional-msg:
 summary:  "
