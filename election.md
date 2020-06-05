@@ -1,10 +1,27 @@
 ---
-layout: simple
-title: "Election"
-subTitle: "2020 Board Election Process"
+layout: project
+title: "Board Election 2020"
 ---
 
-We are finalizing the schedule and details for the 2020 Board election in the coming days!
+We are finalizing the schedule and details for the 2020 Board election in the coming days! The election will be held on June 24th, 2020.
+
+## Become a member to vote
+
+One of the most important aspects of being a member of the Zephyr Foundation
+is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws.
+
+To be eligible to vote you must be a member in good standing as of **June 10, 2020.** You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+
+This year's election will take place on **June 24th**.
+
+## Nominations for Board members are open!
+
+Anyone can submit nominations for the Zephyr Board; nominations are also
+due by June 10th. Nominees will be asked if they accept the nomination
+and then will be given an opportunity to prepare statements in support
+of their nomination before the election.
+
+<a target="_blank" href="https://docs.google.com/forms/d/112mL1g66iiu1eyWZwiooiMZEkM_feoaMVOahGTJkz9Q">Submit your nomination here</a>.
 
 ## 2020 Election Process
 
@@ -55,4 +72,8 @@ The Secretary will certify the results no later than 72 hours following the poll
 
 ### Schedule
 
-Coming soon.
+Detailed schedule coming soon. Critical dates:
+
+- June 10: Nominations close for new Board members. Two seats are open.
+- June 10: Be a member in good standing by June 10th in order to cast a vote in the Board election.
+- June 24: Board election
