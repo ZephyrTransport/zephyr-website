@@ -8,10 +8,11 @@ We are finalizing the schedule and details for the 2020 Board election in the co
 ## Become a member to vote
 
 One of the most important aspects of being a member of the Zephyr Foundation
-is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws. This year's election will take place on
-**June 24th**.
+is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws.
 
-To be eligible to vote you must be a member in good standing as of June 10, 2020.</b> You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+To be eligible to vote you must be a member in good standing as of **June 10, 2020.** You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+
+This year's election will take place on **June 24th**.
 
 ## Nominations for Board members are open!
 
