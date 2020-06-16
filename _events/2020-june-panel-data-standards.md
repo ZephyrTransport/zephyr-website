@@ -14,7 +14,7 @@ Data standards empower collaboration and help provide the infrastructure for bui
 <li><a href="https://github.com/zephyr-data-specs/GMNS/wiki">General Model Network Specification (GMNS)</a></li>
 <li><a href="https://wiki.openstreetmap.org/wiki/Elements">Open Street Map (OSM)</a></li>
 <li><a href="https://www.gtfs.org">General Transit Feed Specification (GTFS)</a></li>
-<li><a href="https://github.com/wsp-sag/network_wrangler">Project Card Standard</a></li><ul>
+<li><a href="https://github.com/wsp-sag/network_wrangler">Project Card Standard</a></li></ul>
 <p>Following brief presentations on each standard, the panel will discuss relevant issues with data standards, in cooperation with audience participants.
 <p>Organized by Ben Stabler.
 "
