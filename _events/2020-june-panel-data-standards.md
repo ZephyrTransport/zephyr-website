@@ -10,11 +10,11 @@ additional-msg:
 summary:  "
 Data standards empower collaboration and help provide the infrastructure for building community tools.  The purpose of this discussion is to share and discuss data standards for our industry.  The discussion will introduce standards such as:
 <ul>
-<li>Open Matrix (OMX)</li>
-<li>General Model Network Specification (GMNS)</li>
-<li>Open Street Map (OSM)</li>
-<li>General Transit Feed Specification (GTFS)</li>
-<li>Project Card Standard</li><ul>
+<li><a href="https://github.com/osPlanning/omx">Open Matrix (OMX)</a></li>
+<li><a href="https://github.com/zephyr-data-specs/GMNS/wiki">General Model Network Specification (GMNS)</a></li>
+<li><a href="https://wiki.openstreetmap.org/wiki/Elements">Open Street Map (OSM)</a></li>
+<li><a href="https://www.gtfs.org">General Transit Feed Specification (GTFS)</a></li>
+<li><a href="https://github.com/wsp-sag/network_wrangler">Project Card Standard</a></li><ul>
 <p>Following brief presentations on each standard, the panel will discuss relevant issues with data standards, in cooperation with audience participants.
 <p>Organized by Ben Stabler.
 "
