@@ -7,6 +7,15 @@ day: July 22nd
 time: 2:00-3:30 PM ET/11:00-12:30 PT
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
-summary:  "Organized by Jonathan Ehrlich.
+summary:  "Organized by Jonathan Ehrlich, Metropolitan Council
+
+Panelists:
+<ul>
+<li>Tierra Bills, Wayne State University
+<li>Jessica Schoner, Toole Design Group
+<li>Brian Lee, Puget Sound Regional Council
+<li>Michelle Bina, Cambridge Systematics
+<li>Nancy McGuckin, Independent Travel Behavior Analyst
+</ul>
 "
 ---
