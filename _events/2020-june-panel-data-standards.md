@@ -5,7 +5,7 @@ title: Panel on industry data standards
 type: Panel
 day: June 17, 2020
 time: 2:00-3:30 PM EDT / 11:00 AM-12:30 PM PDT
-place: Zoom Meeting - Recording Forthcoming
+place: <a href='https://youtu.be/r-hMnQPFF-E'>Meeting Recording</a>
 additional-msg:
 summary:  "
 Data standards empower collaboration and help provide the infrastructure for building community tools.  The purpose of this discussion is to share and discuss data standards for our industry.  The discussion will introduce standards such as:
