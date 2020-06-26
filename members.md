@@ -5,12 +5,7 @@ subTitle: "Become a member to support Zephyr!"
 ---
 ### Organizational Members + Subscribers
 <div class = "row">
-<img src="/img/logos/MTC-logo.png" height="50px" style="float:left; margin-left:20px; margin-top: 50px; margin-right:40px;" />
-<img src="/img/logos/MetCouncil-logo.jpg" height="150px" style="float:left; margin-right:40px;" />
 <img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" />
-<img src="/img/logos/OregonDOT.jpg" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
-<img src="/img/logos/sfcta.png" height="80px" style="float:left; margin-right:20px; margin-top: 40px;" />
-<img src="/img/logos/RSG.jpg" height="80px" style="float:right; margin-right:20px; margin-top: 40px;" />
 </div>
 
 ### Zephyr Members
@@ -21,41 +16,43 @@ Member’s are at the heart of the Zephyr Foundation’s organizational structur
 **Current Individual Members**
 
  * Joan Walker
- * Ram Pendyala
+ * Ram Pendyala  
+ * David Ory  
+ * Charles Gorugantula  
  * Julie Dunbar
  * Joe Flood
- * Jason Hawkins  
+ * Gregory Erhardt
+ * Rosella Picado
  * Stacey Bricka  
- * Alec Biehl   
- * Raphael Dumas  
+ * Melvin Wong  
+ * Alec Biehl  
  * Scott Ramming  
  * Patricia Mokhtarian  
- * Aruna Sivakumar  
+ * Billy Charlton  
  * Marty Milkovits  
  * Lisa Zorn  
- * Jeffrey Newman  
- * Elisa Borowski  
+ * Jeffrey Newman   
  * Juan David Caicedo Castro
- * Asadul Hoque Tanvir
- * Like Liu   
- * Simon J. Berrebi   
- * Scott Thompson-Graves
+ * Like Liu     
  * Ken Kaltenbach  
- * Johnny Han  
  * Srinivas Varanasi  
- * Yu-Chu Huang
  * Joe Castiglione
- * Philip Carleton
- * Charles Baber
- * Rosella Picado
- * Patricia Mokhtarian  
- * David Ory  
- * Daniel Florian
- * Peter Bosa
- * Chris Johnson
- * Aaron Breakstone
- * Cindy Pederson
- * Jeff Frkonja
+ * Leah Silen  
+ * Cree Lawson  
+ * Matthew Conway  
+ * Rachel Copperman  
+ * Jennifer Kwong  
+ * Greg MacFarlane  
+ * Liz Amar  
+ * Matt Stratton  
+ * Behzad Karimi  
+ * Ashish Kulshrestha  
+ * Christi Byrd  
+ * Suzanne Childress  
+ * Pedra Veiga de Carmago  
+ * Cesar Yahia   
+ * Mario Scott  
+ * Yue Shuai  
 
 **Founding Member Roster**
 
