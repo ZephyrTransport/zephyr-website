@@ -11,6 +11,7 @@ summary: "<p>Machine learning has been widely used in some fields, but has yet t
 <p>Rick Donnelly (WSP) will present this overview, and will be joined by colleagues Kyle Ward (Caliper Corporation) and Mausam Duggal (WSP) to show real-world examples of how machine learning has been applied in income imputation, mode choice, and analysis of truck GPS tracking data. The examples will walk the audience through how the data were prepared, run through training using different machine learning packages, how the results can be used for prediction, and observations on the process.</p>
 <p>Background in linear algebra, probability and statistics will be helpful but not required for this overview.
 <p><b>Materials:</b>
-<ul><li><a href='https://drive.google.com/file/d/1G6m8092chYdX-cExNYhbVkoirseOz2Q3/view?usp=sharing'>Day 1 Presentation</a></li></ul>
+<ul><li><a href='https://drive.google.com/file/d/1G6m8092chYdX-cExNYhbVkoirseOz2Q3/view?usp=sharing'>Day 1 Presentation</a></li><li><a href=
+https://drive.google.com/file/d/1EviLnJ_6lFRg4rhzmA-IRF1ctcHxvI2o/view?usp=sharing'>Day 2 Presentation</a></li></ul>
 "
 ---
