@@ -16,11 +16,11 @@ Each speaker will present on their work, followed by a panel discussion. The dis
 
 Panelists:
 <ul>
-<li>Tierra Bills, Wayne State University
-<li>Jessica Schoner, Toole Design Group
-<li>Brian Lee, Puget Sound Regional Council
-<li>Michelle Bina, Cambridge Systematics
-<li>Nancy McGuckin, Independent Travel Behavior Analyst
+<li>Tierra Bills, Wayne State University: <i>Ring the Alarm: Case Studies of Travel Demand Analysis on Transport Disadvantaged Communities</i>
+<li>Nancy McGuckin, Independent Travel Behavior Analyst: <i>Mainstreaming Race and Gender Analysis in Transportation Policy Research</i>
+<li>Brian Lee, Puget Sound Regional Council: <i>Equity and Regional Planning: An MPO’s Perspective</i>
+<li>Jessica Schoner, Toole Design Group: <i>Safety data gaps and their implications for racial equity</i>
+<li>Michelle Bina, Cambridge Systematics: <i>Diversity in Modeling</i>
 </ul>
 "
 ---
