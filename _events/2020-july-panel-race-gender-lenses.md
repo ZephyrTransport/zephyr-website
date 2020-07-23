@@ -15,10 +15,10 @@ Event summary and next steps coming soon...
 
 <p>Panelists:
 <ul>
-<li>Tierra Bills, Wayne State University: <i>Ring the Alarm: Case Studies of Travel Demand Analysis on Transport Disadvantaged Communities</i>–<a href='https://drive.google.com/file/d/17bkJ_U4WhQgrdxxuNqT11aDKh_xzUBQW/view?usp=sharing'>Presentation</a>
-<li>Nancy McGuckin, Independent Travel Behavior Analyst: <i>Mainstreaming Race and Gender Analysis in Transportation Policy Research</i>-<a href='https://drive.google.com/file/d/1IG-LKAqC_i93-74meOdMTCiEDyqvefH-/view?usp=sharing'>Presentation</a>)
-<li>Brian Lee, Puget Sound Regional Council: <i>Equity and Regional Planning: An MPO’s Perspective</i>–<a href='https://drive.google.com/file/d/1J508lUWTXHLq3MUVoZfKDq19s1nmo5Qn/view?usp=sharing'>Presentation</a>
-<li>Jessica Schoner, Toole Design Group: <i>Safety data gaps and their implications for racial equity</i>–<a href=''>Presentation Forthcoming</a>
+<li>Tierra Bills, Wayne State University: <i>Ring the Alarm: Case Studies of Travel Demand Analysis on Transport Disadvantaged Communities</i> – <a href='https://drive.google.com/file/d/17bkJ_U4WhQgrdxxuNqT11aDKh_xzUBQW/view?usp=sharing'>Presentation</a>
+<li>Nancy McGuckin, Independent Travel Behavior Analyst: <i>Mainstreaming Race and Gender Analysis in Transportation Policy Research</i> - <a href='https://drive.google.com/file/d/1IG-LKAqC_i93-74meOdMTCiEDyqvefH-/view?usp=sharing'>Presentation</a>
+<li>Brian Lee, Puget Sound Regional Council: <i>Equity and Regional Planning: An MPO’s Perspective</i> – <a href='https://drive.google.com/file/d/1J508lUWTXHLq3MUVoZfKDq19s1nmo5Qn/view?usp=sharing'>Presentation</a>
+<li>Jessica Schoner, Toole Design Group: <i>Safety data gaps and their implications for racial equity</i> – <a href=''>Presentation Forthcoming</a>
 <li>Michelle Bina, Cambridge Systematics: <i>Diversity in Modeling</i>
 </ul>
 
