@@ -10,7 +10,7 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).
 
 - **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, _Northwestern University_, **Diversity Officer**
-- **[Jeff Newmann](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_
+- **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_
 - **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_
 - **[Jonathan Ehrlich](https://www.linkedin.com/in/jnehrlich/)**, _Metropolitan Council (MN)_
 - **[Julie Dunbar](https://www.linkedin.com/in/julie-dunbar-a219879/)**, _Dunbar Transportation_
