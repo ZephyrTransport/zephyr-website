@@ -18,7 +18,7 @@ Presenters:
 
 <h3>Part 2: Opportunities using both parallel and fused data sources</h3>
 <i>Moderated by Jim Hubbell (Streetlight Data)</i>
-<ul><li>FHWA (TBD)</li>
+<ul><li>Patrick Zhang (FHWA)</li>
 <li>Greg Erhardt (University of Kentucky)</li></ul>
 
 <h3>Part 3: Looking ahead</h3>
