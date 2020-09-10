@@ -1,0 +1,30 @@
+.z-programs-list {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.z-program-entry {
+  border-top: 2px solid #0da5d3;
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 75em) {
+  .z-section-title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .z-programs-list {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .z-section-title {
+    text-align: center;
+  }
+}
