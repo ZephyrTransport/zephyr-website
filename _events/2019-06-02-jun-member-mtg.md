@@ -1,14 +1,12 @@
 ---
 layout: event
-img:
 category: TRB
 title: "Zephyr Member Meeting and 'Morning of Zephyr'"
 type: Meeting
-day: Sunday June 2, 2019
 time: 10:00a - 12:00p
 place: Hilton Portland Downtown - Parlor B/C
 registration: https://www.eventbrite.com/e/2019-zephyr-summer-member-meeting-tickets-61667117007
-additional-msg: "Getting to Portland on <b>Saturday</b> and want to hang out?  We'd love to see you for some informal fun...bring your laptop! 
+additional-msg: "Getting to Portland on <b>Saturday</b> and want to hang out?  We'd love to see you for some informal fun...bring your laptop!
 <h3> Saturday 6/1 </h3>
 <i>location: Case Study Coffee Roasters Yamhill and 10th Email <a href='mailto:info@zephyrtransport.org'>info@zephyrtransport.org</a> if you want to make sure we update you or to let us know you are coming</i>
 <ul><li>2PM Stack Share: What tools are you using?</li>
@@ -46,4 +44,3 @@ summary: "<br/>
 </ul>
 "
 ---
-

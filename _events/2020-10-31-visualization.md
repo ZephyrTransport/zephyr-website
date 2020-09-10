@@ -1,9 +1,9 @@
 ---
 layout: event
 category: Learning
-title: Panel on Model Construction Techniques
+title: Learning Session – Visualization Tools + Tricks
 type: Panel
-day: September TBD
+day: October
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:

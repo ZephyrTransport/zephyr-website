@@ -1,9 +1,9 @@
 ---
 layout: event
 category: Learning
-title: Learning Session – Network Development Tools and Tricks
-type: Learning Session
-day: July TBD
+title: Panel on Model Construction Techniques
+type: Panel
+day: October
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:

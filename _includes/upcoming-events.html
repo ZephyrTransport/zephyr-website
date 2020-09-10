@@ -1,0 +1,27 @@
+<div class="z-upcoming-events">
+    <div>
+        <h3>Upcoming events</h3>
+
+        <div class="z-events-table">
+            {% for post in site.events %}
+                {% unless post.time == 'TBD' %}
+                    {% if post.date >= site.time %}
+                        {% include one-event.html post=post %}
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+    <div>
+
+        {% assign tbd = site.events | where: "time","TBD" %}
+
+        <h3>In development</h3>
+        <div class="z-events-table">
+            {% for post in tbd %}
+                {% include one-event.html post=post %}
+            {% endfor %}
+        </div>
+    </div>
+
+</div>

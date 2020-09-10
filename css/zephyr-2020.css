@@ -25,6 +25,56 @@ h3.z-hero-subtitle {
   background-color: #00000099;
 }
 
+.z-event-year {
+  background-color: #0da5d3;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 5rem 0rem 1rem 0rem;
+}
+
+.z-events-table {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+
+.z-event-date {
+  grid-column: 1 / 2;
+}
+
+.z-event-title {
+  grid-column: 2 / 3;
+}
+
+.z-upcoming-events {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.z-upcoming-events h3 {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #0da5d3;
+  color: #335;
+}
+
+.z-header-readable {
+  background-color: #ffffffdd;
+  margin: 5rem auto;
+  padding: 2rem 2rem;
+  width: max-content;
+  font-size: 5rem;
+  border: 5px solid #0da5d3;
+  color: #335;
+}
+
+.z-header-readable h2 {
+  margin: 1.5rem 1rem;
+}
+
 @media only screen and (max-width: 75em) {
   .z-section-title {
     text-align: center;
@@ -36,6 +86,10 @@ h3.z-hero-subtitle {
 }
 
 @media only screen and (max-width: 48em) {
+  .z-header-readable {
+    width: auto;
+  }
+
   .z-programs-list {
     margin-top: 4rem;
     display: flex;
@@ -49,5 +103,11 @@ h3.z-hero-subtitle {
 
   .z-social-buttons {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .z-upcoming-events {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
   }
 }

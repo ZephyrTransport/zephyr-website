@@ -1,12 +1,11 @@
 ---
 layout: event
-img: 
+img:
 category: TRB
-title: Open Science PMG Meeting
+title: Software Badging PMG Meeting
 type: Meeting
-day: Monday January 14th, 2019
-time: 3:30 PM - 5:00 PM
+time: 10:30-12:00 AM
 place: Marriott Marquis Washington DC <br>(Eastern Market M3)
-additional-msg: <a href='/projects/4-open-science/'>Open Science Project page</a>
+additional-msg: <a href='/projects/3-software-badging'>Badging Project page</a>
 summary: "<i>Full meeting minutes will be posted to project page upon review by the PMG.</i>"
 ---

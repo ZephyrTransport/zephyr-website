@@ -3,7 +3,7 @@ layout: event
 category: TRB
 title: "Exhibitor at TRB Planning Applications Conference"
 type: Meeting
-day: Sunday June 2 - Wednesday June 5, 2019 
+day: Sun. June 2 - Wed. June 5
 place: Hilton Portland Downtown
 registration: https://www.trbappcon.org/
 additional-msg: Feel free to contact us at <a href='mailto:info@zephyrtransport.org'>info@zephyrtransport.org</a> if you would like to schedule a meeting to learn more or discuss an idea.
@@ -14,7 +14,7 @@ summary: "<br/>
 <p>Ongoing activities at the booth will include:
 <ul>
 <li>Project and activity nominations
-<li>Project idea voting  
+<li>Project idea voting
 <li>Volunteer sign up
 </ul>
 <p>We will also have project- and initiative-specific experts on hand at the booth according to the following schedule.
@@ -32,4 +32,3 @@ summary: "<br/>
 </ul>
 "
 ---
-

@@ -4,7 +4,6 @@ img:
 category: TRB
 title: Software Badging PMG Meeting
 type: Meeting
-day: Monday January 13th, 2020
 time: 10:15 AM-12:00 PM
 place: Washington DC Convention Center<br>Room 159B<br><br><br>
 additional-msg: <a href='/projects/3-software-badging'>Badging Project page</a>

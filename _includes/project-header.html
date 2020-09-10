@@ -26,7 +26,10 @@
                     <a class="page-scroll" href="/#activities">Activities</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/#timeline">Events + Timeline</a>
+                    <a class="page-scroll" href="/events">Events</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://medium.com/zephyrfoundation" target="_blank">Blog</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="/membership">Membership</a>
@@ -40,7 +43,7 @@
 
 <section id="home">
     <!-- Header -->
-    <div class="event-header img" style="background:url('{{ site.url }}/img/{{ page.img }}' ) no-repeat center center; background-size: cover;">
+    <div class="event-header img" style="margin-bottom: 4rem; background:url('/img/{{ page.img }}' ) no-repeat center center; background-size: cover;">
 
         <div class="container">
 
@@ -50,11 +53,11 @@
                         <p>{{ page.latest-update }}</p>
                     </div>
                 </div>
-                <div class="col-md-10 z-section-title">
+                <div class="col-md-12 z-section-title">
                     <div class="intro-message">
-                        <h2 class="project-title zephyr z-section-title">{{ page.title }}</h2>
-                        <h3 class="highlight-text">{{ page.type }}</h3>
-                        <hr class="intro-divider">
+                        <div class="z-header-readable">
+                            <h2 class="project-title zephyr z-section-title">{{ page.title }}</h2>
+                        </div>
                     </div>
                 </div>
 

@@ -3,7 +3,6 @@ layout: event
 category: Learning
 title: Panel on industry data standards
 type: Panel
-day: June 17, 2020
 time: 2:00-3:30 PM EDT / 11:00 AM-12:30 PM PDT
 place: <a href='https://youtu.be/r-hMnQPFF-E'>Meeting Recording</a>
 additional-msg:

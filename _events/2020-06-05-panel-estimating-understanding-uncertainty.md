@@ -3,7 +3,6 @@ layout: event
 category: Learning
 title: Prospective and retrospective views of uncertainty in travel forecasting
 type: Learning Session
-day: Friday June 5th, 2020
 time: 1:00-2:30 PM EDT / 10:00 AM-11:30 PM PDT
 place: <a href="https://youtu.be/gw_FIKCFYiI">Session Recording</a>
 additional-msg: .

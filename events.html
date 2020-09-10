@@ -1,0 +1,93 @@
+---
+layout: project
+title: "Events @ Zephyr"
+subTitle: "All events, past and present"
+img: conv-center-bikes-smaller.jpg
+latest-update: ""
+---
+
+<h1>Events @ Zephyr</h1>
+
+<p>
+    All events, past and present, for which Zephyr either sponsored or had a presence.
+</p>
+
+<p>If you are planning an event you'd like Zephyr to be involved in, contact us via the methods at the bottom of the page.
+</p>
+
+<hr/>
+
+{% assign years = "2030|2029|2028|2027|2026|2025|2024|2023|2022|2021|2020|2019|2018|2017" | split: "|" %}
+{% capture strnowyear %}
+    {{'now' | date: '%Y'}}
+{% endcapture %}
+{% assign nowyear = strnowyear | plus: 0 %}
+
+{% for stryear in years %}
+    {% assign year = stryear | plus: 0 %}
+    {% if year <= nowyear %}
+        <br/>
+
+        <div class="z-event-year">
+            {{year}}
+        </div>
+
+        <div class="z-events-table">
+
+            {% for post in site.events reversed %}
+                {% capture postyear %}
+                    {{post.date | date: '%Y'}}
+                {% endcapture %}
+                {% if postyear contains stryear %}
+
+                    <div class="z-event-date">
+                        {% if post.day  %}
+                            {{post.day}}
+                        {% else %}
+
+                            <!-- Whitespace added for readability -->
+                            {% assign dy = post.date | date: "%a" %}
+                            {% case dy %}
+                                    {% when "Tue" %}Tues.{% when "Thu" %}Thurs.
+                                {% else %}
+                                    {{ dy }}.
+                            {% endcase %}
+
+                            {% assign d = post.date | date: "%-d" %}
+                            {% assign m = post.date | date: "%B" %}
+
+                            {% case m %}
+                                {% when 'April' or 'May' or 'June' or 'July' %}
+                                    {{ m }}
+                                    {% when 'September' %}Sept.
+                                {% else %}
+                                    {{ post.date | date: "%b" }}.
+                            {% endcase %}
+                            {% case d %}
+                                {% when '1' or '21' or '31' %}
+                                    {{ d }}st
+                                {% when '2' or '22' %}
+                                    {{ d }}nd
+                                {% when '3' or '23' %}
+                                    {{ d }}rd
+                                {% else %}
+                                    {{ d }}th
+                            {% endcase %}
+
+                        {% endif %}
+                    </div>
+
+                    <div class="z-event-title">
+                        <a href="{{post.url}}">{{ post.title }}</a>
+                        <p>{{ post.time }}</p>
+                    </div>
+
+                {% endif %}
+            {% endfor %}
+
+        </div>
+
+    {% endif %}
+{% endfor %}
+
+<br/><br/><br/><br/>

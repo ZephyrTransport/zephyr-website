@@ -3,7 +3,6 @@ layout: event
 category: Learning
 title: Panel on Behavior Dynamics – The Future...Accelerated.
 type: Panel
-day: Thurs Nov 5th 2020
 time: 12:00PM ET/ 9:00AM PT
 place: Zoom Webinar - Registration forthcoming
 additional-msg:

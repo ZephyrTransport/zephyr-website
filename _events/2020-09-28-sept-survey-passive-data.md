@@ -3,7 +3,6 @@ layout: event
 category: Learning
 title: Panel on the intersection of Survey and Passive Data
 type: Panel
-day: September 28th
 time: 2:00-4:00 ET/11:00-1:00 PT
 place: Zoom Webinar - <a href='https://zoom.us/meeting/register/tJMqdOmhrT8qG9xjYrd9blQEBviPrxoGitYM'>Registration open</a>
 additional-msg:
