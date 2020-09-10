@@ -10,9 +10,20 @@
   padding: 2rem 0;
 }
 
+.z-social-buttons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin: 0 2rem;
+}
+
 @media only screen and (max-width: 75em) {
   .z-section-title {
     text-align: center;
+  }
+
+  .z-social-buttons {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -26,5 +37,9 @@
 
   .z-section-title {
     text-align: center;
+  }
+
+  .z-social-buttons {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
