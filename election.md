@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Board Election 2020"
+img: bike-bridge.jpg
 ---
 
 The annual board election member meeting will be held August 4th 2020 at 10AM PDT.
