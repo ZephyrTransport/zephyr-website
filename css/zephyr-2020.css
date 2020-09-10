@@ -17,6 +17,14 @@
   margin: 0 2rem;
 }
 
+h3.z-hero-subtitle {
+  padding: 0.5rem 0;
+  margin: 2rem auto;
+  text-shadow: none;
+  font-size: 3rem;
+  background-color: #00000099;
+}
+
 @media only screen and (max-width: 75em) {
   .z-section-title {
     text-align: center;
