@@ -7,6 +7,5 @@ day: October
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
-summary:  "
-"
+summary: "More to come."
 ---

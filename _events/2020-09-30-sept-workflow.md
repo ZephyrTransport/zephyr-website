@@ -7,6 +7,5 @@ day: September
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
-summary:  "
-"
+summary: ""
 ---
