@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-{% include nav.html %}
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-offset-1">
-            <div class="event">
-              <div class="event-header">
-                <h1 class='event-title'>{{ page.title }}</h1>
-                <h2 class='event-date'>{{ page.day }}</h2>
-                <h2 class='event-date'>{{ page.time }}</h2>
-                <h2 class='event-place'>{{ page.place }}</h2>
-                {% if page.registration %}<a href={{ page.registration }}><button type="button" class="btn btn-lg btn-z">Register Now</button></a>{% endif %}
-              </div>
-              <p> {{ page.summary }}
-              
+    {% include head.html %}
+    {% include nav.html %}
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-offset-1">
+                    <div class="event">
+                        <div class="event-header">
+                            <h1 class="event-title">{{ page.title }}</h1>
+                            {% if page.day %}
+                                <h2 class="event-date">{{ page.day }}</h2>
+                            {% else %}
+                                <h2 class="event-date">{{ page.date | date: "%B %d, %Y" }}</h2>
+                            {% endif %}
+                            <h2 class="event-date">{{ page.day }}</h2>
+                            <h2 class="event-date">{{ page.time }}</h2>
+                            <h2 class="event-place">{{ page.place }}</h2>
+                            {% if page.registration %}
+                                <a href={{ page.registration }}>
+                                    <button class="btn btn-lg btn-z" type="button">Register Now</button>
+                                </a>
+                            {% endif %}
+                        </div>
+                        <p>{{ page.summary }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="event-img">
+                        {% if page.img %}<img src="{{ page.img }}" alt="Event Photo" style="height:200px;">
+                        {% endif %}
+                        <p class="small">
+                            <i aria-hidden="true" class="fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>
+                            {{ page.additional-msg}}</p>
+                    </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    {{ content }}
+                </div>
             </div>
-            <div class="col-sm-4">
-            <div class="event-img">
-                {% if page.img %}<img src="{{ page.img }}" alt="Event Photo" style="height:200px;">{% endif %}
-                <p class="small"> <i class="fa fa-angle-right" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> {{ page.additional-msg}}</p>
-            </div>
-            </div>
+
         </div>
-        
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-            {{ content }}
-            </div>
-        </div>
-        
-    </div>
-	{% include footer.html %}
-	{% include js.html %}
-</body>
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
 </html>
