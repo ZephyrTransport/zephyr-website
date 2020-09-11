@@ -8,15 +8,19 @@
                 <div class="col-sm-6 col-md-offset-1">
                     <div class="event">
                         <div class="event-header">
+
                             <h1 class="event-title">{{ page.title }}</h1>
+
                             {% if page.day %}
                                 <h2 class="event-date">{{ page.day }}</h2>
                             {% else %}
-                                <h2 class="event-date">{{ page.date | date: "%B %d, %Y" }}</h2>
+                                <h2 class="event-date">{{ page.date | date: "%B %-d, %Y" }}</h2>
                             {% endif %}
-                            <h2 class="event-date">{{ page.day }}</h2>
+
                             <h2 class="event-date">{{ page.time }}</h2>
+
                             <h2 class="event-place">{{ page.place }}</h2>
+
                             {% if page.registration %}
                                 <a href={{ page.registration }}>
                                     <button class="btn btn-lg btn-z" type="button">Register Now</button>
