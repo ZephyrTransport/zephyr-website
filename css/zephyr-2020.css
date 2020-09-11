@@ -75,6 +75,20 @@ h3.z-hero-subtitle {
   margin: 1.5rem 1rem;
 }
 
+.event-place {
+  margin-bottom: 3rem;
+}
+
+.event-place a {
+  border: 1px solid #0da5d3;
+  padding: 0.5rem 0.5rem;
+}
+
+.event-place a:hover {
+  border: 1px solid #335;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 75em) {
   .z-section-title {
     text-align: center;
