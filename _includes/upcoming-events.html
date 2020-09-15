@@ -5,7 +5,9 @@
         <div class="z-events-table">
             {% for post in site.events %}
                 {% unless post.time == 'TBD' %}
-                    {% if post.date >= site.time %}
+                    {% capture postdate %}{{post.date | date: "%Y%m%d" | plus: 1}}{%endcapture%}
+                    {% capture today %}{{site.time | date: "%Y%m%d" | plus: 0}}{%endcapture%}
+                    {% if postdate >= today %}
                         {% include one-event.html post=post %}
                     {% endif %}
                 {% endunless %}
