@@ -3,7 +3,7 @@ layout: event
 category: Learning
 title: Panel on Behavior Dynamics – The Future...Accelerated.
 type: Panel
-time: 12:00PM ET/ 9:00AM PT
+time: 1:00PM ET/ 10:00AM PT
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
 summary: "This session includes a series of presentations that offer new methods, data, tools, and insights to understand and model dynamics of behavior."
