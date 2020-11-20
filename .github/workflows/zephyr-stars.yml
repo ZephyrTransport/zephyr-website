@@ -34,10 +34,7 @@ jobs:
         run: |
           wget -O stars.content https://raw.githubusercontent.com/ZephyrTransport/zephyr-stars/master/STARS.md
           cat stars.template stars.content > stars.md
-          if [[ $(git status -uno --short) ]]; then
-            git config user.name "Zephyr Bot"
-            git config user.email "info@zephyrtransport.org"
-            git add stars.md && git commit -m "update stars" && git push
-          fi;
-            
-            
+          git config user.name "Zephyr Bot"
+          git config user.email "info@zephyrtransport.org"
+          if [[ $(git status -uno --short) ]]; then git add stars.md && git commit -m "update stars" && git push; fi
+
