@@ -1,3 +1,17 @@
+.z-stars ul {
+  padding-left: 0;
+}
+
+.z-stars li {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.z-stars li a {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .z-programs-list {
   margin-top: 4rem;
   display: grid;
