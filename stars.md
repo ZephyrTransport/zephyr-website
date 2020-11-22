@@ -2,7 +2,7 @@
 layout: stars
 title: Zephyr Stars
 subtitle: Projects we like
-img: coral.jpg
+img: austria.jpg
 ---
 
 # Zephyr Stars
