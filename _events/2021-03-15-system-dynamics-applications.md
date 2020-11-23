@@ -1,13 +1,12 @@
 ---
 layout: event
 category: Learning
-title: Panel on the Bridging Domains in Model Building Methods
-type: Panel
-day: November
+title: System dynamics for strategic planning under technological uncertainty
+type: Learning Session
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
-summary: "Organized by Dr. Josie Kressner and Dr. Jeff Newman"
+summary: "Organized by Hannah Rakoff and Scott Smith, USDOT Volpe"
 ---
 
-More to come.
+This is a follow up to the popular May 2020 Learning Session: [Introduction to System Dynamics](/2020-05-27-learning-system-dynamics)

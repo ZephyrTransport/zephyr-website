@@ -3,8 +3,9 @@ layout: simple
 title: "Zephyr Leadership Award"
 subTitle: "Nominations"
 ---
+**[Nominations open for the 2021 Zephyr Leadership award](https://docs.google.com/forms/d/e/1FAIpQLSeqa-uzfdr51N8sr5pfKyVcAQPDyoLs1R29TAuxOA3egKpf_A/viewform?usp=sf_link)**
 
-**Congratulations to the winner of the 2020 Outstanding Contributor Award: Dr. Joan Walker.**
+*Congratulations to the winner of the 2020 Zephyr Leadership Award: Dr. Joan Walker.*
 
 Dr. Walker's leadership of the Transportation Research Board Travel Forecasting Committee produced an appropriate and much needed reflection of our industry and a renewed drive towards self-improvement, which directly resulted in the creation of the Zephyr Foundation.  Dr. Walker is known as a caring and dedicated mentor who has provided useful guidance and a much-appreciated open door to her many students in addition to any industry professional who is lucky enough to introduce themselves to her. As an academic, Dr. Walker has led our field in cross-collaboration with the fields of behavioral economics, environmental justice, and data science to produce relevant and actionable research.
 

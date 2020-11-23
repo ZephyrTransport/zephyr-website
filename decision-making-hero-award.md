@@ -4,7 +4,9 @@ title: "Decision Making Hero Award"
 subTitle: "Nominations"
 ---
 
-**Congratulations to the winner of the Inaugural Recipient of the Decision-Making Hero Award: Sarah Sun, for leading the development of Exploratory Modeling in our field.**
+**[Nominations are open for the 2021 Decision Making Hero Award](https://docs.google.com/forms/d/e/1FAIpQLSfFU5f7ssUlwH97jvrqg5IShCFpWEJfY7WkMGdtt8-FKAoSwA/viewform?usp=sf_link)**
+
+*Congratulations to the winner of the Inaugural Recipient of the Decision-Making Hero Award: Sarah Sun, for leading the development of Exploratory Modeling in our field.*
 
 Exploratory Modeling is a much needed reframing of travel analysis forecasting in the face of our world of uncertainty that promotes robust decision making.  While not the technical implementer, Ms. Sun is the heart of this project and has led the way in creating an approachable and actionable response to decision-maker inquiry. 
 

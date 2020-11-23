@@ -1,11 +1,10 @@
 ---
 layout: event
 category: Learning
-title: Panel on Model Construction Techniques
+title: Innovations in Network Models that respond to policy questions
 type: Panel
-day: October
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
-summary: ""
+summary: "Organized by Dr. Andisheh Ranjbari"
 ---
