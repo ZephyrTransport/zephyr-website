@@ -5,9 +5,9 @@ subTitle: "Become a member to support Zephyr!"
 ---
 ### Organizational Members + Subscribers
 <div class = "row">
-<img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" />
-<img src="/img/logos/MetCouncil-logo.jpg" height="150px" style="float:left; margin-right:20px;" />
-<img src="/img/logos/wsp.jpg" height="150px" style="float:left; margin-right:20px;" />
+<a href="https://www.transportation.ohio.gov/"><img src="/img/logos/ODOT-logo.PNG" height="150px" style="float:left; margin-right:20px;" /></a>
+<a href="https://metrocouncil.org/"><img src="/img/logos/MetCouncil-logo.jpg" height="150px" style="float:left; margin-right:20px;" /></a>
+<a href="http://wsp.com"><img src="/img/logos/wsp.jpg" height="150px" style="float:left; margin-right:20px;" /></a>
 </div>
 
 ### Zephyr Members
