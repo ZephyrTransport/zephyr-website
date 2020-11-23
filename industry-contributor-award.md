@@ -4,8 +4,9 @@ title: "Outstanding Industry Contributor"
 subTitle: "Nominations"
 ---
 
+**[Nominations Open for 2021 Outstanding Industry Contributor](https://docs.google.com/forms/d/e/1FAIpQLSfe10vDryzm9EvWNviw3W4u9KqOXgpolA_LcLT4NDGvAvW2XA/viewform?usp=sf_link)**
 
-**Congratulations to the winner of the 2020 Outstanding Contributor Award: Dr. Michael Mahut.**
+*Congratulations to the winner of the 2020 Outstanding Contributor Award: Dr. Michael Mahut.*
 
 Dr. Mahut has provided selfless contributions to numerous activities to promote more widespread understanding of network modeling.  The shining star of his numerous efforts are his contributions to the DTA Primer.  Beyond that, he assists in the production of numerous conferences and workshohps thoughout the year and is always willing to give a helping hand no matter the task.
 

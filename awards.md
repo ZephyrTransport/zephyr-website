@@ -38,4 +38,4 @@ Outstanding Industry Contributor shall be:
  - Respectful and thoughtful in their interactions; and  
  - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Congratulations to Michael Mahut as the 2020 recipient of this award!**.
+**Nominations Open**.
