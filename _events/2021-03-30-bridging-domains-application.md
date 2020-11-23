@@ -1,9 +1,8 @@
 ---
 layout: event
 category: Learning
-title: Panel on the Bridging Domains in Model Building Methods
+title: Learning Session - Planning with Data Driven Models
 type: Panel
-day: November
 time: TBD
 place: Zoom Webinar - Registration forthcoming
 additional-msg:
