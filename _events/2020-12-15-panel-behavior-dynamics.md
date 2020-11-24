@@ -15,6 +15,7 @@ Presenters will include:
 
  - [Steve Polzin](https://www.linkedin.com/in/steven-polzin-06491b3/) – Office of the Assistant Secretary of Research, USDOT   
  - [Gabe Jiangbo Yu](https://www.linkedin.com/in/gjbyu/) – AECOM   
+ - [Nancy McGuckin]() – Independent 
  - [Mark Bradley](https://rsginc.com/team/mark-bradley/) – Resource Systems Group  
 
 Organized by Dr. Ram Pendyala and the [TOMNET University Transportation Center](https://tomnet-utc.engineering.asu.edu/) at Arizona State University.
