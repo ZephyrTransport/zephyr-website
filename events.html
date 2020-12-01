@@ -21,7 +21,7 @@ latest-update: ""
 {% capture strnowyear %}
     {{'now' | date: '%Y'}}
 {% endcapture %}
-{% assign nowyear = strnowyear | plus: 0 %}
+{% assign nowyear = strnowyear | plus: 1 %}
 
 {% for stryear in years %}
     {% assign year = stryear | plus: 0 %}
