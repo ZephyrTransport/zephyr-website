@@ -5,7 +5,7 @@ title: Zephyr Awards
 ---
 
 
-**2021 Zephie Awards nominations are open**
+**2021 Zephie Awards nominations are open - DEADLINE FEB 5TH**
 
 # [Decision-Making Hero](/decision-making-hero-award)
 
