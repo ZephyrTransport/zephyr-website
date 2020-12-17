@@ -3,10 +3,9 @@ layout: event
 category: Learning
 title: Panel on Behavior Dynamics – The Future...Accelerated.
 type: Panel
-time: Recording and Presentations Posted
+time: Recording and Presentations
 place: Zoom Webinar - <a href="https://youtu.be/JQCyfpmq4oM">Recording</a>
-additional-msg: <h4>Additional resources:</h4><ul><li><a href=
-https://covidfuture.org/'>https://covidfuture.org/ </a></li><li><a href=' https://transportation.asu.edu/covid-19-transportation-resources'> https://transportation.asu.edu/covid-19-transportation-resources</a></li></ul>
+additional-msg: 
 summary: "This session includes a series of presentations that offer new methods, data, tools, and insights to understand and model dynamics of behavior."
 ---
 
@@ -36,3 +35,9 @@ Open Discussion and Q&A
 
 
 Organized by Dr. Ram Pendyala and the [TOMNET University Transportation Center](https://tomnet-utc.engineering.asu.edu/) at Arizona State University.
+
+
+Additional resources:
+
+ - [https://covidfuture.org](https://covidfuture.org)  
+ - [https://transportation.asu.edu/covid-19-transportation-resources](https://transportation.asu.edu/covid-19-transportation-resources)  
