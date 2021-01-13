@@ -4,15 +4,6 @@ category: Activities
 title: Zephyr Awards
 ---
 
-
-**2021 Zephie Awards nominations are open - DEADLINE FEB 5TH**
-
-# [Decision-Making Hero](/decision-making-hero-award)
-
-This award shall be given to a travel analysis professional or a team who has made a significant contribution to decision-making.
-
-**Nominations Open**.
-
 # [Exceptional Technical Achievement](/technical-achievement-award)
 This award shall be given to an individual or team for superior innovation and creativity in developing a project, method, study, or product that contributes to a positive impact on transportation and/or land use decision-making.
 
