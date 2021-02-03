@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-8 col-lg-5 col-md-offset-2 col-lg-offset-1">
+  <!-- <div class="col-md-8 col-lg-5 col-md-offset-2 col-lg-offset-1">
         <div class="card">
             <div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px;">
                 <h3 class="card-title">Now Hiring</h3>
@@ -9,48 +9,89 @@
                 <a class="card-link" href="/hiring">Learn more + apply</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="col-md-8 col-lg-5">
-        <div class="card">
-            <div class="carousel slide" data-ride="carousel" id="opportunities-carousel">
-                <!-- Carousel Slides -->
-                <div class="carousel-inner">
-                    {% for opp in site.data.opportunities %}
-                        {% if opp.front %}
-                            <div class="item">
-                                <div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
-                                    <h3 class="card-title">{{ opp.headline }}</h3>
-                                    <h4 class="card-subtitle text-muted">{{ opp.name }}</h4>
-                                    <p class="card-text">{{ opp.lead }}</p>
-                                    <i aria-hidden="true" class="fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>
-                                    <a href='{{ opp.link }}' class="card-link">Learn more + apply</a>
-                                </div>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                    <div class="item active">
-                        <div class="card-body" style="background: white; height: 180px; padding-top: 1px; padding-left: 40px; padding-right: 40px; padding-bottom: 5px;">
-                            <h3 class="card-title">Opportunities Board</h3>
-                            <h4 class="card-subtitle text-muted">See them all!</h4>
-                            <p class="card-text">List of available opportunities: jobs, internships, fellowships and more.</p>
-                            <i aria-hidden="true" class="fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>
-                            <a class="card-link" href="/opportunities">See the list</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Carousel Inner-->
-                                                                    						<!-- Carousel Buttons Next/Prev -->
-                <a class="left carousel-control" data-slide="prev" href="#opportunities-carousel">
-                    <i class="fa fa-chevron-left"></i>
-                </a>
-                <a class="right carousel-control" data-slide="next" href="#opportunities-carousel">
-                    <i class="fa fa-chevron-right"></i>
-                </a>
+  <div class="col-md-11 col-lg-7">
+    <div class="card">
+      <div
+        class="carousel slide"
+        data-ride="carousel"
+        id="opportunities-carousel"
+      >
+        <!-- Carousel Slides -->
+        <div class="carousel-inner">
+          {% for opp in site.data.opportunities %} {% if opp.front %}
+          <div class="item">
+            <div
+              class="card-body"
+              style="
+                background: white;
+                height: 180px;
+                padding-top: 1px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 5px;
+              "
+            >
+              <h3 class="card-title">{{ opp.headline }}</h3>
+              <h4 class="card-subtitle text-muted">{{ opp.name }}</h4>
+              <p class="card-text">{{ opp.lead }}</p>
+              <i
+                aria-hidden="true"
+                class="fa fa-angle-right"
+                style="color:#{{ site.highlight-color }}"
+              ></i>
+              <a href="{{ opp.link }}" class="card-link">Learn more + apply</a>
             </div>
-            <!-- Carousel Slides-->
+          </div>
+          {% endif %} {% endfor %}
+          <div class="item active">
+            <div
+              class="card-body"
+              style="
+                background: white;
+                height: 180px;
+                padding-top: 1px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 5px;
+              "
+            >
+              <h3 class="card-title">Opportunities Board</h3>
+              <h4 class="card-subtitle text-muted">See them all!</h4>
+              <p class="card-text">
+                List of available opportunities: jobs, internships, fellowships
+                and more.
+              </p>
+              <i
+                aria-hidden="true"
+                class="fa fa-angle-right"
+                style="color:#{{ site.highlight-color }}"
+              ></i>
+              <a class="card-link" href="/opportunities">See the list</a>
+            </div>
+          </div>
         </div>
-        <!-- Card-->
+        <!-- Carousel Inner-->
+        <!-- Carousel Buttons Next/Prev -->
+        <a
+          class="left carousel-control"
+          data-slide="prev"
+          href="#opportunities-carousel"
+        >
+          <i class="fa fa-chevron-left"></i>
+        </a>
+        <a
+          class="right carousel-control"
+          data-slide="next"
+          href="#opportunities-carousel"
+        >
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
+      <!-- Carousel Slides-->
     </div>
-    <!-- Col-->
+    <!-- Card-->
+  </div>
+  <!-- Col-->
 </div>
