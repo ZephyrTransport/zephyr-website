@@ -3,8 +3,8 @@ layout: event
 category: Learning
 title: System dynamics for strategic planning under technological uncertainty
 type: Learning Session
-time: TBD
-place: Zoom Webinar - Registration forthcoming
+time: 11:00AM-12:30PM PT  / 2:00PM-3:30PM ET
+place: Zoom Webinar - <a href="https://zoom.us/meeting/register/tJEkduGqpjgtHdZYyyWCouaKgebaqXPZ_VP2">Registration open</a>
 additional-msg:
 summary: "Organized by Hannah Rakoff and Scott Smith, USDOT Volpe"
 ---
