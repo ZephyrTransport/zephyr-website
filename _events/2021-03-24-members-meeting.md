@@ -4,7 +4,7 @@ category: Meeting
 title: "Zephyr Member Meeting"
 type: Meeting
 day: Wed. March 24, 2021
-time: 3:30-5:30p US Eastern Daylight Time  
+time: 4:30-5:30p US Eastern Daylight Time  
 place: via [Zoom](https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09)
 ---
 
