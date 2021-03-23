@@ -5,13 +5,13 @@ title: "Zephyr Member Meeting"
 type: Meeting
 day: Wed. March 24, 2021
 time: 3:30-5:30p US Eastern Daylight Time  
-place: via Zoom (https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09)
+place: via [Zoom](https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09)
 ---
 
 Join us for the presentation of the 2021 Zephie Awards, and updates from the Zephyr Foundation.
 
 Join Zoom Meeting 
-https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09
+[https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09](https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09)
 
 - *Meeting ID:* 923 3577 6600 
 - *Passcode:* 187247 
