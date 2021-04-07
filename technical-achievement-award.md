@@ -3,18 +3,15 @@ layout: simple
 title: "Exceptional Technical Achievement Award"
 subTitle: "Nominations"
 ---
+**Congratulations to the winner of the 2021 Exceptional Technical Achievement Award: The VisionEval Team for developing a set of strategic planning tools to help planners evaluate policy alternatives.**
 
-**[Nominations are open for the 2021 Exceptional Technical Achievement Award](https://docs.google.com/forms/d/e/1FAIpQLSfo0kX4iBSuaiq8eaHFZebDnFKJgaygfMJlvTxRAivFCLobYw/viewform?usp=sf_link)**
+[VisionEval](https://visioneval.org)’s open-source tools are developed using a common framework that provides flexibility for adding new model features, and the software is generalized to allow for application across different regions. The VisionEval team demonstrates technical achievement in several ways: VisionEval enables users to rapidly create their own strategic models to evaluate transportation and land use policies without long setup and runtimes, and the VisionEval team embraces open-source philosophies in its development and documentation, encouraging collaboration and transparency among users and stakeholders. 
 
-*Congratulations to the winner of the 2020 Exceptional Technical Achievement Award: The Sacramento Area Council of Government's Technical Team for advancing a transparent and collaborative transportation modeling enterprise capable of addressing emerging transportation technologies as well as California statewide mandates*
+The 2021 Exceptional Technical Achievement Award Committee was:
 
-The Sacramento Area Council of Government (SACOG) Technical Team effort represented a collaborative and transparent approach to model development and advancement.  Given the tough California Statewide mandates and the emerging mobility options and transportation technologies that are particularly active in California, the SACOG team had a very challenging task in developing their Regional Transportation Plan (RTP) update.  The SACOG team devoted considerable effort in improving modeling procedures and testing new features, with a view to better reflect the potential impacts of transformative technologies in transportation.  The SACOG team adopted a collaborative and transparent approach to model development, thus enhancing trust in the modeling process and providing policy makers an appropriate understanding of how results should be interpreted and used in planning future transportation policies and investments. The effort is to be commended for its contributions to advancing best practice.
-
-The 2020 Exceptional Technical Achievement Award Committee was:  
-
- - Ram Pendyala, Arizona State University (chair)
- - Hani Mahmassani, Northwestern University  
- - Stephen Lawe, RSG Inc.
+- Josie Kressner, Transport Foundry
+- Leah Flake, RSG Inc.
+- Matthew Wigginton Conway, Arizona State University
 
 
 # The Award
@@ -25,4 +22,5 @@ Nominees will be considered by a three-person award committee and forwarded to t
 
 # Award Recepients
 
+ - VisonEval Team, 2021
  - SACOG Technical Team, 2020
