@@ -1,20 +1,20 @@
 ---
 layout: simple
 title: "Impactful Research Award"
-subTitle: "Nominations"
 ---
 
-**[Nominations are open for the 2021 Impactful Research Award](https://docs.google.com/forms/d/e/1FAIpQLSfjyvnaI_hXxQ7DSeGm_URSU589NVeb-midpSghy4nVsG5fXw/viewform?usp=sf_link)**
+*Congratulations to the 2021 Recipient of the Impactful Research Award: [MATSim](https://matsim.org), for pioneering accessible and credible open-source travel analysis statistical software.*
 
-*Congratulations to the winner of the Inaugural Recipient of the Impactful Research Award: Dr. Michel Bierlaire, for pioneering accessible and credible open-source travel analysis statistical software.*
+The Multi-Agent Transport Simulation project (MATSim) started with Kai Nagel, who was then at ETH Zürich. He had previously worked on the TRansportation ANalysis and SIMulation System (TRANSIMS) along with a team of physicists at Los Alamos National Laboratory. Kai based the architecture of MATSIM on TRANSIMS and also made the resulting code open-source so that it would be broadly available to transportation researchers. After Kai Nagel left ETH for Berlin in 2004, Kay Axhausen joined the team, bringing a different approach and experience. This resulted in a collaboration which has been successful and productive for a decade and a half, combining a physicist’s and a civil engineer’s perspective, as well as bringing together expertise in traffic flow, large-scale computation, choice modeling and Complex Adaptive Systems. This collaboration has extended to current and former graduate students, academic researchers and consultants across the globe with many model implementations spanning a wide variety of research and applications contexts. These model applications have been greatly assisted by the detailed and well-structured documentation and user support structure that the team has assembled. Their MATSIM user group meeting in March 2021 included presentations on more than a dozen projects involving over 30 researchers and spanning a range of model applications from active transportation to spread of COVID-19. MATSIM has provided the travel demand modeling community with a framework and software modules that are both powerful and eminently usable, creating the type of impactful research for which this Zephyr award is intended.
 
-Dr. Bierlaire's open-source package [Biogeme](https://biogeme.epfl.ch/) has a huge impact on the travel analysis field both directly and indirectly.  Originally released in 2000 in its C++ form, it used Excel spreadsheets to create specificaitons and was on the forfront of two revolutions: open source software, and accessible advanced choice modeling specifications beyond multi-nomial and nested logit models.  This package was almost single-handedly responsible for putting important statistical formulations in the hands of public agencies, industry professionals and researchers alike.  Dr. Bierlaire has provided continuous updates to the tool including refactoring the code into a Python package to make the source code and its execution even more accessible. Beyond contributing the tool to the community, Dr. Bierlaire remains accessible to those of us who have needed help trouble-shooting its appropriate use.
 
-The 2020 Impactful Research Award Committee was:  
+The 2021 Impactful Research Award Committee was:  
 
- - Daniel Florian, INRO Software    
- - Jeffrey Newman, Georgia Tech/Cambridge Systematics Inc.    
- - Joan Walker, UC Berkeley
+ - Thomas Adler, RSG Inc.    
+ - Suzanne Childress, Puget Sound Regional Council    
+ - Like Liu, Kittelson & Associates, Inc.
+ - Sarah Sun, Federal Highway Administration
+
 
 ## Award Description
 
@@ -26,4 +26,5 @@ Nominees will be considered by a three-person award committee and forwarded to t
 
 ## Award Recepients
 
- - Michel Bierlaire, 2020   
+ - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
+ - 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team    
