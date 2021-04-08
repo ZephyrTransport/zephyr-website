@@ -9,7 +9,7 @@ additional-msg:
 summary: "Organized by Hannah Rakoff and Scott Smith, U.S. DOT Volpe Center"
 ---
 
-This is a follow up to the popular May 2020 Learning Session: [Introduction to System Dynamics](/2020-05-27-learning-system-dynamics)
+This is a follow up to the popular May 2020 Learning Session: [Introduction to System Dynamics](2020-05-27-learning-system-dynamics)
 
 In this interactive webinar, we will present takeaways from work with the Boston Region MPO, Oregon DOT and several MPOs in Oregon to explore how system dynamics (SD) techniques might be applied to further inform solutions to transportation planning problems. Participants will then join us in a facilitated discussion about how systems thinking can improve stakeholder engagement, internal coordination, and modeling practices. 
 
@@ -27,3 +27,4 @@ Speakers:
  * Martin Milkovits – Central Transportation Planning Staff (Boston MPO)  
  * Jeremy Raw – Federal Highway Administration  
  * Kate White – Central Transportation Planning Staff (Boston MPO)  
+ * Tim Reardon – Metropolitan Area Planning Council (Boston)
