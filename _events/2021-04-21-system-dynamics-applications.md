@@ -5,7 +5,7 @@ title: System dynamics for strategic planning under technological uncertainty
 type: Learning Session
 time: 11:00AM-12:30PM PT  / 2:00PM-3:30PM ET
 place: Zoom Webinar - <a href="https://zoom.us/meeting/register/tJEkduGqpjgtHdZYyyWCouaKgebaqXPZ_VP2">Registration open</a>
-additional-msg: This is a follow up to the popular May 2020 Learning Session <a href='2020-05-27-learning-system-dynamics'>Introduction to System Dynamics</a>
+additional-msg: This is a follow up to the popular May 2020 Learning Session <a href='https://zephyrtransport.org/events/2020-05-27-learning-system-dynamics/'>Introduction to System Dynamics</a>
 summary: "Organized by Hannah Rakoff and Scott Smith, U.S. DOT Volpe Center"
 ---
 In this interactive webinar, we will present takeaways from work with the Boston Region MPO, Oregon DOT and several MPOs in Oregon to explore how system dynamics (SD) techniques might be applied to further inform solutions to transportation planning problems. Participants will then join us in a facilitated discussion about how systems thinking can improve stakeholder engagement, internal coordination, and modeling practices. 
