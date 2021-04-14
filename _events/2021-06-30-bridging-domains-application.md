@@ -9,4 +9,4 @@ additional-msg:
 summary: "Organized by Dr. Josie Kressner "
 ---
 
-More to come.
+Exact date and time to be announced. 
