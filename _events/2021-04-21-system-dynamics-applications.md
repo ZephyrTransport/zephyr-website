@@ -4,7 +4,7 @@ category: Learning
 title: System dynamics for strategic planning under technological uncertainty
 type: Learning Session
 time: 11:00AM-12:30PM PT  / 2:00PM-3:30PM ET
-place: Zoom Webinar 
+place: <a href='https://youtu.be/pTtUJGhhCJg'> Session Recording</a>
 additional-msg: This is a follow up to the popular May 2020 Learning Session <a href='https://zephyrtransport.org/events/2020-05-27-learning-system-dynamics/'>Introduction to System Dynamics</a>
 summary: "Organized by Hannah Rakoff and Scott Smith, U.S. DOT Volpe Center"
 ---
