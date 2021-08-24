@@ -145,4 +145,4 @@ Zephyr members are invited to contribute in two ways:
 
 
 
-Last updated August 23, 2021
+Last updated August 24, 2021
