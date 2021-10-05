@@ -4,7 +4,7 @@ title: "Board Election 2021"
 img: bike-bridge.jpg
 ---
 
-The annual board election member meeting will be held November 12th 2021 at 1:30 PDT.
+The annual board election member meeting will be held November 12th 2021 at 2 PM Eastern / 11 AM Pacific.
 
 ## Become a member to vote
 
