@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Board Election 2021"
+title: "Board Election 2020"
 img: bike-bridge.jpg
 ---
 
@@ -11,18 +11,18 @@ The annual board election member meeting will be held August 4th 2020 at 10AM PD
 One of the most important aspects of being a member of the Zephyr Foundation
 is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws.
 
-To be eligible to vote you must be a member in good standing as of **October 15, 2021** You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+To be eligible to vote you must be a member in good standing as of **June 10, 2020.** You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
 
-This year's election will take place on **November 12th**.
+This year's election will take place on **August 4th**.
 
-## Nominations for Board members open on October 6
+## Nominations for Board members are closed.
 
-Anyone can submit nominations for the Zephyr Board; nominations for 2021 board members are
-due by October 27, 2021. Nominees will be asked if they accept the nomination
+Anyone can submit nominations for the Zephyr Board; nominations for 2020 board members were
+due by June 10th 2020. Nominees will be asked if they accept the nomination
 and then will be given an opportunity to prepare statements in support
 of their nomination before the election.
 
-## 2021 Election Process
+## 2020 Election Process
 
 ### I. Open Seats
 
@@ -36,7 +36,7 @@ The Secretary will confirm the number of board members with expired terms and an
 
 ### II. Nominations
 
-The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://forms.gle/7gCSFqPaaAbLm5aWA) distributed to members no later than ten days before the election. The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
+The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://docs.google.com/forms/d/112mL1g66iiu1eyWZwiooiMZEkM_feoaMVOahGTJkz9Q) distributed to members no later than ten days before the election. The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
 
 ### III. Eligible Members
 
@@ -71,9 +71,4 @@ The Secretary will certify the results no later than 72 hours following the poll
 
 ### Schedule
 
-- October 27: Nominations Close
-- November 5: Ballots are Finalized
-- November 12: Annual Member Meeting and Election
-- November 17: Online Voting Closes
-- November 18: Results Certification
-- November 19: Results Announcement
+- August 4th: Annual Member Meeting and Election
