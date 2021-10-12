@@ -4,7 +4,7 @@ title: "Decision Making Hero Award"
 subTitle: "Nominations Open"
 ---
 
-**[Nominations are open for the 2022 Decision Making Hero Award](https://forms.gle/dFUT5QnXjbxeVPXr9)**
+**[Nominations are open for the 2022 Decision Making Hero Award - Due Nov. 11th 2021](https://forms.gle/dFUT5QnXjbxeVPXr9)**
 
 ## The Award
 

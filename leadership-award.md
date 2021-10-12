@@ -3,7 +3,7 @@ layout: simple
 title: "Zephyr Leadership Award"
 subTitle: "Nominations"
 ---
-**[Nominations open for the 2022 Zephyr Leadership award](https://forms.gle/sZts1huyeqiHkzn88)**
+**[Nominations open for the 2022 Zephyr Leadership award - Due Nov. 11th 2021](https://forms.gle/sZts1huyeqiHkzn88)**
 
 ## The Award
 

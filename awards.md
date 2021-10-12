@@ -4,6 +4,8 @@ category: Activities
 title: Zephyr Awards
 ---
 
+**Nominations for the 2022 Zephies due November 11th 2021**
+
 ## [Exceptional Technical Achievement](/technical-achievement-award)
 
 **Nominations open!**

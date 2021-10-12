@@ -3,7 +3,7 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-[**Nominations open for the 2022 Impactful Research Award**](https://forms.gle/f8XBDaWJpDQUC28r6)
+[**Nominations open for the 2022 Impactful Research Award - Due Nov. 11th 2021**](https://forms.gle/f8XBDaWJpDQUC28r6)
 
 ## Award Description
 
