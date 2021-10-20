@@ -26,7 +26,7 @@ The 2021 Zephyr Leadership Award selection committee was:
 - Scott Smith
 - Joe Castiglione (Board)
 
-## Award Recepients
+## Award Recipients
 
 - Joe Castiglione, 2019
 - Joan Walker, 2020

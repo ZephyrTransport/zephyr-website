@@ -26,7 +26,7 @@ The 2021 Impactful Research Award Committee was:
 - Like Liu, Kittelson & Associates, Inc.
 - Sarah Sun, Federal Highway Administration
 
-## Award Recepients
+## Award Recipients
 
 - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
 - 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team

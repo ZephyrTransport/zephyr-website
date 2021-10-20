@@ -19,7 +19,7 @@ Outstanding Industry Contributor shall be:
 
 Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2020 Winnter
+## 2020 Awardee
 
 *Congratulations to the winner of the 2020 Outstanding Contributor Award: Dr. Michael Mahut.*
 
@@ -31,7 +31,7 @@ The 2020 Outstanding Industry Contributor Committee was:
 - Brian Gardner, FHWA  
 - Julie Dunbar, Dunbar Transportation  
 
-## Award Recepients
+## Award Recipients
 
 - Julie Dunbar, 2019  
 - Michael Mahut, 2020
