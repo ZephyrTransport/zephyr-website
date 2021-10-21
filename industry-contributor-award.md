@@ -19,17 +19,19 @@ Outstanding Industry Contributor shall be:
 
 Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2020 Awardee
+## 2021 Awardee
 
-*Congratulations to the winner of the 2020 Outstanding Contributor Award: Dr. Michael Mahut.*
+*Congratulations to the winner of the 2021 Outstanding Contributor Award: Dr. Patricia Mokhtarian*
 
-Dr. Mahut has provided selfless contributions to numerous activities to promote more widespread understanding of network modeling.  The shining star of his numerous efforts are his contributions to the DTA Primer.  Beyond that, he assists in the production of numerous conferences and workshohps thoughout the year and is always willing to give a helping hand no matter the task.
+Congratulations to the winner of the 2021 Outstanding Industry Contributor Award: Professor Pat Mokhtarian, Georgia Tech.
+Professor Mokhtarian is the first academic to receive this award. She is truly the model academic. She is creative and rigorous in her research; she applies her research to improve transportation planning; she serves the profession formally in roles such as IATBR chair; and she has trained countless students who go on to be leaders in industry, government, and academia.
 
-The 2020 Outstanding Industry Contributor Committee was:  
+The 2021 Outstanding Industry Contributor Committee was:  
 
-- Rick Donnelly, WSP Inc. (chair)  
-- Brian Gardner, FHWA  
-- Julie Dunbar, Dunbar Transportation  
+- Lisa Amar
+- Maren Outwater
+- Pedro Camargo
+- Jonathan Ehrlich (Board)
 
 ## Award Recipients
 
