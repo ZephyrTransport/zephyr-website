@@ -17,6 +17,7 @@ The software badging effort was [established](https://medium.com/zephyrfoundatio
 * [Open Matrix Data File Format](https://github.com/osPlanning/omx) – [Our Take](https://medium.com/zephyrfoundation/zephyr-badges-the-open-matrix-omx-standard-f16a3b28e1f2)  
 * [OSMnx: Making Open Street Map usable](https://github.com/gboeing/osmnx) – [Our Take](https://medium.com/zephyrfoundation/osmnx-software-badge-3e206db65825)
 * [TidyCensus: Making census data accessible](https://walker-data.com/tidycensus/) - [Our Take](https://medium.com/zephyrfoundation/tidycensus-software-badge-d9227a420707)
+* [PopulationSim Population synthesizer](https://github.com/ActivitySim/populationsim) - [Our Take](https://medium.com/zephyrfoundation/populationsim-the-synthetic-commons-670e17383048)
 
 ## Feedback + Involvement
 
