@@ -4,7 +4,7 @@ title: "Exceptional Technical Achievement Award"
 subTitle: "Nominations Open"
 ---
 
-**[Nominations open for the 2022 Exceptional technical Acheivement Award - Due Nov. 11th 2021](https://forms.gle/GaRi5ZWxW6kLu887A)**
+**Nominations for the 2022 Exceptional Technical Achievement Award closed on Nov. 11th 2021**
 
 ## The Award
 

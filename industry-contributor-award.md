@@ -4,7 +4,7 @@ title: "Outstanding Industry Contributor"
 subTitle: "Nominations"
 ---
 
-**[Nominations Open for 2022 Outstanding Industry Contributor - Due Nov. 11th 2021](https://forms.gle/7Fm1tAmad2FKUe2CA)**
+**Nominations for the 2022 Outstanding Industry Contributor Award closed on Nov. 11th 2021**
 
 ## Award Description
 
