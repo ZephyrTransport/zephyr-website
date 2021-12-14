@@ -11,7 +11,7 @@ front: True
 ## Current Activities
 
  - **State of the Workforce Survey**: Getting feedback on instrument now to launch in early 2019.  
- - [**Awards**](http://zephyrtransport.org/awards): Nominations for this year open thru Dec. 30th!  
+ - [**Awards**](/awards): 2022 awards will be presented at the [2022 TRB Annual Meeting Zephyr Reception](/events/2022-01-11-TRBAM/)
  - [**Blog**](https://medium.com/zephyrfoundation):  [Want to contribute?](mailto:info@zephyrtransport.org) We are looking for contributions of all kinds including research notes and industry member profiles.  
  - [**Slack Community**](http://zephyrtransport.org/slack): Please join, add the app, and chat amongst ourselves.  
  - [**Newsletter**](https://us14.list-manage.com/subscribe?u=ceb4ce0ac1c3256b66457d9d7&id=1c7de457b3): monthly briefs about what Zephyr is up to as well as things around the industry. 
