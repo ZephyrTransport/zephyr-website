@@ -1,327 +1,47 @@
-- name: Transportation Modeler
+- name: Travel Model Analyst
   time: full-time
-  headline: Activity-based model development and application in San Francisco
+  headline: RSG seeks a talented and versatile travel modeling analyst to assist with the development and application of state-of-the-art transportation models
   front: true
   post: true
   lead:
   type: job
-  institution: San Francisco County Transportation Authority
-  salary_low: 86730
-  salary_high: 119683
-  location: San Francisco, California
-  closing: priority given to applications by March 13
-  link: https://sfcta.org/transportation-modeler
+  institution: RSG
+  location: Any
+  closing: Open Feb 3, 2022; Open until filled
+  link: https://rsg.hrmdirect.com/employment/job-opening.php?req=1427347&&&csrc=15668#job
 
-- name: Modeling/Technology, Data, and Analysis Internship
-  time: intern 
-  headline: Transportation Authority Internship Program
+- name: Travel Model Development Consultant
+  time: full-time
+  headline: RSG seeks a talented and versatile travel demand model developer and project manager to assist with the development of transportation models and data analytics
   front: true
   post: true
   lead:
-  type: internship
-  institution: San Francisco County Transportation Authority
-  salary_low: 
-  salary_high:
-  location: San Francisco, California
-  closing: March 20
-  link: https://sfcta.org/modeling-technology-data-and-analysis-internship
+  type: job
+  institution: RSG
+  location: Any
+  closing: Open Feb 3, 2022; Open until filled
+  link: https://rsg.hrmdirect.com/employment/job-opening.php?req=1895773&&&csrc=15668#job
 
-- name: Transportation Planner/Analyst I/II
+- name: Model Forecasting Analyst
   time: full-time
-  headline: Travel demand modeling and analytics practice.
-  front: false
-  post: false
+  headline: RSG seeks a talented and versatile modeling analyst to assist with the application of transportation models and data analytics
+  front: true
+  post: true
   lead:
   type: job
-  institution: Connectics Transportation Group
-  salary_low:
-  salary_high:
-  location: Orlando/Fort Lauderdale, Florida or Nationwide
-  closing: open until filled
-  link: https://tmip.org/content/transportation-planneranalyst-positions-available-ctg
+  institution: RSG
+  location: Any
+  closing: Open Feb 3, 2022; Open until filled
+  link: https://rsg.hrmdirect.com/employment/job-opening.php?req=1897508&&&csrc=15668#job
 
-- name: Transportation Modeler I/II
+- name: Senior Software Engineer
   time: full-time
-  headline: Full-time Position
-  front: true
-  post: true
-  lead: Southern California's Catalyst for a Brighter Future.
-  type: job
-  institution: Southern California Association of Governments
-  salary_low: 63835.20
-  salary_high: 98113.60
-  location: Los Angeles, CA
-  closing: open until filled
-  link: https://tmip.org/sites/freightmodelimprovementprogram.localhost/files/attachments/Transportation%20Modeler_Job%20Bulletin.pdf
-- name: Data Science Client Services Division Manager
-  time: full-time
-  headline: Full-time Position
-  front: false
-  post: false
-  lead: Using data and analytics to inform decisions.
-  type: job
-  institution: Oregon Metro
-  salary_low: 97509.00
-  salary_high: 138505.00
-  location: Portland, OR
-  closing: open until filled
-  link: http://bit.ly/2Jdlngf
-  summary: >
-    If you're a data expert and energetic people- and service-oriented manager with a commitment to public service this job may be what you are looking for. Metro's on the cutting edge of using data and analytics to inform decisions about the future of greater Portland. The data science client services manager leads a talented team of data and map specialists who are passionate about turning complex spatial and image-based data into useful information by analyzing demographics, making maps, creating data-driven software applications in Metro's "do-it-yourself" platforms (ESRI's AGOL and Portal), and more.
-    Metro is dedicated to a better future for greater Portland. With a portfolio that spans land and transportation, garbage and recycling, arts and events venues, parks and nature and the Oregon Zoo, Metro's work generates economic and cultural opportunity, protects nature and wildlife, and helps create a great place people want to call home.
-    As the leader of the client services team you would bring Metro's mission to life in tangible ways that serve Metro's business lines and community, business and government partners. Recent projects include everything from processing aerial imagery to locating Oregon White Oak trees for native species preservation, mapping and quantifying the location and amount of food scraps generated in the metro area, and understanding how urban lands have developed over time to providing maps for the Metro's Parks Master Plan and creating a dashboard that displays the racial makeup of Metro's staff across its various departments.
-    You would also be part of a Metro department with a reputation for driving innovation. Building on years at the forefront of land-based information systems, today client services staff are leading the effort to advance equity with qualitative and quantitative data and collaborating with a cross-department team to add machine learning and artificial intelligence techniques to Metro's toolkit.
-    The client services manager plays three key roles
-     - Marketing the Research Center and managing client relationships in and outside of Metro
-     - Leading people and supporting staff development
-     - Managing business development and projects
-- name: Senior Data Analyst
-  time: full-time
-  headline: Full-time position
-  front: false
-  post: false
-  lead: perform day-to-day updates and maintenance of the regional model
-  type: job
-  institution: Houston Galveston Area Council
-  salary_low:
-  salary_high:
-  location: Houston Region
-  closing: unknown
-  link: https://chp.tbe.taleo.net/chp02/ats/careers/requisition.jsp?org=HGAC&cws=1&rid=560
-  summary: >
-   H-GAC is seeking a Senior Data Analyst to join the Transportation Department.  The incumbent will work as a member of a team of planners and analysts that perform day-to-day updates and maintenance of the regional model.  They will receive supervision from the principle for model development and report to the program manager.
-   The incumbent will provide assistance and technical support related to the development of the generation state-of-the-art regional travel demand model. In addition, the individual will be responsible for assisting with model application projects and delivering results and any needed analysis of results to both internal and external clients.  Responsibilities also include responding to numerous time-sensitive requests for travel demand analysis data.  Does this role sound interesting to you?  If so, apply now.
-- name: Senior Transportation Modeler
-  time: full-time
-  headline:
-  front: false
-  post: false
-  lead:
-  type: job
-  institution: Northeast Ohio Areawide Coordinating Agency (NOACA)
-  salary_low:
-  salary_high:
-  location: Cleveland, OH
-  closing:
-  link: https://tmip.org/sites/freightmodelimprovementprogram.localhost/files/attachments/Sr%20Transportation%20Modeler%20NOACA.pdf
-  summary: >
-   The Northeast Ohio Areawide Coordinating Agency (NOACA) in Cleveland is seeking a Senior Transportation Modeler with experience in travel demand modeling. NOACA and its partner agencies in Ohio are in the process of developing an activity based travel demand model, and NOACA continues to upgrade its modeling capabilities including a dynamic traffic assignment process.  This position will be an integral part of NOACA’s development, implementation, and application of the Ohio 3C CT-RAMP Activity Based Model and dynamic traffic assignment process.
-   The primary responsibilities of this position include all aspects of travel demand modeling efforts such as preparation of model inputs, data and system management, model estimation, calibration, validation, post-processing of model outputs, project-level forecasts, project management, and technical assistance.  In addition, this position will conduct sub-area and corridor level modeling and participate in maintaining a traditional 4-step travel demand model.
-   This position involves advanced application of planning, management, and coordination skills, under little supervision in an office environment.  The position also requires the ability to write and effectively present technical information to diverse groups, ranging from professional conferences to a lay audience.  This position will be located within the Planning Division as part of the Transportation Modeling group.
-- name: Travel Forecasting Specialist
-  time: full-time or part-time
-  headline: Full- or Part-time position
+  headline: RSG seeks a talented and versatile Software Engineer who will work as part of our employee-owned organization
   front: true
   post: true
   lead:
   type: job
-  institution: Fehr and Peers
-  salary_low:
-  salary_high:
-  location: Southern California
-  closing: unknown
-  link: https://www.fehrandpeers.com/travel-demand-forecasting-specialist/
-  summary: >
-   Analyze and solve complex transportation planning or engineering problems dealing with all travel modes.
-   Use TransCAD and a variety of software programs effectively and make timely and informed recommendations to elected officials, managers and other decision makers
-   Manage projects and develop high quality internal and client relationships
-   Apply knowledge of the theory, principles, and practices of transportation planning, travel demand forecasting, travel behavior analysis, and data analysis
-   Participate in travel forecasting research through our Forecasting and Operations discipline group
-   Prepare papers and presentations for technical conferences.
-- name: Senior Travel Demand Modler
-  time: full-time
-  headline: Full-time Position
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: CDM Smith
-  salary_low:
-  salary_high:
-  location: Southern California
-  closing: unknown
-  link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25038&siteid=5220&Areq=24155BR#jobDetails=1388264_5220
-  summary: >
-   CDM Smith has an exciting opportunity to be our technical leader for complex regional travel demand model development and application in California. In this role you will lead development and application of four-step travel demand models for transportation planning and traffic and toll revenue analysis in TransCAD and Cube. Opportunities to work with activity based models will be critical for future assignments. Duties will also include leading technical project teams in:
-   -Calibrating and validating highway assignment model.
-   -Collecting and analyzing traffic and survey data.
-   -Conducting micro-simulation modeling, including base year model calibration and future  year model volume delay function validation in support of HOT/ managed lane analyses. Performing sensitivity/stress tests.
-   -Analyzing and interpreting the impacts of different factors on toll transactions and revenue.
-   -Developing tools to analyze and summarize traffic modeling databases.
-   -Performing research on toll financing, congestion pricing, value of reliability, value of time and multinomial logit model.
-   -Conducting interchange justification studies, signal design, signal timing and capacity analyses using highway capacity manual.
-   -Performing due diligence, quality assurance/quality control (QA/QC) procedures on various phases of studies.
-   -Applying risk modeling procedures to develop baseline, midline and modified scenarios by understanding the uncertainty and variability in critical input parameters.
-   -Writing sections of reports describing work completed, processes used, results observed and support/justification for any recommendations and conclusions.
-   -Assisting project managers with tasks by completing them within deadlines and budget requirements.
-- name: Transportation Data Scientist
-  time: full-time
-  headline: Entry-level job
-  front: true
-  post: true
-  lead: Travel demand modeling and analytics practice
-  type: job
-  institution: Connectics Transportation Group
-  salary_low:
-  salary_high:
-  location: Fairfax, CA
-  closing: open until filled
-  link: mailto:dschmitt@ctgconsult.com.
-  summary: >
-   The position requires candidates to assist in: (1) development, calibration and application of travel demand models; (2) developing new and innovative analytical tools for transportation planning; (3) processing and analyzing big travel data; (4) alternatives analysis and evaluation for project/corridor studies; and (5) develop and lead statistical and machine learning efforts in relation to the projects.
-- name: Travel Demand Modeler / Transportation Planner
-  time: full-time
-  headline: Full-time Position
-  front: true
-  post: true
-  lead: Assist with the development and application of travel demand models
-  type: job
-  institution: C and M Associates
-  salary_low:
-  salary_high:
-  location: Arlington, VA and Dallas, TX
-  closing: open until filled
-  link: mailto:opportunities@candm-associates.com
-  summary: >
-    The Travel Demand Modeler position involves data development, management, and analysis using standard databases and GIS, as well as statistical analysis and programming to support the development and application of travel forecasting models. This position also involves a wide range of transportation modeling activities, including model design, data analysis and scripting, development and evaluation of forecasts, and documentation of technical work. More specifically, modeling activities include specification and estimation of models, data analysis, scripting, model implementation, software development, and calibrating and validating model components. You will be part of a team that is dedicated to developing innovative “best in class” models, software, and forecasts for regions and states throughout the United States.
-- name: Senior Travel Demand Modeler
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead: Travel demand modeling and analytics practice
-  type: job
-  institution: CDM Smith
-  salary_low:
-  salary_high:
-  location: Raleigh, NC or Tallahassee, FL
-  closing: open until filled
-  link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25038&siteid=5220&Areq=23914BR#jobDetails=1385205_5220
-  summary: >
-    Join CDM Smith and start working on exciting projects related to traffic forecasting, intersection modeling, and capacity analysis. As a member of this team, you would contribute to CDM Smith's mission by:
-    -Oversee travel demand model set up, calibration, and validation using TransCAD and/or CUBE.
-    -Supervise travel demand model transportation network development, including interpretation of design schematics and regional transportation plans.
-    -Coordinate and lead model development efforts including all four basic steps of travel demand modeling.
-    -Assess travel model results and post-process data for various analyses.
-    -Oversee developing supporting graphics, tables, charts and graphs, PowerPoint slides and other supporting materials for both internal meetings/presentations as well as client presentations.
-    -Presentation of results to clients and stakeholders.
-    -Provide mentoring and guidance to junior modelers.
-- name: New Mobility Modeling Engineer
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: Ford Motor Company
-  salary_low:
-  salary_high:
-  location: Palo Alto, CA or Dearborn, MI
-  closing:
-  link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25385&siteid=5186&Areq=35990BR#jobDetails=463215_5186
-  summary: >
-   The candidate will play a pivotal role in guiding Ford’s future mobility and autonomous vehicle offerings and strategies. As part of Ford’s Mobility Research Group, they will join a varied and interdisciplinary group within Research and Advanced Engineering that is dedicated to cutting-edge research to improve transportation accessibility, mobility, and sustainability for all.  They will work closely with other groups at Ford, including giving presentations to senior-level leadership. The candidate will act as a touchpoint with cities, universities, research labs, and other key stakeholders in helping Ford develop and simulate new and innovative mobility solutions, including microtransit, dynamic shuttles, smart cities, and connected and automated vehicles.
-- name: Program Engineer/Planner
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: South Jersey Transportation Planning Organization
-  salary_low: 67,000
-  salary_high: 75,000
-  location:
-  closing:
-  link: https://www.sjtpo.org/careers/
-  summary: >
-    Manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation. The South Jersey Transportation Planning Organization (SJTPO), the regional transportation planning agency for southern New Jersey, is seeking an experienced professional to manage all capital programming, congestion management, intelligent transportation systems planning, and travel demand modeling to support project implementation in the SJTPO region. Specific tasks include, but are not limited to, representative of the SJTPO at local, state, and federal events, program management, project identification, and development related to SJTPO’s capital program, Congestion Management Process (CMP), and related areas. The Program Engineer/Planner shall report directly to the Executive Director and will supervise the Assistant Engineer. Field work and travel required.
-- name: Associate Director for Regional Modeling and Analysis
-  time: full-time
-  headline: Contribute to the strategic development and/or expansion of the modeling efforts undertaken by CTPS.
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: Boston Region Metropolitan Planning Organization Central Transportation Planning Staff
-  salary_low: 100,000
-  salary_high: 115,000
-  location: Boston, MA
-  closing: Until filled
-  link: https://www.governmentjobs.com/careers/ctps
-  summary:  >
-    The Central Transportation Planning Staff (CTPS) of the Boston Region Metropolitan Planning Organization (MPO) is seeking a candidate with excellent communication and analytical skills to lead the development and application of CTPS’s suite of project and policy analysis tools. The Associate Director will work in a fast-paced team environment and provide strategic vision, managerial leadership, weekly oversight, quality control review, and direction to the Regional Model Development (RMD) and Transportation Systems Analysis (TSA) groups. The Associate Director will contribute to the strategic development and/or expansion of the modeling efforts undertaken by CTPS. The Associate Director will interact with regional agencies, including the Metropolitan Area Planning Council (MAPC is CTPS’s fiduciary agent), and other MPOs and clients to develop long-term business development goals. The role will involve enhancing existing tools and identifying new projects and tools for travel demand forecasting and land use and environmental modeling; supporting policy analyses; and providing the insight the MPO board members, government officials, and the public require for making transportation investment decisions. This work supports the development of transportation policies and projects of the MPO board, local governments, the Massachusetts Department of Transportation (MassDOT), the Massachusetts Bay Transportation Authority (MBTA), and the Massachusetts Port Authority.  The Associate Director will report to the Director of Technical Analysis and work with upper management and the managers of the RMD and TSA groups to help CTPS succeed.
-- name: Transportation Engineer/Research Analyst I/II in  Office of Travel Modeling
-  time: full-time
-  headline: Assist the development and enhancement of DVRPC’s regional travel models and support model applications
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: Delaware Valley Regional Planning Commission (DVRPC)
-  salary_low: 50,000
-  salary_high: 65,000
-  location: Philadelphia, PA
-  closing: Until filled
-  link: https://www.dvrpc.org/HumanResources/JobOpenings/TransportationModeler.html
-  summary: >
-    DVRPC is seeking a Transportation Modeler/Analyst with good knowledge of computer programming, travel demand modeling, and data analytics to join a vibrant modeling and research team. The Office of Travel Modeling maintains DVRPC’s regional travel simulation models, including a best-in-class trip-based model and a newly developed activity-based model, and applies the models to evaluate the impacts and benefits of various transportation investment and planning scenarios. The Office is also very active in integrating emerging technology and data for model enhancement and analysis. DVRPC’s travel demand models are highly customized, and rely on numerous Python scripts to prepare model inputs and summarize model outputs.  The position will assist the development and enhancement of DVRPC’s regional travel models, and support model applications for various projects. Based on the employee’s experience and desire to learn, assignments may include programming for model development and data analysis; conducting and analyzing travel surveys; preparing travel model inputs such as land use, transportation, demographic and employment data; estimating future demand for the design of individual highway and transit facilities; and calculating travel time, delay, and level-of-service. Work is performed in accordance with well-defined objectives and professional standards under the close technical direction of senior engineers and planners.
-- name: Public Health Modeling PhD
-  time: full-time
-  headline:  Interdisciplinary PhD studentship
-  front: true
-  post: true
-  lead:
-  type: fellowship
-  institution: University of Cambridge
-  salary_low:
-  salary_high:
-  location:
-  closing:
-  link: http://www.mrc-epid.cam.ac.uk/work-and-study/studentships/phd-topics/integrating-health-into-travel-demand-models/
-  summary: >
-    Travel demand models are widely used in transport research and practice. Activity based models simulate a high level of detail what people are doing and where they are doing it [1]. Increasingly these models attempt to more accurately represent active travel (walking and cycling) [2]. However, most health impact modelling of transport has been based on city wide estimates and not represented spatial variation in where people are exposed (e.g. air pollution or injury risk), or the exposures they generate (e.g. emissions or road traffic danger) [3]. This PhD will work with the open source SILO, MITO, and MATSim models [4] to develop methods that fully utilise the spatial and temporal detail of these models to estimate health impacts, and to compare this against simpler, aggregate approaches.
-- name: Tenure-track faculty position
-  time: full-time
-  headline: Tenure-track faculty position in the area of transportation systems engineering.
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: University of Buffalo
-  salary_low:
-  salary_high:
-  location: Buffalo, NY
-  closing:
-  link: www.ubjobs.buffalo.edu
-  summary: >
-    Tenure-track faculty position in the area of transportation systems engineering, starting in August 2020. Priority is for candidates at the assistant professor level, although highly qualified individuals will be considered at the associate or full professor level. We are particularly looking for candidates who can operate effectively in a diverse community of students and faculty and share our vision of helping all constituents reach their full potential. These positions will expand and strengthen the current faculty capabilities and capitalize on a recent endowment for the Stephen Still Institute for Sustainable Transportation and Logistics (ISTL), a joint initiative between UB’s School of Engineering and Applied Sciences and School of Management (http://www.buffalo.edu/istl).
-- name: Postdoctoral Researcher
-  time: full-time
-  headline: Research at the Network Modeling Center
-  front: true
-  post: true
-  lead:
-  type: fellowship
-  institution: University of Texas Network Modeling Center at the Center for Transportation Research
-  salary_low:
-  salary_high:
-  location: Austin, TX
-  closing:
-  link: mailto:bsavarese@utexas.edu
-  summary: >
-    The Network Modeling Center at the Center for Transportation Research is looking for a postdoctoral researcher to conduct transportation-related research for projects sponsored by agencies such as local and regional Texas transportation agencies, the Texas Department of Transportation, and the U.S. Department of Transportation. The postdoctoral fellow may also have the opportunity to collaborate with graduate students, faculty, and researchers at other research institutions. In addition to requiring a PhD in civil engineering (transportation), we are looking for someone with experience using transportation data, such as data from ITS sensors and probe vehicles; demonstrated performance in the area of transportation network modeling, including travel demand and dynamic traffic assignment; and experience in the development of web applications using R and its Shiny package, including applications that connect to live data streams.
-- name: Transportation Analyst / Jr. Transportation Analyst
-  time: full-time
-  headline:
-  front: true
-  post: true
-  lead:
-  type: job
-  institution: Stantec
-  salary_low:
-  salary_high:
-  location: Philadelphia, PA
-  closing:
-  link: https://tmip.org/sites/freightmodelimprovementprogram.localhost/files/attachments/PositionPostingTMIP-121119.pdf
-  summary: >
+  institution: RSG
+  location: Any
+  closing: Open Feb 3, 2022; Open until filled
+  link: https://rsg.hrmdirect.com/employment/job-opening.php?req=1903669&&&csrc=15668#job
