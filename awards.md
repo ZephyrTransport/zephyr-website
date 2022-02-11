@@ -4,7 +4,7 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**Nominations for the 2022 Zephies due November 11th 2021**
+**2022 Zephies will be presented at the [Zephyr Member Meeting on March 10, 2022](/events/2022-03-10-member-mtg/)**
 
 ## [Exceptional Technical Achievement](/technical-achievement-award)
 
