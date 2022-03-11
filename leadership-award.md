@@ -3,7 +3,7 @@ layout: simple
 title: "Zephyr Leadership Award"
 subTitle: "Nominations"
 ---
-**Nominations for the 2022 Zephyr Leadership award closed on Nov. 11th 2021**
+**The 2022 Leadership Award was presented on March 10, 2022**
 
 ## The Award
 
@@ -11,20 +11,23 @@ The 2022 Zephyr Leadership Award shall be given to an individual who embraces th
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval on an annual basis. Awards anticipated to be made at the TRB Annual Meeting.
 
-## 2021 Awardee
+## 2022 Awardee
 
-*Congratulations to the winner of the 2021 Zephyr Leadership Award: Bill Davidson.*
+*Congratulations to the winner of the 2022 Zephyr Leadership Award: Elizabeth Sall.*
 
-To be a leader in our profession almost by definition means advancing our practice technically, and Bill has a long history of contributions, especially in the realm of transit demand forecasting.  Bill's efforts have included involvement in countless real-world applications where he has been a strong advocate for transparency and technical rigor in both data analysis and decision making, as well as the value and practical necessity of “telling the story”.   At the same time, Bill's efforts have also been integral to advancing national-level consistency in travel demand forecasting practice, specifically in context of New Starts forecasting.  
+Leadership requires vision.  The vision to clearly see the challenges and problems we face today, the vision to understand and learn from the past, and the vision to conceive of and navigate towards a better future.
 
-But perhaps the most important and fundamental way in which Bill has led our field is through his mentorship of other leaders, both Bill's peers as well as the next generation of travel demand forecasting professionals.  Bill has demonstrated a singular ability to recognize others’ strengths and talents, across a broad range of domains including econometrics, programming, model applications or project management, and to help them advance individually while also advancing our profession. This leadership award is given to Bill not only in recognition of his individual contributions and accomplishments but also to acknowledge that his mentorship has directly led to countless other contributions and accomplishments by those whom he has guided, supported, and advocated for throughout his career.  Thank you, Bill, for strengthening our practice as well as our people.
+This year’s Zephyr Leadership Award is given to Elizabeth Sall, whose vision for how public decision-making and the public good can be elevated through improved travel analysis is the very reason we are gathered here today.  It was Elizabeth, along with a handful of other instigators, who identified the need for an organization to develop improved travel analysis methods and tools, and who embraced the values of inclusivity, equity, sustainability and collaboration.   Throughout her career, Elizabeth has had the vision to recognize the practical needs of our profession and community, including but not limited to the value of data standards and open data, open source software, improved bicycle and transit route choice, and rigorous forecasting methods.
 
-The 2021 Zephyr Leadership Award selection committee was:  
+But vision alone is insufficient.  Leadership also requires action.  It was Elizabeth who did much of the heavy-lifting of establishing Zephyr as an organization.  Her commitment to data standards and open data reflected in her work establishing the Mobility Data Interoperability Principles, and her commitment to open source software and collaboration has led to many tangible projects used every day in practice, including activity-based modeling platforms, network development tools, data management tools, and other projects which facilitate complex analyses addressing the interaction of policy, investments, and travel behavior on equity, climate, and accessibility.  Her commitment to improved travel analysis is reflected in dozens of academic and applied research efforts addressing forecasting accuracy, transit route choice, dynamic traffic assignment, congestion pricing, and emissions.
 
-- Alireza Khani
-- Rachel Copperman
-- Scott Smith
-- Joe Castiglione (Board)
+This leadership award is given to Elizabeth in recognition of her broad vision as well as her ability to realize this vision through action.
+
+The 2022 Zephyr Leadership Award selection committee was:  
+
+- Bill Davidson
+- Joan Walker
+- Joe Castiglione (Board Facilitator)
 
 ## Award Recipients
 

@@ -3,7 +3,7 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-**Nominations for the 2022 Impactful Research Award closed on Nov. 11th 2021**
+**The Impactful Research Award was not given in 2022**
 
 ## Award Description
 

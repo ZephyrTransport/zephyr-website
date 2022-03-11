@@ -4,7 +4,7 @@ title: "Outstanding Industry Contributor"
 subTitle: "Nominations"
 ---
 
-**Nominations for the 2022 Outstanding Industry Contributor Award closed on Nov. 11th 2021**
+**The 2022 Outstandig Industry Contributor Award was presented on March 10, 2022**
 
 ## Award Description
 
@@ -19,21 +19,21 @@ Outstanding Industry Contributor shall be:
 
 Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2021 Awardee
+## 2022 Awardee
 
-*Congratulations to the winner of the 2021 Outstanding Contributor Award: Dr. Patricia Mokhtarian*
+*Congratulations to the winner of the 2022 Outstanding Contributor Award: Dr. Johanna Zmud*
 
-Congratulations to the winner of the 2021 Outstanding Industry Contributor Award: Professor Pat Mokhtarian, Georgia Tech.
-Professor Mokhtarian is the first academic to receive this award. She is truly the model academic. She is creative and rigorous in her research; she applies her research to improve transportation planning; she serves the profession formally in roles such as IATBR chair; and she has trained countless students who go on to be leaders in industry, government, and academia.
+Dr. Zmud is a travel behavior researcher, who has been at the forefront of applying survey science to the gathering of data on past, current, and future travel behavior to understand important phenomena, such as transportation mode choice, and to ascertain developing trends, such as propensity to use automated vehicles. Johanna has focused recent research on impacts of technology-enabled mobility on society and implications for transportation providers and agencies. Dr. Zmud has a keen sense for how to use research and travel analysis for policy relevant studies.  She is an outstanding collaborator and has mentored younger travel behavior researchers for many years. Dr. Zmud is a true visionary, always thinking outside the box, but still grounded in data.
 
-The 2021 Outstanding Industry Contributor Committee was:  
+The 2022 Outstanding Industry Contributor Committee was:  
 
-- Lisa Amar
+- Jonathan Ehrlich (Facilitator)
 - Maren Outwater
 - Pedro Camargo
-- Jonathan Ehrlich (Board)
+- Liza Amar (Board)
 
 ## Award Recipients
 
 - Julie Dunbar, 2019  
 - Michael Mahut, 2020
+- Patricia Mokhtarian, 2021
