@@ -21,7 +21,7 @@ Nominees will be considered by a three-person award committee and forwarded to t
 
 ## 2022 Awardee
 
-*Congratulations to the winner of the 2022 Outstanding Contributor Award: Dr. Johanna Zmud*
+**Congratulations to the winner of the 2022 Outstanding Contributor Award: Dr. Johanna Zmud**
 
 Dr. Zmud is a travel behavior researcher, who has been at the forefront of applying survey science to the gathering of data on past, current, and future travel behavior to understand important phenomena, such as transportation mode choice, and to ascertain developing trends, such as propensity to use automated vehicles. Johanna has focused recent research on impacts of technology-enabled mobility on society and implications for transportation providers and agencies. Dr. Zmud has a keen sense for how to use research and travel analysis for policy relevant studies.  She is an outstanding collaborator and has mentored younger travel behavior researchers for many years. Dr. Zmud is a true visionary, always thinking outside the box, but still grounded in data.
 

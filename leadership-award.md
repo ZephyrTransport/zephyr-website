@@ -13,7 +13,7 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 ## 2022 Awardee
 
-*Congratulations to the winner of the 2022 Zephyr Leadership Award: Elizabeth Sall.*
+**Congratulations to the winner of the 2022 Zephyr Leadership Award: Elizabeth Sall**
 
 Leadership requires vision.  The vision to clearly see the challenges and problems we face today, the vision to understand and learn from the past, and the vision to conceive of and navigate towards a better future.
 
