@@ -16,7 +16,7 @@ Zephyr is an all-volunteer organization and it depends on membership for literal
 One of the most important aspects of being a member of the Zephyr Foundation
 is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws.
 
-To be eligible to vote you must be a member in good standing as of **November 2021** You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+To be eligible to vote you must be a member in good standing as of **November 2021**. You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
 
 This year's election will take place on **June 9th**.
 

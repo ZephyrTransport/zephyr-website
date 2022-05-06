@@ -9,17 +9,15 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).
 
+- **[Amanda Stathopoulos](https://www.linkedin.com/in/amanda-stathopoulos-682b5417/)**, _Northwestern University_
 - **[Hani Mahmassani](https://www.linkedin.com/in/mahmassani/)**, _Northwestern University_, **Diversity Officer**
 - **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_, **Program Committee Chair**
 - **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_
-- **[Jonathan Ehrlich](https://www.linkedin.com/in/jnehrlich/)**, _Metropolitan Council (MN)_, **Treasurer**
-- **[Julie Dunbar](https://www.linkedin.com/in/julie-dunbar-a219879/)**, _Dunbar Transportation_, **Vice Chair**
 - **[Leta Huntsinger](https://www.linkedin.com/in/leta-huntsinger-phd-pe-016363a5/)**, _University of North Carolina and North Carolina State University_
-- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_
+- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer**
+- **[Liza Amar](https://www.linkedin.com/in/liza-amar/)**, _CDM Smith in Houston_
 - **[Mario Scott](https://www.linkedin.com/in/mario-scott-38822917/)**, _SDG in New York_, **Secretary**
 - **[Rosella Picado](https://www.linkedin.com/in/rosella-picado-265507)**, _WSP in Seattle_, **Chair**
-
-- **[Billy Charlton](https://www.linkedin.com/in/billy-charlton/)**, _TU Berlin_, **Honorary Director**
 
 ### Committees
 
