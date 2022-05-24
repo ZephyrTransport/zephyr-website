@@ -49,7 +49,7 @@ Memberships are valid for one year. Benefits for individual members include:
 | -------- | --------------- | ------------------------------------------------------- |
 | Standard | \$200           | Open to all!                                            |
 | Student  | \$25            | Must be in a degree-seeking program in a related field. |
-| Youth    | \$25            | Under thirty at the time of application.                |
+| Young Professional | \$25            | Under thirty at the time of application.                |
 
 <!-- commenting out agency/business membership while we re-evaluate Zephyr priorities
 
