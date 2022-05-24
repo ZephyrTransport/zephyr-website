@@ -51,6 +51,8 @@ Memberships are valid for one year. Benefits for individual members include:
 | Student  | \$25            | Must be in a degree-seeking program in a related field. |
 | Youth    | \$25            | Under thirty at the time of application.                |
 
+<!-- commenting out agency/business membership while we re-evaluate Zephyr priorities
+
 [_Scroll down to join today!!!_](#join)
 
 <br/>
@@ -100,6 +102,8 @@ Business and institutional membership is available through the following self-se
 | **Leadership:**             | \$25,000        |
 
 <br/>
+
+-->
 
 <a id="join"></a> <!-- #join anchor -->
 
