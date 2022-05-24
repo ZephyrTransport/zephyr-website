@@ -21,5 +21,5 @@ This project does not yet have a project management group to initiate the projec
 In 2010sh the San Francisco County Transportation Authority created Count Dracula, a Django-based, open-source counts management database and the inspiration for this initiative.
 
 **Project Website**: [fast-trips.mtc.ca.gov](fast-trips.mtc.ca.gov)  
-**Main Github Repository**: [https://github.com/sfcta/countdracula](https://github.com/sfcta/countdraculas)  
+**Main Github Repository**: [https://github.com/sfcta/countdracula](https://github.com/sfcta/countdracula)  
 **Presentations**: [Sharing is Caring: Creating an Open Source Counts Management Tool](https://www.sfcta.org/sites/default/files/content/IT/SFCHAMP/PDFs/2014_TRB_CreatingCountDracula.pdf) 
