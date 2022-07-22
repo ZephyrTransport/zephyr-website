@@ -4,7 +4,7 @@ title: "Exceptional Technical Achievement Award"
 subTitle: "Nominations Open"
 ---
 
-**The 2022 Exctional Contributor Award was presented on March 10, 2022**
+**The 2022 Exceptional Contributor Award was presented on March 10, 2022**
 
 ## The Award
 
@@ -12,7 +12,7 @@ The Exceptional Technical Achievement Award shall be given to an individual or t
 
 Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2021 Awardee
+## 2022 Awardee
 
 **Congratulations to the winner of the 2022 Exceptional Technical Achievement Award: Peter Vovsha**
 

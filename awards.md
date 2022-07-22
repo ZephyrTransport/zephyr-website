@@ -4,7 +4,27 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**The 2022 Zephies were presented at the [Zephyr Member Meeting on March 10, 2022](/events/2022-03-10-member-mtg/)**
+**Nominations for the 2023 Zephies are open!  Nominations are due on August 26, 2022**
+
+To clarify some past confusion regarding the different Zephyr Awards, the Zephyr Award Committee has restructured and redefined
+the Award definitions and descriptions.
+
+There will be two categories of awards, Person and Project. Within each category, there are two options depending on level of impact.
+
+<p style="text-align:center; font-size:9px">
+<img src="/img/zephyr-awards-diagram.png" alt="A rectangle in which the horizonal axis split into two parts labelled Person and Project. The vertical axis is labeled Impact. Four types of awards are depicted in the rectangle as text: The lower impact Person award is Zephyr Rising Star. The higher impact Person award is Zephyr Leadership. The lower impact Project award is Exceptional Technical Achievement. The higher impact Project award is Impactful Research.">
+<br />
+Person graphic by Mello from NounProject.com<br />
+Project graphic by Nithinan Tatah from NounProject.com
+</p>
+
+More information about the four awards can be found on the [2023 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
+
+**[Nominations are open for all four awards - Due August 26](https://forms.gle/SiBMUwWLeSPYvmxWA)**
+
+<hr />
+
+# Awards from 2022 and before
 
 ## [Exceptional Technical Achievement](/technical-achievement-award)
 
@@ -35,4 +55,4 @@ Outstanding Industry Contributor shall be:
 - Respectful and thoughtful in their interactions; and  
 - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-**Congratuations to the 2021 recipient, Dr. Johanna Zmud**
+**Congratuations to the 2022 recipient, Dr. Johanna Zmud**
