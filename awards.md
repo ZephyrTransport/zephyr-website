@@ -4,7 +4,7 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**Nominations for the 2023 Zephies are open!  Nominations are due on August 26, 2022**
+**Nominations for the 2023 Zephies are open!  Nominations are due on September 16, 2022**
 
 To clarify some past confusion regarding the different Zephyr Awards, the Zephyr Award Committee has restructured and redefined
 the Award definitions and descriptions.
