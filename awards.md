@@ -28,7 +28,7 @@ The Zephyr Leadership Award is given to an individual with demonstrated history 
 
 **[Congratuations to the 2023 recipient, Dr. Greg Erhardt!](/leadership-award)**
 
-## [Rising Star Award](/rising-star-award)
+## [Zephyr Rising Star Award](/rising-star-award)
 
 The Zephyr Rising Star Award is given to an individual early in their career who embodies the Zephyr Principles, and embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis. 
 
@@ -40,7 +40,7 @@ The Impactful Research Award is given in recognition of a project that has a pro
 
 **[Congratuations to the 2023 recipient, STOPS - Simplified Trips-on-Project Software!](/impactful-research-award)**
 
-## [Exceptional Technical Achievement](/technical-achievement-award)
+## [Exceptional Technical Achievement Award](/technical-achievement-award)
 
 The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
 
