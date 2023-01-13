@@ -36,6 +36,7 @@ The PMG is considering the following questions:
   - Is there a single badge, or is there value in considering different tiers (silver and gold)?  
   - How do we deal with proprietary data?
   - How do we deal with confidential data obtained from consumer surveys, etc.?
+
 ***2. Get buy-in and implementation support from academics, journals, Zephyr.***
   - What is the process for awarding badges?  An additional stand-alone review?  Integrated with the normal peer review process?   
   - What strategies can we employ to make a badge a positive incentive?  
