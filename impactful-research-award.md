@@ -3,30 +3,41 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-**The Impactful Research Award was not given in 2022**
+**The 2023 Impactful Research Award was presented on January 10, 2023**
 
 ## Award Description
 
-The Impactful Research Award shall be given to an individual or team of researchers for a research project that has had the most [relatively recent] impact on bettering the travel analysis field for the public good.  
+The Impactful Research Award shall be given in recognition of a project that has a proven positive impact on the transportation and/or land use decision-making field that meets the majority of the following criteria.
+- Has been broadly adopted or implemented in practice
+- Improved the approach, skills, capability of transportation and land use decision-making process;
+- Whose methodology, formula, design, etc. are freely accessible to the public;
+- Promotes multilateral collaboration; and
+- Advances the travel analysis field for the public good.
 
-This award shall be considered no less than three years from the publication of the specified work and should have been introduced within the past two decades.
+Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-Nominees will be considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+## 2023 Awardee
 
-## 2021 Awardee
+**Congratulations to the winner of the 2023 Impactful Research Award: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)**
 
-*Congratulations to the 2021 Recipient of the Impactful Research Award: [MATSim](https://matsim.org), for pioneering accessible and credible open-source travel analysis statistical software.*
+STOPS' innovation is its use of census and transit time table data rather than complex regional transportation demand models. This simplification minimizes calibration time and significantly reduces project evaluation time. STOPS’ impact is evident from its adoption by nearly 100 agencies, with most major transit operators having adopted STOPS as their forecasting platform and many regions developing a regional STOPS model, including the ARC, MetCouncil, Miami-Dade, and Research Triangle region. 
 
-The Multi-Agent Transport Simulation project (MATSim) started with Kai Nagel, who was then at ETH Zürich. He had previously worked on the TRansportation ANalysis and SIMulation System (TRANSIMS) along with a team of physicists at Los Alamos National Laboratory. Kai based the architecture of MATSIM on TRANSIMS and also made the resulting code open-source so that it would be broadly available to transportation researchers. After Kai Nagel left ETH for Berlin in 2004, Kay Axhausen joined the team, bringing a different approach and experience. This resulted in a collaboration which has been successful and productive for a decade and a half, combining a physicist’s and a civil engineer’s perspective, as well as bringing together expertise in traffic flow, large-scale computation, choice modeling and Complex Adaptive Systems. This collaboration has extended to current and former graduate students, academic researchers and consultants across the globe with many model implementations spanning a wide variety of research and applications contexts. These model applications have been greatly assisted by the detailed and well-structured documentation and user support structure that the team has assembled. Their MATSIM user group meeting in March 2021 included presentations on more than a dozen projects involving over 30 researchers and spanning a range of model applications from active transportation to spread of COVID-19. MATSIM has provided the travel demand modeling community with a framework and software modules that are both powerful and eminently usable, creating the type of impactful research for which this Zephyr award is intended.
+STOPS demonstrates that there is value in a data-driven approach to travel demand forecasting. It highlights the importance of good data, which is not only important for transit forecasting, but also for highway forecasting. Not only has STOPS streamlined the process, allowing agencies to vet their projects or get approvals more quickly but, in many ways, it has also opened up this market to a wider range of analysts and agencies. Analytical tools that lead to good decision making while at the same time minimizing the cost of data collection and resources needed for development and analysis is a noteworthy contribution. 
 
-The 2021 Impactful Research Award Committee was:  
+Congratulations to the 2023 Recipient of the Impactful Research Award: STOPS – FTA’s Simplified Trips-On-Project Software, for changing the way we conduct modeling and analysis for major transit projects and demonstrating the value of a data-driven approach to travel demand forecasting. 
 
-- Thomas Adler, RSG Inc.    
-- Suzanne Childress, Puget Sound Regional Council    
+The 2023 Impactful Research Award Committee was:
+
 - Like Liu, Kittelson & Associates, Inc.
 - Sarah Sun, Federal Highway Administration
+- Jason Hawkins, University of Nebraska
+
+Board Facilitator: Xinbo Mi
+
+Presenter at the 2023 TRB Annual Meeting Reception: Jason Hawkins
 
 ## Award Recipients
 
 - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
 - 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team
+- 2022: The award was not given this year
