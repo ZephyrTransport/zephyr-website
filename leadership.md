@@ -14,10 +14,10 @@ This initial Board was elected by the Zephyr Founding Stakeholders in order to r
 - **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_, **Chair**
 - **[Leta Huntsinger](https://www.linkedin.com/in/leta-huntsinger-phd-pe-016363a5/)**, _University of North Carolina and North Carolina State University_
 - **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer**
-- **[Sijia Wang]()**, _WSP USA_, **Secretary**
-- **[Xinbo Mi]()**, _Evansville Metropolitan Planning Organization in Evansvill, IN_ *Diversity Officer**
-- **[Xuesong Zhou]()**, _Arizona State University_
-- **[Jason Hawkins]()**, _University of Nebraska_
+- **[Sijia Wang](https://www.linkedin.com/in/sijia-wang/)**, _WSP USA_, **Secretary**
+- **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Evansville Metropolitan Planning Organization in Evansville, IN_ *Diversity Officer**
+- **[Xuesong Zhou](https://www.linkedin.com/in/xzhou/)**, _Arizona State University_
+- **[Jason Hawkins](https://www.linkedin.com/in/jason-hawkins-68919234/)**, _University of Nebraska_
 
 
 
