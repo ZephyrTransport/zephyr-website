@@ -44,4 +44,4 @@ The Impactful Research Award is given in recognition of a project that has a pro
 
 The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
 
-**[Congratuations to the 2023 recipient, Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)](/technical-achievement-award)**
+**[Congratuations to the 2023 recipient, Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)!](/technical-achievement-award)**
