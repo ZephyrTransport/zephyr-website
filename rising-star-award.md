@@ -1,9 +1,9 @@
 ---
 layout: simple
-title: "Rising Star Award"
+title: "Zephyr Rising Star Award"
 ---
 
-**The 2023 Rising Star Award was presented on January 10, 2023**
+**The 2023 Zephyr Rising Star Award was presented on January 10, 2023**
 
 ## Award Description
 
