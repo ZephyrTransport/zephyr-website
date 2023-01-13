@@ -4,9 +4,9 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**Nominations for the 2023 Zephies are open!  Nominations are due on September 16, 2022**
+**Congratulations the 2023 Zephyr Award Winners!**
 
-To clarify some past confusion regarding the different Zephyr Awards, the Zephyr Award Committee has restructured and redefined
+To clarify some past confusion regarding the different Zephyr Awards, in 2023, the Zephyr Award Committee has restructured and redefined
 the Award definitions and descriptions.
 
 There will be two categories of awards, Person and Project. Within each category, there are two options depending on level of impact.
@@ -20,39 +20,28 @@ Project graphic by Nithinan Tatah from NounProject.com
 
 More information about the four awards can be found on the [2023 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
 
-**[Nominations are open for all four awards - Due August 26](https://forms.gle/SiBMUwWLeSPYvmxWA)**
-
 <hr />
-
-# Awards from 2022 and before
-
-## [Exceptional Technical Achievement](/technical-achievement-award)
-
-This award shall be given to an individual or team for superior innovation and creativity in developing a project, method, study, or product that contributes to a positive impact on transportation and/or land use decision-making.
-
-**Congratuations to the 2022 recipient, Peter Vovsha**
-
-## [Impactful Research](/impactful-research-award)
-
-This award shall be given to an individual or team of researchers for a research project that has had the most [relatively recent] impact on bettering the travel analysis field for the public good.  
-
-**The Impactful Research Award was not given in 2022**
 
 ## [Zephyr Leadership Award](/leadership-award)
 
-The Zephyr Leadership award shall be given to an individual who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
+The Zephyr Leadership Award is given to an individual with demonstrated history of experience in the field who embodies the Zephyr Principles, and who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**Congratuations to the 2022 recipient, Elizabeth Sall**
+**[Congratuations to the 2023 recipient, Dr. Greg Erhardt!](/leadership-award)**
 
-## [Outstanding Industry Contributor Award](/industry-contributor-award)
+## [Zephyr Rising Star Award](/rising-star-award)
 
-This award shall be given to an individual who in embodying the Zephyr Principles, has selflessly contributed to the good of the industry through the body of their work.
+The Zephyr Rising Star Award is given to an individual early in their career who embodies the Zephyr Principles, and embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis. 
 
-Outstanding Industry Contributor shall be:
+**[Congratuations to the 2023 recipient, Dr. Tierra Bills!](/rising-star-award)**
 
-- Collegial and collaborative, investing in shared technical knowledge and community assets in order to reach common goals (e.g. open access papers, code, documentation, and data);  
-- Generous with their time such as investment in mentorship, community-assets, and other volunteer roles;  
-- Respectful and thoughtful in their interactions; and  
-- Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
+## [Impactful Research Award](/impactful-research-award)
 
-**Congratuations to the 2022 recipient, Dr. Johanna Zmud**
+The Impactful Research Award is given in recognition of a project that has a proven positive impact on the transportation and/or land use decision-making field.
+
+**[Congratuations to the 2023 recipient, STOPS - Simplified Trips-on-Project Software!](/impactful-research-award)**
+
+## [Exceptional Technical Achievement Award](/technical-achievement-award)
+
+The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
+
+**[Congratuations to the 2023 recipient, Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)!](/technical-achievement-award)**
