@@ -51,63 +51,24 @@ Memberships are valid for one year. Benefits for individual members include:
 | Student  | \$25            | Must be in a degree-seeking program in a related field. |
 | Young Professional | \$25            | Under thirty at the time of application.                |
 
-<!-- commenting out agency/business membership while we re-evaluate Zephyr priorities
-
 [_Scroll down to join today!!!_](#join)
 
 <br/>
 
-### Public Agencies
+### Organizational Membership
 
-Memberships are valid for one year. Benefits for public agency membership include
-
-- Vote in board elections
-- Commemorative laptop decals and plaque
-- Preferential and discounted event registration for employees
-- Website listing
-
-Agency memberships are priced according to the population "service area" in which your agency has jurisdiction:
-
-<br/>
-
-| **Size**                | **Annual Dues** | **Service Area**                             |
-| ----------------------- | --------------- | -------------------------------------------- |
-| **Small:**              | \$2,500         | < 500,000 service area                       |
-| **Medium:&nbsp;&nbsp;** | \$5,000         | 500,000 - 1 million service area&nbsp;&nbsp; |
-| **Large:**              | \$10,000        | > 1 million service area                     |
-
-<br/>
-
-Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) so we can discuss the best way to get your agency on board. Zephyr can even send you an invoice.
-
-**Some agencies that are unable to pay for a membership should consider a [Zephyr Subscription](/subscriptions) instead.**
-
-### Businesses and Institutions
-
-Memberships are valid for one year. Benefits for business and institutional members include
+Memberships are valid for one year. Benefits for organizational membership include
 
 - Vote in board elections
 - Commemorative laptop decals and plaque
 - Preferential and discounted event registration for employees
-- Website listing
+<!-- * - Website listing [add back when we start doing this]-->
 
-Business and institutional membership is available through the following self-selected tiers:
+Organizational memberships are $2,000 annually, or $10,000 for five years.<br/>
 
-<br/>
-
-| **Size**                    | **Annual Dues** |
-| --------------------------- | --------------- |
-| **Supporting:**             | \$5,000         |
-| **Sustaining:&nbsp;&nbsp;** | \$10,000        |
-| **Leadership:**             | \$25,000        |
-
-<br/>
-
--->
+Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) so we can discuss the best way to get your organization on board. Zephyr can even send you an invoice.
 
 <a id="join"></a> <!-- #join anchor -->
-
-Please contact us at [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) so we can discuss the best way to get your business or institution on board. Zephyr can even send you an invoice.
 
 ## How to join or renew your membership
 
