@@ -23,7 +23,7 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 With the Leadership award, Zephyr recognizes an individual who adds to and improves our community and the world-at-large.  Such a leader recognizes how things can be done better, answers critical questions of interest and to advance practice through key insights, and upholds values of accountability, transparency, honesty, and integrity. 
 
-The individual selected by the Zephyr Leadership award committee this year who exemplifies these values is Dr. Greg Erhardt. Greg has a taken practical orientation towards answering some of the most important challenges and questions in transportation planning, policy-making and investment, including:
+The individual selected by the Zephyr Leadership award committee this year who exemplifies these values is [Dr. Greg Erhardt](https://www.engr.uky.edu/directory/erhardt-greg). Greg has a taken practical orientation towards answering some of the most important challenges and questions in transportation planning, policy-making and investment, including:
 - Causes and trends in transit ridership changes prior to the COVID pandemic
 - Effects of TNCs on congestion and transit ridership in San Francisco
 - Developing new methods for exploring how new shuttles or demand-responsive transit may help address transit challenges
