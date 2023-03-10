@@ -88,11 +88,12 @@ To do a check, bank transfer or request an invoice, please email: [membership@ze
 
 ### To join or renew today using a credit card, select from the membership options below:
 
-<div class="striperow">
-  {% for product in site.memberships %}
-    {% include item.html %}
-  {% endfor %}
-</div>
+
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1Mk9GoCdFkr743p9Ge2LiXYD"
+publishable-key="pk_live_qT7xpgL72eNH765lj0s9EaT4">
+</stripe-pricing-table>
+
 
 <br/>
 Thanks for considering joining Zephyr. We look forward to building great things with you!
