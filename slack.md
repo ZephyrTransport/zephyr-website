@@ -20,19 +20,4 @@ We're hoping our use of Slack keeps the "barrier to entry" for Zephyr as low as 
 Be sure and [**download the Slack desktop and phone apps**](https://slack.com/downloads) to stay connected.
 
 ---
-#### Already joined us?
-
-* Go to our Slack workspace here: <https://zephyrtransport.slack.com>
-
----
-#### Haven't joined us on Slack yet? Join right now!
-
-Simply fill out the form below with your email address along with your consent to follow our Code of Conduct, and you'll receive an invite right away.
-
-<div class="holds-the-slack-iframe" style="background:url(/img/loader.gif) center center no-repeat;">
-
-<iframe style="width: 100%; height: 500px; border-style: none; overflow:hidden;" src="https://zephyr-invite-bot.herokuapp.com"></iframe>
-
-</div>
-
-<br/><br/><br/>
+Go to our Slack workspace here: <https://zephyrtransport.slack.com>
