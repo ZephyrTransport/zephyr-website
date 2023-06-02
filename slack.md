@@ -4,13 +4,6 @@ title: "Slack channel"
 subtitle: "Zephyr has a free Slack channel for discussions and questions. Join us on Slack now!"
 ---
 
-<br/>
-<br/>
-<br/>
-<br/>
-
----
-
 ### Zephyr has a free Slack discussion channel.
 
 Slack is an online discussion platform with multiple channels, direct messages, and more.
@@ -21,3 +14,5 @@ Be sure and [**download the Slack desktop and phone apps**](https://slack.com/do
 
 ---
 Go to our Slack workspace here: <https://zephyrtransport.slack.com>
+
+---
