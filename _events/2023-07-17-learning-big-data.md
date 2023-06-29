@@ -28,7 +28,6 @@ During this Learning Session, panelists will discuss the following topics for th
 
 <li><strong>Petya Maneva</strong> is a transportation engineer with MAG travel demand modeling team and a GIS professional. She holds a master's degree in Geographic Information Science (GIS) from the University of Redlands, California. Petya is focused on spatial analytics and the data needs of travel demand models. Petya is a member of the oversight board of CTPP (Census Transportation Planning Products).</li>
 
-<li><strong>Arup Dutta</strong> is the Program Manager for the Travel Demand Modeling Program at the Maricopa Association of Governments in Phoenix, Arizona.  His primary areas of expertise include travel demand modeling and travel forecasting. He has a Ph.D. degree in Civil Engineering with a minor degree in Computer Science from the University of Wisconsin-Madison, and an MS in Industrial Engineering and Operations Research from the University of Massachusetts, Amherst.</li>
 </ul>
 
 The session will be moderated by <strong>Lisa Zorn</strong>, who manages the Forecasting, Modeling & Surveys team within the Planning section at the Metropolitan Transportation Commission (MTC).
