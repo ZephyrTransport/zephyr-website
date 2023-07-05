@@ -22,8 +22,9 @@ During this Learning Session, panelists will discuss the following topics for th
 <h3>Panelists</h3>
 
 <ul>
-<li><strong>Jeff Frkonja</strong> has 26 year’s experience in the transportation planning, data, and forecasting field in both the public and private sectors. He currently leads RSG’s planning application team of data scientists, analysts, and forecasters providing data-driven insights supporting transportation decisions. He recently served as the product manager for RSG’s big data deliverables informing passenger and truck travel.</li>
 
+<li><strong>Kevin Johnson</strong> has 17 years of experience in the transportation planning, data, and forecasting field. He has worked primarily on big data and travel modeling projects, providing data-driven insights supporting transportation decisions. His recent work has focused on helping clients understand their data requirements, the advantages and limitations of diverse mobility data types, and how these sources can be employed to achieve their objectives in a defensible, straightforward, and cost-effective way.</li>
+ 
 <li><strong>Dr. Wang Zhang</strong> is the transportation data program manager at the Maricopa Association of Governments (MAG). He received his Ph.D. in civil engineering from Virginia Tech. Throughout his 18 years’ tenure at MAG, he focuses on transportation system analysis, providing insightful data analysis and reports to aid in transportation modeling and planning studies, and helping organizations make informed decisions to improve the transportation system.</li>
 
 <li><strong>Petya Maneva</strong> is a transportation engineer with MAG travel demand modeling team and a GIS professional. She holds a master's degree in Geographic Information Science (GIS) from the University of Redlands, California. Petya is focused on spatial analytics and the data needs of travel demand models. Petya is a member of the oversight board of CTPP (Census Transportation Planning Products).</li>
