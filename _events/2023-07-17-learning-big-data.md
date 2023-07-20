@@ -31,4 +31,4 @@ During this Learning Session, panelists will discuss the following topics for th
 
 </ul>
 
-The session will be moderated by <strong>Lisa Zorn</strong>, who manages the Forecasting, Modeling & Surveys team within the Planning section at the Metropolitan Transportation Commission (MTC).
+The session will be moderated by <strong><a href="mailto:lzorn@bayareametro.gov">Lisa Zorn</a></strong>, who manages the Forecasting, Modeling & Surveys team within the Planning section at the Metropolitan Transportation Commission (MTC).
