@@ -5,12 +5,12 @@ title: Learning Session - Big Data
 type: Learning Session
 day: Monday, July 17, 2023
 time: 4:00 - 5:00 PM ET / 1:00-2:00 PM PT
-place: Recording coming soon - <a href='https://drive.google.com/file/d/1pYAAWGdcBTrftQ91nFnmW9NwW0VuDYLr/view?usp=drive_link'>Presentation</a>
+place: <a href='https://youtu.be/-EbqGjW-zCI'>Recording</a> - <a href='https://drive.google.com/file/d/1pYAAWGdcBTrftQ91nFnmW9NwW0VuDYLr/view?usp=drive_link'>Presentation</a>
 additional-msg:
 summary:  "This session will include a panel of experts who will discuss the Use, Challenges and Value of Big Data for Travel Models. The panelists will present practical ways to handle Big Data, including their experiences verifying the accuracy of these datasets for specific use."
 ---
 <p>
-During this Learning Session, panelists will discuss the following topics for the first half of the session, followed by 30 minutes for discussion.
+During this Learning Session, panelists were asked to discuss the following topics for the first half of the session, followed by discussion/Q&A.
 <ul>
 <li>What Big Data set(s) have panelists worked with and what questions were they trying to answer with the dataset?</li>
 <li>How did panelists <strong>verify</strong> that the data was accurate enough for its intended purpose?  How did they resolve or compensate for any issues?</li>
