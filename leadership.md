@@ -7,7 +7,7 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 
 ### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
 
-This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/members).
+This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/membership).
 
 - **[Amanda Stathopoulos](https://www.linkedin.com/in/amanda-stathopoulos-682b5417/)**, _Northwestern University_
 - **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_, **Program Committee Chair**

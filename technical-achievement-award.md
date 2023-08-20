@@ -33,8 +33,17 @@ The 2023 Exceptional Technical Achievement Award Committee was:
 Board Facilitator: Lisa Zorn
 Presenter at the 2023 TRB Annual Meeting Reception: Matt Bhagat-Conway
 
-## Award Recipients
+### Project Team
+- Sarah Sun, TMIP Outreach Manager, Federal Highway Administration, FHWA Task Manager
+- Martin Milkovits*, Director of Modeling and Analytics, Central Transportation Planning Staff, Consultant Team Project Manager
+- Thomas Rossi*, Principal, Cambridge Systematics, Inc., Consultant Team Project Manager
+- Jeffrey Newman, Senior Associate, Cambridge Systematics, Inc., Technical Lead
+- Rachel Copperman*, Principal, Cambridge Systematics, Inc., Key Technical Staff
+- Jason Lemp, Principal, Cambridge Systematics, Inc., Key Technical Staff
 
+Team members with an * received the award on behalf of the project team.
+
+## Award Recipients
 Note: In 2023, the award updated/clarified to focus on a *project*.
 
 - SACOG Technical Team, 2020  

@@ -36,6 +36,11 @@ Board Facilitator: Xinbo Mi
 
 Presenter at the 2023 TRB Annual Meeting Reception: Jason Hawkins
 
+Received the award on the behalf of the project team:
+- Matthew Welbes, Federal Transit Administration
+- Bill Woodford, RSG, Inc.
+- Jeff Roux, Federal Transit Administration
+
 ## Award Recipients
 
 - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)

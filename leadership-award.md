@@ -21,7 +21,16 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 **Congratulations to the winner of the 2023 Impactful Research Award: Dr. Greg Erhardt**
 
-[Dr. Erhardt](https://www.engr.uky.edu/directory/erhardt-greg) has a practical orientation towards developing solutions and answering some of the most important challenges and questions in transportation planning, policy-making and investment.  This ranges from seeking to answer basic questions about how TNCs may affect traffic congestion and transit ridership, to developing new data fusion methods that may be increasingly important if a “mobility on demand” future emerges.  He has led countless cutting-edge travel forecasting model development efforts, most recently in the context of the T-SCORE project, but has also led rigorous and critical assessment of the accuracy of forecasting as currently practiced.  He is an effective and reliable mentor and colleague.
+With the Leadership award, Zephyr recognizes an individual who adds to and improves our community and the world-at-large.  Such a leader recognizes how things can be done better, answers critical questions of interest and to advance practice through key insights, and upholds values of accountability, transparency, honesty, and integrity. 
+
+The individual selected by the Zephyr Leadership award committee this year who exemplifies these values is [Dr. Greg Erhardt](https://www.engr.uky.edu/directory/erhardt-greg). Greg has a taken practical orientation towards answering some of the most important challenges and questions in transportation planning, policy-making and investment, including:
+- Causes and trends in transit ridership changes prior to the COVID pandemic
+- Effects of TNCs on congestion and transit ridership in San Francisco
+- Developing new methods for exploring how new shuttles or demand-responsive transit may help address transit challenges
+- The accuracy of traffic forecasting as a practice
+- How diverse and complex datasets can be leveraged to address new questions
+
+Greg’s work has led directly to the shaping of public policy in San Francisco, including the implementation of a fee on TNC trips to help finance transit and non-motorized investments that seek to mitigate the congestion impacts of TNCs.  
 
 The 2023 Zephyr Leadership Award Committee was:
 - Joan Walker, UC Berkeley

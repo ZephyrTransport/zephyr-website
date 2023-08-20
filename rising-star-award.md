@@ -21,7 +21,7 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 **Congratulations to the winner of the 2022 Zephyr Rising Star Award: Dr. Tierra Bills**
 
-[Professor Bills](https://luskin.ucla.edu/person/tierra-bills) is an Assistant Prof at UCLA with a joint appointment in Engineering and Public Affairs (a feat in itself to be in two different Colleges). She has been doing rigorous, equity-driven travel demand modeling since her PhD in 2013. She's passionate about outreach to underserved populations and transport impacts on disadvantaged communities. She serves on numerous committees to contribute her equity expertise (the TRB Equity Committee, to name one). In addition to brilliant, traditional academics (papers, NSF grants), she has testified to congress and writes popular press blogs (link below), and is even highlighted in a [coloring book](https://ce.berkeley.edu/news/2511).  
+[Professor Bills](https://luskin.ucla.edu/person/tierra-bills) is an Assistant Prof at UCLA with a joint appointment in Engineering and Public Affairs (a feat in itself to be in two different Colleges). She has been doing rigorous, equity-driven travel demand modeling since her PhD in 2013. She's passionate about outreach to underserved populations and transport impacts on disadvantaged communities. She serves on numerous committees to contribute her equity expertise (the TRB Equity Committee, to name one). In addition to brilliant, traditional academics ([papers](https://scholar.google.com/citations?user=eVbNUVkAAAAJ&hl=en), NSF grants), she has testified to congress and has written a popular press blog, and is even highlighted in a [coloring book](https://ce.berkeley.edu/news/2511).  
 
 The 2023 Outstanding Industry Contributor Committee was:  
 
@@ -30,8 +30,6 @@ The 2023 Outstanding Industry Contributor Committee was:
 - Johanna Zmud, Blue Door Strategy and Research
 
 Board Facilitator: Amanda Stathopoulos
-
-Presenter at the 2023 TRB Annual Meeting Reception: Dr. Joan Walker
 
 ## Award Recipients
 
