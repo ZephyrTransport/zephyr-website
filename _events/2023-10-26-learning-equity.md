@@ -5,7 +5,7 @@ title: Learning Session - Equity in Travel Demand Modeling
 type: Learning Session
 day: Thursday, Oct 26, 2023
 time: 2:00 - 3:00 PM ET / 11:00 AM - 12:00 PM PT
-place: <a href='https://drive.google.com/file/d/10tiI5zSaojmINpzFiX603o6bmTmOqEkY/view?usp=drive_link'>Slide_Ziying_SANDAG</a> \n <a href='https://drive.google.com/file/d/1jFt83iEwCLVUV7ndA-r8PMOmpH6Z7u9A/view?usp=drive_link'>Slide_Alex_and_Willem</a>
+place: <a href='https://drive.google.com/file/d/10tiI5zSaojmINpzFiX603o6bmTmOqEkY/view?usp=drive_link'>Slide_Ziying_SANDAG</a> <br> <a href='https://drive.google.com/file/d/1jFt83iEwCLVUV7ndA-r8PMOmpH6Z7u9A/view?usp=drive_link'>Slide_Alex_and_Willem</a>
 additional-msg:
 summary:  "This session will include panelists from academia to introduce a few topics in equity, including meanings, laws, commonly used practices plus innovations, followed by a panelist from MPO to demonstrate their robust methodology to conduct an equity analysis using their travel demand model."
 ---
