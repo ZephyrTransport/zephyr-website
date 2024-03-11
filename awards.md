@@ -23,13 +23,13 @@ More information about the three awards can be found on the [2024 Zephyr Awards 
 
 The Zephyr Leadership Award is given to an individual with demonstrated history of experience in the field who embodies the Zephyr Principles, and who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**[Congratuations to the 2024 recipient, Dr. Susan Handy!](/leadership-award)**
+**[Congratulations to the 2024 recipient, Dr. Susan Handy!](/leadership-award)**
 
 ## [Exceptional Technical Achievement Award](/technical-achievement-award)
 
 The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
 
-**[Congratuations to the 2024 recipient, AequilibraE!](/technical-achievement-award)**
+**[Congratulations to the 2024 recipient, AequilibraE!](/technical-achievement-award)**
 
 ## [Impactful Research Award - Skipped for 2024](/impactful-research-award)
 
