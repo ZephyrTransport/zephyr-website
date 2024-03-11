@@ -20,7 +20,7 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 **Congratulations to the winner of the 2024 Exceptional Technical Achievement Award: [AequilibraE](https://www.aequilibrae.com/python/latest/#)!**
 
-<img src="https://github.com/ZephyrTransport/zephyr-website/blob/gh-pages/img/2024%2001%20Zephyr%20Reception%20Technical%20Achievement.jpeg" width=70% height=70%><br>
+<img src="https://github.com/ZephyrTransport/zephyr-website/blob/gh-pages/img/2024%2001%20Zephyr%20Reception%20Technical%20Achievement.jpeg"><br>
 <em>Pedro Camargo (middle) and Jan Zill (left) receving the Exceptional Technical Achievement Award at the 2024 Zephyr Reception. Presenter Xuesong Zhou (right). Photo by Lisa Zorn.</em><br>
 
 The Zephyr Foundation is delighted to recognize the AequilibraE team with a Technical Achievement Award for their development of AequilibraE, an open-source Python package dedicated to transportation modeling. This award underscores the team's exceptional contribution to the field of geographic analysis and transportation planning. AequilibraE stands out as the first comprehensive tool of its kind, designed to support the modern objectives of transportation plans. By integrating advanced techniques for route analysis, network editing, local impact assessments, and interactive visualizations, AequilibraE has significantly improved the accessibility, efficiency, and effectiveness of transportation modeling practices.
