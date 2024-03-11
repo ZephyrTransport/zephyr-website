@@ -1,10 +1,10 @@
 ---
 layout: simple
 title: "Exceptional Technical Achievement Award"
-subTitle: "Congratulations to our 2023 Awardee"
+subTitle: "Congratulations to our 2024 Awardee"
 ---
 
-**The 2023 Exceptional Technical Achievement Award was presented on January 10, 2023**
+**The 2024 Exceptional Technical Achievement Award was presented on January 9, 2024**
 
 ## Award Description
 
@@ -16,32 +16,32 @@ The **Exceptional Technical Achievement Award** shall be given in recognition of
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2023 Awardee
+## 2024 Awardee
 
-**Congratulations to the winner of the 2023 Exceptional Technical Achievement Award: Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)**
+**Congratulations to the winner of the 2024 Exceptional Technical Achievement Award: [AequilibraE](https://www.aequilibrae.com/python/latest/#)!**
 
-If the pandemic has a silver lining, it’s that most people now understand what “uncertainty” really means in forecasting. The exploratory modeling ethos underpinning TMIP-EMAT is increasingly recognized as an important part of transportation planning. TMIP-EMAT was developed to help agencies manage uncertainties by illuminating interactions between transportation supply and demand on the urban surface transportation system through exploratory modeling and simulation; provide insights of potential, possible, plausible, probable, or preferred futures; and support robust regional transportation planning decision-making incorporating principles of risk management. The methods introduced and applied using TMIP-EMAT extend and enhance the analytical capabilities of travel models, and numerous agencies have adopted these tools in whole or in part. Most notably, Vancouver’s TransLink has integrated exploratory modeling at a fundamental level into their planning process using this tool. Other users of TMIP-EMAT for transportation planning and modeling efforts include, but are not limited to, ORDOT, TxDOT, RTC, RTD.
+![2024 01 Zephyr Reception - 11](https://github.com/ZephyrTransport/zephyr-website/assets/28812722/3716ef26-144a-4b8f-a46b-365d9ecb2dea)
+<em>Pedro Camargo (middle) and Jan Zill (left) receving the Exceptional Technical Achievement Award at the 2024 Zephyr Reception. Presenter Xuesong Zhou (right). Photo by Lisa Zorn.</em>
 
-The committee selected this project because we think it addresses the often-ignored problem around uncertainty and sensitivity in travel demand modeling. The project is well documented online via [Github](https://github.com/tmip-emat/tmip-emat) and [Read the Docs](http://tmip-emat.github.io/), and it has webinars and summary reports available on FHWA and TMIP websites.
+The Zephyr Foundation is delighted to recognize the AequilibraE team with a Technical Achievement Award for their development of AequilibraE, an open-source Python package dedicated to transportation modeling. This award underscores the team's exceptional contribution to the field of geographic analysis and transportation planning. AequilibraE stands out as the first comprehensive tool of its kind, designed to support the modern objectives of transportation plans. By integrating advanced techniques for route analysis, network editing, local impact assessments, and interactive visualizations, AequilibraE has significantly improved the accessibility, efficiency, and effectiveness of transportation modeling practices.
 
-The 2023 Exceptional Technical Achievement Award Committee was:
+Since its introduction, led by Dr. Pedro Camargo, AequilibraE has demonstrated remarkable success and growth, evidenced by its substantial download rates and active user engagement. With robust community support through platforms like PyPI and Google Groups, AequilibraE has become an important tool within the transportation modeling community. Its integration with QGIS through user-friendly plugins further enhances its utility, bridging a critical gap in the open-source Python and GIS ecosystems. The dedication of the AequilibraE team (including Dr. Jamie Cook, Dr. Jan Zill and many other members) to continuous improvement and community engagement, as seen through their structured contribution guidelines and responsive support channels, exemplifies their commitment to advancing the field.
 
-- Josie Kressner, Transport Foundry, now Motionworks
-- Matthew Bhagat-Conway, University of North Carolina at Chapel Hill
-- Maren Outwater, Blue Door Strategy and Research
+AequilibraE's comprehensive feature set, including support for OpenStreetMap(OSM) data, customizable Volume-Delay Function parameters, and multi-class equilibrium assignments, positions it at the forefront of transportation modeling solutions. The package not only addresses common challenges within the domain but also fosters innovation and collaboration by enabling users to contribute to its development. In recognition of their significant achievements and the positive impact of their work on the transportation modeling community, the Zephyr Foundation is proud to award the AequilibraE team this well-deserved accolade.
 
-Board Facilitator: Lisa Zorn
-Presenter at the 2023 TRB Annual Meeting Reception: Matt Bhagat-Conway
+The 2024 Exceptional Technical Achievement Award Committee was:
+
+- Like Liu
+- Sarah Sun
+- Rachel Copperman
+
+Board Facilitator: Xinbo Mi<br>
+Presenter at the 2024 TRB Annual Meeting Reception: Xuesong Zhou
 
 ### Project Team
-- Sarah Sun, TMIP Outreach Manager, Federal Highway Administration, FHWA Task Manager
-- Martin Milkovits*, Director of Modeling and Analytics, Central Transportation Planning Staff, Consultant Team Project Manager
-- Thomas Rossi*, Principal, Cambridge Systematics, Inc., Consultant Team Project Manager
-- Jeffrey Newman, Senior Associate, Cambridge Systematics, Inc., Technical Lead
-- Rachel Copperman*, Principal, Cambridge Systematics, Inc., Key Technical Staff
-- Jason Lemp, Principal, Cambridge Systematics, Inc., Key Technical Staff
-
-Team members with an * received the award on behalf of the project team.
+- Pedro Camargo
+- Jamie Cook
+- Jan Zill
 
 ## Award Recipients
 Note: In 2023, the award updated/clarified to focus on a *project*.
@@ -49,3 +49,4 @@ Note: In 2023, the award updated/clarified to focus on a *project*.
 - SACOG Technical Team, 2020  
 - VisonEval Team, 2021
 - Peter Vovsha, 2022
+- Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT), 2023
