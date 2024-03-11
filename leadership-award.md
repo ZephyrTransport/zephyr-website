@@ -2,7 +2,7 @@
 layout: simple
 title: "Zephyr Leadership Award"
 ---
-**The 2023 Zephyr Leadership Award was presented on January 10, 2023**
+**The 2024 Zephyr Leadership Award was presented on January 9, 2024**
 
 ## Award Description
 
@@ -15,31 +15,31 @@ Criteria used for selection:
 - Respectful and thoughtful in their interactions; and
 - Goal-oriented towards the public good and usefulness, even if the pathway is unconventional.
 
-Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
+Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval. Awards are made at the TRB Annual Meeting.
 
-## 2023 Awardee
+## 2024 Awardee
 
-**Congratulations to the winner of the 2023 Impactful Research Award: Dr. Greg Erhardt**
+**Congratulations to the winner of the 2024 Impactful Research Award: [Dr. Susan Handy](https://susanhandy.ucdavis.edu/)**
 
-With the Leadership award, Zephyr recognizes an individual who adds to and improves our community and the world-at-large.  Such a leader recognizes how things can be done better, answers critical questions of interest and to advance practice through key insights, and upholds values of accountability, transparency, honesty, and integrity. 
+![handy](https://github.com/ZephyrTransport/zephyr-website/assets/28812722/c338cd33-3c8a-41a4-ad54-85fa66283e82)<br>
+<em>[Dr. Susan Handy Delivers the Thomas B. Deen Distinguished Lectureship at the 2024 Transportation Research Board (TRB) Conference.](https://www.metrans.org/news/dr-susan-handy-delivers-the-thomas-b-deen-distinguished-lectureship-at-the-2024-transportation-research-board-trb-conference) Photo by METRANS Staff.</em>
 
-The individual selected by the Zephyr Leadership award committee this year who exemplifies these values is [Dr. Greg Erhardt](https://www.engr.uky.edu/directory/erhardt-greg). Greg has a taken practical orientation towards answering some of the most important challenges and questions in transportation planning, policy-making and investment, including:
-- Causes and trends in transit ridership changes prior to the COVID pandemic
-- Effects of TNCs on congestion and transit ridership in San Francisco
-- Developing new methods for exploring how new shuttles or demand-responsive transit may help address transit challenges
-- The accuracy of traffic forecasting as a practice
-- How diverse and complex datasets can be leveraged to address new questions
+Dr. Handy's contributions have profoundly advanced the theoretical and practical landscapes of our field. Her journey began with an education and professional experience grounded in civil engineering, where she first encountered the limitations of engineering-centric approaches to transportation challenges. This realization propelled her towards a doctorate in planning, aiming to address these issues with a broader, more integrated perspective. Her unique ability to navigate and bridge both the academic and practical realms as well as those of engineering and planning  has fostered significant advancements and collaboration across these sectors.
 
-Greg’s work has led directly to the shaping of public policy in San Francisco, including the implementation of a fee on TNC trips to help finance transit and non-motorized investments that seek to mitigate the congestion impacts of TNCs.  
+A testament to her impact is her challenge to the traditional "predict and provide" methodology of long-range transportation planning, which she argued was neither effective nor sustainable—economically, socially, or environmentally. Rather than merely critiquing the status quo, Dr. Handy's diverse experience fueled her empathy and collaborative spirit, enabling her to work alongside current professionals towards better solutions. Her research on induced demand not only provided empirical evidence but also supported the development and implementation of policies that acknowledge and address this phenomenon. Furthermore, Dr. Handy has been instrumental in creating and disseminating accessible, low-cost tools for communities, bridging the gap between sophisticated state resources and local needs.
 
-The 2023 Zephyr Leadership Award Committee was:
-- Joan Walker, UC Berkeley
+Dr. Handy's unwavering commitment to mentoring epitomizes her dedication to the future of transportation planning. Her ability to inspire a sense of purpose and innovation has influenced many in their careers, extending her legacy. Through her book "Shifting Gears" and beyond, Dr. Handy continues to shape the industry, reaching an audience far wider than her immediate circle.
+
+As we honor her with the Zephyr Foundation Leadership Award, we not only celebrate her individual achievements but also her enduring impact on fostering an empathetic, curious, and pragmatic travel analysis community, propelling us toward a more thoughtful and inclusive future.
+
+The 2024 Zephyr Leadership Award Committee was:
 - Bill Davidson
-- Elizabeth Sall, UrbanLabs
+- Elizabeth Sall
+- Greg Erhardt
 
 Board Facilitator: Joe Castiglione
 
-Presenter at the 2023 TRB Annual Meeting Reception: Joe Castiglione
+Presenter at the 2024 TRB Annual Meeting Reception: Joe Castiglione
 
 ## Award Recipients
 
@@ -47,3 +47,4 @@ Presenter at the 2023 TRB Annual Meeting Reception: Joe Castiglione
 - Joan Walker, 2020
 - Bill Davidson, 2021
 - Elizabeth Sall, 2022
+- Greg Erhardt, 2023
