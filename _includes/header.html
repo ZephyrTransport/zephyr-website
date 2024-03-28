@@ -6,32 +6,9 @@
     <div class="intro-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-2" style="z-index: 100;">
-                    <div class="intro-callout">
-                        <h4>Latest Notes:</h4>
-                        <hr/>
-                        <p>
-                            <i aria-hidden="true" class="fa fa-angle-right" style="color:#{{ site.highlight-text }}"></i>
-                            <a href="/awards/" style="color:#{{ site.highlight-text }}">Congratulations to 2024 Zephies award recipients!</a>
-                        </p>
-                    </div>
-                </div>
                 <div class="col-md-10">
                     <div class="intro-message">
                         <h1 class="zephyr">{{ page.title }}</h1>
-                        <h3 class="highlight-text z-hero-subtitle">
-                            {{ page.subTitle }}
-                        </h3>
-
-                        <hr class="intro-divider"/>
-                        <div class="z-social-buttons">
-                            {% for social in site.social %}
-                                <a href="{{ social.url }}" class="btn btn-default btn-lg">
-                                    <i class="fab fa-{{ social.title }} fa-fw"></i>
-                                    <span class="network-name">{{ social.title }}</span>
-                                </a>
-                            {% endfor %}
-                        </div>
                     </div>
                 </div>
             </div>
