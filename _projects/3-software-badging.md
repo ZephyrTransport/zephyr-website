@@ -26,10 +26,7 @@ Feedback or requests to be involved can be sent to to the Software Badging chair
 ## Governance
 
 This project is overseen by a board-approved Project Management Group (PMG) as follows:
- - David Ory, WSP Inc. (Chair)
- - Billy Charlton, TU Berlin
- - Dan Florian, INRO
- - Jeffrey Newman, Driftless Lab
- - Ben Stabler, Motionworks
- - Kyle Ward, Caliper
+ - David Ory, WSP (Chair)
  - Lisa Zorn, Metropolitan Transportation Commission
+ - Jeffrey Newman, Driftless Lab
+ - Xuesong Zhou, Arizona State University
