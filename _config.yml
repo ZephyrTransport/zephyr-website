@@ -95,14 +95,14 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
+  - title: x-twitter
     url: https://twitter.com/zephyrtransport
   - title: slack
     url: https://zephyrtransport.org/slack
   - title: github
     url: https://github.com/zephyrtransport
-  - title: email list
-    url: http://eepurl.com/ccQL7z
+  - title: medium
+    url: https://medium.com/zephyrfoundation
   - title: linkedin
     url: https://www.linkedin.com/company/zephyr-foundation-for-advancing-travel-analysis
   - title: youtube
