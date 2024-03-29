@@ -1,7 +1,7 @@
 ---
 layout: project
 img: sf-plot.png
-icon: fa-graduation-cap
+icon: TMIP_wheel_bw_transparent.png
 category: Activities
 title: TMIP
 description: An integrated online Community of Practice for the Travel Model Improvement Program (TMIP).
