@@ -8,93 +8,23 @@ description:  Datasets of standardized input and observed data in order to facil
 front: True
 ---
 
-**Meeting Announcement**
+## GMNS
 
-The GMNS Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC](/events/2020-jan-gmns-pmg).
+The purpose of the General Model Network Specification (GMNS) is to develop data format specifications for modeling networks that will work across software platforms and regions.  GMNS is necessary to help facilitate seamless integration of tools and ideas in travel modeling, as well as the integration of tools and ideas developed in adjacent fields.  GMNS provides a uniform format for sharing routable road network files that is both human- and machine-readable.
 
-  - Mon Jan 13th 1:30-3:00   
-  - 159B / Washington DC Convention Center
+GMNS was developed under the auspices of the Zephyr Foundation, with support from the Federal Highway Administration (FHWA), and is intended to facilitate the sharing of tools and data sources by modelers. It is designed to be used in multi-resolution and multi-modal static and dynamic transportation planning and operations models with time-varying networks.
 
-*Note that seating may be limited and will be prioritized for PMG members*
+Over the past 6 years, the GMNS Project Management Committee has define GMNS requirement, evaluated existing solutions, and drafted, disseminated, and revised the GMNS specification, which can be found [here](https://github.com/zephyr-data-specs/GMNS).
 
-## Governance
+An introduction to GMNS can be found here: [General Modeling Network Specification: A Specification for Sharing Routable Road Networks](https://trid.trb.org/view/1909441)
 
-This project is overseen by a board-approved Project Management Group (PMG) as follows:
- - Joe Castiglione, SFCTA (chair, board representative)
- - Michael Mahut, INRO  
- - Wu Sun, SANDAG  
- - Guy Rousseau, ARC  
- - Chetan Joshi, PTV  
- - Jeff Frkonja, Portland Metro  
- - Scott Smith, Volpe  
- - Natalia Ruiz Juri, University of Texas Center for Transportation Research  
- - Song Gao, UMass Amherst  
+Community members and researchers have begun to develop an ecosystem of tools to facilitate use of GMNS, include:
 
-## Project Background
+- [OSM2GMNS](https://github.com/jiawlu/OSM2GMNS) – osm2gmns is an open-source Python package that enables users to conveniently obtain and manipulate any networks from OpenStreetMap (OSM). With a single line of Python code, users can obtian and model drivable, bikeable, walkable, railway, and aeroway networks for any region in the world, and output networks to csv files in GMNS format for seamless data sharing and research collaboration.
 
-Winner of the project "shark tank" as [presented here](https://docs.google.com/presentation/d/1D2j67Q7006XssLuRhAx5_cupeF51W9VQVvpWjtvf8y8/) by Lisa Zorn of the Metropolitan Transportation Commission at the 2017 TRB Planning Applications Conference.
+- [Path4GMNS](https://github.com/jdlph/Path4GMNS) - Path4GMNS is an open-source, cross-platform, lightweight, and fast Python path engine for networks encoded in GMNS. Besides finding static shortest paths for simple analyses, its main functionality is to provide an efficient and flexible framework for column-based (path-based) modeling and applications in transportation (e.g., activity-based demand modeling).
 
-**The Problem**
-Coding networks is a waste of time and prone to errors.
-This wastes:
-
-* Agency staff time + consulting resources  
-
-This limits:
-
-* Number of scenarios that can be run  
-* Leveraging existing work  
-* Access to most up to date or consistent information  
-
-**The Solution**
-General Travel Network Format Specification, Standards, + Tools.
-
-* Specification of network and transit data similar to what GTFS has done for transit
-* Defined Quality Standards for completeness  
-* Tools to validate, edit, version control and manage networks (+  the projects that comprise them)
-
-**Why Zephyr?**
-
-Solving this problem requires buy in from a large stakeholder community spanning agencies and various industries.
-Will want to pool resources
-
-Existing attempts suffer from:
-
- * “Not invented here” syndrome
- * Lack of mandate to follow-through
-
-
-**Key Challenges**
-
-1. Getting the right people to participate and buy-in
-
-- Negotiating differences should include substantial due process  
-- Need to make decisions while not leaving other camps behind  
-
-2. Implementation
-
-- Make it easy: Developers / software vendors will need to lead in their support  
-- Provide benefit early: Will need to incentivize use with alluring tools and perhaps fame  
-
-**Deliverables**
-
- * Requirements Documentation based on market research
- * Open Data Standard + Schema for Travel Networks (GTNS)
-   * Could build upon or be a collection of existing standards
-   * Documented on GitHub
-   * Policies and procedures for updating and maintaining
- * Quality Standard
-   * Define at least three tiers of completeness
- * Tools
-   * To validate the validity and quality of data
-   * Outline of additional needed tools based on market research
-
-**Benefits include:**
-
- * Open data sharing  
- * Shared tool and visualization development  
- * Quality control  
- * Scenario management  
+A small, multimodal demonstration network can be found [here](https://github.com/zephyr-data-specs/GMNS/tree/development/Small_Network_Examples/Cambridge_Multimodal_Network).
 
 ## Feedback + Involvement
 
