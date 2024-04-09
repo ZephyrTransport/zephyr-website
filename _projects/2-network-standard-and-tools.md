@@ -10,7 +10,7 @@ front: True
 
 ## GMNS
 
-The purpose of the General Model Network Specification (GMNS) is to develop data format specifications for modeling networks that will work across software platforms and regions.  GMNS is necessary to help facilitate seamless integration of tools and ideas in travel modeling, as well as the integration of tools and ideas developed in adjacent fields.  GMNS provides a uniform format for sharing routable road network files that is both human- and machine-readable.
+The purpose of the General Modeling Network Specification (GMNS) is to develop data format specifications for modeling networks that will work across software platforms and regions.  GMNS is necessary to help facilitate seamless integration of tools and ideas in travel modeling, as well as the integration of tools and ideas developed in adjacent fields.  GMNS provides a uniform format for sharing routable road network files that is both human- and machine-readable.
 
 GMNS was developed under the auspices of the Zephyr Foundation, with support from the Federal Highway Administration (FHWA), and is intended to facilitate the sharing of tools and data sources by modelers. It is designed to be used in multi-resolution and multi-modal static and dynamic transportation planning and operations models with time-varying networks.
 
