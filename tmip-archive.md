@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: simple
 img: sf-plot.png
 icon: TMIP_wheel_bw_transparent.png
 category: Activities
@@ -8,16 +8,17 @@ description: Searchable archive of the TMIP mailing list archive, 2001-2023.
 front: True
 ---
 
-## TMIP Archive
-
 <!-- Vue application gets inserted here -->
-<div id="tmip-app"><i>Loading...</i></div>
+<div id="app"><i>Loading...</i></div>
 
-<script type="module">
-  import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
-  import TmipArchiveApp from '/js/tmip-archive-app.js'
-  createApp(TmipArchiveApp).mount('#tmip-app')
-</script>
+<link rel="stylesheet" crossorigin href="/tmip-archive-assets/index-Ct4StRBI.css" />
+<script type="module" crossorigin src="/tmip-archive-assets/index-T3O2YYSh.js"></script>
+
+<!-- <script>
+  import { createApp } from 'vue'
+  import App from './App.vue'
+  createApp(App).mount('#app')
+</script> -->
 
 <noscript>
   <br/>
