@@ -11,14 +11,8 @@ front: True
 <!-- Vue application gets inserted here -->
 <div id="app"><i>Loading...</i></div>
 
-<link rel="stylesheet" crossorigin href="/tmip-archive-assets/index-Ct4StRBI.css" />
-<script type="module" crossorigin src="/tmip-archive-assets/index--_Mkp79U.js"></script>
-
-<!-- <script>
-  import { createApp } from 'vue'
-  import App from './App.vue'
-  createApp(App).mount('#app')
-</script> -->
+<link rel="stylesheet" crossorigin href="/tmip-archive-assets/index-D13mdvCc.css" />
+<script type="module" crossorigin src="/tmip-archive-assets/index-UqT5_Gvi.js"></script>
 
 <noscript>
   <br/>
