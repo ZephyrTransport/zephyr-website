@@ -63,13 +63,19 @@ subTitle: Advancing Travel Analysis to Improve Society
             <p class="z-section-title">This is a list of Zephyr's projects and programs.</p>
 
             <div class="z-programs-list">
+                <!-- TMIP first but it's not technically a project -->
+                <div class="z-program-entry z-section-title" style="text-align: center;">
+                    <img src="/img/TMIP_wheel_bw_transparent.png" width="100px"/>
+                    <h3 class="section-heading" style="margin-bottom: 1rem;">
+                        <a href="/TMIP">TMIP</a>
+                    </h3>
+                    <div class="lead">An integrated online Community of Practice for the Travel Model Improvement Program (TMIP).</div>
+                    </div>
+
                 {% for project in site.projects %}
                     <div class="z-program-entry z-section-title" style="text-align: center;">
                         {% if project.icon != 'none' %}
                             <i aria-hidden="true" class="fa {{ project.icon }} fa-5x"></i>
-                        {% endif %}
-                        {% if project.title == 'TMIP' %}
-                            <img src="/img/TMIP_wheel_bw_transparent.png" width="100px"/>
                         {% endif %}
                         <h3 class="section-heading" style="margin-bottom: 1rem;">
                             <a href={{ site.baseurl }} {{ project.url }}>{{ project.title }}</a>
