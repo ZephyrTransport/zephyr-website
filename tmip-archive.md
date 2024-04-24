@@ -7,9 +7,7 @@ description: Searchable archive of the TMIP mailing list archive, 2001-2023.
 front: True
 ---
 
-### Search the TMIP email list archive here.
-
-Messages from 2001-2023 are all in the archive database. Because several server transitions occurred over decades of operation, some individual messages may not appear in a threaded conversation. Those messages all still exist! -- but may require searching on the person's name or the message subject. We will work to improve the search capability.
+### Search the TMIP email list archive
 
 <!-- Vue application gets inserted here -->
 
