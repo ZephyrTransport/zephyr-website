@@ -15,4 +15,8 @@ The Travel Model Improvement Program (TMIP) was created to advance the state of 
 ### Resources
  - [**Active Email List**](https://tmip.zephyrtransport.org/scripts/wa-ZEPHYRTRANS.exe?INDEX)
  - [**Webinar and Learning Sessions**](https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA) (old TMIP webinars will be available soon)
- - **Archived Email Lists** (coming soon)
+ - [**Archived Email Lists: 2001-2023**](/tmip-archive)
+
+<br/>
+<br/>
+<br/>

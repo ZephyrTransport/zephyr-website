@@ -1,46 +1,48 @@
 <head lang="en">
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="{{ site.author }}" />
 
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
+  <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
 
-    <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
-    </title>
+  <!-- Bootstrap Core CSS -->
+  <link href="{{ '/css/bootstrap.min.css' | absolute_url }}" rel="stylesheet" />
 
-    <!-- Bootstrap Core CSS -->
-    <link href="{{ '/css/bootstrap.min.css' | absolute_url }}" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="{{ '/css/landing-page.css' | absolute_url }}" rel="stylesheet" />
 
-    <!-- Custom CSS -->
-    <link href="{{ '/css/landing-page.css' | absolute_url }}" rel="stylesheet">
+  <!-- Font Awesome - Version 6 free kit created by lmz -->
+  <script src="https://kit.fontawesome.com/7edfff3086.js" crossorigin="anonymous"></script>
 
-    <!-- Font Awesome - Version 6 free kit created by lmz -->
-    <script src="https://kit.fontawesome.com/7edfff3086.js" crossorigin="anonymous"></script>
-s
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700&amp;subset=latin-ext" rel="stylesheet" type="text/css">
+  <!-- Custom Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Cabin:400,700&amp;subset=latin-ext"
+    rel="stylesheet"
+    type="text/css"
+  />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ '/img/favicon.ico' | absolute_url }}" type="image/x-icon"/>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{ '/img/favicon.ico' | absolute_url }}" type="image/x-icon" />
 
-    <!-- New Styles! Woot -->
-    <link href="{{ '/css/zephyr-2020.css' | absolute_url }}" rel="stylesheet">
+  <!-- New Styles! Woot -->
+  <link href="{{ '/css/zephyr-2020.css' | absolute_url }}" rel="stylesheet" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0EK9YG5V9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0EK9YG5V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'G-Q0EK9YG5V9');
-</script>
-
+    gtag('config', 'G-Q0EK9YG5V9');
+  </script>
 </head>
