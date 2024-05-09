@@ -7,8 +7,6 @@ description: Searchable archive of the TMIP mailing list archive, 2001-2023.
 front: True
 ---
 
-### Search the TMIP email list archive
-
 <!-- Vue application gets inserted here -->
 
 <div id="app"><i>Loading...</i></div>
@@ -19,7 +17,7 @@ front: True
 <noscript>
 <br/><p>
 <b style="background-color: yellow">
-  Searching the TMIP archive requires JavaScript. Please enable JavaScript in your web browser to continue.
+  Accessing the TMIP archive requires JavaScript. Please enable JavaScript in your web browser to continue.
 </b></p>
 </noscript>
 
