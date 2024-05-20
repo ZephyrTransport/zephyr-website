@@ -11,8 +11,8 @@ front: True
 
 <div id="app"><i>Loading...</i></div>
 
-<link rel="stylesheet" crossorigin href="/tmip-archive-assets/index.css" />
-<script type="module" crossorigin src="/tmip-archive-assets/index.js"></script>
+<link rel="stylesheet" crossorigin href="/tmip-archive-assets/index-CD6A2e_P.css" />
+<script type="module" crossorigin src="/tmip-archive-assets/index-CE4-N5T1.js"></script>
 
 <noscript>
 <br/><p>
