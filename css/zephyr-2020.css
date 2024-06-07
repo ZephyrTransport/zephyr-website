@@ -2,6 +2,15 @@
   background-color: white;
 }
 
+.z-logo {
+  margin-top: -5px;
+}
+
+a.z-zephyr-name {
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
 .z-stars ul {
   padding-left: 0;
 }
@@ -26,6 +35,12 @@
 .z-program-entry {
   border-top: 2px solid #0da5d3;
   padding: 2rem 0;
+}
+
+.z-connect {
+  margin-top: 0;
+  color: #1698c0;
+  margin-left: 15px;
 }
 
 .z-social-buttons {
@@ -80,9 +95,9 @@ h3.z-hero-subtitle {
 }
 
 .z-header-readable {
-  background-color: #ffffffdd;
-  margin: 5rem auto;
-  padding: 2rem 2rem;
+  background-color: #ffffff;
+  margin: 0rem auto 0 auto;
+  padding: 1.5rem 2rem;
   width: max-content;
   font-size: 5rem;
   border: 5px solid #0da5d3;
@@ -90,7 +105,17 @@ h3.z-hero-subtitle {
 }
 
 .z-header-readable h2 {
-  margin: 1.5rem 1rem;
+  margin: 0.25rem 1rem;
+}
+
+.intro-message {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  margin-bottom: -38px;
+}
+
+.z-biglogo {
+  padding: 60px 0;
 }
 
 .event-place {
@@ -105,6 +130,30 @@ h3.z-hero-subtitle {
 .event-place a:hover {
   border: 1px solid #335;
   text-decoration: none;
+}
+
+footer {
+  background-image: linear-gradient(380deg, hsl(283, 30%, 94%), #cfd4f3);
+  margin-top: 4rem;
+}
+
+.navbar {
+  background-image: linear-gradient(380deg, #171734, #1d434d, #257);
+  border: none;
+   /* border-bottom: 1px solid #0da5d3; */
+}
+
+.navbar-right a {
+  color: #ccd !important;
+}
+
+.navbar-right a:hover {
+  color: #eff !important;
+}
+
+
+.nav > li {
+  color: white;
 }
 
 @media only screen and (max-width: 75em) {
@@ -141,5 +190,14 @@ h3.z-hero-subtitle {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+@media (max-width: 994px) {
+  .nav > li > a {
+    font-size: 16px;
+    padding: 15px 5px;
   }
 }

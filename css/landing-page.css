@@ -13,17 +13,10 @@ html {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 700;
-}
-
 body,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 body,
@@ -33,11 +26,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", "Open Sans", "Libre Franklin", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lora";
+  font-weight: 600;
+}
+
+
 body {
-  font-size: 18px;
+  font-size: 19px;
+  /* line-height: 2.5rem; */
 }
 
 a {
@@ -182,7 +185,7 @@ a {
 }
 
 .intro-message > h1 {
-  margin: 0;
+  /* margin: 0; */
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em;
 }
