@@ -42,5 +42,5 @@ jobs:
           # --- push to github
           git config user.name "Zephyr Bot"
           git config user.email "info@zephyrtransport.org"
-          git add stars.md && git commit -m "update stars" && git push
+          git add stars.md stars.content && git commit -m "update stars" && git push
 
