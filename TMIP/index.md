@@ -21,7 +21,7 @@ Zephyr is supporting TMIP by moderating a community-wide mailing list and archiv
 ### Webinars
 
  - [**TMIP Webinar Archive**](/TMIP/archive/#/webinars) - Archive of all TMIP webinars from 2007-2023.
- - [**Webinar and Learning Sessions on YouTube**](https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA) - Some TMIP webinars were published on YouTube and can be found here.
+ - [**Webinar and Learning Sessions on YouTube**](https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA) - Zephyr Learning Sessions and Webinars were published on YouTube and can be found here.
 
 <br/>
 <br/>
