@@ -38,5 +38,5 @@ jobs:
           git config user.name "Zephyr Bot"
           git config user.email "info@zephyrtransport.org"
           DATE=$(date +"%b %d, %Y")
-          if [[ $(git status -uno --short) ]]; then echo "Last updated $DATE" >> stars.md && git add stars.md && git commit -m "update stars" && git push; fi
+          if [[ $(git status -uno --short) ]]; then echo "<br/><br/>_Last updated $DATE_" >> stars.md && git add stars.md && git commit -m "update stars" && git push; fi
 
