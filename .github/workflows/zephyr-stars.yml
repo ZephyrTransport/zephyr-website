@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the gh-pages branch
   push:
@@ -37,5 +37,6 @@ jobs:
           echo stars.md
           git config user.name "Zephyr Bot"
           git config user.email "info@zephyrtransport.org"
-          if [[ $(git status -uno --short) ]]; then git add stars.md && git commit -m "update stars" && git push; fi
+          DATE=$(date +"%b %d, %Y")
+          if [[ $(git status -uno --short) ]]; then echo "Last updated $DATE" >> stars.md && git add stars.md && git commit -m "update stars" && git push; fi
 
