@@ -47,7 +47,7 @@ a.z-zephyr-name {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem 0 2rem;
 }
 
 h3.z-hero-subtitle {
