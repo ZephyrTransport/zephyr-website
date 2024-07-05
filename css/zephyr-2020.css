@@ -201,3 +201,9 @@ footer {
     padding: 15px 5px;
   }
 }
+
+@media (max-width: 1024px) {
+  .message-panel {
+    flex-direction: column !important;
+  }
+}
