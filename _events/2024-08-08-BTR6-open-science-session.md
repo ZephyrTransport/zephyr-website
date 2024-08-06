@@ -33,4 +33,4 @@ This session will include three presentations on open science efforts in transpo
 | Model Network Standards & Network Building Tools (CONNECT: Consortium of Open-Source Planning Models for Next-Generation Equitable & Efficient Communities & Transportation) | Lisa Zorn (MTC) |
 | What's New with SimWrapper, the Open-Source Data Visualization Dashboard Builder for Activity & Agent-Based Models | Billy Charlton (TU Berlin) |
 | From Simple Labels to Time-Use Integrations: Supporting the Spectrum of Qualitative Travel Behavior Data | Jack Greenlee (NREL) |
-| Panel Discussion | JP Helveston, Brice Nichols, and TBD |
+| Panel Discussion | JP Helveston, Brice Nichols, and Andrew Rohne |
