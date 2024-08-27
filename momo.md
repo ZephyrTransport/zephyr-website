@@ -18,7 +18,7 @@ The Modeling Mobility Conference continues the legacy of previous notable transp
 - [Contact us](mailto:ModelingMobility@zephyrtransport.org?subject=Sponsor) should you be interested in becoming a sponsor
 
 ## Sign up for email updates
-Click [this link](http://eepurl.com/ccQL7z) and fill out a short form to join our growing mail list!
+Click [this link](http://eepurl.com/ckG5o9) and fill out a short form to stay on our mailing list for conference updates!
 
 ## Contact Us
 - Email: ModelingMobility@zephyrtransport.org
