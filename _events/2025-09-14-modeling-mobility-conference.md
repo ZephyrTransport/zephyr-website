@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Conference
-title: Modeling Mobility Conference
+title: The Modeling Mobility Conference
 type: Conference
 day: September 14-17, 2025
 place: Minneapolis, Minnesota

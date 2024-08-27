@@ -10,7 +10,7 @@ The Modeling Mobility Conference continues the legacy of previous notable transp
 ## Date and Place
 - Day: September 14-17, 2025
 - Place: Minneapolis, Minnesota
-- Hosted by Center for Transportation Studies, University of Minnesota
+- Hosted by University of Minnesota Center for Transportation Studies
 
 ## Registration
 - Registration will open in Spring 2025
@@ -18,7 +18,7 @@ The Modeling Mobility Conference continues the legacy of previous notable transp
 - [Contact us](mailto:ModelingMobility@zephyrtransport.org?subject=Sponsor) should you be interested in becoming a sponsor
 
 ## Sign up for email updates
-Click [this link](http://eepurl.com/ckG5o9) and fill out a short form to stay on our mailing list for conference updates!
+Click [this link](http://eepurl.com/ckG5o9) and fill out a short form to join the conference mailing list for future updates!
 
 ## Contact Us
 - Email: ModelingMobility@zephyrtransport.org
