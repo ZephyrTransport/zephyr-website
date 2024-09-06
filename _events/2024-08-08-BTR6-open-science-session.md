@@ -34,3 +34,7 @@ This session will include three presentations on open science efforts in transpo
 | What's New with SimWrapper, the Open-Source Data Visualization Dashboard Builder for Activity & Agent-Based Models | Billy Charlton (TU Berlin) |
 | From Simple Labels to Time-Use Integrations: Supporting the Spectrum of Qualitative Travel Behavior Data | Jack Greenlee (NREL) |
 | Panel Discussion | JP Helveston, Brice Nichols, and Andrew Rohne |
+
+### Session Recording
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/C0TDViqFxBU?si=XWOseFFlkex70Qhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
