@@ -78,9 +78,14 @@ You can sign up right now using your credit card, but other options are availabl
 
 We'll need your name, email, and a valid credit/debit card info to process your membership. We use the [Stripe](https://stripe.com) payment system, which means we never see your credit card number and thus cannot lose it.
 
-#### Other payment options
+## How to check on past payments, change or cancel your membership
+
+Please visit the <a href="https://billing.stripe.com/p/login/3cs6pRfp0aIR0Qo4gg">Stripe Customer Portal</a> and enter the email you used when you subscribed.
+
+## Other payment options
 
 To do a check, bank transfer or request an invoice, please email: [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org)
+
 
 <!-- stripe -->
 
