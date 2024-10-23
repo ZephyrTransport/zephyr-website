@@ -5,7 +5,7 @@ title: Learning Session - Long-Range Travel Demand Forecasting Under Deep Uncert
 type: Learning Session
 day: Thursday, Nov 14, 2024
 time: 12:00 - 1:00 PM ET / 9:00 - 10:00 AM PT
-place: Registration link forthcoming
+place: <a href="https://us06web.zoom.us/webinar/register/WN_FRkR6wDeQkej8b4Oc-djXw">Register</a>
 additional-msg:
 summary: This session will feature insights from leading researchers and practitioners of Decision Making Under Uncertainty (DMDU) methods, followed by a Q&A session on how to integrate these approaches into mainstream practice in travel demand forecasting. 
 ---
