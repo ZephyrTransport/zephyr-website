@@ -1,39 +1,41 @@
 ---
 layout: project
-title: "Board Election 2025"
+title: "Board Election 2022"
 img: bike-bridge.jpg
 ---
 
-Zephyr is having an election to fill vacancies on its <a href="/leadership/#board">Board</a>. The Board is charged with determining the projects and direction for Zephyr, the composition of project management groups, and maintaining the core organization.  We seeking [nominations](https://docs.google.com/forms/d/e/1FAIpQLSezgRoYQWRv9sdGAvJd9PiOx8rputoVjWbSEwArCIrxPyeSrw/viewform) to fill four open seats.
+Zephyr is having a special election to fill vacancies on its <a href="/leadership/#board">Board</a>. The Board is charged with determining the projects and direction for Zephyr, the composition of project management groups, and maintaining the core organization.  We seeking [nominations](https://docs.google.com/forms/d/e/1FAIpQLSfyOYcFQt-OeKC8CL7s9J7GC4IOuupP97kWmJPhLKODmDEiyw/viewform) to fill three open seats.
 
-Zephyr is an all-volunteer organization and it depends on membership for literally everything it does. We are looking for board members that are interested in pushing forward our mission to advance rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis, and facilitating its implementation.
+Zephyr is an all-volunteer organization and it depends on membership for literally everything it does. This year the Board will be focusing on:
+* Incorporating feedback gathered from Zephyr stakeholders into a new 5-year plan for the organization;
+* Streamlining admin operations; and
+* Enabling new projects, activities, and initiatives.
 
 ## Become a member to vote
 
 One of the most important aspects of being a member of the Zephyr Foundation
 is having a vote in the annual Zephyr Board election. Our board is elected every June according to our bylaws.
 
-To be eligible to vote in the upcoming election you must have been a member in good standing at the time of the election. 
-You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
+To be eligible to vote you must be a member in good standing as of **November 2021**. You can become a member or renew your membership at <a href="/membership/">zephyrtransport.org/membership</a>.
 
-This election will take place on **January 28th, 2025**.
+This year's election will take place on **June 9th**.
 
-## Nominations for Board members open on December 9, 2024
+## Nominations for Board members open on May 5
 
-Anyone can submit nominations for the Zephyr Board; nominations for 2025 board members are
-due by January 17th, 2025 at midnight PDT. Nominees will be asked if they accept the nomination
+Anyone can submit nominations for the Zephyr Board; nominations for 2022 board members are
+due by May 30th, 2022 at midnight PDT. Nominees will be asked if they accept the nomination
 and then will be given an opportunity to prepare statements in support
 of their nomination before the election.
 
 Have you ever thought about becoming more involved in a professional organization or are you curious how a
 non-profit board works? Are you dedicated to improving the field of travel analysis and want to make a lasting
-positive impression? Please consider [nominating yourself](https://docs.google.com/forms/d/e/1FAIpQLSezgRoYQWRv9sdGAvJd9PiOx8rputoVjWbSEwArCIrxPyeSrw/viewform)
+positive impression? Please consider [nominating yourself](https://docs.google.com/forms/d/e/1FAIpQLSfyOYcFQt-OeKC8CL7s9J7GC4IOuupP97kWmJPhLKODmDEiyw/viewform)
 as a board member or at least asking an existing or former board member about their experience to evaluate
 if it is something that would be a good fit for you. 
 
 Zephyr prides itself in supporting diverse opinions and backgrounds on its board and in its membership. We welcome all nominations.
 
-## 2025 Election Process
+## 2022 Election Process
 
 ### I. Open Seats
 
@@ -47,7 +49,7 @@ The Secretary will confirm the number of board members with expired terms and an
 
 ### II. Nominations
 
-The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://docs.google.com/forms/d/e/1FAIpQLSezgRoYQWRv9sdGAvJd9PiOx8rputoVjWbSEwArCIrxPyeSrw/viewform) distributed to members no later than ten days before the election. The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
+The Secretary will compile a list of board seat nominations from the Board as well as from an [open nominations form](https://docs.google.com/forms/d/e/1FAIpQLSfyOYcFQt-OeKC8CL7s9J7GC4IOuupP97kWmJPhLKODmDEiyw/viewform) distributed to members no later than ten days before the election. The Secretary shall confirm with each nominated party that they would like to appear on the ballot.
 
 ### III. Eligible Members
 
@@ -82,11 +84,11 @@ The Secretary will certify the results no later than 72 hours following the poll
 
 ### Schedule
 
-- Nominations Close, January 17th at Midnight PDT
-- Ballot Finalization, January 24th
-- Online Voting Opens, January 28th
-- Member Meeting, TBD, January 28th
-- Online Voting Closes, January 31st 
-- Results Certification, February 4th
-- Results Announcement, February 4th
-- Annual Board Meeting, TBD, February 11th
+- Nominations Close, May 30th at Midnight PDT
+- Ballot Finalization, June 6th
+- Online Voting Opens, June 9th
+- [Member Meeting](/events/2022-06-09-annual-board-election-meeting), 2-3:30 pm EDT / 11-12:30 pm PDT, June 9th
+- Online Voting Closes, June 14th 
+- Results Certification, June 15th
+- Results Announcement, June 21st
+- Annual Board Meeting, June TBD 2022
