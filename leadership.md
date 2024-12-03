@@ -10,12 +10,12 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/membership).
 
 - **[Amanda Stathopoulos](https://www.linkedin.com/in/amanda-stathopoulos-682b5417/)**, _Northwestern University_
-- **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_, **Program Committee Chair**
-- **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_, **Chair**
-- **[Leta Huntsinger](https://www.linkedin.com/in/leta-huntsinger-phd-pe-016363a5/)**, _University of North Carolina and North Carolina State University_
-- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer**
+- **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Cambridge Systematics_, **Program Committee Chair** (seat open for 2025 election)
+- **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_, **Chair** (seat open for 2025 election)
+- **[Leta Huntsinger](https://www.linkedin.com/in/leta-huntsinger-phd-pe-016363a5/)**, _University of North Carolina and North Carolina State University_ (seat open for 2025 election)
+- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer** (seat openfor 2025 election)
 - **[Sijia Wang](https://www.linkedin.com/in/sijia-wang/)**, _WSP USA_, **Secretary**
-- **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Evansville Metropolitan Planning Organization in Evansville, IN_ *Diversity Officer**
+- **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Evansville Metropolitan Planning Organization in Evansville, IN_ **Diversity Officer**
 - **[Xuesong Zhou](https://www.linkedin.com/in/xzhou/)**, _Arizona State University_
 - **[Jason Hawkins](https://www.linkedin.com/in/jason-hawkins-68919234/)**, _University of Nebraska_
 
