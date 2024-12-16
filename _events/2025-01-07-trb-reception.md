@@ -3,7 +3,7 @@ layout: event
 category: Reception
 title: Annual Zephyr Reception
 type: Reception
-day: Tuesday, January 7, 2024
+day: Tuesday, January 7, 2025
 time: 8:00 - 10:00 PM EST
 place: Busyboys & Poets (450 K St, Washington DC)
 ---
