@@ -16,12 +16,16 @@ The Modeling Mobility Conference continues the legacy of previous notable transp
 - Hosted by University of Minnesota Center for Transportation Studies
 
 ## Key Dates
-**Action** | **Date**
--- | --
-**Call For Abstract** | Now through February 14
-**Acceptance Notification** | Mid-April
-**Registration Opens** | April
-**Conference** | September 14-17
+<br/>
+
+| **Action** | **Date** |
+| ---------- | -------- |
+| **Call For Abstract** | Now through February 14 |
+| **Acceptance Notification** | Mid-April |
+| **Registration Opens** | April |
+| **Conference** | September 14-17 |
+
+<br/>
 
 [Call for Abstracts](https://whova.com/call_for_speakers/7BVZQQ7DU9IuTdesV1KKo0VrsSKcBHdohIw3LGrGC-BQi1KjuV%40RMfW1btpyf4E3/) will be open January 2025. 
 
