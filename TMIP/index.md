@@ -23,6 +23,13 @@ Zephyr is supporting TMIP by moderating a community-wide mailing list and archiv
  - [**TMIP Webinar Archive**](/TMIP/archive/#/webinars) - Archive of all TMIP webinars from 2007-2023.
  - [**Webinar and Learning Sessions on YouTube**](https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA) - Zephyr Learning Sessions and Webinars were published on YouTube and can be found here.
 
+### Other Reports
+
+TMIP published many reports on other topics related to travel modeling and analysis from time to time. These reports are available below.
+
+- [**Table of TMIP "Other Reports"**](https://www.fhwa.dot.gov/planning/tmip/publications/other_reports/)
+
+
 <br/>
 <br/>
 <br/>
