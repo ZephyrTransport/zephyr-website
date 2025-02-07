@@ -7,7 +7,9 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 
 ### <i class="fa fa-institution" style="color:#{{ site.highlight-color }}" aria-hidden="true"></i> Board of Directors
 
-This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/membership).
+An initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/membership).
+
+Board as of February 2025:
 
 - **[Amanda Stathopoulos](https://www.linkedin.com/in/amanda-stathopoulos-682b5417/)**, _Northwestern University_
 - **[Bill Hereth](https://www.linkedin.com/in/bill-hereth-41b54313/)**, _Wasatch Front Regional Council_
@@ -23,9 +25,9 @@ This initial Board was elected by the Zephyr Founding Stakeholders in order to r
 
 ### Committees
 
-(to be updated after Board meeting, Sept. 2020)
+(to be updated after Board meeting, Feb. 2025)
 
-Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done. Committee membership will be updated with new board members after the board rotation in summer 2019.
+Committee's of the board are chaired by board members but also contain some instigators to assist with getting work done. Committee membership will be updated with new board members after every board rotation.
 
 | **Executive**          | **Communications**  | **Programs**        | **Workforce Development** |
 | ---------------------- | ------------------- | ------------------- | ------------------------- |
