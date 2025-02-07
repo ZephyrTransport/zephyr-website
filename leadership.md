@@ -10,14 +10,14 @@ Zephyr is governed by a Board of Directors supported by the Founding Stakeholder
 This initial Board was elected by the Zephyr Founding Stakeholders in order to reflect a diversity of interests, industries, and backgrounds. In May of each year, roughly a quarter of the Board will be elected by the [Zephyr Membership](/membership).
 
 - **[Amanda Stathopoulos](https://www.linkedin.com/in/amanda-stathopoulos-682b5417/)**, _Northwestern University_
-- **[Jeff Newman](https://www.newman.me/)**, _Georgia Tech and Driftless Lab_, **Program Committee Chair** (seat open for 2025 election)
-- **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_, **Chair** (seat open for 2025 election)
-- **[Leta Huntsinger](https://www.linkedin.com/in/leta-huntsinger-phd-pe-016363a5/)**, _University of North Carolina and North Carolina State University_ (seat open for 2025 election)
-- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer** (seat open for 2025 election)
+- **[Bill Hereth](https://www.linkedin.com/in/bill-hereth-41b54313/)**, _Wasatch Front Regional Council_
+- **[Jason Hawkins](https://www.linkedin.com/in/jason-hawkins-68919234/)**, _University of Calgary_
+- **[Joe Castiglione](https://www.linkedin.com/in/joe-castiglione-7873aa11/)**, _San Francisco County Transportation Authority in San Francisco CA_, **Chair** 
+- **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer** 
+- **[Peter Bosa](https://www.linkedin.com/in/peter-bosa-1b2853158)**, _Oregon Metro_
 - **[Sijia Wang](https://www.linkedin.com/in/sijia-wang/)**, _WSP USA_, **Secretary**
 - **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Cambridge Systematics_ **Diversity Officer**
 - **[Xuesong Zhou](https://www.linkedin.com/in/xzhou/)**, _Arizona State University_
-- **[Jason Hawkins](https://www.linkedin.com/in/jason-hawkins-68919234/)**, _University of Calgary_
 
 
 
@@ -29,7 +29,7 @@ Committee's of the board are chaired by board members but also contain some inst
 
 | **Executive**          | **Communications**  | **Programs**        | **Workforce Development** |
 | ---------------------- | ------------------- | ------------------- | ------------------------- |
-| Joe Castiglione (chair)| Sijia Wang (chair)  | Jeff Newman (chair) | Leta Huntsinger           |
+| Joe Castiglione (chair)| Sijia Wang (chair)  | TBD (chair)         | TBD                       |
 | Lisa Zorn              |                     |                     |                           |
 | Sijia Wang             |                     |                     |                           |
 |                        |                     |                     |                           |
