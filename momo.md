@@ -20,7 +20,7 @@ The Modeling Mobility Conference continues the legacy of previous notable transp
 
 | **Action** | **Date** |
 | ---------- | -------- |
-| **Call For Abstract** | Now through February 14 |
+| **Call For Abstract** | Now through February 21 |
 | **Acceptance Notification** | Mid-April |
 | **Registration Opens** | April |
 | **Conference** | September 14-17 |
