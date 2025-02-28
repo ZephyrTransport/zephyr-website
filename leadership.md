@@ -18,7 +18,7 @@ Board as of February 2025:
 - **[Lisa Zorn](https://www.linkedin.com/in/lisazorn/)**, _Metropolitan Transportation Commission in San Francisco CA_, **Treasurer** 
 - **[Peter Bosa](https://www.linkedin.com/in/peter-bosa-1b2853158)**, _Oregon Metro_
 - **[Sijia Wang](https://www.linkedin.com/in/sijia-wang/)**, _WSP USA_, **Secretary**
-- **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Cambridge Systematics_ **Diversity Officer**
+- **[Xinbo Mi](https://www.linkedin.com/in/xinbomi/)**, _Cambridge Systematics_, **Diversity Officer**
 - **[Xuesong Zhou](https://www.linkedin.com/in/xzhou/)**, _Arizona State University_
 
 
