@@ -44,3 +44,29 @@ The PMG is considering the following questions:
 ## Feedback + Involvement
 
 Feedback or requests to be involved can be sent to to the Open Science chair: [carrel.20@osu.edu](mailto:carrel.20@osu.edu).
+
+## The Zephyr Foundation’s 5 Levels of Open Science Readiness (Z5OSR)
+(Proposed Addendum to Open Science Guidelines)
+May 07, 2025
+
+The Zephyr Foundation introduces a five-level Open Science Readiness (OSR) system tailored for transportation research. This system aligns with Zephyr's mission to advance rigorous decision-making in transportation and land use for the public good. It underscores the importance of developing and implementing travel analysis methods that are valuable, credible, and transparent.
+
+Manuscript or Report Readiness Levels (MRLs)
+1.	Planning: Identify platforms for open access publication.
+2.	Accessibility: Make the manuscript or pre-print version publicly accessible.
+3.	Open Specifications: Ensure the manuscript adheres to open specifications for methodology and reporting, facilitating broader understanding and application.
+4.	Validation: Manuscript findings are validated through peer review or community feedback.
+5.	Reuse: Demonstrate how the research can be applied or extended in other studies or real-world scenarios.
+Code and Model Readiness Levels (CMLs)
+1.	Planning: Outline the strategy for code sharing, considering various open-source options.
+2.	Development and Open Specifications: Develop code with logical abstraction, ensuring it meets open specifications for wider usability.
+3.	Sharing: Make the code available in a public repository, with comprehensive documentation.
+4.	Validation: Validate the code through real-world use cases or external verification.
+5.	Reuse: Code is reused in different contexts or projects, demonstrating its adaptability and robustness.
+Data Readiness Levels (DRLs)
+1.	Planning: Develop a data sharing plan that respects privacy and proprietary concerns.
+2.	Documentation and Open Specifications: Ensure comprehensive documentation of data collection and processing, adhering to open data standards.
+3.	Sharing: Publicly share the dataset with a permanent link, making it accessible for replication and further research.
+4.	Validation: Validate the dataset through application in real-life use cases, confirming its reliability and relevance.
+5.	Reuse: The dataset is utilized in various contexts, proving its value beyond the original study.
+This five-level structure emphasizes a progressive approach to achieving open science, starting with foundational planning and accessibility, incorporating standards and specifications for broader usability, and culminating in validation and reuse that demonstrate the practical impact and adaptability of research outputs.
