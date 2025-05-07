@@ -57,12 +57,14 @@ Manuscript or Report Readiness Levels (MRLs)
 3.	Open Specifications: Ensure the manuscript adheres to open specifications for methodology and reporting, facilitating broader understanding and application.
 4.	Validation: Manuscript findings are validated through peer review or community feedback.
 5.	Reuse: Demonstrate how the research can be applied or extended in other studies or real-world scenarios.
+
 Code and Model Readiness Levels (CMLs)
 1.	Planning: Outline the strategy for code sharing, considering various open-source options.
 2.	Development and Open Specifications: Develop code with logical abstraction, ensuring it meets open specifications for wider usability.
 3.	Sharing: Make the code available in a public repository, with comprehensive documentation.
 4.	Validation: Validate the code through real-world use cases or external verification.
 5.	Reuse: Code is reused in different contexts or projects, demonstrating its adaptability and robustness.
+
 Data Readiness Levels (DRLs)
 1.	Planning: Develop a data sharing plan that respects privacy and proprietary concerns.
 2.	Documentation and Open Specifications: Ensure comprehensive documentation of data collection and processing, adhering to open data standards.
