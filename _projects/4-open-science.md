@@ -14,11 +14,11 @@ Badges distributed by Zephyr to recognize open and reproducible research will in
 
 This project is overseen by a board-approved Project Management Group (PMG) as follows:
  - Andre Carrel, The Ohio State University (chair)
- - Jason Hawkins, University of Nebraska Lincoln  
+ - Jason Hawkins, University of Calgary  
  - Jawad Mahmud Hoque, WSP  
  - Xuesong Zhou, Arizona State University  
  
- *More to come! Please let Andrew Carrel([carrel.20@osu.edu](mailto:carrel.20@osu.edu)) know if you are interested in contributing* 
+ *More to come! Please let Andre Carrel([carrel.20@osu.edu](mailto:carrel.20@osu.edu)) know if you are interested in contributing* 
  
 ## Approach
 
