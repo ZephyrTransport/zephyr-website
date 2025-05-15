@@ -3,7 +3,7 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-**The 2023 Impactful Research Award was presented on January 10, 2023**
+**The 2025 Impactful Research Award was presented on January 10, 2025**
 
 ## Award Description
 
@@ -16,33 +16,35 @@ The Impactful Research Award shall be given in recognition of a project that has
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2023 Awardee
+## 2025 Awardee
 
-**Congratulations to the winner of the 2023 Impactful Research Award: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)**
+**Congratulations to the winner of the 2025 Impactful Research Award: [R5 Team](https://github.com/conveyal/r5)**
 
-STOPS' innovation is its use of census and transit time table data rather than complex regional transportation demand models. This simplification minimizes calibration time and significantly reduces project evaluation time. STOPS’ impact is evident from its adoption by nearly 100 agencies, with most major transit operators having adopted STOPS as their forecasting platform and many regions developing a regional STOPS model, including the ARC, MetCouncil, Miami-Dade, and Research Triangle region. 
+R5 is an open-source multi-modal routing engine developed by the Conveyal team, with wrapper libraries (R5R, R5Py) developed by others. The principal developers are Matthew Bhagat-Conway, Anson Stewart, and Andrew Byrd. Rafael Pereira made valuable contributions to the R5R project. Many others have contributed to the R and Python interfaces to R5. In an independent benchmark, R5R was the fastest approach to calculate OD matrices and accessibility metrics. R5, R5R, and R5Py have received contributions from 14, 11, and  5 developers, respectively. Combined, R5R and R5Py have been downloaded more than 1 million times.
 
-STOPS demonstrates that there is value in a data-driven approach to travel demand forecasting. It highlights the importance of good data, which is not only important for transit forecasting, but also for highway forecasting. Not only has STOPS streamlined the process, allowing agencies to vet their projects or get approvals more quickly but, in many ways, it has also opened up this market to a wider range of analysts and agencies. Analytical tools that lead to good decision making while at the same time minimizing the cost of data collection and resources needed for development and analysis is a noteworthy contribution. 
+Collectively, these tools are broadly implemented in practice and making a positive impact on transportation and land-use decision-making. For example, the newly released Caltrans System Investment Strategy relies on a suite of climate-focused metrics to evaluate transportation investments consistently, including access to work and non-work destinations calculated with cloud-based tools built on R5. Other state DOTs, metropolitan planning organizations, and transit operators/authorities around the world use R5 scenario planning tools to assess how project alternatives can improve access to destinations and transportation equity. R5 also powers recent high-profile analyses and datasets from leading research and advocacy organizations including the University of Minnesota Accessibility Observatory (Access in Appalachia), TransitCenter (Equity Dashboard, via R5Py), IPEA (Acesso a Oportunidades, via r5r), and Statistics Canada (Spatial Access Measures across Canada, via R5R).
 
-Congratulations to the 2023 Recipient of the Impactful Research Award: STOPS – FTA’s Simplified Trips-On-Project Software, for changing the way we conduct modeling and analysis for major transit projects and demonstrating the value of a data-driven approach to travel demand forecasting. 
+The 2025 Impactful Research Award Committee was:
 
-The 2023 Impactful Research Award Committee was:
+- Matthew Bhargat-Conway
+- Pedro Camargo
+- Suzanne Childress
+- Ali Shamshiripour
+- Sarah Sun
 
-- Like Liu, Kittelson & Associates, Inc.
-- Sarah Sun, Federal Highway Administration
-- Jason Hawkins, University of Nebraska
+Board Facilitator: Xinbo Mi, Jason Hawkins
 
-Board Facilitator: Xinbo Mi
-
-Presenter at the 2023 TRB Annual Meeting Reception: Jason Hawkins
+Presenter at the 2025 TRB Annual Meeting Reception: Jason Hawkins
 
 Received the award on the behalf of the project team:
-- Matthew Welbes, Federal Transit Administration
-- Bill Woodford, RSG, Inc.
-- Jeff Roux, Federal Transit Administration
+- Andrew Byrd
+- Anson Stewart, PhD
+- Trevor Gerhardt
 
 ## Award Recipients
 
 - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
 - 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team
 - 2022: The award was not given this year
+- 2023: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)
+- 2024: The award was not given this year

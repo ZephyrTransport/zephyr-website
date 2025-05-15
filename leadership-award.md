@@ -2,7 +2,7 @@
 layout: simple
 title: "Zephyr Leadership Award"
 ---
-**The 2024 Zephyr Leadership Award was presented on January 9, 2024**
+**The 2025 Zephyr Leadership Award was presented on January 8, 2025**
 
 ## Award Description
 
@@ -17,29 +17,24 @@ Criteria used for selection:
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval. Awards are made at the TRB Annual Meeting.
 
-## 2024 Awardee
+## 2025 Awardee
 
-**Congratulations to the winner of the 2024 Impactful Research Award: [Dr. Susan Handy](https://susanhandy.ucdavis.edu/)**
+**Congratulations to the winner of the 2025 Leadership Award: [Dr. Rick Donnelly](https://susanhandy.ucdavis.edu/)**
 
-![handy](https://github.com/ZephyrTransport/zephyr-website/assets/28812722/c338cd33-3c8a-41a4-ad54-85fa66283e82)<br>
-<em>[Dr. Susan Handy Delivers the Thomas B. Deen Distinguished Lectureship at the 2024 Transportation Research Board (TRB) Conference.](https://www.metrans.org/news/dr-susan-handy-delivers-the-thomas-b-deen-distinguished-lectureship-at-the-2024-transportation-research-board-trb-conference) Photo by METRANS Staff.</em>
+Dr. Rick Donnelly has worked at the leading edge and been an advocate for travel analysis for over 40 years. His contributions include the adoption of activity-based travel models in practice, the integration of economic, land-use and travel models, statewide models, and the application of machine learning to assist in travel model estimation. But Rick's expertise is not limited to transportation.  He also leads work in the defense industry, applying agent based simulations to defense and logistics scenarios. He has mentored countless professionals, most of whom have gone on to serve in high level academic and consulting roles, as well as provide great service to professional organizations such as TRB and Zephyr.  
 
-Dr. Handy's contributions have profoundly advanced the theoretical and practical landscapes of our field. Her journey began with an education and professional experience grounded in civil engineering, where she first encountered the limitations of engineering-centric approaches to transportation challenges. This realization propelled her towards a doctorate in planning, aiming to address these issues with a broader, more integrated perspective. Her unique ability to navigate and bridge both the academic and practical realms as well as those of engineering and planning  has fostered significant advancements and collaboration across these sectors.
+Rick Donnelly is the epitome of leadership in our field. As just one example among many, for 15 years Rick led an international peer review panel to provide guidance to Oregon DOT on developing a robust and relevant forecast tool, with members such as Michael Wegener, David Simmons, Rolf Moeckel, Keith Lawton, Frank Koppelman, Kim Fisher, and Julie Dunbar. The program included 5 symposiums hosted by Oregon to share our experience and knowledge, which would not have happened without Rick’s guidance and advice. 
 
-A testament to her impact is her challenge to the traditional "predict and provide" methodology of long-range transportation planning, which she argued was neither effective nor sustainable—economically, socially, or environmentally. Rather than merely critiquing the status quo, Dr. Handy's diverse experience fueled her empathy and collaborative spirit, enabling her to work alongside current professionals towards better solutions. Her research on induced demand not only provided empirical evidence but also supported the development and implementation of policies that acknowledge and address this phenomenon. Furthermore, Dr. Handy has been instrumental in creating and disseminating accessible, low-cost tools for communities, bridging the gap between sophisticated state resources and local needs.
-
-Dr. Handy's unwavering commitment to mentoring epitomizes her dedication to the future of transportation planning. Her ability to inspire a sense of purpose and innovation has influenced many in their careers, extending her legacy. Through her book "Shifting Gears" and beyond, Dr. Handy continues to shape the industry, reaching an audience far wider than her immediate circle.
-
-As we honor her with the Zephyr Foundation Leadership Award, we not only celebrate her individual achievements but also her enduring impact on fostering an empathetic, curious, and pragmatic travel analysis community, propelling us toward a more thoughtful and inclusive future.
+Rick consistently volunteers his time to support conferences in any role he is asked to serve under. His focus was on connecting people to knowledge, tools and methods. His grace and humility always permeated his work. If you have attended any of the Transportation Planning Applications (TRBAppCon) or Innovations in Travel Modeling (ITM) conferences over the years you have heard Rick speak.  He always provides a thought-provoking presentation leaving the audience wishing they could work with him. A conversation with Rick reveals insight into organizational leadership, views on what makes something credible, trips up mountains, talk of fighter jets and submarines, growing up right smack in the middle of Oz and broad perspectives on how to make the world a better place--drawing from a strong non-conformist streak. 
 
 The 2024 Zephyr Leadership Award Committee was:
-- Bill Davidson
+- Joan Walker
 - Elizabeth Sall
 - Greg Erhardt
 
 Board Facilitator: Joe Castiglione
 
-Presenter at the 2024 TRB Annual Meeting Reception: Joe Castiglione
+Presenter at the 2025 TRB Annual Meeting Reception: Greg Erhardt
 
 ## Award Recipients
 
@@ -48,3 +43,4 @@ Presenter at the 2024 TRB Annual Meeting Reception: Joe Castiglione
 - Bill Davidson, 2021
 - Elizabeth Sall, 2022
 - Greg Erhardt, 2023
+- Susan Handy, 2024

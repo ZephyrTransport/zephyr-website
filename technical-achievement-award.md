@@ -1,10 +1,10 @@
 ---
 layout: simple
 title: "Exceptional Technical Achievement Award"
-subTitle: "Congratulations to our 2024 Awardee"
+subTitle: "Congratulations to our 2025 Awardee"
 ---
 
-**The 2024 Exceptional Technical Achievement Award was presented on January 9, 2024**
+**The 2025 Exceptional Technical Achievement Award was presented on January , 2025**
 
 ## Award Description
 
@@ -16,32 +16,27 @@ The **Exceptional Technical Achievement Award** shall be given in recognition of
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2024 Awardee
+## 2025 Awardee
 
-**Congratulations to the winner of the 2024 Exceptional Technical Achievement Award: [AequilibraE](https://www.aequilibrae.com/python/latest/#)!**
+**Congratulations to the winner of the 2025 Exceptional Technical Achievement Award: [OSMnx](https://github.com/gboeing/osmnx)!**
 
-![2024 01 Zephyr Reception Technical Achievement](https://github.com/ZephyrTransport/zephyr-website/assets/28812722/852dcdd8-c2e6-46cf-9af3-0b31c28213b2)<br>
-<em>Pedro Camargo (middle) and Jan Zill (left) receving the Exceptional Technical Achievement Award at the 2024 Zephyr Reception. Presenter Xuesong Zhou (right). Photo by Lisa Zorn.</em><br>
+In order to locate travel as it moves between locations, travel models require an explicit representation of the transportation system. OpenStreetMap has long been a wonderful resource for urban planners: an open source mapping tool. But it could not support travel models, because it was not a routable network. Dr. Geoff Boeing solved this problem through his tool OSMnx, which has opened the door to using OSM for travel models. OSMnx is an open-source Python package that extracts an arbitrary selection of OSM data and creates a routable Python networkx object.
 
-The Zephyr Foundation is delighted to recognize the AequilibraE team with a Technical Achievement Award for their development of AequilibraE, an open-source Python package dedicated to transportation modeling. This award underscores the team's exceptional contribution to the field of geographic analysis and transportation planning. AequilibraE stands out as the first comprehensive tool of its kind, designed to support the modern objectives of transportation plans. By integrating advanced techniques for route analysis, network editing, local impact assessments, and interactive visualizations, AequilibraE has significantly improved the accessibility, efficiency, and effectiveness of transportation modeling practices.
+OSMnx began as Geoff’s Ph.D. dissertation and was first released in 2016. To date, it has been downloaded more than 700,000 times, received direct contributions from 72 developers (and many more on various derived versions of OSMnx), and is a requirement for over 500 other Python packages. The most recent version, OSMnx 2.0, was released in November 2024 with Geoff continuing his role as the primary developer. In addition to routing, OSMnx provides functionalities for working with urban amenities/points of interest, building footprints, transit stops, elevation data, street orientations, and speed/travel time.This tool has been used by academics, planning agencies, and consultants to perform transportation analysis and as a basis for other software tools.
 
-Since its introduction, led by Dr. Pedro Camargo, AequilibraE has demonstrated remarkable success and growth, evidenced by its substantial download rates and active user engagement. With robust community support through platforms like PyPI and Google Groups, AequilibraE has become an important tool within the transportation modeling community. Its integration with QGIS through user-friendly plugins further enhances its utility, bridging a critical gap in the open-source Python and GIS ecosystems. The dedication of the AequilibraE team (including Dr. Jamie Cook, Dr. Jan Zill and many other members) to continuous improvement and community engagement, as seen through their structured contribution guidelines and responsive support channels, exemplifies their commitment to advancing the field.
+The 2025 Exceptional Technical Achievement Award Committee was:
 
-AequilibraE's comprehensive feature set, including support for OpenStreetMap(OSM) data, customizable Volume-Delay Function parameters, and multi-class equilibrium assignments, positions it at the forefront of transportation modeling solutions. The package not only addresses common challenges within the domain but also fosters innovation and collaboration by enabling users to contribute to its development. In recognition of their significant achievements and the positive impact of their work on the transportation modeling community, the Zephyr Foundation is proud to award the AequilibraE team this well-deserved accolade.
-
-The 2024 Exceptional Technical Achievement Award Committee was:
-
-- Like Liu
+- Matthew Bhargat-Conway
+- Pedro Camargo
+- Suzanne Childress
+- Ali Shamshiripour
 - Sarah Sun
-- Rachel Copperman
 
-Board Facilitator: Xinbo Mi<br>
-Presenter at the 2024 TRB Annual Meeting Reception: Xuesong Zhou
+Board Facilitator: Xinbo Mi, Jason Hawkins<br>
+Presenter at the 2025 TRB Annual Meeting Reception: Jason Hawkins
 
 ### Project Team
-- Pedro Camargo
-- Jamie Cook
-- Jan Zill
+- Dr. Geoff Boeing
 
 ## Award Recipients
 Note: In 2023, the award updated/clarified to focus on a *project*.
@@ -50,3 +45,4 @@ Note: In 2023, the award updated/clarified to focus on a *project*.
 - VisonEval Team, 2021
 - Peter Vovsha, 2022
 - Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT), 2023
+- AequilibraE 

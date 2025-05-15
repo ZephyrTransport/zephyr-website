@@ -4,9 +4,9 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**Announcing the 2024 Zephyr Award Recipients!**
+**Announcing the 2025 Zephyr Award Recipients!**
 
-Starting 2024, there will be three award categories, with the Rising Star Award being dropped.
+There are three award categories.
 
 <p style="text-align:center; font-size:9px">
 <img src="/img/zephyr-awards-diagram.png" alt="A rectangle in which the horizonal axis split into two parts labelled Person and Project. The vertical axis is labeled Impact. Three types of awards are depicted in the rectangle as text: The Person award is Zephyr Leadership. The lower impact Project award is Exceptional Technical Achievement. The higher impact Project award is Impactful Research.">
@@ -15,7 +15,7 @@ Person graphic by Mello from NounProject.com<br />
 Project graphic by Nithinan Tatah from NounProject.com
 </p>
 
-More information about the three awards can be found on the [2024 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
+More information about the three awards can be found on the [2025 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
 
 <hr />
 
@@ -23,19 +23,19 @@ More information about the three awards can be found on the [2024 Zephyr Awards 
 
 The Zephyr Leadership Award is given to an individual with demonstrated history of experience in the field who embodies the Zephyr Principles, and who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**[Congratulations to the 2024 recipient, Dr. Susan Handy!](/leadership-award)**
+**[Congratulations to the 2025 recipient, Dr. Rick Donnelly!](/leadership-award)**
 
 ## [Exceptional Technical Achievement Award](/technical-achievement-award)
 
 The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
 
-**[Congratulations to the 2024 recipient, AequilibraE!](/technical-achievement-award)**
+**[Congratulations to the 2025 recipient, OSMnx!](/technical-achievement-award)**
 
-## [Impactful Research Award - Skipped for 2024](/impactful-research-award)
+## [Impactful Research Award](/impactful-research-award)
 
 The Impactful Research Award is given in recognition of a project that has a proven positive impact on the transportation and/or land use decision-making field.
 
-**[Previous years](/impactful-research-award)**
+**[Congratulations to the 2025 recipient, R5 Team!](/technical-achievement-award)**
 
 ## [Zephyr Rising Star Award - Discontinued as of 2024](/rising-star-award)
 
