@@ -35,7 +35,7 @@ The Exceptional Technical Achievement Award is given in recognition of a project
 
 The Impactful Research Award is given in recognition of a project that has a proven positive impact on the transportation and/or land use decision-making field.
 
-**[Congratulations to the 2025 recipient, R5 Team!](/technical-achievement-award)**
+**[Congratulations to the 2025 recipient, R5 Team!](/impactful-research-award)**
 
 ## [Zephyr Rising Star Award - Discontinued as of 2024](/rising-star-award)
 

@@ -2,7 +2,7 @@
 layout: simple
 title: "Zephyr Leadership Award"
 ---
-**The 2025 Zephyr Leadership Award was presented on January 8, 2025**
+**The 2025 Zephyr Leadership Award was presented on January 7, 2025**
 
 ## Award Description
 
@@ -19,7 +19,7 @@ Nominees are considered by a three-person award committee and forwarded to the Z
 
 ## 2025 Awardee
 
-**Congratulations to the winner of the 2025 Leadership Award: [Dr. Rick Donnelly](https://susanhandy.ucdavis.edu/)**
+**Congratulations to the winner of the 2025 Leadership Award: [Dr. Rick Donnelly](https://uttri.utoronto.ca/event/dr-rick-donnelly-presents-rediscovering-the-lost-art-of-travel-forecasting/)**
 
 Dr. Rick Donnelly has worked at the leading edge and been an advocate for travel analysis for over 40 years. His contributions include the adoption of activity-based travel models in practice, the integration of economic, land-use and travel models, statewide models, and the application of machine learning to assist in travel model estimation. But Rick's expertise is not limited to transportation.  He also leads work in the defense industry, applying agent based simulations to defense and logistics scenarios. He has mentored countless professionals, most of whom have gone on to serve in high level academic and consulting roles, as well as provide great service to professional organizations such as TRB and Zephyr.  
 

@@ -3,7 +3,7 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-**The 2025 Impactful Research Award was presented on January 10, 2025**
+**The 2025 Impactful Research Award was presented on January 7, 2025**
 
 ## Award Description
 

@@ -4,7 +4,7 @@ title: "Exceptional Technical Achievement Award"
 subTitle: "Congratulations to our 2025 Awardee"
 ---
 
-**The 2025 Exceptional Technical Achievement Award was presented on January , 2025**
+**The 2025 Exceptional Technical Achievement Award was presented on January 7, 2025**
 
 ## Award Description
 
@@ -45,4 +45,4 @@ Note: In 2023, the award updated/clarified to focus on a *project*.
 - VisonEval Team, 2021
 - Peter Vovsha, 2022
 - Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT), 2023
-- AequilibraE 
+- AequilibraE, 2024
