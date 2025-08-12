@@ -19,17 +19,19 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 ### List of  All Consortium Members
 
 - [Atlanta Regional Commission (ARC)][arc_url]
-- [Central Transportation Planning Staff (CTPS Boston)](ctps_url)
-- [Chicago Metropolitan Agency for Planning (CMAP)](cmap_url)
-- [Maricopa Association of Governments (MAG)](mag_url)
-- [Metropolitan Council](metc_url)
-- [Metropolitan Transportation Commission (MTC)](mtc_url)
-- [Puget Sound Regional Council (PSRC)](psrc_url)
-- [San Diego Association of Governments (SANDAG)](sandag_url)
-- [San Francisco County Transportation Authority (SFCTA)](sfcta_url)
-- [Southeast Michigan Council of Governments (SEMCOG)](semcog_url)
-- [TransLink (Vancouver)](translink_url)
-- [Victoria Department of Transport and Planning (Melbourne)](vdtp_url)
+- [Central Transportation Planning Staff (CTPS Boston)][ctps_url]
+- [Chicago Metropolitan Agency for Planning (CMAP)][cmap_url]
+- [Maricopa Association of Governments (MAG)][mag_url]
+- [Metropolitan Council][metc_url]
+- [Metropolitan Transportation Commission (MTC)][mtc_url]
+- [National Capital Region Transportation Planning Board (Washington, D.C.][mwcog_url]
+- [Puget Sound Regional Council (PSRC)][psrc_url]
+- [San Diego Association of Governments (SANDAG)][sandag_url]
+- [San Francisco County Transportation Authority (SFCTA)][sfcta_url]
+- [Southeast Michigan Council of Governments (SEMCOG)][semcog_url]
+- [TransLink (Vancouver)][translink_url]
+- [Transport for New South Wales (Sydney)][tnsw_url]
+- [Victoria Department of Transport and Planning (Melbourne)][vdtp_url]
 
 ## Open-Source Code
 
@@ -45,9 +47,11 @@ ActivitySim is already being put to work across the U.S. and around the world as
 [mag_url]: https://azmag.gov/
 [metc_url]: https://metrocouncil.org/
 [mtc_url]: https://mtc.ca.gov/
+[mwcog_url]: https://www.mwcog.org/tpb/
 [psrc_url]: https://www.psrc.org/
 [sandag_url]: https://www.sandag.org/
 [sfcta_url]: https://www.sfcta.org/
 [semcog_url]: https://www.semcog.org/
 [translink_url]: https://www.translink.ca/
+[tnsw_url]: https://www.transport.nsw.gov.au/
 [vdtp_url]: https://www.vic.gov.au/department-transport-and-planning
