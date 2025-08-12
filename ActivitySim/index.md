@@ -24,7 +24,7 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 - [Maricopa Association of Governments (MAG)][mag_url]
 - [Metropolitan Council][metc_url]
 - [Metropolitan Transportation Commission (MTC)][mtc_url]
-- [National Capital Region Transportation Planning Board (Washington, D.C.][mwcog_url]
+- [National Capital Region Transportation Planning Board (Washington, D.C.)][mwcog_url]
 - [Puget Sound Regional Council (PSRC)][psrc_url]
 - [San Diego Association of Governments (SANDAG)][sandag_url]
 - [San Francisco County Transportation Authority (SFCTA)][sfcta_url]
