@@ -37,6 +37,8 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 
 Please visit ActivitySim’s [Github page](https://github.com/ActivitySim/activitysim). This page captures ongoing work and development plus decisions and conversations related to the development of ActivitySim. The GitHub issues and milestones are commonly tied to development work and are linked when possible to programmed work efforts. You can also check out our industry presentations and affiliated packages.
 
+Also visit our [FAQ page](/ActivitySim/activitysim-faq).
+
 ## ActivitySim Implementations
 
 ActivitySim is already being put to work across the U.S. and around the world as a better way to model travel behavior. To learn more, check out some [examples](/ActivitySim/activitysim-implementations). And if you’re an ActivitySim user, we’d love to hear what you’re doing with it. [Contact us!](mailto:admin@activitysim.org)
