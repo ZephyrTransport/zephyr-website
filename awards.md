@@ -4,7 +4,7 @@ category: Activities
 title: Zephyr Awards
 ---
 
-**Announcing the 2025 Zephyr Award Recipients!**
+**Announcing the 2026 Zephyr Award Recipients!**
 
 There are three award categories.
 
@@ -15,7 +15,7 @@ Person graphic by Mello from NounProject.com<br />
 Project graphic by Nithinan Tatah from NounProject.com
 </p>
 
-More information about the three awards can be found on the [2025 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
+More information about the three awards can be found on the [2026 Zephyr Awards nomination form](https://forms.gle/SiBMUwWLeSPYvmxWA).
 
 <hr />
 
@@ -23,19 +23,19 @@ More information about the three awards can be found on the [2025 Zephyr Awards 
 
 The Zephyr Leadership Award is given to an individual with demonstrated history of experience in the field who embodies the Zephyr Principles, and who embraces the Zephyr mission of advancing rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
 
-**[Congratulations to the 2025 recipient, Dr. Rick Donnelly!](/leadership-award)**
+**[Congratulations to the 2026 recipient, Marty Milkovits!](/leadership-award)**
 
 ## [Exceptional Technical Achievement Award](/technical-achievement-award)
 
 The Exceptional Technical Achievement Award is given in recognition of a project that has a potential for a positive impact on the transportation and/or land use decision-making field.
 
-**[Congratulations to the 2025 recipient, OSMnx!](/technical-achievement-award)**
+**[Congratulations to the 2026 recipient, OSMnx!](/technical-achievement-award)**
 
 ## [Impactful Research Award](/impactful-research-award)
 
 The Impactful Research Award is given in recognition of a project that has a proven positive impact on the transportation and/or land use decision-making field.
 
-**[Congratulations to the 2025 recipient, R5 Team!](/impactful-research-award)**
+**[Congratulations to the 2026 recipient, R5 Team!](/impactful-research-award)**
 
 ## [Zephyr Rising Star Award - Discontinued as of 2024](/rising-star-award)
 
