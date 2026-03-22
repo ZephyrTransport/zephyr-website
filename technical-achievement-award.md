@@ -1,10 +1,9 @@
 ---
 layout: simple
 title: "Exceptional Technical Achievement Award"
-subTitle: "Congratulations to our 2025 Awardee"
 ---
 
-**The 2025 Exceptional Technical Achievement Award was presented on January 7, 2025**
+**The 2026 Exceptional Technical Achievement Award was presented on January 13, 2026**
 
 ## Award Description
 
@@ -16,27 +15,30 @@ The **Exceptional Technical Achievement Award** shall be given in recognition of
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2025 Awardee
+## 2026 Awardee
 
-**Congratulations to the winner of the 2025 Exceptional Technical Achievement Award: [OSMnx](https://github.com/gboeing/osmnx)!**
+**Congratulations to the winner of the 2026 Exceptional Technical Achievement Award: [The “COVID & Telecommuting- Induced Changes in Individual Activity and Travel Patterns” Team](https://www.sciencedirect.com/science/article/abs/pii/S0967070X25003154)!**
 
-In order to locate travel as it moves between locations, travel models require an explicit representation of the transportation system. OpenStreetMap has long been a wonderful resource for urban planners: an open source mapping tool. But it could not support travel models, because it was not a routable network. Dr. Geoff Boeing solved this problem through his tool OSMnx, which has opened the door to using OSM for travel models. OSMnx is an open-source Python package that extracts an arbitrary selection of OSM data and creates a routable Python networkx object.
+This paper applied a new approach of using propensity mapping to better control for key factors.  The research is highly policy relevant, with strong findings for long-term decisions—telecommuting reduces VMT, and transit needs are more dispersed.  The paper revealed behavioral insights about how telecommuting connects with increased local non-work trips.  The paper also had a useful multi-year perspective that demonstrated the value of frequent survey data for spotting trends and causal relationships.
 
-OSMnx began as Geoff’s Ph.D. dissertation and was first released in 2016. To date, it has been downloaded more than 700,000 times, received direct contributions from 72 developers (and many more on various derived versions of OSMnx), and is a requirement for over 500 other Python packages. The most recent version, OSMnx 2.0, was released in November 2024 with Geoff continuing his role as the primary developer. In addition to routing, OSMnx provides functionalities for working with urban amenities/points of interest, building footprints, transit stops, elevation data, street orientations, and speed/travel time.This tool has been used by academics, planning agencies, and consultants to perform transportation analysis and as a basis for other software tools.
+The 2026 Impactful Research Award Committee was:
 
-The 2025 Exceptional Technical Achievement Award Committee was:
-
-- Matthew Bhargat-Conway
-- Pedro Camargo
+- Matthew Bhagat-Conway
+- Sarah Sun
+- Rachel Copperman
 - Suzanne Childress
 - Ali Shamshiripour
-- Sarah Sun
 
-Board Facilitator: Xinbo Mi, Jason Hawkins<br>
-Presenter at the 2025 TRB Annual Meeting Reception: Jason Hawkins
+Board Facilitator: Jason Hawkins<br>
+Presenter at the 2026 TRB Annual Meeting Reception: Matthew Bhagat-Conway
 
 ### Project Team
-- Dr. Geoff Boeing
+- Grace Jia
+- Naitlyn Ng
+- Ekin Ugurel
+- Brian Lee
+- Ram Pendyala
+- Cynthia Chen
 
 ## Award Recipients
 Note: In 2023, the award updated/clarified to focus on a *project*.
@@ -46,3 +48,4 @@ Note: In 2023, the award updated/clarified to focus on a *project*.
 - Peter Vovsha, 2022
 - Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT), 2023
 - AequilibraE, 2024
+- OSMnx, 2025

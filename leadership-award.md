@@ -2,7 +2,7 @@
 layout: simple
 title: "Zephyr Leadership Award"
 ---
-**The 2025 Zephyr Leadership Award was presented on January 7, 2025**
+**The 2026 Zephyr Leadership Award was presented on January 13, 2026**
 
 ## Award Description
 
@@ -17,24 +17,24 @@ Criteria used for selection:
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval. Awards are made at the TRB Annual Meeting.
 
-## 2025 Awardee
+## 2026 Awardee
 
-**Congratulations to the winner of the 2025 Leadership Award: [Dr. Rick Donnelly](https://uttri.utoronto.ca/event/dr-rick-donnelly-presents-rediscovering-the-lost-art-of-travel-forecasting/)**
+**Congratulations to the winner of the 2026 Leadership Award: Marty Milkovits**
 
-Dr. Rick Donnelly has worked at the leading edge and been an advocate for travel analysis for over 40 years. His contributions include the adoption of activity-based travel models in practice, the integration of economic, land-use and travel models, statewide models, and the application of machine learning to assist in travel model estimation. But Rick's expertise is not limited to transportation.  He also leads work in the defense industry, applying agent based simulations to defense and logistics scenarios. He has mentored countless professionals, most of whom have gone on to serve in high level academic and consulting roles, as well as provide great service to professional organizations such as TRB and Zephyr.  
+Marty embodies Zephyr principles by driving technical advancements while ensuring that these innovations serve the public good. His commitment to creating a reliable and well-documented set of travel demand tools, data, and procedures has been instrumental in addressing the diverse transportation needs of both the Boston region and the state of Massachusetts. 
 
-Rick Donnelly is the epitome of leadership in our field. As just one example among many, for 15 years Rick led an international peer review panel to provide guidance to Oregon DOT on developing a robust and relevant forecast tool, with members such as Michael Wegener, David Simmons, Rolf Moeckel, Keith Lawton, Frank Koppelman, Kim Fisher, and Julie Dunbar. The program included 5 symposiums hosted by Oregon to share our experience and knowledge, which would not have happened without Rick’s guidance and advice. 
+But Marty has also fostered a community of modelers and practitioners both within his colleagues at the Central Transportation Planning Staff, but also with many other MPOs across the country, and with academic researchers.  His community service includes big roles in the (former) TRB Committees on Transportation Planning Analysis and Application (AEP15) and Transportation Demand Forecasting (AEP50) committees. Marty exemplifies the values of collegiality and mentorship, consistently investing time in supporting the professional growth of others.  His thoughtful and respectful interactions create an inclusive and supportive environment where diverse opinions and backgrounds are welcomed. 
 
-Rick consistently volunteers his time to support conferences in any role he is asked to serve under. His focus was on connecting people to knowledge, tools and methods. His grace and humility always permeated his work. If you have attended any of the Transportation Planning Applications (TRBAppCon) or Innovations in Travel Modeling (ITM) conferences over the years you have heard Rick speak.  He always provides a thought-provoking presentation leaving the audience wishing they could work with him. A conversation with Rick reveals insight into organizational leadership, views on what makes something credible, trips up mountains, talk of fighter jets and submarines, growing up right smack in the middle of Oz and broad perspectives on how to make the world a better place--drawing from a strong non-conformist streak. 
+Marty has been instrumental in spearheading efforts such as the integration into travel forecastsing the principles of “Decision Making Under Deep Uncertainty”, and encourages critical discussion about future challenges in the field. Marty’s leadership extends beyond technical skills—he understands the importance of making complex models accessible to stakeholders and decision-makers, ensuring that models are communicated in clear, relatable terms.  And of course, this year Marty was one of the organizers of the incredibly successful Modeling Mobility conference, which brought together over 300 modeling community members in September of 2025, and which will reconvene in April 2027 at ASU in Tempe.  
 
-The 2024 Zephyr Leadership Award Committee was:
-- Joan Walker
-- Elizabeth Sall
+The 2026 Zephyr Leadership Award Committee was:
 - Greg Erhardt
+- Susan Handy
+- Rick Donnelly
 
 Board Facilitator: Joe Castiglione
 
-Presenter at the 2025 TRB Annual Meeting Reception: Greg Erhardt
+Presenter at the 2026 TRB Annual Meeting Reception: Rick Donnelly
 
 ## Award Recipients
 
@@ -44,3 +44,4 @@ Presenter at the 2025 TRB Annual Meeting Reception: Greg Erhardt
 - Elizabeth Sall, 2022
 - Greg Erhardt, 2023
 - Susan Handy, 2024
+- Rick Donnelly, 2025

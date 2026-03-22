@@ -3,7 +3,7 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-**The 2025 Impactful Research Award was presented on January 7, 2025**
+**The 2026 Impactful Research Award was presented on January 13, 2026**
 
 ## Award Description
 
@@ -16,30 +16,27 @@ The Impactful Research Award shall be given in recognition of a project that has
 
 Nominees are considered by a three-person award committee and forwarded to the Zephyr Board for approval.  Awards are made at the TRB Annual Meeting.
 
-## 2025 Awardee
+## 2026 Awardee
 
-**Congratulations to the winner of the 2025 Impactful Research Award: [R5 Team](https://github.com/conveyal/r5)**
+**Congratulations to the winner of the 2026 Impactful Research Award: [ActivitySim](https://github.com/ActivitySim/)**
 
-R5 is an open-source multi-modal routing engine developed by the Conveyal team, with wrapper libraries (R5R, R5Py) developed by others. The principal developers are Matthew Bhagat-Conway, Anson Stewart, and Andrew Byrd. Rafael Pereira made valuable contributions to the R5R project. Many others have contributed to the R and Python interfaces to R5. In an independent benchmark, R5R was the fastest approach to calculate OD matrices and accessibility metrics. R5, R5R, and R5Py have received contributions from 14, 11, and  5 developers, respectively. Combined, R5R and R5Py have been downloaded more than 1 million times.
+The ActivitySim project brought together public agencies and several leading consulting firms to *collaborate* on the development of a single common platform for activity based modeling.  Although it may not incorporate all the most technologically advanced ABM features, the open and shared nature of the project opens avenues for rapid and broad dissemination of enhancements.  14 agencies and 4 consultancies are currently participating in the ActivitySim project, and 2025 marked the first year that ActivitySim was used to formally support adoption of a regional transportation plan.  The ActivitySim project has not only built software, but has also built community.
 
-Collectively, these tools are broadly implemented in practice and making a positive impact on transportation and land-use decision-making. For example, the newly released Caltrans System Investment Strategy relies on a suite of climate-focused metrics to evaluate transportation investments consistently, including access to work and non-work destinations calculated with cloud-based tools built on R5. Other state DOTs, metropolitan planning organizations, and transit operators/authorities around the world use R5 scenario planning tools to assess how project alternatives can improve access to destinations and transportation equity. R5 also powers recent high-profile analyses and datasets from leading research and advocacy organizations including the University of Minnesota Accessibility Observatory (Access in Appalachia), TransitCenter (Equity Dashboard, via R5Py), IPEA (Acesso a Oportunidades, via r5r), and Statistics Canada (Spatial Access Measures across Canada, via R5R).
+The 2026 Impactful Research Award Committee was:
 
-The 2025 Impactful Research Award Committee was:
-
-- Matthew Bhargat-Conway
-- Pedro Camargo
+- Matthew Bhagat-Conway
+- Sarah Sun
+- Rachel Copperman
 - Suzanne Childress
 - Ali Shamshiripour
-- Sarah Sun
 
-Board Facilitator: Xinbo Mi, Jason Hawkins
+Board Facilitator: Jason Hawkins
 
-Presenter at the 2025 TRB Annual Meeting Reception: Jason Hawkins
+Presenter at the 2026 TRB Annual Meeting Reception: Bill Hereth
 
 Received the award on the behalf of the project team:
-- Andrew Byrd
-- Anson Stewart, PhD
-- Trevor Gerhardt
+- Jonathan Ehrlich, MetCouncil
+- Joel Freedman, RSG
 
 ## Award Recipients
 
@@ -48,3 +45,4 @@ Received the award on the behalf of the project team:
 - 2022: The award was not given this year
 - 2023: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)
 - 2024: The award was not given this year
+- 2025: [R5 Team](https://github.com/conveyal/r5)
