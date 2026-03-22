@@ -2,6 +2,11 @@
 layout: simple
 title: "Zephyr Leadership Award"
 ---
+
+<div style="float:right; margin: 5px 10px;">
+<img src="/img/zephies_2026_milkovits.png" width="200px" />
+</div>
+
 **The 2026 Zephyr Leadership Award was presented on January 13, 2026**
 
 ## Award Description
