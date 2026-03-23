@@ -3,8 +3,8 @@ layout: simple
 title: "Exceptional Technical Achievement Award"
 ---
 
-<div style="float:right; margin: 5px 10px;">
-<img src="/img/zephies_2026_covid.png" width="200px" />
+<div style="float:none; margin: 5px 10px;">
+<img src="/img/zephies_2026_covid.png" width="400px" />
 </div>
 
 **The 2026 Exceptional Technical Achievement Award was presented on January 13, 2026**
