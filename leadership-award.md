@@ -3,7 +3,7 @@ layout: simple
 title: "Zephyr Leadership Award"
 ---
 
-<div style="float:right; margin: 5px 10px;">
+<div style="float:none; margin: 5px 10px;">
 <img src="/img/zephies_2026_milkovits.png" width="300px" />
 </div>
 
