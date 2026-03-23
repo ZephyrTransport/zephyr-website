@@ -3,8 +3,8 @@ layout: simple
 title: "Impactful Research Award"
 ---
 
-<div style="float:right; margin: 5px 10px;">
-<img src="/img/zephies_2026_activitysim.png" width="200px" />
+<div style="float:none; margin: 5px 10px;">
+<img src="/img/zephies_2026_activitysim.png" width="400px" />
 </div>
 
 **The 2026 Impactful Research Award was presented on January 13, 2026**
