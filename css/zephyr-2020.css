@@ -135,6 +135,8 @@ h3.z-hero-subtitle {
 footer {
   background-image: linear-gradient(380deg, hsl(283, 30%, 94%), #cfd4f3);
   margin-top: 4rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
 .navbar {
