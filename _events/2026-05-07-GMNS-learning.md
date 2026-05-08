@@ -5,7 +5,7 @@ title: GMNS Learning Session
 type: Reception
 day: Thursday, May 7, 2026
 time: 2:00 PM - 3:00 PM EDT
-place: <a href="https://us06web.zoom.us/meeting/register/taV2AzSJSb-mrjmquEA0tA">Zoom Registration</a>
+place: <a href='https://youtu.be/Jzk92svwfDk'>Recording</a> - <a href='https://drive.google.com/file/d/1RThvcfRhKx9Hh4hpxV-2mubGAZYssrWl/view?usp=share_link'>Presentation</a>
 ---
 
 
