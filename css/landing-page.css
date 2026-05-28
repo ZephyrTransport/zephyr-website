@@ -33,8 +33,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lora";
-  font-weight: 600;
+/*  font-family: "Lora";
+  font-weight: 600; */ 
+font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600;  
 }
 
 
@@ -79,7 +80,8 @@ a {
 .event-title {
   text-transform: uppercase;
   font-size: 18px;
-  letter-spacing: 10px;
+  letter-spacing: 4px;
+  font-weight: 700;
 }
 
 .event-date {

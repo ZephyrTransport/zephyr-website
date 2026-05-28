@@ -5,10 +5,10 @@ title: GMNS Assignment Tools Learning Session
 type: Reception
 day: Thursday, August 20, 2026
 time: 2:00 PM - 3:00 PM EDT
-place: Zoom Registration to be Provided
+place: <a href="https://us06web.zoom.us/meeting/register/_1-GoCW7Q_mOHWyysKeVIw">Zoom Registration</a>
 ---
-Join us for an interactive webinar exploring GMNS assignment tools.
+Join us for highlights from the 2025 Modeling Mobility conference.
 
-You must register in advance for this meeting.
+You must <a href="https://us06web.zoom.us/meeting/register/_1-GoCW7Q_mOHWyysKeVIw">register</a> in advance for this meeting.
 
 After registering, you will receive a confirmation email containing information about joining the meeting.
