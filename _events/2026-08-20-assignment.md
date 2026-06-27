@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Reception
-title: GMNS Assignment Tools Learning Session
+title: "GMNS Learning Session: Assignment Tools"
 type: Reception
 day: Thursday, August 20, 2026
 time: 2:00 PM - 3:00 PM EDT

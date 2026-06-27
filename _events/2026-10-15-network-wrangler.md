@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Reception
-title: NetworkWrangler Learning Session
+title: "GMNS Learning Session: NetworkWrangler"
 type: Reception
 day: Thursday, October 15, 2026
 time: 2:00 PM - 3:00 PM EDT

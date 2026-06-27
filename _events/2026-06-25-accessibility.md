@@ -1,7 +1,7 @@
 ---
 layout: event
 category: Reception
-title: GMNS Multimodal Accessibility Learning Session
+title: "GMNS Learning Session: Multimodal Accessibility"
 type: Reception
 day: Thursday, June 25, 2026
 time: 2:00 PM - 3:00 PM EDT
