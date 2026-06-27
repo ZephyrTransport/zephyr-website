@@ -5,7 +5,7 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-offset-1">
+                <div class="col-sm-10 col-md-offset-1">
                     <div class="event">
                         <div class="event-header">
 
@@ -29,15 +29,6 @@
                         </div>
                         <p>{{ page.summary }}
                         </p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="event-img">
-                        {% if page.img %}<img src="{{ page.img }}" alt="Event Photo" style="height:200px;">
-                        {% endif %}
-                        <p class="small">
-                            <i aria-hidden="true" class="fa fa-angle-right" style="color:#{{ site.highlight-color }}"></i>
-                            {{ page.additional-msg}}</p>
                     </div>
                 </div>
             </div>
