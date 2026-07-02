@@ -22,6 +22,9 @@ future: true
 collections:
   events:
     output: true
+  events_tmip:
+    output: true
+    permalink: /TMIP/events/:path/
   memberships:
     output: false
   projects:
