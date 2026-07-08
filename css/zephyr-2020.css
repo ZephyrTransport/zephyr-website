@@ -108,6 +108,18 @@ h3.z-hero-subtitle {
   margin: 0.25rem 1rem;
 }
 
+.z-pullquote {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #0da5d3;
+  border: none;
+  border-top: 2px solid #0da5d3;
+  border-bottom: 2px solid #0da5d3;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  text-align: center;
+}
+
 .intro-message {
   padding-top: 120px;
   padding-bottom: 0px;
@@ -196,7 +208,6 @@ footer {
 }
 
 
-
 @media (max-width: 994px) {
   .nav > li > a {
     font-size: 16px;
@@ -209,3 +220,11 @@ footer {
     flex-direction: column !important;
   }
 }
+
+#article-content li,
+#simple-layout li,
+.col-lg-12 li {
+  margin-bottom: 0.5em;
+}
+
+

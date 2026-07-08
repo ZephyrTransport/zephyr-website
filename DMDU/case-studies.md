@@ -13,7 +13,7 @@ Here we aim to capture the evolving state of the practice of DMDU in transportat
 ## Case Studies
  - MTC Exploratory Scenario Planning
  - Translink COVID uncertainty
- - Oregon DOT strategic to predictive process
+ - [Oregon DOT strategic to predictive process](/DMDU/case-studies-oregon-DOT)
 
 ## Example Template
 
