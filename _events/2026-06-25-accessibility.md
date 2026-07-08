@@ -5,8 +5,11 @@ title: "GMNS Learning Session: Multimodal Accessibility"
 type: Reception
 day: Thursday, June 25, 2026
 time: 2:00 PM - 3:00 PM EDT
-place: <a href='https://youtu.be/g1abCC_ygjw'>Recording</a>
+place: <a href='https://youtu.be/g1abCC_ygjw'>Recording</a> - <a href='https://drive.google.com/file/d/1jNlAMLXiINLVAz6RBqz_LZ1mwRm_l7UJ/view?usp=share_link'>Presentation</a>
 ---
+
+
+
 
 <h3>Session Overview</h3>
 
