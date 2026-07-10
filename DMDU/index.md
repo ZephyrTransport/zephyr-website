@@ -21,7 +21,7 @@ front: True
 ## Upcoming Events
  - Nov 19, 2026 - 9AM PST / 12PM EST / 5PM GMT
    - International Discussion of Uncertainty Planning
-   - Amy Armstrong, Department for Transport, UK; Naomi Stein, EBP
+   - Amy Anderson, Department for Transport, UK; Naomi Stein, EBP
 
 ## Goals
 We are modelers, so this initiative takes a model-centric view of DMDU, but a big part of DMDU is moving the focus away from model forecasts and towards getting to better decisions! 
