@@ -1,15 +1,16 @@
 ---
 layout: event
 category: Reception
-title: "GMNS Learning Session: NetworkWrangler"
+title: "International Perspectives on Uncertainty Planning"
 type: Reception
-day: Thursday, October 15, 2026
-time: 2:00 PM - 3:00 PM EDT
-place: <a href="https://us06web.zoom.us/meeting/register/5gdlg7mqSlGoKIx8DR6TeA">Zoom Registration</a>
+day: Thursday, November 19, 2026
+time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT
+place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">Zoom Registration</a>
 ---
-Join us for highlights from the 2025 Modeling Mobility conference.
 
-You must <a href="https://us06web.zoom.us/meeting/register/5gdlg7mqSlGoKIx8DR6TeA">register</a> in advance for this meeting.
+Please join us for a discussion of international perspectives on uncertainty planning, led by Amy Armstrong, Department for Transport, UK and Naomi Stein, EBP.
+
+You must <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">register</a> in advance for this meeting.
 
 After registering, you will receive a confirmation email containing information about joining the meeting.
 
