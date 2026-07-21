@@ -2,6 +2,312 @@
   background-color: white;
 }
 
+.z-zephies-content h2 a {
+  text-decoration: none;
+}
+
+.z-award-note {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.z-name-tiles {
+  margin: 1.25rem 0 1.75rem 0;
+}
+
+.z-name-tile {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #0da5d3;
+  border-radius: 0.4rem;
+  padding: 0.75rem 0.85rem;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(23, 23, 52, 0.05);
+}
+
+.z-name-tile strong {
+  display: block;
+  font-family: "Manrope", sans-serif;
+  color: #171734;
+  font-size: 0.9rem;
+}
+
+.z-board-tile {
+  position: relative;
+  text-align: left;
+  padding-bottom: 1.75rem;
+}
+
+.z-tile-photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.z-tile-linkedin {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.75rem;
+  color: #a3aebc;
+  font-size: 1.3rem;
+}
+
+.z-tile-linkedin:hover {
+  color: #0077b5;
+}
+
+.z-inline-linkedin {
+  color: #a3aebc;
+  margin-left: 0.35rem;
+}
+
+.z-inline-linkedin:hover {
+  color: #0077b5;
+}
+
+.z-name-tile span.z-tile-role {
+  display: inline-block;
+  margin-top: 0.4rem;
+  background: #eaf8fb;
+  color: #0a7d99;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+.z-name-tile span {
+  display: block;
+  color: #777;
+  font-size: 0.78rem;
+  margin-top: 0.2rem;
+}
+
+.z-board-tile strong {
+  font-size: 1rem;
+}
+
+.z-board-tile span:not(.z-tile-role) {
+  font-size: 0.87rem;
+}
+
+.z-committee-tile p {
+  font-size: 0.82rem;
+  color: #666;
+  margin: 0.4rem 0 0;
+}
+
+.z-sponsorship-tile {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #0da5d3;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+}
+
+.z-sponsorship-tile-type {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: #171734;
+  font-size: 1.1rem;
+}
+
+.z-sponsorship-tile-price {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #0da5d3;
+  margin-top: 0.35rem;
+}
+
+.z-sponsorship-tile-benefits {
+  font-size: 0.87rem;
+  color: #555;
+  margin-top: 0.6rem;
+}
+
+.z-mission-statement {
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+  padding: 2rem 1.75rem;
+  text-align: center;
+  background: #fafafa;
+  border-radius: 0.75rem;
+  border-top: 3px solid #0da5d3;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+}
+
+.z-mission-statement .z-mission-label {
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0a7d99;
+  margin-bottom: 0.6rem;
+}
+
+.z-mission-statement p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #171734;
+  margin: 0;
+}
+
+.z-vision-text {
+  max-width: 720px;
+  color: #444;
+}
+
+.z-value-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.z-value-chip {
+  display: inline-block;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: #eaf8fb;
+  color: #0a7d99;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+
+.z-membership-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.z-membership-tile {
+  flex: 1 1 150px;
+  max-width: 190px;
+  text-align: center;
+  padding: 1.1rem 0.75rem;
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #0da5d3;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+}
+
+.z-membership-tile-type {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: #171734;
+  font-size: 0.95rem;
+}
+
+.z-membership-tile-price {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #0da5d3;
+  margin-top: 0.35rem;
+}
+
+.z-membership-tile-price span {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #888;
+}
+
+.z-membership-tile-note {
+  font-size: 0.78rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
+
+.z-stripe-wide {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.z-stripe-wide > div {
+  width: 100%;
+  max-width: 1320px;
+}
+
+.z-cta-band {
+  background-color: #581c47;
+  background-image: linear-gradient(100deg, #581c47, #9d174d);
+  color: #ffffff;
+  padding: 4rem 2rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.z-cta-band h2 {
+  color: #ffffff;
+}
+
+.z-cta-band-lead {
+  color: #d7dbea;
+  max-width: 40rem;
+  margin: 0 auto 1.75rem auto;
+  font-size: 1.1rem;
+}
+
+.z-cta-band .btn-z {
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.z-award-recipient {
+  text-align: center;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.z-award-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(23, 23, 52, 0.18);
+  outline: 3px solid #0da5d3;
+  outline-offset: 4px;
+  margin-bottom: 1.25rem;
+}
+
+.z-award-recipient-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  color: #171734;
+  line-height: 1.2;
+}
+
+.z-award-recipient-year {
+  color: #0da5d3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.content-section {
+  padding: 2rem 2rem 6rem 2rem;
+}
+
 .z-logo {
   margin-top: -5px;
 }
@@ -9,6 +315,11 @@
 a.z-zephyr-name {
   margin-left: 2rem;
   text-decoration: none;
+  letter-spacing: 8px;
+}
+
+.project-title.zephyr {
+  letter-spacing: 11px;
 }
 
 .z-stars ul {
@@ -27,14 +338,132 @@ a.z-zephyr-name {
 
 .z-programs-list {
   margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
 }
 
-.z-program-entry {
-  border-top: 2px solid #0da5d3;
-  padding: 2rem 0;
+.z-program-card {
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #0da5d3;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.z-program-card:hover {
+  box-shadow: 0 6px 20px rgba(23, 23, 52, 0.12);
+  transform: translateY(-2px);
+}
+
+.z-program-card .card-title a {
+  text-decoration: none;
+}
+
+.z-program-card .card-text {
+  font-size: 0.9rem;
+}
+
+.z-program-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.z-program-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.z-program-card .card-body img {
+  align-self: center;
+  max-height: 100%;
+}
+
+.z-program-card-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5rem;
+}
+
+.z-program-card-title-wrap .card-title {
+  margin: 0;
+}
+
+.z-program-card-hint {
+  font-size: 0.78rem;
+  color: #aaa !important;
+  margin: auto 0 0 0;
+  text-align: right;
+  transition: color 0.15s ease-in-out;
+}
+
+.z-program-card:hover .z-program-card-hint {
+  color: #0a7d99 !important;
+}
+
+.z-implementation-list {
+  margin-top: 1.5rem;
+}
+
+.z-member-list {
+  margin-top: 1rem;
+}
+
+.z-member-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 80px;
+  height: 100%;
+  padding: 0.75rem 1rem 2.5rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #0da5d3;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+  color: #171734;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.z-member-tile-logo {
+  max-height: 32px;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+}
+
+.z-member-tile-www {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.75rem;
+  color: #a3aebc;
+  font-size: 1.3rem;
+}
+
+.z-member-tile-www:hover {
+  color: #0077b5;
+}
+
+.z-see-also {
+  margin-top: 3rem;
+}
+
+.z-see-also h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4e4f58;
+}
+
+.z-program-hub-link {
+  margin-top: 3rem;
+}
+
+.z-see-also + .z-program-hub-link {
+  margin-top: 0.75rem;
 }
 
 .z-connect {
@@ -44,10 +473,18 @@ a.z-zephyr-name {
 }
 
 .z-social-buttons {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  margin: 0.5rem 2rem 0 2rem;
+  margin-top: 0.5rem;
+}
+
+.z-social-buttons a {
+  color: #d7dbea;
+}
+
+.z-social-buttons a:hover {
+  color: #0da5d3;
 }
 
 h3.z-hero-subtitle {
@@ -58,13 +495,115 @@ h3.z-hero-subtitle {
   background-color: #00000099;
 }
 
+.z-next-event-banner {
+  background: #0da5d3;
+  color: #ffffff;
+  padding: 0.65rem 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.z-next-event-banner i {
+  margin-right: 0.5rem;
+}
+
+.z-next-event-banner a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.z-next-event-banner-date {
+  margin-left: 0.5rem;
+  opacity: 0.9;
+}
+
+.z-events-section-heading {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #0a7d99;
+  margin-bottom: 0.75rem;
+}
+
+.z-next-event {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid #0da5d3;
+  border-radius: 0.4rem;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0 2rem 0;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.06);
+}
+
+.z-next-event-eyebrow {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #0a7d99;
+  margin-bottom: 0.5rem;
+}
+
+.z-next-event-title {
+  margin: 0.5rem 0;
+}
+
+.z-next-event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.z-next-event-meta i {
+  color: #0da5d3;
+  margin-right: 0.4rem;
+}
+
+.z-event-year-block {
+  margin: 1.5rem 0rem 1rem 0rem;
+}
+
 .z-event-year {
+  display: block;
   background-color: #0da5d3;
   color: white;
   font-weight: bold;
-  font-size: 3rem;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  margin: 5rem 0rem 1rem 0rem;
+  font-size: 1.75rem;
+  padding: 0.4rem 3rem 0.4rem 0.5rem;
+  margin: 0;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  position: relative;
+}
+
+.z-event-year::-webkit-details-marker {
+  display: none;
+}
+
+.z-event-year::after {
+  content: "\25BE";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.z-event-year-block[open] > .z-event-year::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.z-event-year-block > .z-events-table {
+  margin-top: 1rem;
 }
 
 .z-events-table {
@@ -73,12 +612,109 @@ h3.z-hero-subtitle {
   gap: 2rem;
 }
 
+.z-upcoming-month {
+  margin: -1rem 0 2rem 0;
+}
+
+.z-upcoming-month-label {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #777;
+  margin-bottom: 0.75rem;
+}
+
+.z-upcoming-tiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .z-upcoming-tiles:not(.single) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .z-upcoming-tiles:not(.single) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.z-upcoming-tile {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid #0da5d3;
+  border-radius: 0.4rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 1px 6px rgba(23, 23, 52, 0.05);
+}
+
+.z-upcoming-tile .z-event-date {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0a7d99;
+  margin-bottom: 0.35rem;
+}
+
+.z-upcoming-tile .z-event-title a {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.z-upcoming-tile .z-event-title a:hover {
+  text-decoration: underline;
+}
+
+.z-event-row {
+  display: contents;
+}
+
 .z-event-date {
   grid-column: 1 / 2;
 }
 
 .z-event-title {
   grid-column: 2 / 3;
+}
+
+.z-event-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0 0;
+}
+
+.z-event-filter-btn {
+  display: inline-block;
+  background: #eaf8fb;
+  color: #0a7d99;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.z-event-filter-btn:hover {
+  background: #d5f0f7;
+}
+
+.z-event-filter-btn.active {
+  background: #0da5d3;
+  color: #ffffff;
 }
 
 .z-upcoming-events {
@@ -98,9 +734,13 @@ h3.z-hero-subtitle {
   background-color: #ffffff;
   margin: 0rem auto 0 auto;
   padding: 1.5rem 2rem;
-  width: max-content;
-  font-size: 5rem;
-  border: 5px solid #0da5d3;
+  width: fit-content;
+  max-width: 100%;
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  text-align: center;
+  border-radius: 0.75rem;
+  border-top: 4px solid #0da5d3;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
   color: #335;
 }
 
@@ -130,53 +770,153 @@ h3.z-hero-subtitle {
   padding: 60px 0;
 }
 
-.event-place {
-  margin-bottom: 3rem;
+#board, #stakeholders, #instigators, #executive-director, #committees {
+  scroll-margin-top: 90px;
 }
 
-.event-place a {
-  border: 1px solid #0da5d3;
-  padding: 0.5rem 0.5rem;
-}
-
-.event-place a:hover {
-  border: 1px solid #335;
-  text-decoration: none;
-}
-
-footer {
-  background-image: linear-gradient(380deg, hsl(283, 30%, 94%), #cfd4f3);
-  margin-top: 4rem;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+#community, #education, #standards {
+  scroll-margin-top: 90px;
 }
 
 .navbar {
-  background-image: linear-gradient(380deg, #171734, #1d434d, #257);
+  background-color: #171734;
+  background-image: linear-gradient(100deg, #171734, #1d434d);
   border: none;
-   /* border-bottom: 1px solid #0da5d3; */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
 }
 
-.navbar-right a {
-  color: #ccd !important;
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
-.navbar-right a:hover {
-  color: #eff !important;
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.55);
 }
 
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
-.nav > li {
-  color: white;
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.35);
+}
+
+.z-logo {
+  margin-top: 0;
+  margin-right: 0.75rem;
+}
+
+.navbar-nav .nav-link {
+  color: #d7dbea !important;
+  font-weight: 500;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-item:not(.dropdown) .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.35rem;
+  height: 2px;
+  background: #0da5d3;
+  transform: scaleX(0);
+  transition: transform 0.15s ease-in-out;
+}
+
+.navbar-nav .nav-item:not(.dropdown) .nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar-nav .dropdown-menu {
+  border: none;
+  border-radius: 0.6rem;
+  box-shadow: 0 10px 30px rgba(23, 23, 52, 0.18);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Bootstrap dropdown-menus render as white panels; the light nav-link
+   color above would be nearly illegible against that white background. */
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #333 !important;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.9rem;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+  color: #171734 !important;
+  background-color: #eaf8fb;
+}
+
+footer {
+  background-color: #171734;
+  background-image: linear-gradient(100deg, #171734, #1d434d);
+  color: #d7dbea;
+  margin-top: 4rem;
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer h4,
+footer h5 {
+  color: #ffffff;
+}
+
+footer a {
+  color: #d7dbea;
+}
+
+footer a:hover {
+  color: #0da5d3;
+}
+
+.z-footer-brand {
+  font-size: 1.4rem;
+}
+
+.z-footer-links li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.z-footer-links {
+  padding-left: 0;
+}
+
+.z-footer-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.z-footer-legal {
+  font-size: 0.8rem;
+  color: #a8adc7;
+}
+
+.z-footer-legal a {
+  color: #a8adc7;
+}
+
+.z-footer-legal a:hover {
+  color: #0da5d3;
 }
 
 @media only screen and (max-width: 75em) {
   .z-section-title {
     text-align: center;
-  }
-
-  .z-social-buttons {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -185,19 +925,8 @@ footer {
     width: auto;
   }
 
-  .z-programs-list {
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
   .z-section-title {
     text-align: center;
-  }
-
-  .z-social-buttons {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .z-upcoming-events {
@@ -225,6 +954,62 @@ footer {
 #simple-layout li,
 .col-lg-12 li {
   margin-bottom: 0.5em;
+}
+
+.z-calendar-jump {
+  margin: 1rem 0 2rem 0;
+}
+
+.z-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  margin-bottom: 3rem;
+}
+
+.z-calendar-dow {
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem 0;
+  background: #eef1f4;
+}
+
+.z-calendar-day {
+  min-height: 5rem;
+  padding: 0.25rem;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  font-size: 0.85rem;
+  overflow: hidden;
+}
+
+.z-calendar-day.z-calendar-blank {
+  background: transparent;
+  border: none;
+}
+
+.z-calendar-day.has-event {
+  background: #eaf8fb;
+  border-color: #0da5d3;
+}
+
+.z-calendar-daynum {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.z-calendar-day a {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .z-calendar-day {
+    min-height: 3.5rem;
+    font-size: 0.7rem;
+  }
 }
 
 

@@ -2,7 +2,6 @@
 layout: event
 category: Learning Session
 title: "International Perspectives on Uncertainty Planning"
-type: Reception
 day: Thursday, November 19, 2026
 time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT
 place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">Zoom Registration</a>

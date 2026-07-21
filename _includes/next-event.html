@@ -1,0 +1,48 @@
+{% assign future_events = site.events | where_exp: "e", "e.time != 'TBD'" | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+{% assign next_event = future_events.first %}
+
+{% if include.compact %}
+    {% if next_event %}
+    <div class="z-next-event-banner">
+        <div class="container">
+            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            <strong>Next Event:</strong>
+            <a href="{{ next_event.url | relative_url }}">{{ next_event.title }}</a>
+            <span class="z-next-event-banner-date">&mdash; {% if next_event.day %}{{ next_event.day }}{% else %}{{ next_event.date | date: "%B %-d, %Y" }}{% endif %}</span>
+        </div>
+    </div>
+    {% endif %}
+{% else %}
+    {% assign window_days = site.upcoming_events_window_days | default: 30 %}
+    {% assign window_seconds = window_days | times: 86400 %}
+    {% assign today_ts = site.time | date: "%s" %}
+    {% assign window_end = today_ts | plus: window_seconds | date: "%Y%m%d" %}
+    {% assign rest_events = future_events | slice: 1, 20 %}
+
+    {% if next_event %}<div class="z-events-section-heading">Next Event</div>{% endif %}
+    {% include event-card.html post=next_event %}
+
+    {% assign upcoming_count = 0 %}
+    {% capture upcoming_rows %}
+        {% for post in rest_events %}
+            {% assign postdate = post.date | date: "%Y%m%d" %}
+            {% if postdate <= window_end %}
+                {% assign upcoming_count = upcoming_count | plus: 1 %}
+                <div class="z-upcoming-tile">
+                    <div class="z-event-date">{% if post.day %}{{ post.day }}{% else %}{{ post.date | date: "%B %-d" }}{% endif %}</div>
+                    <div class="z-event-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign upcoming_rows = upcoming_rows | strip %}
+
+    {% if upcoming_rows != "" %}
+    <div class="z-upcoming-month">
+        <div class="z-upcoming-month-label">Also Coming Up in the Next {{ window_days }} Days</div>
+        <div class="z-upcoming-tiles{% if upcoming_count == 1 %} single{% endif %}">
+            {{ upcoming_rows }}
+        </div>
+    </div>
+    {% endif %}
+{% endif %}

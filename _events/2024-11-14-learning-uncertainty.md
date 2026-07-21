@@ -1,9 +1,8 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: Learning Session - Long-Range Travel Demand Forecasting Under Deep Uncertainty 
-type: Learning Session
-day: Thursday, Nov 14, 2024
+day: Thursday, November 14, 2024
 time: 12:00 - 1:00 PM ET / 9:00 - 10:00 AM PT
 place: <a href="https://docs.google.com/presentation/d/1WTZcj2T5PsvCZ3mGXh43RS7BbdMiNIIu/edit?usp=sharing&ouid=107165879160957156800&rtpof=true&sd=true">Slides - Charlene Rohr</a> <br><br> <a href="https://drive.google.com/file/d/1mHgRgEV9O6wPJA5S7nI_Jj2ubXvVfSdT/view?usp=sharing">Slides - Robert Lempert</a> <br><br> <a href="https://drive.google.com/file/d/1ae6Px15YEtYr3QXgjnov7Pq3z0rib7IB/view?usp=sharing">Slides - Jeff Newman</a> <br><br> <a href="https://youtu.be/a391c9HJkRc?si=olQO7cYM4LYXU1uH">Recording</a>
 additional-msg:

@@ -14,12 +14,12 @@ summary: This workshop represents the next step in establishing the Zephyr Found
 
 The following is a list of the projects that were discussed at the workshop. These are a selection and combination of the many submittals that we received and only represent possible projects. The Zephyr Board will be in charge of selecting projects that the organization will pursue. Click-thru to read notes on what each team came up with at TRB.
 
-<div class="card-deck">
+<div class="row">
     {% for project in site.trb17projects %}
   	<div class="col-md-5" style="height: 250px;">
     	<h4>{{ project.title }}</h4>
     	<p><small class="text-muted">{{ project.short-description }}
- 		<a href="{{ project.url }}"><br>&raquo;&nbsp;Read&nbsp;More</a>
+ 		<a href="{{ project.url | relative_url }}"><br>&raquo;&nbsp;Read&nbsp;More</a>
  		</small></p>
 
     </div>

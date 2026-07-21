@@ -8,7 +8,15 @@ title: Zephyr
 
 email: info@zephyrtransport.org
 author: Elizabeth Sall
-description: The Zephyr Foundation’s mission is to advance rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
+mission: Advancing transportation and land use planning and decision-making for the public good by advocating for and supporting community building, education, and shared standards.
+vision: To be the primary venue where practitioners, researchers, and industry share credible, transparent, and reproducible methods and tools that enable equitable, sustainable transportation decisions.
+values:
+  - Respect
+  - Collaboration
+  - Inclusion
+  - Honesty
+  - Technical rigor
+  - Community focus
 copyright: "Copyright &copy; 2016-2026 Zephyr Foundation. All Rights Reserved."
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
@@ -19,18 +27,32 @@ post_url: https://zephyr-membership.herokuapp.com/
 stripe_key: pk_live_qT7xpgL72eNH765lj0s9EaT4
 future: true
 
+# Number of days ahead of today that count as "upcoming" on the events section
+upcoming_events_window_days: 30
+
+# Earliest year shown in the events archive year-by-year breakdown
+events_earliest_year: 2017
+
 collections:
   events:
     output: true
-  events_tmip:
-    output: true
-    permalink: /TMIP/events/:path/
-  memberships:
-    output: false
-  projects:
+  programs:
     output: true
   trb17projects:
     output: true
+
+# Pillars used to categorize/filter the programs grid at /programs/.
+# key must match a value in a program's `pillars:` front matter list.
+program_pillars:
+  - key: community
+    title: Community
+    intro: Working groups, consortiums, and user groups that connect practitioners across agencies, academia, and industry.
+  - key: education
+    title: Education
+    intro: Webinars, conferences, and working sessions that share practical travel-modeling knowledge.
+  - key: standards
+    title: Shared Standards
+    intro: Data standards, specifications, and open-source tools that make travel analysis more transparent and reproducible.
 
 donations:
   - amt: 5
@@ -52,26 +74,191 @@ donations:
   - amt: 2500
     color: "#f39f9f;"
 
-products:
-  - name: Standard Annual Subscription
-    price: 20000
-    price_pretty: $200.00
-    description: Annual recurring membership for regular members
+board_members:
+  - name: Bill Hereth
+    photo: BillHereth.png
+    org: Wasatch Front Regional Council
+    role: Chair
+    linkedin: https://www.linkedin.com/in/bill-hereth-41b54313/
 
-  - name: Standard 1-Year Membership
-    price: 20000
-    price_pretty: $200.00
-    description: One-time 1-year membership for regular members
+  - name: Greg Erhardt
+    photo: GregErhardt.png
+    org: University of Kentucky
+    linkedin: https://www.linkedin.com/in/greg-erhardt-377842/
 
-  - name: Student Annual Subscription
-    price: 2000
-    price_pretty: $20.00
-    description: Annual recurring membership for student/youth members
+  - name: Jason Hawkins
+    photo: JasonHawkins.png
+    org: University of Calgary
+    linkedin: https://www.linkedin.com/in/jason-hawkins-68919234/
 
-  - name: Student 1-Year Membership
-    price: 2000
-    price_pretty: $20.00
-    description: One-time 1-year membership for student/youth members
+  - name: Lisa Zorn
+    photo: LisaZorn.png
+    org: Metropolitan Transportation Commission in San Francisco CA
+    role: Treasurer
+    linkedin: https://www.linkedin.com/in/lisazorn/
+
+  - name: Mark Bradley
+    photo: MarkBradley.png
+    org: Independent
+    linkedin: https://www.linkedin.com/in/mark-bradley-b8548a4/
+
+  - name: Peter Bosa
+    photo: PeterBosa.png
+    org: Oregon Metro
+    linkedin: https://www.linkedin.com/in/peter-bosa-1b2853158
+
+  - name: Sijia Wang
+    photo: SijiaWang.png
+    org: WSP USA
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/sijia-wang/
+
+  - name: Suzanne Childress
+    photo: SuzanneChildress.png
+    org: StreetLight
+    linkedin: https://www.linkedin.com/in/suzanne-childress-23655745/
+
+  - name: Xinbo Mi
+    photo: XinboMi.png
+    org: Cambridge Systematics
+    role: Diversity Officer
+    linkedin: https://www.linkedin.com/in/xinbomi/
+
+founding_stakeholders:
+  - name: Alexei Pozdnukhov
+    org: University of California, Berkeley
+  - name: Aruna Sivakumar
+    org: Imperial College
+  - name: Beverly Scott
+    org: Beverly Scott and Associates
+  - name: Chandra Bhat
+    org: University of Texas
+  - name: Clint Daniels
+    org: "[former] San Diego Association of Governments"
+  - name: Dan Florian
+    org: INRO Software
+  - name: Eric Anderson
+    org: Maricopa Association of Governments
+  - name: Eric Miller
+    org: University of Toronto
+  - name: George Naylor
+    org: Santa Clara Valley Transportation Authority
+  - name: Greg Giaimo
+    org: Ohio Department of Transportation
+  - name: Hani Mahmassani
+    org: Northwestern University
+  - name: Howard Slavin
+    org: Caliper
+  - name: Julie Dunbar
+    org: Dunbar Transportation
+  - name: Kay Axhausen
+    org: ETH-Zurich
+  - name: Moshe Ben-Akiva
+    org: Massachusetts Institute of Technology
+  - name: Pat Mokhtarian
+    org: Georgia Institute of Technology
+  - name: Rick Donnelly
+    org: WSP-PB
+  - name: Rosella Picado
+    org: WSP-PB
+  - name: Stephen Lawe
+    org: Resource Systems Group
+  - name: Steve Perone
+    org: PTV
+  - name: Therese McMillan
+    org: LA MTA
+  - name: Vladimir Livshits
+    org: Maricopa Association of Governments
+
+instigators:
+  - Billy Charlton
+  - Gregory Erhardt
+  - Brian Gardner
+  - David Ory
+  - Elizabeth Sall
+  - Joan Walker
+
+committees:
+  - name: Membership Committee
+    description: Welcomes new members, coordinates renewals, and gathers feedback on membership benefits.
+  - name: Communications Committee
+    description: Shares Zephyr's work with the world through the newsletter, social media, and website updates.
+  - name: Activities Committee
+    description: Plans social gatherings, networking events, and the annual TRB reception that bring the Zephyr community together.
+
+activitysim_members:
+  - name: Atlanta Regional Commission (ARC)
+    domain: atlantaregional.org
+    url: https://atlantaregional.org/
+  - name: Central Transportation Planning Staff (CTPS Boston)
+    domain: ctps.org
+    url: https://www.ctps.org/
+  - name: Chicago Metropolitan Agency for Planning (CMAP)
+    domain: cmap.illinois.gov
+    url: https://www.cmap.illinois.gov/
+  - name: Maricopa Association of Governments (MAG)
+    domain: azmag.gov
+    url: https://azmag.gov/
+  - name: Metropolitan Council
+    domain: metrocouncil.org
+    url: https://metrocouncil.org/
+  - name: Metropolitan Transportation Commission (MTC)
+    domain: mtc.ca.gov
+    url: https://mtc.ca.gov/
+  - name: National Capital Region Transportation Planning Board (Washington, D.C.)
+    domain: mwcog.org
+    url: https://www.mwcog.org/tpb/
+  - name: Puget Sound Regional Council (PSRC)
+    domain: psrc.org
+    url: https://www.psrc.org/
+  - name: San Diego Association of Governments (SANDAG)
+    domain: sandag.org
+    url: https://www.sandag.org/
+  - name: San Francisco County Transportation Authority (SFCTA)
+    domain: sfcta.org
+    url: https://www.sfcta.org/
+  - name: Southeast Michigan Council of Governments (SEMCOG)
+    domain: semcog.org
+    url: https://www.semcog.org/
+  - name: TransLink (Vancouver)
+    domain: translink.ca
+    url: https://www.translink.ca/
+  - name: Transport for New South Wales (Sydney)
+    domain: transport.nsw.gov.au
+    url: https://www.transport.nsw.gov.au/
+  - name: Victoria Department of Transport and Planning (Melbourne)
+    domain: vic.gov.au
+    url: https://www.vic.gov.au/department-transport-and-planning
+
+sponsorship_tiers:
+  - type: Visionary Partner
+    price: "$100,000"
+    benefits: 'Organizational benefits for ten years; preferential logo placement on website and verbal thanks at events; commemorative plaque.'
+
+  - type: Leadership Circle
+    price: "$25,000"
+    benefits: "Commemorative plaque, preferential logo placement and verbal thanks at events."
+
+membership_tiers:
+  - type: Standard
+    price: "$200"
+    suffix: "/yr"
+    note: Open to all
+
+  - type: Student
+    price: "$25"
+    suffix: "/yr"
+    note: Degree-seeking program
+
+  - type: Young Professional
+    price: "$25"
+    suffix: "/yr"
+    note: Under 30
+
+  - type: Organizational
+    price: "$2,000"
+    suffix: "/yr"
+    note: or $10,000 / 5 yrs
 
 # ----------------------- #
 #   Look Settings         #
@@ -92,6 +279,16 @@ highlight-text: f8f8f8 #light gray
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-redirect-from
+
+# Retired/historical content kept in git history but not published
+exclude:
+  - archive
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 # ----------------------- #
 #   3rd Party Settings    #

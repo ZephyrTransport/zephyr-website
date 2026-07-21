@@ -2,7 +2,6 @@
 layout: event
 category: Meeting
 title: Zephyr Board Election Meeting
-type: Meeting
 day: Tuesday, April 21, 2026
 time: 4:00 - 5:00 PM EST
 place: Zoom

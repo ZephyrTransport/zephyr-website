@@ -1,0 +1,129 @@
+---
+layout: project
+title: "Events"
+subTitle: "All events, past and present"
+img: bike-thumb.png
+latest-update: ""
+---
+
+{% include next-event.html %}
+
+<p>
+    Explore past and upcoming events where Zephyr has sponsored, organized, or participated.
+</p>
+
+<p>Planning an event where Zephyr could contribute? We'd love to hear from you&mdash;contact us using the information at the bottom of the page.
+</p>
+
+<p><a href="{{ '/events/calendar' | relative_url }}">View as Calendar &raquo;</a></p>
+
+<hr/>
+
+{% assign categories = site.events | map: 'category' | uniq | sort %}
+
+<div class="z-event-filter-bar" role="group" aria-label="Filter events by category">
+    <button type="button" class="z-event-filter-btn active" data-filter="all">All</button>
+    {% for cat in categories %}
+        {% if cat %}
+            <button type="button" class="z-event-filter-btn" data-filter="{{ cat }}">{{ cat }}</button>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% assign earliest_year = site.events_earliest_year | default: 2017 %}
+{% assign this_year = 'now' | date: '%Y' | plus: 0 %}
+{% assign latest_year = this_year | plus: 1 %}
+
+{% for year in (earliest_year..latest_year) reversed %}
+    {% assign stryear = year | append: '' %}
+
+    {% assign year_count = 0 %}
+    {% for post in site.events %}
+        {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
+        {% if postyear contains stryear %}
+            {% assign year_count = year_count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+
+    {% if year_count > 0 %}
+    {% assign year_is_open = false %}
+    {% if year >= this_year %}{% assign year_is_open = true %}{% endif %}
+    <details class="z-event-year-block" data-year="{{ year }}" data-default-open="{{ year_is_open }}"{% if year_is_open %} open{% endif %}>
+        <summary class="z-event-year">
+            {{year}}
+        </summary>
+
+        <div class="z-events-table">
+
+            {% for post in site.events reversed %}
+                {% capture postyear %}
+                    {{post.date | date: '%Y'}}
+                {% endcapture %}
+                {% if postyear contains stryear %}
+
+                    <div class="z-event-row" data-category="{{ post.category }}">
+                        <div class="z-event-date">
+                            {% if post.day  %}
+                                {%- assign yr = post.date | date: '%Y' -%}
+                                {%- assign yearsuffix = ', ' | append: yr -%}
+                                {{ post.day | remove: yearsuffix }}
+                            {% else %}
+                                {{ post.date | date: "%A, %B %-d" }}
+                            {% endif %}
+                        </div>
+
+                        <div class="z-event-title">
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            <p>{{ post.time }}</p>
+                        </div>
+                    </div>
+
+                {% endif %}
+            {% endfor %}
+
+        </div>
+    </details>
+    {% endif %}
+
+{% endfor %}
+
+<br/><br/><br/><br/>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var buttons = document.querySelectorAll('.z-event-filter-btn');
+    var rows = document.querySelectorAll('.z-event-row');
+    var yearBlocks = document.querySelectorAll('.z-event-year-block');
+
+    function applyFilter(filter) {
+        rows.forEach(function (row) {
+            var match = filter === 'all' || row.getAttribute('data-category') === filter;
+            row.style.display = match ? 'contents' : 'none';
+        });
+
+        yearBlocks.forEach(function (block) {
+            var visible = Array.prototype.some.call(
+                block.querySelectorAll('.z-event-row'),
+                function (row) { return row.style.display !== 'none'; }
+            );
+            block.style.display = visible ? '' : 'none';
+
+            if (filter === 'all') {
+                block.open = block.getAttribute('data-default-open') === 'true';
+            } else if (visible) {
+                block.open = true;
+            }
+        });
+    }
+
+    buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            buttons.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            applyFilter(btn.getAttribute('data-filter'));
+        });
+    });
+});
+</script>
+
+{% include home-link.html %}

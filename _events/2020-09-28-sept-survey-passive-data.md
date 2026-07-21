@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: Panel on the intersection of Survey and Passive Data
 type: Panel
 time: 2:00-4:00 ET/11:00-1:00 PT

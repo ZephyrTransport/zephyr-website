@@ -1,8 +1,7 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: Learning Session - Big Data 
-type: Learning Session
 day: Monday, July 17, 2023
 time: 4:00 - 5:00 PM ET / 1:00-2:00 PM PT
 place: <a href='https://youtu.be/-EbqGjW-zCI'>Recording</a> - <a href='https://drive.google.com/file/d/1pYAAWGdcBTrftQ91nFnmW9NwW0VuDYLr/view?usp=drive_link'>Presentation</a>

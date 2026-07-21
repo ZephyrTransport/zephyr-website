@@ -1,15 +1,15 @@
 <div class="stripecol stripecol-33">
-  <div class="card">
-    <div class="card-image" >
-      <!--<img class="img-responsive" src="{{ product.image }}" alt="{{ product.name }}"> -->
+  <div class="z-product-card">
+    <div class="z-product-card-image" >
+      <!--<img class="img-fluid" src="{{ product.image }}" alt="{{ product.name }}"> -->
     </div><!-- card image -->
 
-    <div class="card-content"  style="background-color:{{level.color}}">
-      <span class="card-title" style="font-weight:bold; font-size:5em;">${{ level.amt }}</span>
+    <div class="z-product-card-content"  style="background-color:{{level.color}}">
+      <span class="z-product-card-title" style="font-weight:bold; font-size:3em;">${{ level.amt }}</span>
       A one-time donation of ${{ level.amt }}
     </div><!-- card content -->
 
-    <div class="card-action">
+    <div class="z-product-card-action">
 
       {% assign pennies = {{level.amt}}| times:100 %}
 

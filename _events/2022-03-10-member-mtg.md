@@ -2,13 +2,12 @@
 layout: event
 category: Meeting
 title: "Zephyr Member Meeting and Zephyr Awards"
-type: Meeting
 day: Thursday, March 10, 2022
 time: 3:00-4:00PM ET / 12:00PM - 1:00PM PT
 place: <a href="https://us06web.zoom.us/j/87527362588?pwd=c2F6Q1ZRTVFDU1VudGFZbnNOS1BmQT09">Zoom</a>
 ---
 
-Join us for our Zephyr Member Meeting -- During this meeting, we'll present updates from our <a href="/#activities">working groups</a> and present the <a href="/awards">2022 Zephyr Awards</a>
+Join us for our Zephyr Member Meeting -- During this meeting, we'll present updates from our <a href="{{ '/#activities' | relative_url }}">working groups</a> and present the <a href="{{ '/awards' | relative_url }}">2022 Zephyr Awards</a>
 
 Join Zoom Meeting:
 [https://us06web.zoom.us/j/87527362588?pwd=c2F6Q1ZRTVFDU1VudGFZbnNOS1BmQT09](https://us06web.zoom.us/j/87527362588?pwd=c2F6Q1ZRTVFDU1VudGFZbnNOS1BmQT09)

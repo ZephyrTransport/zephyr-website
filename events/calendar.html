@@ -1,0 +1,108 @@
+---
+layout: project
+title: "Events Calendar"
+subTitle: "Upcoming Zephyr events by month"
+img: conv-center-bikes-smaller.jpg
+---
+
+<p>Upcoming events shown as a calendar below; past events are listed underneath. Prefer a simple list of everything? <a href="{{ '/events' | relative_url }}">View as List</a>.</p>
+
+<hr/>
+
+{% assign future_events = site.events | where_exp: "e", "e.date > site.time" | sort: "date" %}
+{% assign past_events = site.events | where_exp: "e", "e.date <= site.time" | sort: "date" | reverse %}
+
+{% assign month_lengths = "31,28,31,30,31,30,31,31,30,31,30,31" | split: "," %}
+{% assign dow_names = "Sun,Mon,Tue,Wed,Thu,Fri,Sat" | split: "," %}
+
+{% if future_events.size == 0 %}
+    <p><em>No upcoming events currently scheduled.</em></p>
+{% else %}
+    {% assign months = future_events | group_by_exp: "e", "e.date | date: '%Y-%m'" %}
+
+    <p class="z-calendar-jump">
+    Jump to:
+    {% for month in months %}
+        {% assign first = month.items.first %}
+        {% assign y = first.date | date: '%Y' %}
+        {% assign m = first.date | date: '%m' %}
+        <a href="#y{{ y }}-m{{ m }}">{{ first.date | date: '%B %Y' }}</a>{% unless forloop.last %} &middot; {% endunless %}
+    {% endfor %}
+    </p>
+
+    {% for month in months %}
+        {% assign first = month.items.first %}
+        {% assign y = first.date | date: '%Y' %}
+        {% assign m = first.date | date: '%m' %}
+        {% assign yi = y | plus: 0 %}
+        {% assign mi = m | plus: 0 %}
+        {% assign midx = mi | minus: 1 %}
+        {% assign dim = month_lengths[midx] | plus: 0 %}
+
+        {% if mi == 2 %}
+            {% assign mod4 = yi | modulo: 4 %}
+            {% assign mod100 = yi | modulo: 100 %}
+            {% assign mod400 = yi | modulo: 400 %}
+            {% if mod4 == 0 and mod100 != 0 %}
+                {% assign dim = 29 %}
+            {% elsif mod400 == 0 %}
+                {% assign dim = 29 %}
+            {% endif %}
+        {% endif %}
+
+        {% assign first_of_month = y | append: '-' | append: m | append: '-01' %}
+        {% assign first_weekday_i = first_of_month | date: '%w' | plus: 0 %}
+
+        <div class="z-event-year" id="y{{ y }}-m{{ m }}">{{ first.date | date: '%B %Y' }}</div>
+
+        <div class="z-calendar-grid">
+            {% for dow in dow_names %}
+                <div class="z-calendar-dow">{{ dow }}</div>
+            {% endfor %}
+
+            {% for i in (1..first_weekday_i) %}
+                <div class="z-calendar-day z-calendar-blank"></div>
+            {% endfor %}
+
+            {% for d in (1..dim) %}
+                {% assign has_event = false %}
+                {% for ev in month.items %}
+                    {% assign ev_day = ev.date | date: '%-d' | plus: 0 %}
+                    {% if ev_day == d %}
+                        {% assign has_event = true %}
+                    {% endif %}
+                {% endfor %}
+                {% if has_event %}
+                    <div class="z-calendar-day has-event">
+                        <span class="z-calendar-daynum">{{ d }}</span>
+                        {% for ev in month.items %}
+                            {% assign ev_day = ev.date | date: '%-d' | plus: 0 %}
+                            {% if ev_day == d %}
+                                <a href="{{ ev.url | relative_url }}" title="{{ ev.title }}">{{ ev.title | truncate: 24 }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="z-calendar-day">
+                        <span class="z-calendar-daynum">{{ d }}</span>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endif %}
+
+<h2 class="mt-5">Past Events</h2>
+
+{% if past_events.size == 0 %}
+    <p><em>No past events yet.</em></p>
+{% else %}
+    <div class="z-events-table">
+        {% for ev in past_events %}
+            <div class="z-event-date">{{ ev.date | date: "%b %-d, %Y" }}</div>
+            <div class="z-event-title"><a href="{{ ev.url | relative_url }}">{{ ev.title }}</a></div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<br/><br/><br/><br/>

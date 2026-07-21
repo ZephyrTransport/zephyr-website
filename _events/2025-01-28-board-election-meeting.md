@@ -2,7 +2,6 @@
 layout: event
 category: Meeting
 title: Zephyr Board Election Meeting
-type: Meeting
 day: Tuesday, January 28, 2025
 time: 4:00 PM - 5:00 PM EST
 place: 	Zoom 

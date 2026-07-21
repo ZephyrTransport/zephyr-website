@@ -1,9 +1,8 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: Learning Session - Equity in Travel Demand Modeling 
-type: Learning Session
-day: Thursday, Oct 26, 2023
+day: Thursday, October 26, 2023
 time: 2:00 - 3:00 PM ET / 11:00 AM - 12:00 PM PT
 place: <a href='https://drive.google.com/file/d/10tiI5zSaojmINpzFiX603o6bmTmOqEkY/view?usp=drive_link'>Slide_Ziying_SANDAG</a> <br><br> <a href='https://drive.google.com/file/d/1jFt83iEwCLVUV7ndA-r8PMOmpH6Z7u9A/view?usp=drive_link'>Slide_Alex_and_Willem</a> <br><br> <a href='https://docs.google.com/spreadsheets/d/1iUaDVQzo6xtvHsDlg-BWPQyskfREMnBU/edit?usp=drive_link&ouid=105260854974983931213&rtpof=true&sd=true'>Q&A Reports</a> <br><br> <a href='https://drive.google.com/file/d/1aW2cKMYzdWllA4V9PrmzI3T3e-m6Z6ft/view?usp=drive_link'>Poll Results</a> <br><br> <a href='https://youtu.be/miJNND5cHn8'>Recordings</a> 
 additional-msg:

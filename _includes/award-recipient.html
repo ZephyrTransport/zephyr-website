@@ -1,0 +1,7 @@
+<div class="z-award-recipient">
+    {% if include.photo %}
+    <img src="{{ include.photo | relative_url }}" class="z-award-photo" alt="{{ include.name }}">
+    {% endif %}
+    <div class="z-award-recipient-name">{{ include.name }}</div>
+    <div class="z-award-recipient-year">{{ include.year }} Recipient{% if include.presented %} &middot; presented {{ include.presented }}{% endif %}</div>
+</div>

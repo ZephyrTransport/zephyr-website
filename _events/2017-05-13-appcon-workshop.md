@@ -28,12 +28,12 @@ David Ory led an interactive voting activity where participants voted up and dow
 - Budget and staff size; and
 - First and second year priorities for each of Zephyr's goal areas
 
-<div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-6">
-    <img src="/img/APPCON17-Priorities.png" class="img-responsive">
+<div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-6">
+    <img src="{{ '/img/APPCON17-Priorities.png' | relative_url }}" class="img-fluid">
 </div>
 
-<div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-6">
-    <img src="/img/APPCON17-Rsch.jpg" class="img-responsive">
+<div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-6">
+    <img src="{{ '/img/APPCON17-Rsch.jpg' | relative_url }}" class="img-fluid">
 </div>
 
 Items with the strongest votes were:

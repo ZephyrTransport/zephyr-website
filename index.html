@@ -4,95 +4,213 @@ title: Zephyr
 subTitle: Advancing Travel Analysis to Improve Society
 ---
 
-<!-- Introducing Zephyr Section -->
-<section class="content-section text-left" id="mission" style="padding: 2rem 2rem 6rem 2rem; ">
-    <div class="row">
+<style>
+.hero-home{
+    position:relative;
+    min-height:520px;
+    display:flex;
+    align-items:flex-end;
+    margin-top:-20px;
+    text-align:left;
+}
 
-        <div class="col-lg-12">
-            <h1 class="text-left z-section-title">Zephyr Foundation</h1>
-            <p class="z-section-title" style="color: #717171;">
-                a 501(c)3 non-profit
-                <hr class="section-heading-spacer"/>
-                <div class="row">
+.hero-home::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        rgba(20,30,45,.05),
+        rgba(20,30,45,.15),
+        rgba(20,30,45,.55)
+    );
+}
 
-                    <div class="col-md-12 z-section-title">
-                        <h2 style="line-height: 4.5rem; color: #717171; font-weight: normal;">Zephyr’s mission: advancing rigorous
-                            <span style="color: #335;">transportation and land use decision-making</span>
-                            for the public good by advocating for and supporting
-                            <span style="color: #335;">improved travel analysis</span>, and facilitating its implementation.
-                        </h2>
-                    </div>
+.hero-home-content{
+    position:relative;
+    z-index:2;
+    color:#fff;
+    padding:5rem 0;
+}
 
-                    <div class="col-md-11" style="margin-top: 4rem;">
-                        <div>
-                            <hr/>
-                            <h3>Vision</h3>
-                            <p>Our vision is to become the primary venue through which leading researchers and practitioners seek to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable.</p>
-                            <p>We strive for those methods and tools to support decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability.
-                            </p>
-                        </div>
+.hero-home h1{
+    color:#fff;
+    font-size:4rem;
+    margin-bottom:1rem;
+}
 
-                        <div class="">
-                            <h3>More About Zephyr</h3>
-                            <p>Read up
-                                <a href="/about">About Zephyr</a>
-                                to find more on the nonprofit's
-                            </p>
-                            <ul>
-                                <li>goals</li>
-                                <li>leadership</li>
-                                <li>membership</li>
-                                <li>and fine print such as 501(c)3 status, governance, and bylaws.</li>
-                            </ul>
-                        </div>
+.hero-home p{
+    font-size:1.6rem;
+    max-width:760px;
+    line-height:1.6;
+}
+
+.home-section{
+    padding:2rem 0;
+}
+
+.membership-callout{
+    background:#eaf8fb;
+    border-left:5px solid #0da5d3;
+    border-radius:6px;
+    padding:3rem;
+}
+
+.focus-pillar{
+    background:#fff;
+    border:1px solid #e6e6e6;
+    border-radius:6px;
+    padding:2rem;
+    height:100%;
+    text-align:center;
+}
+
+.focus-pillar-icon{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    background:#eaf8fb;
+    color:#0da5d3;
+    font-size:1.7rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 1rem;
+}
+
+.focus-pillar h3{
+    font-size:1.4rem;
+    margin-bottom:0.75rem;
+}
+
+.focus-pillar p{
+    font-size:1.05rem;
+    line-height:1.5;
+}
+
+
+@media (max-width: 576px){
+    .hero-home{
+        margin-top:0;
+        min-height:420px;
+    }
+
+    .hero-home-content{
+        padding:7rem 0 3rem;
+    }
+
+    .hero-home h1{
+        font-size:2.1rem;
+    }
+
+    .hero-home p{
+        font-size:1.1rem;
+    }
+}
+</style>
+
+<section id="home">
+    <div class="intro-header hero-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                    <div class="hero-home-content">
+
+                        <h1 class="zephyr">Zephyr Foundation</h1>
+
+                        <p>
+                            {{ site.mission }}
+                        </p>
 
                     </div>
                 </div>
-            </p>
-        </div>
-    </div>
-</section>
-
-
-<!-- Programs and Projects -->
-<section class="content-section text-left" id="activities" style="padding: 2rem 2rem 6rem 2rem; background: #f4f4f4;">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="text-left z-section-title">Programs and Projects</h1>
-
-            <p class="z-section-title">This is a list of Zephyr's projects and programs.</p>
-
-            <div class="z-programs-list">
-                <!-- TMIP first but it's not technically a project -->
-                <div class="z-program-entry z-section-title" style="text-align: center;">
-                    <img src="/img/TMIP_wheel_bw_transparent.png" width="100px"/>
-                    <h3 class="section-heading" style="margin-bottom: 1rem;">
-                        <a href="/TMIP">TMIP</a>
-                    </h3>
-                    <div class="lead">An integrated online Community of Practice for the Travel Model Improvement Program (TMIP).</div>
-                </div>
-
-                <!-- ActivitySim second for now; expecting multiple pages in the future -->
-                <div class="z-program-entry z-section-title" style="text-align: center;">
-                    <img src="/img/activitysim_logo_light.jpg" width="100px"/>
-                    <h3 class="section-heading" style="margin-bottom: 1rem;">
-                        <a href="/ActivitySim">ActivitySim</a>
-                    </h3>
-                    <div class="lead">Create and maintain advanced, open-source, activity-based travel behavior modeling software based on best software development practices for distribution at no charge to the public.</div>
-                </div>
-
-                {% for project in site.projects %}
-                    <div class="z-program-entry z-section-title" style="text-align: center;">
-                        {% if project.icon != 'none' %}
-                            <i aria-hidden="true" class="fa {{ project.icon }} fa-5x"></i>
-                        {% endif %}
-                        <h3 class="section-heading" style="margin-bottom: 1rem;">
-                            <a href={{ site.baseurl }} {{ project.url }}>{{ project.title }}</a>
-                        </h3>
-                        <div class="lead">{{ project.description }}</div>
-                    </div>
-                {% endfor %}
             </div>
         </div>
     </div>
 </section>
+
+{% include next-event.html compact=true %}
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+
+<section class="home-section">
+
+    <h2 class="text-center mb-4">How Zephyr Advances the Practice</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="focus-pillar">
+                <div class="focus-pillar-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+                <h3>Community</h3>
+                <p>
+                    Connecting practitioners, researchers, and agencies across
+                    academia, public agencies, consultancies, and technology
+                    vendors who share a stake in better travel analysis.
+                </p>
+                <p><a href="{{ '/programs/#community' | relative_url }}">Explore Community Programs &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="focus-pillar">
+                <div class="focus-pillar-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                <h3>Education</h3>
+                <p>
+                    Webinars, conferences, and working sessions&mdash;like
+                    TMIP webinars, the MoMo conference, and DMDU
+                    workshops&mdash;share practical travel-modeling
+                    knowledge and keep the community current on emerging
+                    methods.
+                </p>
+                <p><a href="{{ '/programs/#education' | relative_url }}">Explore Education Programs &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="focus-pillar">
+                <div class="focus-pillar-icon"><i class="fa-solid fa-ruler-combined" aria-hidden="true"></i></div>
+                <h3>Standards</h3>
+                <p>
+                    Shared data standards and open-source tools&mdash;like
+                    GTFS-Ride, GMNS, and software badging&mdash;that make
+                    travel analysis more transparent and reproducible.
+                </p>
+                <p><a href="{{ '/programs/#standards' | relative_url }}">Explore Standards Programs &raquo;</a></p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="home-section">
+
+    <div class="membership-callout">
+
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h2>Become a Member</h2>
+                <p>
+                    Membership funds Zephyr's work and gives you a vote in
+                    Board elections, discounted event registration, and a
+                    seat on project committees shaping the future of travel
+                    analysis.
+                </p>
+            </div>
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <a class="btn btn-z btn-lg" href="{{ '/membership' | relative_url }}">
+                    Join Zephyr
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+</div>
+</div>

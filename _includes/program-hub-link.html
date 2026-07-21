@@ -1,0 +1,60 @@
+{% if page.section == "About" and page.subsection == "Policies" and page.url != '/about/policies/' %}
+    {% assign siblings = site.pages | where: "section", "About" | where: "subsection", "Policies" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.unlisted != true" %}
+    {% if siblings.size > 0 %}
+        <div class="z-see-also">
+            <h3>See Also</h3>
+            <ul>
+                {% for s in siblings %}<li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>{% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    <p class="z-program-hub-link"><a href="{{ '/about/policies' | relative_url }}">&laquo; Back to Policies</a></p>
+{% elsif page.section == "About" and page.url != '/about/' %}
+    {% assign siblings = site.pages | where: "section", "About" | where_exp: "p", "p.subsection == nil" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.url != '/about/'" | where_exp: "p", "p.unlisted != true" %}
+    {% if siblings.size > 0 %}
+        <div class="z-see-also">
+            <h3>See Also</h3>
+            <ul>
+                {% for s in siblings %}<li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>{% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    <p class="z-program-hub-link"><a href="{{ '/about' | relative_url }}">&laquo; Back to About Overview</a></p>
+{% elsif page.section == "Zephies" and page.url != '/zephies/' %}
+    {% assign siblings = site.pages | where: "section", "Zephies" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.unlisted != true" %}
+    {% if siblings.size > 0 %}
+        <div class="z-see-also">
+            <h3>See Also</h3>
+            <ul>
+                {% for s in siblings %}<li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>{% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    <p class="z-program-hub-link"><a href="{{ '/zephies' | relative_url }}">&laquo; Back to Zephies</a></p>
+{% elsif page.section == nil or page.section == "" %}
+    {% assign program_hub = nil %}
+    {% for p in site.programs %}
+        {% if p.category == "Activities" and p.front and page.url != p.url %}
+            {% assign hub_len = p.url | size %}
+            {% assign page_prefix = page.url | slice: 0, hub_len %}
+            {% if page_prefix == p.url %}
+                {% assign program_hub = p %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if program_hub %}
+        {% assign hub_len = program_hub.url | size %}
+        {% assign sibling_count = 0 %}
+        {% capture siblings_html %}{% for p in site.programs %}{% assign p_prefix = p.url | slice: 0, hub_len %}{% if p_prefix == program_hub.url and p.url != page.url and p.url != program_hub.url and p.unlisted != true and p.front == true %}{% assign sibling_count = sibling_count | plus: 1 %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}{% endcapture %}
+        {% if sibling_count > 0 %}
+            <div class="z-see-also">
+                <h3>See Also</h3>
+                <ul>{{ siblings_html }}</ul>
+            </div>
+        {% endif %}
+        <p class="z-program-hub-link"><a href="{{ program_hub.url | relative_url }}">&laquo; Return to {{ program_hub.title }}</a></p>
+    {% elsif page.category == "Activities" and page.front %}
+        <p class="z-program-hub-link"><a href="{{ '/programs' | relative_url }}">&laquo; Return to Programs</a></p>
+    {% endif %}
+{% endif %}

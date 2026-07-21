@@ -1,8 +1,7 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: A system dynamics perspective for transportation planning under uncertainty
-type: Learning Session
 img: /img/2020-05-27-CausalDiagram.png
 time: 3:00-4:30 PM EDT/12:00-1:30 PM PDT
 place: <a href='https://www.youtube.com/playlist?list=PLLE2KM1iB3tf8tcF_2dhFC071SlWC_BJV'>Session Recording</a> - <a href="https://drive.google.com/file/d/1Mg5gtZrOA-Cg6dfeq_MNCyXxr2tBNNb9/view?usp=sharing">Presentation Slides</a>

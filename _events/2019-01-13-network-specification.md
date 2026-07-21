@@ -6,6 +6,6 @@ title: Network Data Standard PMG Meeting
 type: Meeting
 time: 1:30-3:00 PM
 place: Convention Center <br>(159B)<br><br><br>
-additional-msg: <a href='/projects/2-network-standard-and-tools/'>Network Data Standard Project page</a>
+additional-msg: <a href='/programs/network-standard-and-tools/'>Network Data Standard Project page</a>
 summary: "<i>Meeting agenda will be made available shortly.</i>"
 ---

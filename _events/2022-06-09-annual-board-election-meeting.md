@@ -2,13 +2,12 @@
 layout: event
 category: Meeting
 title: "Zephyr Annual Board Election Meeting"
-type: Meeting
 day: Thursday, June 9, 2022
 time: 2:00PM - 3:30PM ET / 11:00AM - 12:30PM PT
 place: <a href="https://us06web.zoom.us/j/83764482514?pwd=WTc1MXZFNnlCdjRML2doaGtkcG9tUT09">Zoom</a>
 ---
 
-Join us for our Zephyr Annual Board [Election](/election/) Meeting.
+Join us for our Zephyr Annual Board [Election]({{ '/about/election/' | relative_url }}) Meeting.
 
 Join Zoom Meeting:
 [https://us06web.zoom.us/j/83764482514?pwd=WTc1MXZFNnlCdjRML2doaGtkcG9tUT09](hhttps://us06web.zoom.us/j/83764482514?pwd=WTc1MXZFNnlCdjRML2doaGtkcG9tUT09)

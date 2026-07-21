@@ -2,8 +2,7 @@
 layout: event
 category: Meeting
 title: "Zephyr Member Meeting"
-type: Meeting
-day: Wed. March 24, 2021
+day: Wednesday, March 24, 2021
 time: 4:30-5:30PM EDT / 1:30-2:30 PDT
 place: <a href='https://zoom.us/j/92335776600?pwd=V1ZxYTVXOTl5SEVwV2dIWW5qSzZxdz09'>via Zoom</a>
 ---

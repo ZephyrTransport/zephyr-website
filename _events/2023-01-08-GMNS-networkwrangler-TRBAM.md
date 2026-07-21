@@ -7,7 +7,7 @@ day: Sunday, January 8, 2023
 time: 1:30 PM - 3:00 PM EST
 place: Marriott Marquis, Salon 14 (Level M2)
 ---
-The [GMNS](https://zephyrtransport.org/projects/2-network-standard-and-tools/) and [Network Wrangler](https://wsp-sag.github.io/network_wrangler/) teams are having a meet-up at TRB and would love for you to join us. Network Wrangler has emerged as a compelling use case for GMNS and it may be that coordinating these two efforts moving forward will maximize community benefit.
+The [GMNS](https://zephyrtransport.org/programs/network-standard-and-tools/) and [Network Wrangler](https://wsp-sag.github.io/network_wrangler/) teams are having a meet-up at TRB and would love for you to join us. Network Wrangler has emerged as a compelling use case for GMNS and it may be that coordinating these two efforts moving forward will maximize community benefit.
 
 ## Draft Agenda
 

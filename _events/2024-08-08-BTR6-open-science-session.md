@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning
+category: Learning Session
 title: BTR6 Session 11 - Advancing Open Science (Special Session)
 type: Conference Session
 day: Thursday, August 8, 2024
