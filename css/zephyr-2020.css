@@ -474,6 +474,10 @@ a.z-zephyr-name {
   margin: 0;
 }
 
+.z-note-callout p + p {
+  margin-top: 0.75rem;
+}
+
 .z-inline-photo {
   float: right;
   margin: 5px 0 1rem 1.5rem;
@@ -1143,6 +1147,15 @@ footer a:hover {
   pointer-events: none;
 }
 
+.z-empty-state {
+  display: inline-block;
+  background: #eef0f2;
+  border: 1px solid var(--z-border-gray);
+  color: #55595f;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+}
+
 .z-calendar-empty-overlay {
   position: absolute;
   inset: 0;
@@ -1154,10 +1167,15 @@ footer a:hover {
 .z-calendar-empty-content {
   text-align: center;
   pointer-events: auto;
+  background: #fff;
+  border: 1px solid var(--z-border-gray);
+  padding: 1.25rem 1.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgba(23, 23, 52, 0.15);
 }
 
 .z-calendar-empty-msg {
-  color: #8a8f98;
+  color: #55595f;
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
 }

@@ -11,5 +11,5 @@
         {% endif %}
     {% endfor %}
 {% else %}
-    <p><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
+    <p class="z-empty-state"><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
 {% endif %}

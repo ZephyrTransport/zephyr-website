@@ -24,13 +24,11 @@ Our goal is to keep the barrier to participation as low as possible. Whether you
 
 Looking for a live conversation? Visit the **Zephyr Lounge** for voice and video meetups.
 
-<div class="z-note-callout" markdown="1">
-**Heads up:** Entering the Zephyr Lounge automatically joins your audio. There isn't a separate "Join Call" button, so mute your microphone (or be ready to say hello) before entering.
-</div>
-
 For the best experience, we recommend [**installing the Discord desktop or mobile app**](https://discord.com/download) so you can stay connected wherever you are.
 
 <div class="z-note-callout" markdown="1">
+**Zephyr Lounge:** entering the channel automatically joins your audio. There isn't a separate "Join Call" button, so mute your microphone (or be ready to say hello) before entering.
+
 **Before you join:** Access requires administrator approval, and members are expected to use their real names. Zephyr reserves the right to manage membership and establish community guidelines to maintain a welcoming and professional environment.
 </div>
 
