@@ -5,7 +5,7 @@ section: About
 permalink: /about/leadership/
 ---
 
-Zephyr is led by a volunteer Board of Directors and supported by an engaged community of leaders who helped establish and continue to advance the Foundation.
+Zephyr is led by a volunteer Board of Directors and an Executive Director, with day-to-day programs carried out by member-driven [committees]({{ '/about/committees' | relative_url }}).
 
 ### Board of Directors
 {: #board}
