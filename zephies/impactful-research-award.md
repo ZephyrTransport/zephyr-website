@@ -31,7 +31,5 @@ Received the award on the behalf of the project team:
 
 - 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
 - 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team
-- 2022: The award was not given this year
 - 2023: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)
-- 2024: The award was not given this year
 - 2025: [R5 Team](https://github.com/conveyal/r5)

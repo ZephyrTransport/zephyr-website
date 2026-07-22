@@ -1184,6 +1184,8 @@ footer a:hover {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 600;
+  color: var(--z-blue-dark);
 }
 
 .z-calendar-event-chip-recurring {
