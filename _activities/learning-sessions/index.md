@@ -15,6 +15,6 @@ Periodic online sessions sharing practical travel-modeling knowledge with the Ze
 
 ## Upcoming Sessions
 
-{% include upcoming-events.html category="Learning Session" count=3 empty_message="No upcoming learning sessions scheduled right now." %}
+{% include upcoming-events.html format="Learning Session" count=3 empty_message="No upcoming learning sessions scheduled right now." %}
 
 More info coming soon — [contact us](mailto:info@zephyrtransport.org) if you'd like to get involved.

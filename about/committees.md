@@ -19,103 +19,146 @@ Within each committee, volunteers typically serve in functional roles based on t
 
 ### Membership Committee
 
-**Responsibilities**
+Recruits and onboards new members, improves retention, develops member benefits, supports students and early-career professionals, and recommends strategies for membership growth.
 
-- Recruit new members
-- Welcome and onboard members
-- Improve member retention
-- Develop member benefits
-- Support students and early-career professionals
-- Recommend membership growth strategies
-
-**Functional Roles**
-
-- **New Member Ambassador** &ndash; Welcomes and helps onboard new members.
-- **Student & University Liaison** &ndash; Builds relationships with universities and student organizations.
-- **Membership Outreach Coordinator** &ndash; Promotes Zephyr and recruits prospective members.
-- **Member Experience Coordinator** &ndash; Gathers feedback and recommends improvements.
-- **Membership Data Analyst** &ndash; Tracks membership trends and evaluates recruitment and retention efforts.
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>New Member Ambassador</strong>
+        <p>Welcomes and helps onboard new members.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Student & University Liaison</strong>
+        <p>Builds relationships with universities and student organizations.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Membership Outreach Coordinator</strong>
+        <p>Promotes Zephyr and recruits prospective members.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Member Experience Coordinator</strong>
+        <p>Gathers feedback and recommends improvements.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Membership Data Analyst</strong>
+        <p>Tracks membership trends and evaluates recruitment and retention efforts.</p>
+    </div></div>
+</div>
 
 ---
 
 ### Community Engagement Committee
 
-**Responsibilities**
+Organizes webinars, workshops, and networking events, plans conference meetups, fosters engagement in the Zephyr Phorum, supports mentoring and peer learning, and encourages year-round participation.
 
-- Organize webinars and workshops
-- Coordinate networking events
-- Plan conference meetups
-- Foster engagement in the Zephyr Phorum
-- Support mentoring and peer learning
-- Encourage year-round participation
-
-**Functional Roles**
-
-- **Events Coordinator** &ndash; Plans webinars, workshops, and networking events.
-- **Conference Liaison** &ndash; Coordinates conference meetups and special events.
-- **Phorum Community Moderator** &ndash; Welcomes members, encourages discussions, and supports online engagement.
-- **Speaker & Partnerships Coordinator** &ndash; Recruits presenters and partner organizations.
-- **Mentorship Coordinator** &ndash; Develops mentoring and peer-learning initiatives.
-- **Volunteer Coordinator** &ndash; Matches members with volunteer opportunities across Zephyr.
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Events Coordinator</strong>
+        <p>Plans webinars, workshops, and networking events.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Conference Liaison</strong>
+        <p>Coordinates conference meetups and special events.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Phorum Community Moderator</strong>
+        <p>Welcomes members, encourages discussions, and supports online engagement.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Speaker & Partnerships Coordinator</strong>
+        <p>Recruits presenters and partner organizations.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Mentorship Coordinator</strong>
+        <p>Develops mentoring and peer-learning initiatives.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Volunteer Coordinator</strong>
+        <p>Matches members with volunteer opportunities across Zephyr.</p>
+    </div></div>
+</div>
 
 ---
 
 ### Communications Committee
 
-**Responsibilities**
+Maintains the website, publishes newsletters, manages social media, promotes events and membership, develops marketing materials, and maintains Zephyr's branding.
 
-- Maintain the website
-- Publish newsletters
-- Manage social media
-- Promote events and membership
-- Develop marketing materials
-- Maintain branding
-
-**Functional Roles**
-
-- **Website Coordinator** &ndash; Maintains website content.
-- **Newsletter Editor** &ndash; Produces member newsletters.
-- **Social Media Coordinator** &ndash; Manages social media and community outreach.
-- **Graphic Design & Branding Lead** &ndash; Creates graphics and maintains Zephyr's visual identity.
-- **Content Writer** &ndash; Develops articles, announcements, and member spotlights.
-- **Media & Public Relations Coordinator** &ndash; Builds awareness of Zephyr within the profession.
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Website Coordinator</strong>
+        <p>Maintains website content.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Newsletter Editor</strong>
+        <p>Produces member newsletters.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Social Media Coordinator</strong>
+        <p>Manages social media and community outreach.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Graphic Design & Branding Lead</strong>
+        <p>Creates graphics and maintains Zephyr's visual identity.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Content Writer</strong>
+        <p>Develops articles, announcements, and member spotlights.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Media & Public Relations Coordinator</strong>
+        <p>Builds awareness of Zephyr within the profession.</p>
+    </div></div>
+</div>
 
 ---
 
 ### Awards Committee
 
-**Responsibilities**
+Solicits and evaluates nominations, recommends recipients, coordinates award recognition, and works to improve the awards program.
 
-- Solicit nominations
-- Evaluate nominations
-- Recommend recipients
-- Coordinate award recognition
-- Improve the awards program
-
-**Functional Roles**
-
-- **Awards Program Coordinator** &ndash; Manages the annual awards cycle.
-- **Nominations Coordinator** &ndash; Organizes the nomination process.
-- **Awards Reviewer** &ndash; Evaluates nominations.
-- **Recognition Coordinator** &ndash; Assists with award announcements and presentations.
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Awards Program Coordinator</strong>
+        <p>Manages the annual awards cycle.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Nominations Coordinator</strong>
+        <p>Organizes the nomination process.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Awards Reviewer</strong>
+        <p>Evaluates nominations.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Recognition Coordinator</strong>
+        <p>Assists with award announcements and presentations.</p>
+    </div></div>
+</div>
 
 ---
 
 ### Nominations & Elections Committee
 
-**Responsibilities**
+Recruits board candidates, conducts elections, ensures transparent election procedures, and supports leadership succession.
 
-- Recruit board candidates
-- Conduct elections
-- Ensure transparent election procedures
-- Support leadership succession
-
-**Functional Roles**
-
-- **Candidate Outreach Coordinator** &ndash; Recruits future leaders.
-- **Election Administrator** &ndash; Oversees election logistics.
-- **Governance Advisor** &ndash; Reviews governance practices and recommends improvements.
-- **Board Development Coordinator** &ndash; Identifies and develops future volunteer leaders.
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Candidate Outreach Coordinator</strong>
+        <p>Recruits future leaders.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Election Administrator</strong>
+        <p>Oversees election logistics.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Governance Advisor</strong>
+        <p>Reviews governance practices and recommends improvements.</p>
+    </div></div>
+    <div class="col"><div class="z-name-tile z-committee-tile">
+        <strong>Board Development Coordinator</strong>
+        <p>Identifies and develops future volunteer leaders.</p>
+    </div></div>
+</div>
 
 ---
 

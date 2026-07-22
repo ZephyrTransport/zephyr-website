@@ -17,7 +17,7 @@ MoMo is organized by an all-volunteer group of transportation professionals from
 
 ## Next Conference
 
-{% include upcoming-events.html category="Conference" count=1 eyebrow="Next MoMo Conference" empty_message="No upcoming MoMo conference dates announced yet." %}
+{% include upcoming-events.html format="Conference" count=1 eyebrow="Next MoMo Conference" empty_message="No upcoming MoMo conference dates announced yet." %}
 
 A call for abstracts for MoMo 2027 will be announced later in 2026.
 
