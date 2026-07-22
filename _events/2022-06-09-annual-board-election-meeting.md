@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: Board
 title: "Zephyr Annual Board Election Meeting"
 day: Thursday, June 9, 2022
 time: 2:00PM - 3:30PM ET / 11:00AM - 12:30PM PT

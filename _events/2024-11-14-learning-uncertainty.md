@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: DMDU
 title: Learning Session - Long-Range Travel Demand Forecasting Under Deep Uncertainty 
 day: Thursday, November 14, 2024
 time: 12:00 - 1:00 PM ET / 9:00 - 10:00 AM PT

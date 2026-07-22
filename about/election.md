@@ -8,7 +8,7 @@ unlisted: true
 
 Zephyr is having an election to fill vacancies on its <a href="{{ '/about/leadership/#board' | relative_url }}">Board</a>. The Board is charged with determining the projects and direction for Zephyr, the composition of project management groups, and maintaining the core organization.  We are seeking [nominations](https://forms.gle/EXcjPDSzYPyuQoHr8) to fill **three** open seats.
 
-Zephyr is a non-profit organization and depends on its Board and members for literally everything we do. We are looking for board members who are eager to help advance our mission: to advance transportation and land use planning and decision-making for the public good by facilitating improved data development, analysis, and modeling through community building, education, and shared standards.
+Zephyr is a non-profit organization and depends on its Board and members for literally everything we do. We are looking for board members who are eager to help advance our mission: to advance rigorous transportation and land use planning and decision-making for the public good by facilitating improved data development, analysis, and modeling through community building, education, and standards.
 
 ## Become a member to vote
 

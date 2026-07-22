@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: General Membership
 title: "Zephyr Member Meeting"
 day: Wednesday, March 24, 2021
 time: 4:30-5:30PM EDT / 1:30-2:30 PDT

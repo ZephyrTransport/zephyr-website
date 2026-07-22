@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: DMDU
 title: "International Perspectives on Uncertainty Planning"
 day: Thursday, November 19, 2026
 time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT

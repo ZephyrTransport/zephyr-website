@@ -19,7 +19,9 @@ permalink: /about/mission/
 
             <hr class="sub-section-heading-spacer">
             <h3>Vision</h3>
-            <p class="z-vision-text">{{ site.vision }}</p>
+            {% for paragraph in site.vision %}
+            <p class="z-vision-text">{{ paragraph }}</p>
+            {% endfor %}
 
             <hr class="sub-section-heading-spacer">
             <h3>Values</h3>

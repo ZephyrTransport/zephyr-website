@@ -1,6 +1,8 @@
 ---
 layout: event
-category: Reception
+format: Reception
+occasion: TRB Annual Meeting
+category: General Membership
 title: Annual Zephyr Reception
 day: Tuesday, January 13, 2026
 time: 8:00 - 10:00 PM EST

@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+occasion: TRB Annual Meeting
 title: Zephyr Planning Session
 day: Tuesday, January 7, 2025
 time: 12:00 PM - 1:30 PM EST

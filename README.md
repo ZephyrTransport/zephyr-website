@@ -14,8 +14,8 @@ The `Gemfile` pins the `github-pages` gem so the local build matches GitHub's pr
 
 ## Site structure
 
-Top-level content lives in lowercase folders, one per section: `about/`, `zephies/`, `events/`, `programs/`, `donate/`, `membership/`. Every page pins its own URL with a `permalink:` front-matter key, so folder/file names are just organization — moving or renaming a file never changes its URL as long as the `permalink:` moves with it.
+Top-level content lives in lowercase folders, one per section: `about/`, `zephies/`, `events/`, `activities/`, `donate/`, `membership/`. Every page pins its own URL with a `permalink:` front-matter key, so folder/file names are just organization — moving or renaming a file never changes its URL as long as the `permalink:` moves with it.
 
-`_programs/` is a Jekyll collection: one subfolder per program (e.g. `_programs/travel-model-improvement-program/`), with that folder's `index.md` as the program's "tile" page. `programs/index.html` builds the grid on `/programs/` by selecting collection docs whose path ends in `/index.*` (so sub-pages like FAQs or archives don't get their own tile) and sorting by each page's `order:` front-matter value — reorder tiles by editing that number, not by renaming folders.
+`_activities/` is a Jekyll collection: one subfolder per activity (e.g. `_activities/travel-model-improvement-program/`), with that folder's `index.md` as the activity's "tile" page. `activities/index.html` builds the grid on `/activities/` by selecting collection docs whose path ends in `/index.*` (so sub-pages like FAQs or archives don't get their own tile) and sorting by each page's `order:` front-matter value — reorder tiles by editing that number, not by renaming folders.
 
 `archive/` holds retired content excluded from the build (see `exclude:` in `_config.yml`) — kept for history, not published.

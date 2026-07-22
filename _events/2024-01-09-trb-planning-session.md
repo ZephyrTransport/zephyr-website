@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+occasion: TRB Annual Meeting
 title: Zephyr Planning Session
 day: Tuesday, January 9, 2024
 time: 12:00 - 1:30 PM EST

@@ -1,0 +1,86 @@
+---
+layout: project
+title: Activities
+img: bike-bridge.png
+hero-gap: 4rem
+---
+
+{% assign programs_list = site.activities | where_exp: "program", "program.path contains '/index.'" | sort: "order" %}
+
+{% assign pillars = site.activity_pillars %}
+
+<div class="z-event-filter-bar mt-5 mb-4" id="programs-filter-bar" role="group" aria-label="Filter activities by pillar">
+    <button type="button" class="z-event-filter-btn active" data-filter="all">All</button>
+    {% for pillar in pillars %}
+        <button type="button" class="z-event-filter-btn" id="filter-{{ pillar.key }}" data-filter="{{ pillar.key }}">{{ pillar.title }}</button>
+    {% endfor %}
+</div>
+
+<p class="z-programs-intro" data-filter-text="all">Zephyr's activities and projects span {{ pillars.size }} pillars&mdash;{{ pillars | map: "title" | array_to_sentence_string | downcase }}. Filter above to explore each.</p>
+{% for pillar in pillars %}
+    <p class="z-programs-intro d-none" data-filter-text="{{ pillar.key }}">{{ pillar.intro }}</p>
+{% endfor %}
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 z-programs-list">
+    {% for program in programs_list %}
+        <div class="col z-program-tile" data-pillars="{{ program.pillars | join: ' ' }}">
+            <div class="card h-100 z-program-card">
+                <div class="card-body text-center position-relative">
+                    {% if program.icon != 'none' %}
+                        <div class="z-program-card-icon mb-3">
+                        {% if program.icon contains '.' %}
+                            <img src="{{ '/img/' | append: program.icon | relative_url }}" width="80px" alt=""/>
+                        {% else %}
+                            <i aria-hidden="true" class="fa {{ program.icon }} fa-3x"></i>
+                        {% endif %}
+                        </div>
+                    {% endif %}
+                    <div class="z-program-card-title-wrap mb-2">
+                        <h3 class="card-title h5"><a href="{{ site.baseurl }}{{ program.url }}" class="stretched-link">{{ program.title }}</a></h3>
+                    </div>
+                    <p class="card-text">{{ program.description }}</p>
+                    <p class="z-program-card-hint">Click for details</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var buttons = document.querySelectorAll('#programs-filter-bar .z-event-filter-btn');
+    var tiles = document.querySelectorAll('.z-program-tile');
+    var intros = document.querySelectorAll('.z-programs-intro');
+
+    function applyFilter(filter) {
+        tiles.forEach(function (tile) {
+            var pillars = tile.getAttribute('data-pillars').split(' ');
+            var match = filter === 'all' || pillars.indexOf(filter) !== -1;
+            tile.style.display = match ? '' : 'none';
+        });
+
+        intros.forEach(function (p) {
+            p.classList.toggle('d-none', p.getAttribute('data-filter-text') !== filter);
+        });
+    }
+
+    function activate(btn) {
+        buttons.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        applyFilter(btn.getAttribute('data-filter'));
+    }
+
+    buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () { activate(btn); });
+    });
+
+    var hash = window.location.hash.replace('#', '');
+    var initialBtn = hash ? document.getElementById('filter-' + hash) : null;
+
+    if (initialBtn) {
+        activate(initialBtn);
+    }
+});
+</script>
+
+{% include home-link.html %}

@@ -29,13 +29,10 @@ Donate right now using a credit card. Just select a donation level below. We use
   {% endfor %}
 </div>
 
-<br/>
-*Thanks so much for considering support of the Zephyr Foundation!*
-
 ---
 
 ### Become a Leadership Circle Sponsor
-Contribute major support to help the Foundation build for our shared future by joining the Leadership Circle.  Admission is available on a first-come-first-served basis at two tiers.
+Contribute major support to help the Foundation build for our shared future by joining the Leadership Circle.  Admission is available at two tiers.
 
 <div class="row row-cols-1 row-cols-sm-2 g-3 z-sponsorship-tiles">
     {% for tier in site.sponsorship_tiers %}
@@ -49,6 +46,10 @@ Contribute major support to help the Foundation build for our shared future by j
 
 <br/>
 To become a member of the Leadership Circle, contact a board member or [sponsorships@zephyrtransport.org](mailto:sponsorships@zephyrtransport.org).
+
+---
+
+*Thanks so much for considering support of the Zephyr Foundation!*
 
 <!-- wake up. heroku server! -->
 <img src="{{site.post_url}}wakeup" style="display:none">

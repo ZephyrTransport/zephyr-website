@@ -8,9 +8,10 @@
                 <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
                     <div class="z-event-hero">
-                        {% if page.category or page.type %}
+                        {% if page.category or page.occasion or page.type %}
                         <div class="z-event-badges">
                             {% if page.category %}<span class="z-event-badge z-event-badge-static">{{ page.category }}</span>{% endif %}
+                            {% if page.occasion %}<span class="z-event-badge z-event-badge-static">{{ page.occasion }}</span>{% endif %}
                             {% if page.type %}<span class="z-event-badge z-event-badge-alt z-event-badge-static">{{ page.type }}</span>{% endif %}
                         </div>
                         {% endif %}

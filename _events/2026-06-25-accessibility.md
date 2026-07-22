@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: GMNS
 title: "GMNS Learning Session: Multimodal Accessibility"
 day: Thursday, June 25, 2026
 time: 2:00 PM - 3:00 PM EDT
@@ -14,7 +15,7 @@ place: <a href='https://youtu.be/g1abCC_ygjw'>Recording</a> - <a href='https://d
 
 This session featured insights from leading researchers and practitioners who are actively using the General Modeling Network Specification (GMNS) to develop standardized data formats for modeling transportation networks across different software platforms and regions.
 
-GMNS enables seamless integration of tools, datasets, and workflows in travel demand modeling, while also supporting collaboration across disciplines. It provides a uniform, open, and extensible format for sharing routable network data that is both human-readable and machine-readable. Read more https://zephyrtransport.org/programs/network-standard-and-tools/
+GMNS enables seamless integration of tools, datasets, and workflows in travel demand modeling, while also supporting collaboration across disciplines. It provides a uniform, open, and extensible format for sharing routable network data that is both human-readable and machine-readable. Read more https://zephyrtransport.org/activities/network-standard-and-tools/
 
 <h3>Session Topic</h3>
 

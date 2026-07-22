@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: General Membership
 title: "Zephyr Member Meeting and Zephyr Awards"
 day: Thursday, March 10, 2022
 time: 3:00-4:00PM ET / 12:00PM - 1:00PM PT

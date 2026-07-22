@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: DMDU
 title: A system dynamics perspective for transportation planning under uncertainty
 img: /img/2020-05-27-CausalDiagram.png
 time: 3:00-4:30 PM EDT/12:00-1:30 PM PDT

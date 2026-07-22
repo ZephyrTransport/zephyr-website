@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Conference
+format: Conference
+occasion: TRB Annual Meeting
 title: TRB Innovations in Travel Analysis and Planning Conference
 day: June 4-6, 2023
 place: Indianapolis, Indiana

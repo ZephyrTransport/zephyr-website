@@ -4,110 +4,12 @@ title: Zephyr
 subTitle: Advancing Travel Analysis to Improve Society
 ---
 
-<style>
-.hero-home{
-    position:relative;
-    min-height:520px;
-    display:flex;
-    align-items:flex-end;
-    margin-top:-20px;
-    text-align:left;
-}
-
-.hero-home::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:linear-gradient(
-        to bottom,
-        rgba(20,30,45,.05),
-        rgba(20,30,45,.15),
-        rgba(20,30,45,.55)
-    );
-}
-
-.hero-home-content{
-    position:relative;
-    z-index:2;
-    color:#fff;
-    padding:5rem 0;
-}
-
-.hero-home h1{
-    color:#fff;
-    font-size:4rem;
-    margin-bottom:1rem;
-}
-
-.hero-home p{
-    font-size:1.6rem;
-    max-width:760px;
-    line-height:1.6;
-}
-
-.home-section{
-    padding:2rem 0;
-}
-
-.membership-callout{
-    background:#eaf8fb;
-    border-left:5px solid #0da5d3;
-    border-radius:6px;
-    padding:3rem;
-}
-
-.focus-pillar{
-    background:#fff;
-    border:1px solid #e6e6e6;
-    border-radius:6px;
-    padding:2rem;
-    height:100%;
-    text-align:center;
-}
-
-.focus-pillar-icon{
-    width:64px;
-    height:64px;
-    border-radius:50%;
-    background:#eaf8fb;
-    color:#0da5d3;
-    font-size:1.7rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:0 auto 1rem;
-}
-
-.focus-pillar h3{
-    font-size:1.4rem;
-    margin-bottom:0.75rem;
-}
-
-.focus-pillar p{
-    font-size:1.05rem;
-    line-height:1.5;
-}
-
-
-@media (max-width: 576px){
-    .hero-home{
-        margin-top:0;
-        min-height:420px;
-    }
-
-    .hero-home-content{
-        padding:7rem 0 3rem;
-    }
-
-    .hero-home h1{
-        font-size:2.1rem;
-    }
-
-    .hero-home p{
-        font-size:1.1rem;
-    }
-}
-</style>
+<section class="z-member-banner">
+    <div class="container">
+        <p><strong>Become a Member</strong> &mdash; vote in board elections, save on events, and help shape Zephyr's future.</p>
+        <a class="btn btn-z" href="{{ '/membership' | relative_url }}">Join Zephyr</a>
+    </div>
+</section>
 
 <section id="home">
     <div class="intro-header hero-home">
@@ -141,69 +43,33 @@ subTitle: Advancing Travel Analysis to Improve Society
 
     <div class="row g-4">
 
+        {% assign pillar_community = site.activity_pillars | where: "key", "community" | first %}
         <div class="col-md-4">
             <div class="focus-pillar">
-                <div class="focus-pillar-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
-                <h3>Community</h3>
-                <p>
-                    Connecting practitioners, researchers, and agencies across
-                    academia, public agencies, consultancies, and technology
-                    vendors who share a stake in better travel analysis.
-                </p>
-                <p><a href="{{ '/programs/#community' | relative_url }}">Explore Community Programs &raquo;</a></p>
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_community.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_community.title }}</h3>
+                <p>{{ pillar_community.intro }}</p>
+                <p><a href="{{ '/activities/#community' | relative_url }}">Explore Community Activities &raquo;</a></p>
             </div>
         </div>
 
+        {% assign pillar_education = site.activity_pillars | where: "key", "education" | first %}
         <div class="col-md-4">
             <div class="focus-pillar">
-                <div class="focus-pillar-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
-                <h3>Education</h3>
-                <p>
-                    Webinars, conferences, and working sessions&mdash;like
-                    TMIP webinars, the MoMo conference, and DMDU
-                    workshops&mdash;share practical travel-modeling
-                    knowledge and keep the community current on emerging
-                    methods.
-                </p>
-                <p><a href="{{ '/programs/#education' | relative_url }}">Explore Education Programs &raquo;</a></p>
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_education.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_education.title }}</h3>
+                <p>{{ pillar_education.intro }}</p>
+                <p><a href="{{ '/activities/#education' | relative_url }}">Explore Education Activities &raquo;</a></p>
             </div>
         </div>
 
+        {% assign pillar_standards = site.activity_pillars | where: "key", "standards" | first %}
         <div class="col-md-4">
             <div class="focus-pillar">
-                <div class="focus-pillar-icon"><i class="fa-solid fa-ruler-combined" aria-hidden="true"></i></div>
-                <h3>Standards</h3>
-                <p>
-                    Shared data standards and open-source tools&mdash;like
-                    GTFS-Ride, GMNS, and software badging&mdash;that make
-                    travel analysis more transparent and reproducible.
-                </p>
-                <p><a href="{{ '/programs/#standards' | relative_url }}">Explore Standards Programs &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="home-section">
-
-    <div class="membership-callout">
-
-        <div class="row align-items-center">
-            <div class="col-md-8">
-                <h2>Become a Member</h2>
-                <p>
-                    Membership funds Zephyr's work and gives you a vote in
-                    Board elections, discounted event registration, and a
-                    seat on project committees shaping the future of travel
-                    analysis.
-                </p>
-            </div>
-            <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                <a class="btn btn-z btn-lg" href="{{ '/membership' | relative_url }}">
-                    Join Zephyr
-                </a>
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_standards.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_standards.title }}</h3>
+                <p>{{ pillar_standards.intro }}</p>
+                <p><a href="{{ '/activities/#standards' | relative_url }}">Explore Standards Activities &raquo;</a></p>
             </div>
         </div>
 

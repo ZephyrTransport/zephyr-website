@@ -1,8 +1,8 @@
 ---
 layout: event
-category: TRB
+occasion: TRB Annual Meeting
 title: "Exhibitor at TRB Planning Applications Conference"
-type: Meeting
+format: Meeting
 day: Sunday, June 2 - Wednesday, June 5
 place: Hilton Portland Downtown
 registration: https://www.trbappcon.org/

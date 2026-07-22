@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: Board
 title: Zephyr Board Election Meeting
 day: Tuesday, January 28, 2025
 time: 4:00 PM - 5:00 PM EST

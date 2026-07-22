@@ -1,7 +1,9 @@
 ---
 layout: event
 img: /img/bay-sky-night.jpg
-category: TRB
+format: Workshop
+occasion: TRB Annual Meeting
+category: General Membership
 title: Zephyr's First Year
 type: A TRB Workshop by Zephyr
 time: 12:30 - 2:30 PM

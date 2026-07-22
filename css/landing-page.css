@@ -76,18 +76,13 @@ a {
   font-size: 85%;
 }
 
-.caption {
-  font-size: 14px;
-  color: #f8f8f8;
-}
-
 .btn-z {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   color: white;
-  background: #0daee1;
+  background: var(--z-btn-blue);
   border: none;
   border-radius: 0.4rem;
   letter-spacing: 1.5px;
@@ -98,7 +93,7 @@ a {
 
 .btn-z:hover,
 .btn-z:focus {
-  background: #0b93c2;
+  background: var(--z-btn-blue-hover);
   color: white;
   box-shadow: 0 4px 14px rgba(13, 174, 225, 0.45);
 }
@@ -211,29 +206,8 @@ a.z-event-badge:hover {
   font-weight: 400;
 }
 
-.highlight-text-block {
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #2f4f4f;
-  background: #fafafa;
-  background-size: cover;
-}
-
 .highlight-text {
   color: #0daee1;
-}
-
-.gray-text {
-  color: #d3d3d3;
-}
-
-.sidebar {
-  padding-top: 15px;
 }
 
 .intro-header {
@@ -280,12 +254,6 @@ a.z-event-badge:hover {
   font-size: 5em;
 }
 
-.intro-divider {
-  width: 400px;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 .intro-message > h3 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
@@ -301,34 +269,10 @@ a.z-event-badge:hover {
     font-size: 3em;
   }
 
-  ul.intro-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
-  }
-
-  .intro-divider {
-    width: 100%;
-  }
-
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
-  }
-
-  ul.banner-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0;
   }
 
   /* chrome mobile is placing nav button wrongly
@@ -337,49 +281,8 @@ a.z-event-badge:hover {
     } */
 }
 
-.network-name {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.content-section-a {
-  padding: 10px 10px;
-  /* background-color: #f8f8f8; */
-}
-
-.content-section-b {
-  padding: 10px 10px;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-}
-
-.section-divider {
-  border-top: 2px solid #00aced;
-}
-
 .section-heading {
   margin-bottom: 30px;
-}
-
-.project-heading-spacer-left {
-  float: left;
-  width: 200px;
-  border-top: 3px solid #00aced;
-}
-
-.project-heading-spacer-right {
-  float: right;
-  width: 200px;
-  border-top: 3px solid #00aced;
-}
-
-.section-heading-spacer-center {
-  float: center;
-  width: 300px;
-  border-top: 3px solid #e7e7e7;
-  padding: 20px 20px 20px 20px;
 }
 
 .sub-section-heading-spacer {
@@ -397,12 +300,6 @@ a.z-event-badge:hover {
   background-size: cover;
 }
 
-.discuss-banner {
-  padding: 40px 0;
-  color: #c0c0c0;
-  background-size: cover;
-}
-
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -410,26 +307,8 @@ a.z-event-badge:hover {
   text-align: left;
 }
 
-.discuss-banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
-  text-align: right;
-}
-
 .banner ul {
   margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  width: 100%;
-}
-
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    float: right;
-    margin-top: 15px;
-  }
 }
 
 footer {
@@ -548,10 +427,6 @@ td {
   padding: 10px;
 }
 
-.terms-form {
-  display: none;
-}
-
 #home-simple {
   font-family: "Manrope", sans-serif;
   padding-top: 140px;
@@ -560,5 +435,3 @@ td {
   position: relative;
 }
 
-.holds-the-slack-iframe {
-}

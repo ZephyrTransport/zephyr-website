@@ -1,11 +1,11 @@
 ---
 layout: event
 img:
-category: TRB
+occasion: TRB Annual Meeting
 title: Open Science PMG Meeting
-type: Meeting
+format: Meeting
 time: 3:30 PM - 5:00 PM
 place: Marriott Marquis Washington DC <br>(Eastern Market M3)
-additional-msg: <a href='/programs/open-science/'>Open Science Project page</a>
+additional-msg: <a href='/activities/open-science/'>Open Science Project page</a>
 summary: "<i>Full meeting minutes will be posted to project page upon review by the PMG.</i>"
 ---

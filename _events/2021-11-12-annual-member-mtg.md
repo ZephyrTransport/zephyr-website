@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: General Membership
 title: "Zephyr Member Meeting and Board Election"
 day: Friday, November 12, 2021
 time: 2:00-3:00PM ET / 11:00AM - 12:00PM PT

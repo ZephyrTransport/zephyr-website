@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Conference
+format: Conference
+category: MoMo
 title: "MoMo 2025: Modeling Mobility Conference"
 day: September 14-17, 2025
 place: Minneapolis, Minnesota

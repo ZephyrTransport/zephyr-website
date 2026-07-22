@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Events"
-subTitle: "All events, past and present"
+subTitle: "All events, past and present, as well as meetings and recurring series"
 img: bike-thumb.png
 latest-update: ""
 ---
@@ -9,98 +9,320 @@ latest-update: ""
 {% include next-event.html %}
 
 <p>
-    Explore past and upcoming events where Zephyr has sponsored, organized, or participated.
+    Explore past and upcoming events where Zephyr has sponsored, organized, or participated, including recurring Board, Committee, and activity meetings.
 </p>
 
 <p>Planning an event where Zephyr could contribute? We'd love to hear from you&mdash;contact us using the information at the bottom of the page.
 </p>
 
-<p><a href="{{ '/events/calendar' | relative_url }}">View as Calendar &raquo;</a></p>
-
 <hr/>
 
-{% assign categories = site.events | map: 'category' | uniq | sort %}
+{% comment %} Category list includes each item's primary `category` plus any `also_categories`. {% endcomment %}
+{% assign categories = "" | split: "" %}
+{% for e in site.events %}
+    {% if e.category %}
+        {% unless categories contains e.category %}
+            {% assign categories = categories | push: e.category %}
+        {% endunless %}
+    {% endif %}
+    {% for c in e.also_categories %}
+        {% unless categories contains c %}
+            {% assign categories = categories | push: c %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+{% for m in site.events-recurring %}
+    {% if m.category %}
+        {% unless categories contains m.category %}
+            {% assign categories = categories | push: m.category %}
+        {% endunless %}
+    {% endif %}
+    {% for c in m.also_categories %}
+        {% unless categories contains c %}
+            {% assign categories = categories | push: c %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+{% assign categories = categories | sort %}
 
-<div class="z-event-filter-bar" role="group" aria-label="Filter events by category">
-    <button type="button" class="z-event-filter-btn active" data-filter="all">All</button>
-    {% for cat in categories %}
-        {% if cat %}
-            <button type="button" class="z-event-filter-btn" data-filter="{{ cat }}">{{ cat }}</button>
+{% comment %} Format list -- what kind of gathering (Reception, Meeting, Learning Session, etc). {% endcomment %}
+{% assign formats = "" | split: "" %}
+{% for e in site.events %}
+    {% if e.format %}
+        {% unless formats contains e.format %}
+            {% assign formats = formats | push: e.format %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+{% for m in site.events-recurring %}
+    {% if m.format %}
+        {% unless formats contains m.format %}
+            {% assign formats = formats | push: m.format %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+{% assign formats = formats | sort %}
+
+<div class="z-event-filter-group">
+    <span class="z-event-filter-label">Category</span>
+    <div class="z-event-filter-bar" role="group" aria-label="Filter events by category">
+        <button type="button" class="z-event-filter-btn z-event-category-btn active" data-filter="all">All</button>
+        {% for cat in categories %}
+            {% if cat %}
+                <button type="button" class="z-event-filter-btn z-event-category-btn" data-filter="{{ cat }}">{{ cat }}</button>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="z-event-filter-group" id="z-format-filter-group">
+    <span class="z-event-filter-label">Format</span>
+    <div class="z-event-filter-bar" role="group" aria-label="Filter events by format">
+        <button type="button" class="z-event-filter-btn z-event-format-btn active" data-filter="all">All</button>
+        {% for fmt in formats %}
+            {% if fmt %}
+                <button type="button" class="z-event-filter-btn z-event-format-btn" data-filter="{{ fmt }}">{{ fmt }}</button>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div class="z-event-filter-group">
+    <span class="z-event-filter-label">Recurring</span>
+    <div class="z-event-type-bar" role="group" aria-label="Toggle recurring meetings">
+        <button type="button" class="z-event-type-btn" id="z-hide-recurring-btn" aria-pressed="false"><span class="z-event-type-check">&#10003;</span> Hide Recurring Meetings</button>
+    </div>
+</div>
+
+{% assign this_year = 'now' | date: '%Y' | plus: 0 %}
+{% assign this_month = 'now' | date: '%-m' | plus: 0 %}
+{% assign current_index = this_year | times: 12 | plus: this_month | minus: 1 %}
+
+{% comment %} Range extends to the furthest one-off event... {% endcomment %}
+{% assign future_events = site.events | where_exp: "e", "e.date > site.time" | sort: "date" %}
+{% assign end_index = current_index %}
+{% for e in future_events %}
+    {% assign ey = e.date | date: '%Y' | plus: 0 %}
+    {% assign em = e.date | date: '%-m' | plus: 0 %}
+    {% assign eidx = ey | times: 12 | plus: em | minus: 1 %}
+    {% if eidx > end_index %}
+        {% assign end_index = eidx %}
+    {% endif %}
+{% endfor %}
+
+{% comment %} ...or the furthest recurring series end_date, whichever is later. {% endcomment %}
+{% for series in site.events-recurring %}
+    {% if series.end_date %}
+        {% assign sy = series.end_date | date: '%Y' | plus: 0 %}
+        {% assign sm = series.end_date | date: '%-m' | plus: 0 %}
+        {% assign sidx = sy | times: 12 | plus: sm | minus: 1 %}
+        {% if sidx > end_index %}
+            {% assign end_index = sidx %}
         {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign num_months = end_index | minus: current_index | plus: 1 %}
+{% assign num_months_minus_one = num_months | minus: 1 %}
+
+{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+
+<div class="z-calendar-nav">
+    <button type="button" class="z-calendar-nav-btn" id="z-cal-prev" aria-label="Previous month">&laquo;</button>
+    <select id="z-cal-jump-select" aria-label="Jump to month">
+        {% for offset in (0..num_months_minus_one) %}
+            {% assign idx = current_index | plus: offset %}
+            {% assign yy = idx | divided_by: 12 %}
+            {% assign mi = idx | modulo: 12 %}
+            <option value="{{ offset }}">{{ month_names[mi] }} {{ yy }}</option>
+        {% endfor %}
+    </select>
+    <button type="button" class="z-calendar-nav-btn" id="z-cal-next" aria-label="Next month">&raquo;</button>
+    <button type="button" class="z-calendar-today-btn" id="z-cal-today">Today</button>
+</div>
+
+<div id="z-calendar-months" class="z-calendar-months-wrap">
+    <div class="z-calendar-empty-overlay" id="z-cal-empty-overlay" style="display:none;">
+        <div class="z-calendar-empty-content">
+            <p class="z-calendar-empty-msg" id="z-cal-empty-msg">Nothing scheduled this month.</p>
+            <button type="button" class="z-calendar-today-btn z-calendar-empty-btn" id="z-cal-next-event">Next Event/Meeting &raquo;</button>
+        </div>
+    </div>
+    {% for offset in (0..num_months_minus_one) %}
+        {% assign idx = current_index | plus: offset %}
+        {% assign cy = idx | divided_by: 12 %}
+        {% assign cm = idx | modulo: 12 | plus: 1 %}
+        {% assign is_default = false %}
+        {% if offset == 0 %}
+            {% assign is_default = true %}
+        {% endif %}
+        {% include calendar-month.html year=cy month=cm is_default=is_default %}
     {% endfor %}
 </div>
 
-{% assign earliest_year = site.events_earliest_year | default: 2017 %}
-{% assign this_year = 'now' | date: '%Y' | plus: 0 %}
-{% assign latest_year = this_year | plus: 1 %}
+<h2 class="mt-5">Past Events</h2>
 
-{% for year in (earliest_year..latest_year) reversed %}
-    {% assign stryear = year | append: '' %}
+{% assign past_events = site.events | where_exp: "e", "e.date <= site.time" | sort: "date" | reverse %}
 
-    {% assign year_count = 0 %}
-    {% for post in site.events %}
-        {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
-        {% if postyear contains stryear %}
-            {% assign year_count = year_count | plus: 1 %}
-        {% endif %}
-    {% endfor %}
-
-    {% if year_count > 0 %}
-    {% assign year_is_open = false %}
-    {% if year >= this_year %}{% assign year_is_open = true %}{% endif %}
-    <details class="z-event-year-block" data-year="{{ year }}" data-default-open="{{ year_is_open }}"{% if year_is_open %} open{% endif %}>
-        <summary class="z-event-year">
-            {{year}}
-        </summary>
-
-        <div class="z-events-table">
-
-            {% for post in site.events reversed %}
-                {% capture postyear %}
-                    {{post.date | date: '%Y'}}
-                {% endcapture %}
-                {% if postyear contains stryear %}
-
-                    <div class="z-event-row" data-category="{{ post.category }}">
-                        <div class="z-event-date">
-                            {% if post.day  %}
-                                {%- assign yr = post.date | date: '%Y' -%}
-                                {%- assign yearsuffix = ', ' | append: yr -%}
-                                {{ post.day | remove: yearsuffix }}
-                            {% else %}
-                                {{ post.date | date: "%A, %B %-d" }}
-                            {% endif %}
-                        </div>
-
-                        <div class="z-event-title">
-                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                            <p>{{ post.time }}</p>
-                        </div>
+{% if past_events.size == 0 %}
+    <p><em>No past events yet.</em></p>
+{% else %}
+    {% assign past_year_groups = past_events | group_by_exp: "e", "e.date | date: '%Y'" %}
+    {% for group in past_year_groups %}
+        <details class="z-event-year-block" data-year="{{ group.name }}" data-default-open="{% if forloop.first %}true{% else %}false{% endif %}"{% if forloop.first %} open{% endif %}>
+            <summary class="z-event-year">{{ group.name }}</summary>
+            <div class="z-events-table">
+                {% for ev in group.items %}
+                    {% assign row_type = "event" %}
+                    {% if ev.recurring_series %}
+                        {% assign row_type = "meeting" %}
+                    {% endif %}
+                    {% assign row_cats = ev.also_categories %}
+                    {% if row_cats == nil %}
+                        {% assign row_cats = "" | split: "" %}
+                    {% endif %}
+                    {% assign row_cats = row_cats | push: ev.category | join: "|" %}
+                    <div class="z-event-row" data-category="{{ row_cats }}" data-format="{{ ev.format }}" data-type="{{ row_type }}">
+                        <div class="z-event-date">{{ ev.date | date: "%b %-d, %Y" }}</div>
+                        <div class="z-event-title"><a href="{{ ev.url | relative_url }}">{{ ev.title }}</a></div>
                     </div>
-
-                {% endif %}
-            {% endfor %}
-
-        </div>
-    </details>
-    {% endif %}
-
-{% endfor %}
+                {% endfor %}
+            </div>
+        </details>
+    {% endfor %}
+{% endif %}
 
 <br/><br/><br/><br/>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    var buttons = document.querySelectorAll('.z-event-filter-btn');
-    var rows = document.querySelectorAll('.z-event-row');
-    var yearBlocks = document.querySelectorAll('.z-event-year-block');
+    var categoryButtons = document.querySelectorAll('.z-event-category-btn');
+    var formatButtons = document.querySelectorAll('.z-event-format-btn');
+    var formatFilterGroup = document.getElementById('z-format-filter-group');
+    var hideRecurringBtn = document.getElementById('z-hide-recurring-btn');
+    var activeCategory = 'all';
+    var activeFormat = 'all';
+    var hideRecurring = false;
+    var monthBlocks = Array.prototype.slice.call(document.querySelectorAll('.z-calendar-month'));
+    var jumpSelect = document.getElementById('z-cal-jump-select');
+    var prevBtn = document.getElementById('z-cal-prev');
+    var nextBtn = document.getElementById('z-cal-next');
+    var todayBtn = document.getElementById('z-cal-today');
+    var nextEventBtn = document.getElementById('z-cal-next-event');
+    var emptyOverlay = document.getElementById('z-cal-empty-overlay');
+    var emptyMsg = document.getElementById('z-cal-empty-msg');
 
-    function applyFilter(filter) {
-        rows.forEach(function (row) {
-            var match = filter === 'all' || row.getAttribute('data-category') === filter;
-            row.style.display = match ? 'contents' : 'none';
+    function activeIndex() {
+        for (var i = 0; i < monthBlocks.length; i++) {
+            if (monthBlocks[i].style.display !== 'none') return i;
+        }
+        return 0;
+    }
+
+    function showMonth(index) {
+        if (index < 0 || index >= monthBlocks.length) return;
+        monthBlocks.forEach(function (block, i) {
+            block.style.display = i === index ? '' : 'none';
+        });
+        jumpSelect.value = index;
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === monthBlocks.length - 1;
+        updateNextEventBtnVisibility();
+    }
+
+    function currentFilterLabel() {
+        var parts = [];
+        if (activeFormat !== 'all') parts.push(activeFormat);
+        if (activeCategory !== 'all') parts.push(activeCategory);
+        if (parts.length === 0) return 'events';
+        if (parts.length === 1) return parts[0] + ' events';
+        return 'matching events';
+    }
+
+    function updateNextEventBtnVisibility() {
+        var idx = activeIndex();
+        var block = monthBlocks[idx];
+        var isBlank = !block.querySelector('.z-calendar-day.has-event');
+        block.classList.toggle('z-calendar-month-dimmed', isBlank);
+
+        var nextIdx = -1;
+        if (isBlank) {
+            nextIdx = findNextWithEvents(idx + 1);
+            var label = currentFilterLabel();
+
+            if (nextIdx !== -1) {
+                var nextMonthLabel = monthBlocks[nextIdx].querySelector('.z-event-year').textContent;
+                emptyMsg.textContent = 'No ' + label + ' this month — next one is in ' + nextMonthLabel + '.';
+            } else {
+                var hasPastMatches = Array.prototype.some.call(
+                    document.querySelectorAll('.z-event-row'),
+                    function (row) { return row.style.display !== 'none'; }
+                );
+                emptyMsg.textContent = hasPastMatches
+                    ? 'No upcoming ' + label + ' — see Past Events below.'
+                    : 'No ' + label + ' found.';
+            }
+            emptyOverlay.style.display = 'flex';
+        } else {
+            emptyOverlay.style.display = 'none';
+        }
+
+        nextEventBtn.style.display = nextIdx !== -1 ? '' : 'none';
+    }
+
+    prevBtn.addEventListener('click', function () { showMonth(activeIndex() - 1); });
+    nextBtn.addEventListener('click', function () { showMonth(activeIndex() + 1); });
+    todayBtn.addEventListener('click', function () { showMonth(0); });
+
+    function findNextWithEvents(fromIndex) {
+        for (var i = fromIndex; i < monthBlocks.length; i++) {
+            if (monthBlocks[i].querySelector('.z-calendar-day.has-event')) return i;
+        }
+        return -1;
+    }
+
+    nextEventBtn.addEventListener('click', function () {
+        var idx = findNextWithEvents(activeIndex() + 1);
+        if (idx !== -1) showMonth(idx);
+    });
+
+    jumpSelect.addEventListener('change', function () {
+        showMonth(parseInt(jumpSelect.value, 10));
+    });
+
+    showMonth(0);
+
+    function matches(el) {
+        var cats = (el.getAttribute('data-category') || '').split('|');
+        var categoryOk = activeCategory === 'all' || cats.indexOf(activeCategory) !== -1;
+        var formatOk = activeFormat === 'all' || el.getAttribute('data-format') === activeFormat;
+        var recurringOk = !(hideRecurring && el.getAttribute('data-type') === 'meeting');
+        return categoryOk && formatOk && recurringOk;
+    }
+
+    function updateVisibility() {
+        var isDefault = activeCategory === 'all' && activeFormat === 'all' && !hideRecurring;
+
+        var chips = document.querySelectorAll('.z-calendar-event-chip');
+        chips.forEach(function (chip) {
+            chip.style.display = matches(chip) ? '' : 'none';
         });
 
+        var days = document.querySelectorAll('.z-calendar-day:not(.z-calendar-blank)');
+        days.forEach(function (day) {
+            var visibleChip = Array.prototype.some.call(
+                day.querySelectorAll('.z-calendar-event-chip'),
+                function (chip) { return chip.style.display !== 'none'; }
+            );
+            day.classList.toggle('has-event', visibleChip);
+        });
+
+        var rows = document.querySelectorAll('.z-event-row');
+        rows.forEach(function (row) {
+            row.style.display = matches(row) ? 'contents' : 'none';
+        });
+
+        var yearBlocks = document.querySelectorAll('.z-event-year-block');
         yearBlocks.forEach(function (block) {
             var visible = Array.prototype.some.call(
                 block.querySelectorAll('.z-event-row'),
@@ -108,20 +330,52 @@ document.addEventListener('DOMContentLoaded', function () {
             );
             block.style.display = visible ? '' : 'none';
 
-            if (filter === 'all') {
+            if (isDefault) {
                 block.open = block.getAttribute('data-default-open') === 'true';
             } else if (visible) {
                 block.open = true;
             }
         });
+
+        updateNextEventBtnVisibility();
     }
 
-    buttons.forEach(function (btn) {
+    categoryButtons.forEach(function (btn) {
         btn.addEventListener('click', function () {
-            buttons.forEach(function (b) { b.classList.remove('active'); });
+            categoryButtons.forEach(function (b) { b.classList.remove('active'); });
             btn.classList.add('active');
-            applyFilter(btn.getAttribute('data-filter'));
+            activeCategory = btn.getAttribute('data-filter');
+            updateFormatGroupVisibility();
+            updateVisibility();
         });
+    });
+
+    function updateFormatGroupVisibility() {
+        var showFormat = activeCategory === 'all';
+        formatFilterGroup.style.display = showFormat ? '' : 'none';
+
+        if (!showFormat && activeFormat !== 'all') {
+            activeFormat = 'all';
+            formatButtons.forEach(function (b) {
+                b.classList.toggle('active', b.getAttribute('data-filter') === 'all');
+            });
+        }
+    }
+
+    formatButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            formatButtons.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            activeFormat = btn.getAttribute('data-filter');
+            updateVisibility();
+        });
+    });
+
+    hideRecurringBtn.addEventListener('click', function () {
+        hideRecurring = !hideRecurring;
+        hideRecurringBtn.classList.toggle('active', hideRecurring);
+        hideRecurringBtn.setAttribute('aria-pressed', hideRecurring ? 'true' : 'false');
+        updateVisibility();
     });
 });
 </script>

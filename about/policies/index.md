@@ -7,7 +7,7 @@ permalink: /about/policies/
 
 ## Why a Foundation?
 
-A Foundation offers us the needed flexibility, agility, stability [ of staffing and funding ], and ability to contribute funding from public and private sources on multiple levels.
+A Foundation offers us the needed flexibility, agility, stability, and ability to contribute funding from public and private sources on multiple levels.
 
 ## Governance + Legal
 

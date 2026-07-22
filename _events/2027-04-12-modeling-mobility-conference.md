@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Conference
+format: Conference
+category: MoMo
 title: "MoMo 2027: Modeling Mobility Conference"
 day: April 12-15, 2027
 place: Tempe, Arizona

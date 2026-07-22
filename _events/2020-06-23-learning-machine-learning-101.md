@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
 title: Learning Session – Machine Learning 101
 day: June 23 & 26
 time: Presentations and References Added Below

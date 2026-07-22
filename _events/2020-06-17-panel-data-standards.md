@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
 title: Panel on industry data standards
 type: Panel
 time: 2:00-3:30 PM EDT / 11:00 AM-12:30 PM PDT

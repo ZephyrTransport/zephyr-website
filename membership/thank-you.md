@@ -17,4 +17,4 @@ Thank you so much for joining us. We will get in touch with you soon to go over 
 
 <br style="clear:both" />
 
-Want to get more involved right away? Members can join a [committee]({{ '/about/leadership#committees' | relative_url }}) &mdash; Membership, Communications, or Activities &mdash; no board seat required. Just email [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) to sign up.
+Want to get more involved right away? Members can join a [committee]({{ '/about/committees' | relative_url }}) &mdash; Membership, Communications, or Activities &mdash; no board seat required. Just email [membership@zephyrtransport.org](mailto:membership@zephyrtransport.org) to sign up.

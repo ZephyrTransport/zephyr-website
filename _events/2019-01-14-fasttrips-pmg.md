@@ -1,9 +1,9 @@
 ---
 layout: event
 img:
-category: TRB
+occasion: TRB Annual Meeting
 title: Fast-Trips PMG Meeting
-type: Meeting
+format: Meeting
 time: 10:30 AM - 12:00 PM
 place: Marriott Marquis Washington DC <br>(Eastern Market M3)
 additional-msg: <a href='/projects/6-transit-passenger-assignment/'>Fast-Trips Project page</a>

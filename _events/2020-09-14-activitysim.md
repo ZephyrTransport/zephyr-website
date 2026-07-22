@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: ActivitySim
 title: Learning Session – Introduction to ActivitySim
 time: 10AM-12PM PT / 1-3 PM ET
 place: <a href='https://youtu.be/rWzQQSQHB6c'>Recording</a> – <a href='https://drive.google.com/file/d/13_t5qw9OBGpHsaajHCALxuz9Bw6qMDIQ/view?usp=sharing'>Presentation</a>

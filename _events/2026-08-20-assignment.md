@@ -1,6 +1,7 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: GMNS
 title: "GMNS Learning Session: Assignment Tools"
 day: Thursday, August 20, 2026
 time: 2:00 PM - 3:00 PM EDT

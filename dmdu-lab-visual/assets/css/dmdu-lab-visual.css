@@ -1,0 +1,269 @@
+/* DMDU Lab — visual theme. Self-contained; intentionally does not
+   reuse bootstrap.min.css / landing-page.css / zephyr-2020.css / dmdu-lab.css. */
+
+:root {
+  --dlv-ink: #12151a;
+  --dlv-paper: #0e1116;
+  --dlv-white: #f7f5f0;
+  --dlv-accent: #e8935a;
+  --dlv-accent-deep: #c96f36;
+  --dlv-rule: #2a2f38;
+  --dlv-max: 1240px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body.dmdu-lab-visual {
+  margin: 0;
+  background: var(--dlv-paper);
+  color: var(--dlv-white);
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dmdu-lab-visual h1, .dmdu-lab-visual h2, .dmdu-lab-visual h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.dmdu-lab-visual a { color: var(--dlv-accent); }
+.dmdu-lab-visual a:hover { color: var(--dlv-accent-deep); }
+
+/* ---------- Topbar ---------- */
+.dlv-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.75rem;
+  position: relative;
+  z-index: 5;
+  font-size: 0.88rem;
+}
+
+.dlv-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.dlv-back-link {
+  color: rgba(247, 245, 240, 0.75);
+  text-decoration: none;
+}
+.dlv-back-link:hover { color: var(--dlv-accent); }
+
+.dlv-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dlv-ink);
+  background: var(--dlv-accent);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+}
+
+.dlv-toggle-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgba(247, 245, 240, 0.85);
+}
+.dlv-toggle-link:hover { color: var(--dlv-accent); }
+
+/* ---------- Hero ---------- */
+.dlv-hero {
+  margin-top: -3.6rem;
+  padding-top: 3.6rem;
+  min-height: 78vh;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.dlv-hero-inner {
+  max-width: var(--dlv-max);
+  margin: 0 auto;
+  padding: 3rem 1.75rem 4.5rem;
+  width: 100%;
+}
+
+.dlv-hero-eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dlv-accent);
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.dlv-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  max-width: 18ch;
+  margin: 0 0 1.2rem;
+  color: #fff;
+}
+
+.dlv-hero-sub {
+  max-width: 58ch;
+  font-size: 1.25rem;
+  color: rgba(247, 245, 240, 0.88);
+  margin: 0 0 1.75rem;
+}
+
+.dlv-scroll-cue {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #fff;
+  border-bottom: 2px solid var(--dlv-accent);
+  padding-bottom: 0.15rem;
+}
+.dlv-scroll-cue:hover { color: var(--dlv-accent); }
+
+/* ---------- Page shell (non-hero pages) ---------- */
+.dlv-container {
+  max-width: var(--dlv-max);
+  margin: 0 auto;
+  padding: 3rem 1.75rem 5rem;
+}
+
+.dlv-page-title {
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  margin-bottom: 0.4rem;
+  color: #fff;
+}
+
+.dlv-page-dek {
+  color: rgba(247, 245, 240, 0.75);
+  font-size: 1.15rem;
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+/* ---------- Tile grid ---------- */
+.dlv-tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  max-width: var(--dlv-max);
+  margin: -6rem auto 0;
+  padding: 0 1.75rem;
+  position: relative;
+  z-index: 3;
+}
+
+.dlv-tile {
+  position: relative;
+  display: block;
+  height: 420px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dlv-tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 14, 20, 0) 35%, rgba(10, 14, 20, 0.88) 100%);
+  transition: background 0.25s ease;
+}
+
+.dlv-tile:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+}
+
+.dlv-tile:hover::before {
+  background: linear-gradient(180deg, rgba(10, 14, 20, 0.05) 20%, rgba(10, 14, 20, 0.92) 100%);
+}
+
+.dlv-tile-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 1.75rem 1.75rem 1.9rem;
+}
+
+.dlv-tile-num {
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--dlv-accent);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.dlv-tile-overlay h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.dlv-tile-overlay p {
+  margin: 0;
+  max-width: 42ch;
+  color: rgba(247, 245, 240, 0.85);
+  font-size: 0.98rem;
+}
+
+/* ---------- Closing CTA ---------- */
+.dlv-cta {
+  max-width: var(--dlv-max);
+  margin: 3.5rem auto 5rem;
+  padding: 0 1.75rem;
+  text-align: center;
+}
+
+.dlv-cta p {
+  color: rgba(247, 245, 240, 0.75);
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+
+a.dlv-btn {
+  display: inline-block;
+  padding: 0.75rem 1.6rem;
+  border-radius: 4px;
+  background: var(--dlv-accent);
+  color: var(--dlv-ink);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+}
+a.dlv-btn:hover { background: var(--dlv-accent-deep); color: var(--dlv-ink); }
+
+/* ---------- Footer ---------- */
+.dlv-footer {
+  border-top: 1px solid var(--dlv-rule);
+  padding: 2rem 1.75rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(247, 245, 240, 0.6);
+}
+.dlv-footer a { color: rgba(247, 245, 240, 0.75); text-decoration: underline; }
+
+@media (max-width: 860px) {
+  .dlv-tiles { grid-template-columns: 1fr; margin-top: -4rem; }
+  .dlv-tile { height: 360px; }
+  .dlv-topbar { padding: 0.75rem 1.25rem; }
+  .dlv-hero { min-height: 66vh; }
+}

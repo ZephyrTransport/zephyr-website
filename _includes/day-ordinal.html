@@ -1,0 +1,58 @@
+{% comment %}
+  Returns a pure calendar day count (no time-of-day, no timezone/DST
+  involved) for the date include.y-include.m-include.d, counted from a
+  fixed anchor of 2020-01-01 = day 0. Used only to compare two dates a
+  known number of calendar days apart (e.g. biweekly parity) without the
+  DST-related drift that epoch-second arithmetic can introduce.
+
+  Usage:
+    {% capture ord %}{% include day-ordinal.html y=2026 m=8 d=11 %}{% endcapture %}
+    {% assign ord = ord | strip | plus: 0 %}
+{% endcomment %}
+{% assign _y = include.y | plus: 0 %}
+{% assign _m = include.m | plus: 0 %}
+{% assign _d = include.d | plus: 0 %}
+{% assign _month_lengths = "31,28,31,30,31,30,31,31,30,31,30,31" | split: "," %}
+{% assign _midx = _m | minus: 1 %}
+{% assign _cum = 0 %}
+{% for _ml in _month_lengths %}
+  {% assign _i = forloop.index0 %}
+  {% if _i < _midx %}
+    {% assign _cum = _cum | plus: _ml %}
+  {% endif %}
+{% endfor %}
+{% assign _mod4 = _y | modulo: 4 %}
+{% assign _mod100 = _y | modulo: 100 %}
+{% assign _mod400 = _y | modulo: 400 %}
+{% assign _is_leap = false %}
+{% if _mod4 == 0 and _mod100 != 0 %}
+  {% assign _is_leap = true %}
+{% elsif _mod400 == 0 %}
+  {% assign _is_leap = true %}
+{% endif %}
+{% if _is_leap and _m > 2 %}
+  {% assign _cum = _cum | plus: 1 %}
+{% endif %}
+{% assign _doy = _cum | plus: _d %}
+{% assign _yord = 0 %}
+{% assign _base_year = 2020 %}
+{% if _y > _base_year %}
+  {% assign _prev_year = _y | minus: 1 %}
+  {% for _yy in (_base_year.._prev_year) %}
+    {% assign _yy_mod4 = _yy | modulo: 4 %}
+    {% assign _yy_mod100 = _yy | modulo: 100 %}
+    {% assign _yy_mod400 = _yy | modulo: 400 %}
+    {% assign _yy_leap = false %}
+    {% if _yy_mod4 == 0 and _yy_mod100 != 0 %}
+      {% assign _yy_leap = true %}
+    {% elsif _yy_mod400 == 0 %}
+      {% assign _yy_leap = true %}
+    {% endif %}
+    {% if _yy_leap %}
+      {% assign _yord = _yord | plus: 366 %}
+    {% else %}
+      {% assign _yord = _yord | plus: 365 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{{ _yord | plus: _doy }}
