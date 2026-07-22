@@ -16,6 +16,8 @@ Built on Discord, the Phorum is a place for transportation and land use professi
 
 We're launching the Phorum as a pilot. If it proves valuable to the community, it will become Zephyr's primary online discussion space.
 
+If you remember Zephyr's old Slack channel, we moved on from it after a change to Slack's pricing made the paid plan we needed too costly to justify.
+
 Yes, we know Discord got its start as the place friends gathered to play games after school. Think of this as our version of that, except you bring your travel demand model instead of your game controller.
 
 Our goal is to keep the barrier to participation as low as possible. Whether you're looking for technical advice, feedback on an idea, or simply a place to connect with others working to improve transportation planning and analysis, the Phorum is here for you.
