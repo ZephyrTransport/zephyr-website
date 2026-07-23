@@ -8,12 +8,9 @@ permalink: /about/mission/
 <section class="content-section text-left" id="mission">
     <div class="row">
         <div class="col-lg-12">
-            <div class="text-center">
-                <img style="width:220px" src="{{ '/img/logo-small.png' | relative_url }}"/>
-            </div>
-
             <div class="z-mission-statement">
                 <span class="z-mission-label">Mission</span>
+                <p class="z-mission-eyebrow">The Zephyr Foundation</p>
                 <p>{{ site.mission }}</p>
             </div>
 
