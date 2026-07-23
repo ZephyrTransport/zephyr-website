@@ -10,7 +10,7 @@ permalink: /about/mission/
         <div class="col-lg-12">
             <div class="z-mission-statement">
                 <span class="z-mission-label">Mission</span>
-                <p class="z-mission-eyebrow">The Zephyr Foundation</p>
+                <p class="z-mission-eyebrow">Zephyr Foundation</p>
                 <p>{{ site.mission }}</p>
             </div>
 
