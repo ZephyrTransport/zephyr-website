@@ -3,7 +3,7 @@ layout: simple
 img: none
 icon: JustMomo-trimmed.png
 category: Activities
-pillars: [community, education]
+pillars: [community, knowledge]
 order: 90
 title: "MoMo: Modeling Mobility"
 description: The premier conference for professionals working with travel models, transportation data, and quantitative analysis.

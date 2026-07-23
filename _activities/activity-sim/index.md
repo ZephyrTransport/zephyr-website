@@ -41,7 +41,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-1' | relative_url }}" class="stretched-link">Production &amp; Near-Production Implementations</a></h3>
                 <p class="card-text">SANDAG, SEMCOG</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-2' | relative_url }}" class="stretched-link">Legacy Model Transitions</a></h3>
                 <p class="card-text">Atlanta Regional Commission, National Capital Region Transportation Planning Board</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-3' | relative_url }}" class="stretched-link">Statewide &amp; Multi-Agency Collaboratives</a></h3>
                 <p class="card-text">State of Oregon</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>

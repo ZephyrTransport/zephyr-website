@@ -2,7 +2,7 @@
 layout: simple
 icon: TMIP_wheel_bw_transparent.png
 category: Activities
-pillars: [community, education]
+pillars: [community, knowledge]
 order: 10
 title: "TMIP: Travel Model Improvement Program"
 description: An online Community of Practice for the Travel Model Improvement Program, sharing decades of webinars and expertise.

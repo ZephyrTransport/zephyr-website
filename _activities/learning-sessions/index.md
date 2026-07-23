@@ -3,7 +3,7 @@ layout: simple
 img: none
 icon: fa-graduation-cap
 category: Activities
-pillars: [education]
+pillars: [knowledge]
 order: 80
 title: Learning Sessions
 description: Periodic online sessions sharing practical travel-modeling knowledge with the Zephyr community.

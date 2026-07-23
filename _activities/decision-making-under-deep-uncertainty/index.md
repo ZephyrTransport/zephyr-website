@@ -3,7 +3,7 @@ layout: simple
 img: none
 icon: dmdu.png
 category: Activities
-pillars: [community, education]
+pillars: [community, knowledge]
 order: 30
 title: "DMDU: Decision Making under Deep Uncertainty"
 description: A working group promoting practical approaches to travel forecasting and planning decisions under deep uncertainty.
@@ -41,7 +41,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/about' | relative_url }}" class="stretched-link">About DMDU</a></h3>
                 <p class="card-text">Background on the DMDU initiative and its working group</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/challenge-areas' | relative_url }}" class="stretched-link">Challenge Areas</a></h3>
                 <p class="card-text">Case studies and tools for DMDU challenge areas</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/book-club' | relative_url }}" class="stretched-link">Book Club</a></h3>
                 <p class="card-text">DMDU book club discussions on reports, papers, and other publications related to transportation and uncertainty</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/upcoming-workshops' | relative_url }}" class="stretched-link">Upcoming Workshops</a></h3>
                 <p class="card-text">Upcoming DMDU workshops and learning sessions</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -77,7 +77,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/champions-toolkit' | relative_url }}" class="stretched-link">Champions' Toolkit</a></h3>
                 <p class="card-text">Resources for DMDU champions</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/archive' | relative_url }}" class="stretched-link">Archive</a></h3>
                 <p class="card-text">Past DMDU events and resources</p>
-                <p class="z-program-card-hint">Click for details</p>
+                <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
     </div>
