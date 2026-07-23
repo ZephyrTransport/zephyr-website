@@ -196,6 +196,8 @@
 
 .z-vision-text {
   max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
   color: #444;
 }
 
