@@ -211,6 +211,57 @@
   color: #444;
 }
 
+.z-timeline {
+  position: relative;
+  margin: 1.5rem 0;
+  padding-left: 1.75rem;
+  border-left: 2px solid var(--z-border-gray);
+}
+
+.z-timeline-item {
+  position: relative;
+  padding-bottom: 1.75rem;
+}
+
+.z-timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.z-timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -2.1rem;
+  top: 0.3rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--z-blue);
+  box-shadow: 0 0 0 3px #ffffff;
+}
+
+.z-timeline-date {
+  display: block;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--z-blue-dark);
+  margin-bottom: 0.25rem;
+}
+
+.z-timeline-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--z-navy);
+  margin: 0 0 0.4rem;
+}
+
+.z-timeline-item p {
+  margin: 0;
+}
+
 
 .z-membership-tiles {
   display: flex;

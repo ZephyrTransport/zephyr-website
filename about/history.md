@@ -21,17 +21,26 @@ Starting with ideas shared at TRB Annual Meetings, a small group of practitioner
 ### Founding (2017)
 {: #founding}
 
-**January 8, 2017 &mdash; "From Ad-Hoc to Organized"**<br>
-A TRB Annual Meeting workshop marked the next step in establishing the Zephyr Foundation. Attendees worked in teams to scope out eight potential projects &mdash; on reproducible research, before-and-after studies, community-owned modeling software, forecasting uncertain topics, model benchmarking, data wrangling, network specifications, and data standards &mdash; that would go on to seed much of Zephyr's later work, from ActivitySim and software badging to GMNS and shared data standards.
-
-**May 13, 2017 &mdash; "Zephyr's First Year"**<br>
-A follow-up workshop at the TRB Planning Applications Conference introduced Zephyr's initial Board of Directors, elected by the Founding Stakeholders, and featured a "Project Shark Tank" pitch session for the ideas scoped in January.
-
-**August 10, 2017**<br>
-The effective date the IRS would later recognize, retroactively, for Zephyr's 501(c)(3) tax-exempt status.
-
-**November 3, 2017**<br>
-The initial Board of Directors formally adopted Zephyr's bylaws at its organizational meeting, establishing the governance structure the Foundation still operates under today.
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">January 8, 2017</span>
+        <h4 class="z-timeline-title">&ldquo;From Ad-Hoc to Organized&rdquo;</h4>
+        <p>A TRB Annual Meeting workshop marked the next step in establishing the Zephyr Foundation. Attendees worked in teams to scope out eight potential projects &mdash; on reproducible research, before-and-after studies, community-owned modeling software, forecasting uncertain topics, model benchmarking, data wrangling, network specifications, and data standards &mdash; that would go on to seed much of Zephyr's later work, from ActivitySim and software badging to GMNS and shared data standards.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">May 13, 2017</span>
+        <h4 class="z-timeline-title">&ldquo;Zephyr's First Year&rdquo;</h4>
+        <p>A follow-up workshop at the TRB Planning Applications Conference introduced Zephyr's initial Board of Directors, elected by the Founding Stakeholders, and featured a "Project Shark Tank" pitch session for the ideas scoped in January.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">August 10, 2017</span>
+        <p>The effective date the IRS would later recognize, retroactively, for Zephyr's 501(c)(3) tax-exempt status.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">November 3, 2017</span>
+        <p>The initial Board of Directors formally adopted Zephyr's bylaws at its organizational meeting, establishing the governance structure the Foundation still operates under today.</p>
+    </div>
+</div>
 
 Zephyr's Founding Stakeholders &mdash; the industry leaders who provided early guidance, shaped the organization's initial direction, and elected its inaugural Board &mdash; made all of this possible. Organizational affiliations are provided for identification purposes only and do not imply endorsement or official representation by their employer or institution.
 
@@ -46,12 +55,32 @@ Zephyr's Founding Stakeholders &mdash; the industry leaders who provided early g
 
 With a Board and bylaws in place, Zephyr spent its first few years turning founding ideas into working programs:
 
-- **2018** &mdash; The Software Badging effort was established, and the GMNS Project Management Committee began the multi-year process (running through 2024) of defining, drafting, and revising the General Modeling Network Specification.
-- **January 2019** &mdash; The first project management group meetings convened at the TRB Annual Meeting, covering Fast-Trips, GMNS, Open Science, and Software Badging &mdash; alongside the first Zephyr TRB Reception.
-- **February 2019** &mdash; Zephyr officially attained 501(c)(3) tax-exempt status, retroactively effective to August 10, 2017.
-- **2019** &mdash; The first Zephie Awards were presented, recognizing Julie Dunbar and Joe Castiglione, and Zephyr documented its first formal Board elections process.
-- **Late 2019** &mdash; Software Badging awarded its first project.
-- **2020** &mdash; The Technical Achievement Award and Impactful Research Award were presented for the first time, recognizing the SACOG Technical Team and Michel Bierlaire (for Biogeme). As the pandemic reshaped how the community could gather, Zephyr shifted its programming to virtual Learning Sessions &mdash; including an early introduction to ActivitySim &mdash; a format that's remained part of Zephyr ever since.
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2018</span>
+        <p>The Software Badging effort was established, and the GMNS Project Management Committee began the multi-year process (running through 2024) of defining, drafting, and revising the General Modeling Network Specification.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">January 2019</span>
+        <p>The first project management group meetings convened at the TRB Annual Meeting, covering Fast-Trips, GMNS, Open Science, and Software Badging &mdash; alongside the first Zephyr TRB Reception.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">February 2019</span>
+        <p>Zephyr officially attained 501(c)(3) tax-exempt status, retroactively effective to August 10, 2017.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2019</span>
+        <p>The first Zephie Awards were presented, recognizing Julie Dunbar and Joe Castiglione, and Zephyr documented its first formal Board elections process.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">Late 2019</span>
+        <p>Software Badging awarded its first project.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2020</span>
+        <p>The Technical Achievement Award and Impactful Research Award were presented for the first time, recognizing the SACOG Technical Team and Michel Bierlaire (for Biogeme). As the pandemic reshaped how the community could gather, Zephyr shifted its programming to virtual Learning Sessions &mdash; including an early introduction to ActivitySim &mdash; a format that's remained part of Zephyr ever since.</p>
+    </div>
+</div>
 
 ### Growing Up (2021&ndash;2025)
 {: #growing-up}
