@@ -10,8 +10,6 @@ hide-title: true
 <img src="{{ '/img/zephyr-phorum-logo.png' | relative_url }}" class="img-fluid" alt="Zephyr Phorum: An Online Community Built by Travel Modelers. Connect, Learn, Contribute, Advance." style="max-width:min(480px, 100%);"/>
 </div>
 
-### The Zephyr Phorum is Zephyr's online community space.
-
 Built on Discord, the Phorum is a place for transportation and land use professionals to ask questions, share ideas, collaborate on projects, and connect with one another through discussion channels, direct messages, voice chat, and more.
 
 We're launching the Phorum as a pilot. If it proves valuable to the community, it will become Zephyr's primary online discussion space.
