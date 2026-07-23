@@ -25,9 +25,12 @@ permalink: /about/mission/
 
             <hr class="sub-section-heading-spacer">
             <h3>Values</h3>
-            <div class="z-value-chips">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
                 {% for value in site.values %}
-                <span class="z-value-chip">{{ value }}</span>
+                <div class="col"><div class="z-name-tile z-committee-tile">
+                    <strong>{{ value.name }}</strong>
+                    <p>{{ value.description }}</p>
+                </div></div>
                 {% endfor %}
             </div>
 

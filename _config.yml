@@ -8,17 +8,22 @@ title: Zephyr
 
 email: info@zephyrtransport.org
 author: Elizabeth Sall
-mission: Advancing rigorous transportation and land use planning and decision-making for the public good by advocating for and supporting community building, education, and standards.
+mission: Advances rigorous transportation and land use planning and decision-making for the public good by building community, expanding knowledge, and promoting standards.
 vision:
-  - "We seek to become the primary venue through which leading researchers and practitioners seek to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable."
-  - "We strive for those methods and tools to support decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability."
+  - We envision a profession in which leading researchers and practitioners work together to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable, supporting decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability.
 values:
-  - Respect
-  - Collaboration
-  - Inclusion
-  - Honesty
-  - Technical rigor
-  - Community focus
+  - name: Respect
+    description: We treat every member with professionalism, curiosity, and respect.
+  - name: Collaboration
+    description: We believe better solutions emerge through open exchange and shared effort.
+  - name: Inclusion
+    description: We welcome diverse perspectives, backgrounds, disciplines, and experience levels.
+  - name: Integrity
+    description: We communicate honestly, act ethically, and earn trust through transparency.
+  - name: Technical Rigor
+    description: We value evidence, reproducibility, sound methods, and continual improvement.
+  - name: Community Stewardship
+    description: We invest in the long-term health of the travel analysis community and the public good.
 copyright: "Copyright &copy; 2016-2026 Zephyr Foundation. All Rights Reserved."
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
@@ -92,17 +97,17 @@ collections:
 # key must match a value in an activity's `pillars:` front matter list.
 activity_pillars:
   - key: community
-    title: Community
+    title: Build Community
     icon: fa-users
-    intro: Connecting practitioners, researchers, and agencies across academia, public agencies, consultancies, and technology vendors who share a stake in better travel analysis.
-  - key: education
-    title: Education
-    icon: fa-graduation-cap
-    intro: Webinars, conferences, and learning sessions&mdash;like TMIP webinars, the MoMo conference, and DMDU workshops&mdash;share knowledge and keep the community current on emerging methods.
+    intro: We connect people across academia, public agencies, consultancies, and technology providers to strengthen collaboration throughout the profession.
+  - key: knowledge
+    title: Expand Knowledge
+    icon: fa-book-open
+    intro: We steward the profession's knowledge by helping the community discover, preserve, and share technical expertise and practical experience.
   - key: standards
-    title: Standards
+    title: Promote Standards
     icon: fa-ruler-combined
-    intro: Shared data standards and open-source tools&mdash;like GTFS-Ride, GMNS, and software badging&mdash;that make travel analysis more transparent and reproducible.
+    intro: We improve professional practice by advancing open standards, shared tools, and best practices that make travel analysis more transparent, interoperable, and reproducible.
 
 donations:
   - amt: 5
