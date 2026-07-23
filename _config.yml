@@ -31,15 +31,15 @@ credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme cr
 # key must match a value in an activity's `pillars:` front matter list.
 activity_pillars:
   - key: community
-    title: Build Community
+    title: Community
     icon: fa-users
     intro: "We connect people across academia, public agencies, consultancies, and technology providers to strengthen collaboration throughout the profession."
   - key: knowledge
-    title: Expand Knowledge
+    title: Knowledge
     icon: fa-book-open
     intro: "We steward the profession's knowledge by helping the community discover, preserve, and share technical expertise and practical experience."
   - key: standards
-    title: Promote Standards
+    title: Standards
     icon: fa-ruler-combined
     intro: "We improve professional practice by advancing open standards, shared tools, and best practices that make travel analysis more transparent, interoperable, and reproducible."
 
