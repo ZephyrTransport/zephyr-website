@@ -21,6 +21,7 @@ Board as of July 2026:
         <img src="{{ '/img/board/' | append: member.photo | relative_url }}" class="z-tile-photo" alt="{{ member.name }}"/>
         <strong>{{ member.name }}</strong>
         <span>{{ member.org }}</span>
+        {% if member.city %}<span class="z-tile-city"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ member.city }}</span>{% endif %}
         {% if member.role %}<span class="z-tile-role">{{ member.role }}</span>{% endif %}
     </div></div>
     {% endfor %}

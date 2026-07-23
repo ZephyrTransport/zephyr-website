@@ -103,6 +103,16 @@
   margin-top: 0.2rem;
 }
 
+.z-tile-city {
+  color: var(--z-blue-dark) !important;
+  font-size: 0.76rem !important;
+}
+
+.z-tile-city i {
+  color: var(--z-blue);
+  margin-right: 0.15rem;
+}
+
 .z-board-tile strong {
   font-size: 1rem;
 }

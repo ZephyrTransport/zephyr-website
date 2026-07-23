@@ -133,49 +133,58 @@ board_members:
   - name: Bill Hereth
     photo: BillHereth.png
     org: Wasatch Front Regional Council
+    city: Salt Lake City, Utah
     role: Chair
     linkedin: https://www.linkedin.com/in/bill-hereth-41b54313/
 
   - name: Greg Erhardt
     photo: GregErhardt.png
     org: University of Kentucky
+    city: Lexington, Kentucky
     linkedin: https://www.linkedin.com/in/greg-erhardt-377842/
 
   - name: Jason Hawkins
     photo: JasonHawkins.png
     org: University of Calgary
+    city: Calgary, Alberta
     linkedin: https://www.linkedin.com/in/jason-hawkins-68919234/
 
   - name: Lisa Zorn
     photo: LisaZorn.png
-    org: Metropolitan Transportation Commission in San Francisco CA
+    org: Metropolitan Transportation Commission
+    city: San Francisco, California
     role: Treasurer
     linkedin: https://www.linkedin.com/in/lisazorn/
 
   - name: Mark Bradley
     photo: MarkBradley.png
     org: Independent
+    city: Santa Barbara, California
     linkedin: https://www.linkedin.com/in/mark-bradley-b8548a4/
 
   - name: Peter Bosa
     photo: PeterBosa.png
     org: Oregon Metro
+    city: Portland, Oregon
     linkedin: https://www.linkedin.com/in/peter-bosa-1b2853158
 
   - name: Sijia Wang
     photo: SijiaWang.png
     org: WSP USA
+    city: New York City, New York
     role: Secretary
     linkedin: https://www.linkedin.com/in/sijia-wang/
 
   - name: Suzanne Childress
     photo: SuzanneChildress.png
     org: StreetLight
+    city: Burlingame, California
     linkedin: https://www.linkedin.com/in/suzanne-childress-23655745/
 
   - name: Xinbo Mi
     photo: XinboMi.png
     org: Cambridge Systematics
+    city: Evansville, Indiana
     role: Diversity Officer
     linkedin: https://www.linkedin.com/in/xinbomi/
 
