@@ -45,31 +45,31 @@ subTitle: Advancing Travel Analysis to Improve Society
 
         {% assign pillar_community = site.activity_pillars | where: "key", "community" | first %}
         <div class="col-md-4">
-            <div class="focus-pillar">
+            <div class="focus-pillar position-relative">
                 <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_community.icon }}" aria-hidden="true"></i></div>
                 <h3>{{ pillar_community.title }}</h3>
                 <p>{{ pillar_community.intro }}</p>
-                <p><a href="{{ '/activities/#community' | relative_url }}">Explore Community Activities &raquo;</a></p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#community' | relative_url }}" class="stretched-link">Explore Community Activities &raquo;</a></p>
             </div>
         </div>
 
-        {% assign pillar_education = site.activity_pillars | where: "key", "education" | first %}
+        {% assign pillar_knowledge = site.activity_pillars | where: "key", "knowledge" | first %}
         <div class="col-md-4">
-            <div class="focus-pillar">
-                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_education.icon }}" aria-hidden="true"></i></div>
-                <h3>{{ pillar_education.title }}</h3>
-                <p>{{ pillar_education.intro }}</p>
-                <p><a href="{{ '/activities/#education' | relative_url }}">Explore Education Activities &raquo;</a></p>
+            <div class="focus-pillar position-relative">
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_knowledge.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_knowledge.title }}</h3>
+                <p>{{ pillar_knowledge.intro }}</p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#knowledge' | relative_url }}" class="stretched-link">Explore Knowledge Activities &raquo;</a></p>
             </div>
         </div>
 
         {% assign pillar_standards = site.activity_pillars | where: "key", "standards" | first %}
         <div class="col-md-4">
-            <div class="focus-pillar">
+            <div class="focus-pillar position-relative">
                 <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_standards.icon }}" aria-hidden="true"></i></div>
                 <h3>{{ pillar_standards.title }}</h3>
                 <p>{{ pillar_standards.intro }}</p>
-                <p><a href="{{ '/activities/#standards' | relative_url }}">Explore Standards Activities &raquo;</a></p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#standards' | relative_url }}" class="stretched-link">Explore Standards Activities &raquo;</a></p>
             </div>
         </div>
 

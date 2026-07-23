@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Mission, Vision, and Values
+title: "Mission, Vision &amp; Values"
 section: About
 permalink: /about/mission/
 ---
@@ -27,7 +27,7 @@ permalink: /about/mission/
             <h3>Values</h3>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
                 {% for value in site.values %}
-                <div class="col"><div class="z-name-tile z-committee-tile">
+                <div class="col"><div class="z-name-tile z-committee-tile z-value-tile">
                     <strong>{{ value.name }}</strong>
                     <p>{{ value.description }}</p>
                 </div></div>

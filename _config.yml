@@ -27,6 +27,22 @@ values:
 copyright: "Copyright &copy; 2016-2026 Zephyr Foundation. All Rights Reserved."
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
+# Pillars used to categorize/filter the activities grid at /activities/.
+# key must match a value in an activity's `pillars:` front matter list.
+activity_pillars:
+  - key: community
+    title: Build Community
+    icon: fa-users
+    intro: "We connect people across academia, public agencies, consultancies, and technology providers to strengthen collaboration throughout the profession."
+  - key: knowledge
+    title: Expand Knowledge
+    icon: fa-book-open
+    intro: "We steward the profession's knowledge by helping the community discover, preserve, and share technical expertise and practical experience."
+  - key: standards
+    title: Promote Standards
+    icon: fa-ruler-combined
+    intro: "We improve professional practice by advancing open standards, shared tools, and best practices that make travel analysis more transparent, interoperable, and reproducible."
+
 # ----------------------- #
 #   Stripe Settings       #
 # ----------------------- #
@@ -92,22 +108,6 @@ collections:
 # notice, add a normal file to _events/ dated that occurrence with
 # `recurring_series: <key>` in its front matter -- it replaces the
 # generic calendar entry for that date instead of duplicating it.
-
-# Pillars used to categorize/filter the activities grid at /activities/.
-# key must match a value in an activity's `pillars:` front matter list.
-activity_pillars:
-  - key: community
-    title: Build Community
-    icon: fa-users
-    intro: We connect people across academia, public agencies, consultancies, and technology providers to strengthen collaboration throughout the profession.
-  - key: knowledge
-    title: Expand Knowledge
-    icon: fa-book-open
-    intro: We steward the profession's knowledge by helping the community discover, preserve, and share technical expertise and practical experience.
-  - key: standards
-    title: Promote Standards
-    icon: fa-ruler-combined
-    intro: We improve professional practice by advancing open standards, shared tools, and best practices that make travel analysis more transparent, interoperable, and reproducible.
 
 donations:
   - amt: 5
