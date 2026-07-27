@@ -1,6 +1,6 @@
 ---
 layout: event
-img: /img/conv-center-bikes.jpg
+img: /img/photos/conv-center-bikes.jpg
 format: Workshop
 occasion: TRB Annual Meeting
 category: General Membership

@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: activitysim_logo_light.jpg
+icon: logos/activitysim_logo_light.jpg
 title: "Statewide & Multi-Agency Collaboratives"
 description: Oregon's statewide, multi-MPO joint ActivitySim estimation effort.
 front: True

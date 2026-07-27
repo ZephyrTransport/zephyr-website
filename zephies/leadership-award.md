@@ -5,7 +5,7 @@ section: Zephies
 permalink: /zephies/leadership-award/
 ---
 
-{% include award-recipient.html photo="/img/zephies_2026_milkovits.jpeg" name="Marty Milkovits" year="2026" presented="January 13, 2026" %}
+{% include award-recipient.html photo="/img/zephies/zephies_2026_milkovits.jpeg" name="Marty Milkovits" year="2026" presented="January 13, 2026" %}
 
 Marty embodies Zephyr principles by driving technical advancements while ensuring that these innovations serve the public good. His commitment to creating a reliable and well-documented set of travel demand tools, data, and procedures has been instrumental in addressing the diverse transportation needs of both the Boston region and the state of Massachusetts.
 

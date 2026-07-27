@@ -1,6 +1,6 @@
 ---
 layout: event
-img: /img/2019-TRBAM-PMG-GMNS.jpg
+img: /img/photos/2019-TRBAM-PMG-GMNS.jpg
 occasion: TRB Annual Meeting
 title: Network Data Standard PMG Meeting
 format: Meeting

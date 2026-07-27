@@ -5,7 +5,7 @@ section: Zephies
 permalink: /zephies/impactful-research-award/
 ---
 
-{% include award-recipient.html photo="/img/zephies_2026_activitysim.png" name="ActivitySim" year="2026" presented="January 13, 2026" %}
+{% include award-recipient.html photo="/img/zephies/zephies_2026_activitysim.png" name="ActivitySim" year="2026" presented="January 13, 2026" %}
 
 **[Visit the ActivitySim project](https://github.com/ActivitySim/)**
 

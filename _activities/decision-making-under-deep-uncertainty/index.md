@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: dmdu.png
+icon: logos/dmdu.png
 category: Activities
 pillars: [community, knowledge]
 order: 30

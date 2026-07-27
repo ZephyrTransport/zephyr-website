@@ -8,6 +8,8 @@ permalink: /search/
     <input type="search" id="z-search-input" placeholder="Search activities, events, about pages, and more&hellip;" autocomplete="off" aria-label="Search the site"/>
 </div>
 
+<p class="z-search-archive-hint">Looking for a message in the TMIP mailing list archive (2001&ndash;2023)? <a id="z-search-archive-link" href="{{ '/activities/travel-model-improvement-program/archive/' | relative_url }}">Search the TMIP Archive</a>, or <a href="{{ '/activities/travel-model-improvement-program/archive/#/webinars' | relative_url }}">browse TMIP webinars</a>.</p>
+
 <p id="z-search-status" class="z-search-status"></p>
 <div id="z-search-results" class="z-search-results"></div>
 
@@ -16,8 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var input = document.getElementById('z-search-input');
     var statusEl = document.getElementById('z-search-status');
     var resultsEl = document.getElementById('z-search-results');
+    var archiveLink = document.getElementById('z-search-archive-link');
+    var archiveLinkBase = archiveLink.getAttribute('href');
     var index = null;
     var debounceTimer = null;
+
+    function updateArchiveLink(query) {
+        archiveLink.href = query ? archiveLinkBase + '?q=' + encodeURIComponent(query) : archiveLinkBase;
+    }
 
     fetch('{{ "/search.json" | relative_url }}')
         .then(function (r) { return r.json(); })
@@ -36,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var q = params.get('q');
             if (q) {
                 input.value = q;
+                updateArchiveLink(q);
                 runSearch(q);
             }
         })
@@ -117,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
     input.addEventListener('input', function () {
         clearTimeout(debounceTimer);
         var q = input.value;
+        updateArchiveLink(q);
         debounceTimer = setTimeout(function () { runSearch(q); }, 150);
     });
 

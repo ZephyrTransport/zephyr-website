@@ -13,9 +13,12 @@ Zephyr grew out of informal conversations at Transportation Research Board (TRB)
 Starting with ideas shared at TRB Annual Meetings, a small group of practitioners and researchers took the initiative to turn years of hallway conversations into action, building the foundation, community, and momentum that became Zephyr.
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-2 z-name-tiles">
-    {% for person in site.instigators %}
-    <div class="col"><div class="z-name-tile"><strong>{{ person }}</strong></div></div>
-    {% endfor %}
+    <div class="col"><div class="z-name-tile"><strong>Billy Charlton</strong></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Gregory Erhardt</strong></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Brian Gardner</strong></div></div>
+    <div class="col"><div class="z-name-tile"><strong>David Ory</strong></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Elizabeth Sall</strong></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Joan Walker</strong></div></div>
 </div>
 
 ### Founding (2017)
@@ -45,9 +48,28 @@ Starting with ideas shared at TRB Annual Meetings, a small group of practitioner
 Zephyr's Founding Stakeholders &mdash; the industry leaders who provided early guidance, shaped the organization's initial direction, and elected its inaugural Board &mdash; made all of this possible. Organizational affiliations are provided for identification purposes only and do not imply endorsement or official representation by their employer or institution.
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-2 z-name-tiles">
-    {% for person in site.founding_stakeholders %}
-    <div class="col"><div class="z-name-tile"><strong>{{ person.name }}</strong><span>{{ person.org }}</span></div></div>
-    {% endfor %}
+    <div class="col"><div class="z-name-tile"><strong>Alexei Pozdnukhov</strong><span>University of California, Berkeley</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Aruna Sivakumar</strong><span>Imperial College</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Beverly Scott</strong><span>Beverly Scott and Associates</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Chandra Bhat</strong><span>University of Texas</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Clint Daniels</strong><span>[former] San Diego Association of Governments</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Dan Florian</strong><span>INRO Software</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Eric Anderson</strong><span>Maricopa Association of Governments</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Eric Miller</strong><span>University of Toronto</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>George Naylor</strong><span>Santa Clara Valley Transportation Authority</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Greg Giaimo</strong><span>Ohio Department of Transportation</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Hani Mahmassani</strong><span>Northwestern University</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Howard Slavin</strong><span>Caliper</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Julie Dunbar</strong><span>Dunbar Transportation</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Kay Axhausen</strong><span>ETH-Zurich</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Moshe Ben-Akiva</strong><span>Massachusetts Institute of Technology</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Pat Mokhtarian</strong><span>Georgia Institute of Technology</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Rick Donnelly</strong><span>WSP-PB</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Rosella Picado</strong><span>WSP-PB</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Stephen Lawe</strong><span>Resource Systems Group</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Steve Perone</strong><span>PTV</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Therese McMillan</strong><span>LA MTA</span></div></div>
+    <div class="col"><div class="z-name-tile"><strong>Vladimir Livshits</strong><span>Maricopa Association of Governments</span></div></div>
 </div>
 
 ### Early Years (2018&ndash;2020)
@@ -85,9 +107,41 @@ With a Board and bylaws in place, Zephyr spent its first few years turning found
 ### Growing Up (2021&ndash;2025)
 {: #growing-up}
 
-As Zephyr's activities and membership grew beyond what an all-volunteer Board could run alone, the Foundation took its next major step in 2025: hiring [Joe Castiglione]({{ '/about/leadership#executive-director' | relative_url }}) as Zephyr's first Executive Director to lead the organization's day-to-day work.
+As Zephyr's activities and membership grew beyond what an all-volunteer Board could run alone, the Foundation brought on new activities and its first paid staff:
+
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">Late 2022</span>
+        <h4 class="z-timeline-title">NSF Funding Awarded</h4>
+        <p>A joint team spanning ASU, MTC, USF, and Ohio State was awarded a strategic grant for NSF funding to support GMNS multi-modal network initiatives.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">December 2022</span>
+        <h4 class="z-timeline-title">GMNS &amp; Network Wrangler Convergence</h4>
+        <p>A pivotal coordination milestone aimed at bringing the GMNS data specification and Network Wrangler closer together, establishing shared technical support and mapping out a unified roadmap for network scenario management.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2023</span>
+        <h4 class="z-timeline-title">TMIP Integration</h4>
+        <p>The <a href="{{ '/activities/travel-model-improvement-program' | relative_url }}">Travel Model Improvement Program</a> (TMIP) &mdash; including its 1,800-subscriber listserv and 20 years of archived webinars and presentations &mdash; transitions to Zephyr, a major step forward in establishing Zephyr as a central knowledge-sharing hub and listserv administrator for travel demand forecasting professionals.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2024</span>
+        <h4 class="z-timeline-title">MoMo Fiscal Sponsorship</h4>
+        <p>Zephyr becomes the sponsoring organization for <a href="{{ '/activities/modeling-mobility-conference' | relative_url }}">MoMo</a> (the Modeling Mobility Conference), an independently organized annual conference for travel modeling professionals that needed a fiscal home to handle contracts, venue booking, and funding.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2025</span>
+        <h4 class="z-timeline-title">ActivitySim Transition</h4>
+        <p>Zephyr becomes the new administrative home for <a href="{{ '/activities/activity-sim' | relative_url }}">ActivitySim</a>, taking over from AMPO and overseeing a $490,000 budget and 14 participating agencies across the US, Australia, and Canada.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">September 3, 2025</span>
+        <p><a href="{{ '/about/leadership#executive-director' | relative_url }}">Joe Castiglione</a> was hired as Zephyr's first Executive Director to lead the organization's day-to-day work.</p>
+    </div>
+</div>
 
 ### Where We Are Today
 {: #today}
 
-Many of the projects scoped in that first 2017 workshop are now established Zephyr [activities]({{ '/activities' | relative_url }}), carried out by member-driven [committees]({{ '/about/committees' | relative_url }}) and guided by the [Board and Executive Director]({{ '/about/leadership' | relative_url }}) the Founding Stakeholders first elected.
+Many of the projects scoped in that first 2017 workshop are now established Zephyr [activities]({{ '/activities' | relative_url }}), carried out by member-driven [committees]({{ '/about/committees' | relative_url }}) and guided by Zephyr's [Board and Executive Director]({{ '/about/leadership' | relative_url }}).

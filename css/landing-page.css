@@ -215,7 +215,6 @@ a.z-event-badge:hover {
   padding-bottom: 0px;
   text-align: center;
   color: #ffffff;
-  background-image: linear-gradient(135deg, rgba(23, 23, 52, 0.82), rgba(29, 67, 77, 0.62)), url("../img/{{ site.top-bg-img }}");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

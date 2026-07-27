@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: activitysim_logo_light.jpg
+icon: logos/activitysim_logo_light.jpg
 title: ActivitySim FAQs
 description: Frequently asked questions.
 front: True

@@ -24,24 +24,24 @@ You must <a href="https://us06web.zoom.us/meeting/register/taV2AzSJSb-mrjmquEA0t
 
 <h3>Speakers</h3>
 <h4>Scott Smith</h4>
-<img src="{{ '/img/scott_smith.jpg' | relative_url }}" style="width: 30%;" alt="Scott Smith">
+<img src="{{ '/img/photos/scott_smith.jpg' | relative_url }}" style="width: 30%;" alt="Scott Smith">
 
 Scott Smith is a senior level operations research analyst with over 25 years of experience in applying technology to improve transportation operations and safety across all modes.  At the Volpe Center, his project sponsors have included most of the modal administrations in U.S. DOT and local agencies. Before joining the Volpe Center, Dr. Smith worked in private industry developing decision support tools to assist motor carriers and railroads with operations, and shippers with transportation procurement.  He holds a Ph.D. in Transportation Systems from MIT.
 
 <br>
 <h4>Ian Berg</h4>
-<img src="{{ '/img/ian_berg.jpg' | relative_url }}" style="width: 30%;" alt="Ian Berg">
+<img src="{{ '/img/photos/ian_berg.jpg' | relative_url }}" style="width: 30%;" alt="Ian Berg">
 
 Ian Berg is a data scientist at the U.S. DOT Volpe Center. His research portfolio involves transportation technologies ranging from e-bikes to automated trucks. He also provides support to modernize U.S. DOT systems and processes. He has degrees in mathematics and urban & regional planning, and holds Geographic Information Systems Professional (GISP) certification
 
 <h3>Facilitator</h3>
 <h4>Joe Castiglione</h4>
-<img src="{{ '/img/joe_castiglione.jpg' | relative_url }}" style="width: 30%;" alt="Joe Castiglione">
+<img src="{{ '/img/photos/joe_castiglione.jpg' | relative_url }}" style="width: 30%;" alt="Joe Castiglione">
 
 Joe Castiglione is the Executive Director of the Zephyr Foundation, whose mission is to improve travel analysis to support public decision-making through efforts such as the GMNS standard and the open source ActivitySim activity-based model platform.  Joe has over 25 years experience developing, implementing, and applying advanced travel forecasting models, and holds degrees in architecture and urban planning.  
 
 <br>
-<img src="{{ '/img/gmns_20260507_flyer.png' | relative_url }}" style="width: 60%;" alt="GMNS Learning Session Flyer">
+<img src="{{ '/img/flyers/gmns_20260507_flyer.png' | relative_url }}" style="width: 60%;" alt="GMNS Learning Session Flyer">
 <br>
 <br>
 <h3>Upcoming Webinar Series</h3>

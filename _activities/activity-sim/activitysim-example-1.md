@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: activitysim_logo_light.jpg
+icon: logos/activitysim_logo_light.jpg
 title: "Production & Near-Production Implementations"
 description: SANDAG and SEMCOG's ActivitySim implementations.
 front: True

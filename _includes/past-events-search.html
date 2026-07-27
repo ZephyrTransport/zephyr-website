@@ -1,0 +1,51 @@
+{% assign past_events = site.events | where_exp: "e", "e.format == include.format" | where_exp: "e", "e.date < site.time" | sort: "date" | reverse %}
+
+{% if past_events.size > 0 %}
+<div class="z-search-box">
+  <input type="search" id="{{ include.id | default: 'z-past-events-search' }}-input" placeholder="{{ include.placeholder | default: 'Search past sessions...' }}" aria-label="{{ include.placeholder | default: 'Search past sessions' }}">
+</div>
+<p class="z-search-status" id="{{ include.id | default: 'z-past-events-search' }}-status"></p>
+
+<div class="z-search-results" id="{{ include.id | default: 'z-past-events-search' }}-results">
+  {% for post in past_events %}
+    {% assign category = post.category | default: "" %}
+    {% assign summary_text = post.summary | strip_html | default: "" %}
+    {% assign haystack = post.title | append: " " | append: category | append: " " | append: summary_text %}
+    {% assign haystack = haystack | strip_html | downcase | escape %}
+    <div class="z-search-result" data-search="{{ haystack }}">
+      <div class="z-event-date">{% if post.day %}{{ post.day }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}</div>
+      <h3 class="z-search-result-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if summary_text != "" %}<p class="z-search-result-excerpt">{{ summary_text | truncatewords: 35 }}</p>{% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+(function () {
+  var input = document.getElementById('{{ include.id | default: "z-past-events-search" }}-input');
+  var status = document.getElementById('{{ include.id | default: "z-past-events-search" }}-status');
+  var container = document.getElementById('{{ include.id | default: "z-past-events-search" }}-results');
+  var results = container.querySelectorAll('.z-search-result');
+  var total = results.length;
+
+  function render() {
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    for (var i = 0; i < results.length; i++) {
+      var match = !q || results[i].getAttribute('data-search').indexOf(q) !== -1;
+      results[i].style.display = match ? '' : 'none';
+      if (match) shown++;
+    }
+    status.textContent = q ? 'Showing ' + shown + ' of ' + total + ' past sessions' : total + ' past sessions';
+  }
+
+  input.addEventListener('input', render);
+
+  var qParam = new URLSearchParams(window.location.search).get('q');
+  if (qParam) input.value = qParam;
+  render();
+})();
+</script>
+{% else %}
+<p class="z-empty-state"><em>{{ include.empty_message | default: "No past sessions yet." }}</em></p>
+{% endif %}

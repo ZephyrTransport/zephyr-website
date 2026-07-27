@@ -2,14 +2,36 @@
 layout: project
 title: "Membership"
 subTitle: "Become a member to support Zephyr!"
-img: trees.png
+img: banners/banner-social-crowd-duotone.jpg
+img-position: center 45%
+# Original banner photo - re-enable if we revert:
+# img: banners/banner-slc-frontrunner.jpg
+# img-position: 55% 15%
+# img: banners/trees.png
 permalink: /membership/
+membership_tiers:
+  - type: Standard
+    price: "$200"
+    suffix: "/yr"
+    note: Open to all
+  - type: Student
+    price: "$25"
+    suffix: "/yr"
+    note: Degree-seeking program
+  - type: Young Professional
+    price: "$25"
+    suffix: "/yr"
+    note: Under 30
+  - type: Organizational
+    price: "$2,000"
+    suffix: "/yr"
+    note: or $10,000 / 5 yrs
 ---
 
 ## Why Join Zephyr?
 
 <div class="z-inline-photo">
-<img src="{{ '/img/reception.jpg' | relative_url }}" width="320px" class="img-fluid rounded"/>
+<img src="{{ '/img/photos/reception.jpg' | relative_url }}" width="320px" class="img-fluid rounded"/>
 <p style="text-align:right; font-size:0.85rem; color:#666;"><i>The Zephyr reception at the TRB Annual Meeting</i></p>
 </div>
 
@@ -27,7 +49,7 @@ See the [Bylaws]({{ '/about/policies/bylaws' | relative_url }}) for governance d
 ## Membership Options
 
 <div class="z-membership-tiles">
-    {% for tier in site.membership_tiers %}
+    {% for tier in page.membership_tiers %}
     <div class="z-membership-tile">
         <div class="z-membership-tile-type">{{ tier.type }}</div>
         <div class="z-membership-tile-price">{{ tier.price }}<span>{{ tier.suffix }}</span></div>

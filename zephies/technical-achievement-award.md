@@ -5,7 +5,7 @@ section: Zephies
 permalink: /zephies/technical-achievement-award/
 ---
 
-{% include award-recipient.html photo="/img/zephies_2026_covid.jpeg" name='The “COVID & Telecommuting-Induced Changes in Individual Activity and Travel Patterns” Team' year="2026" presented="January 13, 2026" %}
+{% include award-recipient.html photo="/img/zephies/zephies_2026_covid.jpeg" name='The “COVID & Telecommuting-Induced Changes in Individual Activity and Travel Patterns” Team' year="2026" presented="January 13, 2026" %}
 
 **[Read the paper](https://www.sciencedirect.com/science/article/abs/pii/S0967070X25003154)**
 

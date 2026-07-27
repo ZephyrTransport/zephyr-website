@@ -11,40 +11,32 @@ front: True
 permalink: /activities/transit-ridership-standard/
 ---
 
-**Meeting Announcement**
-
-The GTFS-ride Project Management Group [will meet at the 2020 TRB Annual Meeting in Washington DC]({{ '/events/2020-jan-gtfsride-pmg' | relative_url }}).
-
-  - Tuesday Jan 14th 1:30-3:00   
-  - Room 142 Washington DC Convention Center
-
-*Note that seating may be limited and will be prioritized for PMG members*
-
 Data standards have been pivotal in creating a shared ecosystem of client-, public-, regulator- and manager-centric data discovery. Starting with Tri-Met and GTFS and more recently GBFS, data standards have made it commonplace to know how and when to use transit or other mobility services.  GTFS-ride complements LA and Santa Monica’s MDS efforts (which is currently restricted to dockless mobility) to provide a picture of where people are using the system, which can provide insight into deficiencies or opportunities to improve the experience of the travelling public.
+
+*Zephyr's coordination role on this initiative has been dormant since 2020. The GTFS-ride standard itself remains active, maintained independently by ODOT and OSU (see Progress below) — if you'd like to help restart Zephyr's involvement, [get in touch](mailto:gtfs-ride@zephyrtransport.org).*
+
+<!-- CONTENT REVIEW NEEDED: the Governance and Approach sections below were last confirmed
+     circa 2019-2020. The PMG roster and project needs have been removed pending
+     confirmation of current, accurate details from the GTFS-ride chair.
+     PMG meetings are historically announced as one-off posts in _events (see git history
+     for _events/2020-jan-gtfsride-pmg.md as an example) and linked from here — add a new
+     dated file there and link it under Governance when the next meeting is scheduled,
+     rather than editing this paragraph directly. -->
 
 ## Governance
 
-This project is overseen by a board-approved Project Management Group (PMG) as follows:
-
-- David Porter, OSU (Chair)  
-- Matthew Barnes, ODOT   
-- Aaron Antrim, Trillium  
-- Clint Daniels, RSG (Board Representative)  
-- Alex Bettinardi, ODOT  
-- Phillip Carleton, OSU  
-
-There is also a GTFS-ride consortium group that acts in advisory capacity.  All notes, transcripts and presentations [are available online](https://www.gtfs-ride.org/consortium/meetings.html).
+This project is overseen by a board-approved Project Management Group (PMG). There is also a GTFS-ride consortium group that acts in advisory capacity. All notes, transcripts and presentations [are available online](https://gtfsride.org/consortium/meetings.html). The PMG has historically met during the TRB Annual Meeting each January.
 
 ## Progress
 
 Led by the Oregon Department of Transportation and Oregon State University, a substantial amount of progress has been made both on the standard side as well as the documentation, outreach and coalition-building.
 
 Existing standard: 	[https://github.com/ODOT-PTS/GTFS-ride](https://github.com/ODOT-PTS/GTFS-ride)  
-Landing Page: 	[https://www.gtfs-ride.org/](https://www.gtfs-ride.org/)
+Landing Page: 	[https://gtfsride.org/](https://gtfsride.org/)
 
 ## Approach
 
-The GTFS-ride project stewards identified the following needs for the project:
+The GTFS-ride project stewards identified the following ongoing needs for the project:
 
  - General awareness building,   
  - Building a software ecosystem,  
@@ -56,19 +48,6 @@ Administratively, the project needs:
 
  - A jurisdiction-agnostic, persistent (not project- or funding-based) home, and
  - Funding for ongoing care and maintenance.  
-
-
-**Workplan**
-*draft, not PMG approved*  
-
- - Establish 3-5 partner transit agencies to help co-develop  
- - Develop a “killer app” or something just as useful, like a shared ETL workflow based on shared agency needs  
- - Pepper the tech and policy conference (i.e. AAPTA, NACTO, Railvolution, PyData, Bloomberg) and communications (CityLab, etc) circuits
- - Establish a shared funding pool from with to fund fellows or other people to evolve, build, and share.   
- - Create a roadmap for the standard itself, including its relationship with other standards (i.e. MDS)  
-
-
-
 
 ## Feedback + Involvement
 

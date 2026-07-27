@@ -2,7 +2,12 @@
 layout: project
 category: Activities
 title: Zephies
-img: reception.jpg
+img: banners/banner-social-talk-duotone.jpg
+img-position: center 55%
+# Original banner photo - re-enable if we revert:
+# img: banners/banner-seattle-ferry.jpg
+# img-position: 45% 35%
+# img: photos/reception.jpg
 permalink: /zephies/
 ---
 

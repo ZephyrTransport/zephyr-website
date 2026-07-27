@@ -3,7 +3,7 @@
 
 <section id="home">
     <!-- Header -->
-    <div class="event-header img" style="margin-bottom: {% if page.hero-gap %}{{ page.hero-gap }}{% else %}8rem{% endif %}; background:url('{{ '/img/' | append: page.img | relative_url }}' ) no-repeat center center; background-size: cover;">
+    <div class="event-header img" style="margin-bottom: {% if page.hero-gap %}{{ page.hero-gap }}{% else %}8rem{% endif %}; background:url('{{ '/img/' | append: page.img | relative_url }}' ) no-repeat {{ page.img-position | default: 'center center' }}; background-size: cover;">
 
         <div class="container">
 

@@ -22,7 +22,11 @@
                 <h5>Connect with Zephyr</h5>
                 <div class="z-social-buttons">
                     {% for social in site.social %}
-                        <a href="{{ social.url }}"><i class="fab fa-{{ social.title }} fa-lg"></i></a>
+                        {% if social.title == 'discord' %}
+                            <a href="{{ '/about/discord' | relative_url }}"><i class="fab fa-discord fa-lg"></i></a>
+                        {% else %}
+                            <a href="{{ social.url }}"><i class="fab fa-{{ social.title }} fa-lg"></i></a>
+                        {% endif %}
                     {% endfor %}
                     <a href="http://eepurl.com/ccQL7z"><i class="fa fa-envelope fa-lg"></i></a>
                 </div>
@@ -37,7 +41,9 @@
                 Zephyr is a 501(c)(3) tax-exempt organization.
                 <br/>
                 <a href="{{ '/about/policies/terms-of-use' | relative_url }}">Terms of Use</a> &sdot;
-                <a href="{{ '/about/policies/privacy' | relative_url }}">Privacy Policy</a>
+                <a href="{{ '/about/policies/privacy' | relative_url }}">Privacy Policy</a> &sdot;
+                <a href="{{ '/about/image-credits' | relative_url }}">Image Credits</a>
+
             </div>
             <div class="col-md-4 z-footer-legal text-md-end">
                 {{ site.credits }}

@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: activitysim_logo_light.jpg
+icon: logos/activitysim_logo_light.jpg
 title: "Legacy Model Transitions"
 description: Atlanta Regional Commission and NCRTPB's transitions from legacy models to ActivitySim.
 front: True

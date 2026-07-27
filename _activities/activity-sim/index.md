@@ -1,7 +1,7 @@
 ---
 layout: simple
 img: none
-icon: activitysim_logo_light.jpg
+icon: logos/activitysim_logo_light.jpg
 category: Activities
 pillars: [community, standards]
 order: 20
@@ -9,7 +9,56 @@ title: ActivitySim
 description: Open-source, activity-based travel behavior modeling software built and maintained by a consortium of planning agencies.
 front: True
 permalink: /activities/activity-sim/
+hide-title: true
+
+# domain is used for programmatic logo gathering
+# url is the link included on card
+activitysim_members:
+  - name: Atlanta Regional Commission (ARC)
+    domain: atlantaregional.org
+    url: https://atlantaregional.org/
+  - name: Central Transportation Planning Staff (CTPS Boston)
+    domain: ctps.org
+    url: https://www.ctps.org/
+  - name: Chicago Metropolitan Agency for Planning (CMAP)
+    domain: cmap.illinois.gov
+    url: https://www.cmap.illinois.gov/
+  - name: Maricopa Association of Governments (MAG)
+    domain: azmag.gov
+    url: https://azmag.gov/
+  - name: Metropolitan Council
+    domain: metrocouncil.org
+    url: https://metrocouncil.org/
+  - name: Metropolitan Transportation Commission (MTC)
+    domain: mtc.ca.gov
+    url: https://mtc.ca.gov/
+  - name: National Capital Region Transportation Planning Board (Washington, D.C.)
+    domain: mwcog.org
+    url: https://www.mwcog.org/tpb/
+  - name: Puget Sound Regional Council (PSRC)
+    domain: psrc.org
+    url: https://www.psrc.org/
+  - name: San Diego Association of Governments (SANDAG)
+    domain: sandag.org
+    url: https://www.sandag.org/
+  - name: San Francisco County Transportation Authority (SFCTA)
+    domain: sfcta.org
+    url: https://www.sfcta.org/
+  - name: Southeast Michigan Council of Governments (SEMCOG)
+    domain: semcog.org
+    url: https://www.semcog.org/
+  - name: TransLink (Vancouver)
+    domain: translink.ca
+    url: https://www.translink.ca/
+  - name: Transport for New South Wales (Sydney)
+    domain: transport.nsw.gov.au
+    url: https://www.transport.nsw.gov.au/
+  - name: Victoria Department of Transport and Planning (Melbourne)
+    domain: vic.gov.au
+    url: https://www.vic.gov.au/department-transport-and-planning
 ---
+
+<img src="{{ '/img/logos/activitysim_logo_light.jpg' | relative_url }}" alt="ActivitySim" class="z-activitysim-page-logo mb-4"/>
 
 The mission of the ActivitySim project is to create and maintain advanced, open-source, activity-based travel behavior modeling software based on best software development practices. 
 
@@ -20,7 +69,7 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 ### List of All Consortium Members
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 z-member-list">
-    {% for member in site.activitysim_members %}
+    {% for member in page.activitysim_members %}
     <div class="col"><div class="z-member-tile"><img class="z-member-tile-logo" src="https://www.google.com/s2/favicons?sz=128&domain={{ member.domain }}" alt="" onerror="this.remove()">{{ member.name }}<a class="z-member-tile-www" href="{{ member.url }}" target="_blank" rel="noopener" aria-label="{{ member.name }} website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a></div></div>
     {% endfor %}
 </div>
