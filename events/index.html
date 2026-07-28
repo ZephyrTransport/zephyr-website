@@ -86,7 +86,8 @@ latest-update: ""
         <button type="button" class="z-event-filter-btn z-event-format-btn active" data-filter="all">All</button>
         {% for fmt in formats %}
             {% if fmt %}
-                <button type="button" class="z-event-filter-btn z-event-format-btn" data-filter="{{ fmt }}">{{ fmt }}</button>
+                {% assign fmt_info = site.data.event_formats[fmt] %}
+                <button type="button" class="z-event-filter-btn z-event-format-btn" data-filter="{{ fmt }}" style="--z-fmt: {{ fmt_info.color }};">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %} {{ fmt }}</button>
             {% endif %}
         {% endfor %}
     </div>
@@ -187,9 +188,10 @@ latest-update: ""
                         {% assign row_cats = "" | split: "" %}
                     {% endif %}
                     {% assign row_cats = row_cats | push: ev.category | join: "|" %}
+                    {% assign row_fmt_info = site.data.event_formats[ev.format] %}
                     <div class="z-event-row" data-category="{{ row_cats }}" data-format="{{ ev.format }}" data-type="{{ row_type }}">
                         <div class="z-event-date">{{ ev.date | date: "%b %-d, %Y" }}</div>
-                        <div class="z-event-title"><a href="{{ ev.url | relative_url }}">{{ ev.title }}</a></div>
+                        <div class="z-event-title">{% if row_fmt_info %}<i class="fa-solid {{ row_fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ ev.format }}"></i>{% endif %}<a href="{{ ev.url | relative_url }}">{{ ev.title }}</a></div>
                     </div>
                 {% endfor %}
             </div>

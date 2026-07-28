@@ -153,8 +153,9 @@
             {% assign chip_cats = "" | split: "" %}
           {% endif %}
           {% assign chip_cats = chip_cats | push: e.category | join: "|" %}
-          <a href="{{ e.url | relative_url }}" class="z-calendar-event-chip" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}" title="{{ e.title }}">{{ e.title | truncate: 24 }}</a>
-          {% capture list_row %}<div class="z-event-row" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title"><a href="{{ e.url | relative_url }}">{{ e.title }}</a></div></div>{% endcapture %}
+          {% assign fmt_info = site.data.event_formats[e.format] %}
+          <a href="{{ e.url | relative_url }}" class="z-calendar-event-chip" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}" title="{{ e.format }}: {{ e.title }}">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ e.title | truncate: 24 }}</a>
+          {% capture list_row %}<div class="z-event-row" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ e.format }}"></i>{% endif %}<a href="{{ e.url | relative_url }}">{{ e.title }}</a></div></div>{% endcapture %}
           {% assign month_list_html = month_list_html | append: list_row %}
         {% endfor %}
 
@@ -171,8 +172,9 @@
               {% assign series_cats = "" | split: "" %}
             {% endif %}
             {% assign series_cats = series_cats | push: series.category | join: "|" %}
-            <a href="{{ series.url | relative_url }}" class="z-calendar-event-chip z-calendar-event-chip-recurring" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting" title="{{ series.title }}">{{ series.title | truncate: 24 }}</a>
-            {% capture list_row %}<div class="z-event-row" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title"><a href="{{ series.url | relative_url }}">{{ series.title }}</a></div></div>{% endcapture %}
+            {% assign series_fmt_info = site.data.event_formats[series.format] %}
+            <a href="{{ series.url | relative_url }}" class="z-calendar-event-chip z-calendar-event-chip-recurring" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting" title="{{ series.format }}: {{ series.title }}">{% if series_fmt_info %}<i class="fa-solid {{ series_fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ series.title | truncate: 24 }}</a>
+            {% capture list_row %}<div class="z-event-row" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title">{% if series_fmt_info %}<i class="fa-solid {{ series_fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ series.format }}"></i>{% endif %}<a href="{{ series.url | relative_url }}">{{ series.title }}</a></div></div>{% endcapture %}
             {% assign month_list_html = month_list_html | append: list_row %}
           {% endunless %}
         {% endfor %}

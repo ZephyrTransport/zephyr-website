@@ -1734,11 +1734,52 @@ footer a:hover {
   text-overflow: ellipsis;
   font-weight: 600;
   color: var(--z-blue-dark);
+  border-left: 3px solid var(--z-fmt, var(--z-blue));
+  padding-left: 0.35rem;
+  margin-bottom: 1px;
 }
 
 .z-calendar-event-chip-recurring {
   font-style: italic;
   color: var(--z-blue-dark);
+}
+
+/* Format color-coding: each format gets a fixed accent color, applied
+   via the existing data-format attribute so no extra markup is needed
+   beyond the icon. Colors chosen from the validated categorical palette
+   in css/../ (see _data/event_formats.yml for the icon+color pairing). */
+.z-calendar-event-chip[data-format="Meeting"],
+.z-event-row[data-format="Meeting"] {
+  --z-fmt: #2a78d6;
+}
+.z-calendar-event-chip[data-format="Learning Session"],
+.z-event-row[data-format="Learning Session"] {
+  --z-fmt: #1baf7a;
+}
+.z-calendar-event-chip[data-format="Workshop"],
+.z-event-row[data-format="Workshop"] {
+  --z-fmt: #4a3aa7;
+}
+.z-calendar-event-chip[data-format="Conference"],
+.z-event-row[data-format="Conference"] {
+  --z-fmt: #eda100;
+}
+.z-calendar-event-chip[data-format="Reception"],
+.z-event-row[data-format="Reception"] {
+  --z-fmt: #e34948;
+}
+
+.z-format-icon {
+  color: var(--z-fmt, var(--z-blue-dark));
+  margin-right: 0.35rem;
+}
+
+.z-event-filter-btn.z-event-format-btn .z-format-icon {
+  color: var(--z-fmt, inherit);
+}
+
+.z-event-filter-btn.z-event-format-btn.active .z-format-icon {
+  color: #ffffff;
 }
 
 .z-calendar-grid {

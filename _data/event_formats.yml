@@ -1,0 +1,18 @@
+# Icon + color used to visually distinguish event formats on the
+# calendar and event lists. Keys must match the `format:` value used
+# in _events / _events-recurring front matter exactly.
+Meeting:
+  icon: fa-people-group
+  color: "#2a78d6"
+Learning Session:
+  icon: fa-chalkboard-user
+  color: "#1baf7a"
+Workshop:
+  icon: fa-screwdriver-wrench
+  color: "#4a3aa7"
+Conference:
+  icon: fa-building-columns
+  color: "#eda100"
+Reception:
+  icon: fa-champagne-glasses
+  color: "#e34948"
