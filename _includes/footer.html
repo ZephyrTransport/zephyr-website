@@ -12,8 +12,8 @@
                 <ul class="z-footer-links">
                     <li><a href="{{ '/activities' | relative_url }}">Activities</a></li>
                     <li><a href="{{ '/events' | relative_url }}">Events</a></li>
-                    <li><a href="{{ '/membership' | relative_url }}">Membership</a></li>
-                    <li><a href="{{ '/zephies' | relative_url }}">Zephies</a></li>
+                    <li><a href="{{ '/get-involved' | relative_url }}">Get Involved</a></li>
+                    <li><a href="{{ '/awards' | relative_url }}">Awards</a></li>
                     <li><a href="{{ '/about' | relative_url }}">About</a></li>
                 </ul>
             </div>
@@ -23,7 +23,7 @@
                 <div class="z-social-buttons">
                     {% for social in site.social %}
                         {% if social.title == 'discord' %}
-                            <a href="{{ '/about/discord' | relative_url }}"><i class="fab fa-discord fa-lg"></i></a>
+                            <a href="{{ '/get-involved/forum' | relative_url }}"><i class="fab fa-discord fa-lg"></i></a>
                         {% else %}
                             <a href="{{ social.url }}"><i class="fab fa-{{ social.title }} fa-lg"></i></a>
                         {% endif %}

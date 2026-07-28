@@ -100,7 +100,11 @@ With a Board and bylaws in place, Zephyr spent its first few years turning found
     </div>
     <div class="z-timeline-item">
         <span class="z-timeline-date">2020</span>
-        <p>The Technical Achievement Award and Impactful Research Award were presented for the first time, recognizing the SACOG Technical Team and Michel Bierlaire (for Biogeme). As the pandemic reshaped how the community could gather, Zephyr shifted its programming to virtual Learning Sessions &mdash; including an early introduction to ActivitySim &mdash; a format that's remained part of Zephyr ever since.</p>
+        <p>The Technical Achievement Award and Impactful Research Award were presented for the first time, recognizing the SACOG Technical Team and Michel Bierlaire (for Biogeme).</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">May 2020</span>
+        <p>As the pandemic reshaped how the community could gather, Zephyr held its first virtual <a href="{{ '/activities/learning-sessions' | relative_url }}">Learning Session</a> &mdash; including an early introduction to ActivitySim &mdash; a format that's remained part of Zephyr ever since.</p>
     </div>
 </div>
 
@@ -128,7 +132,7 @@ As Zephyr's activities and membership grew beyond what an all-volunteer Board co
     <div class="z-timeline-item">
         <span class="z-timeline-date">2024</span>
         <h4 class="z-timeline-title">MoMo Fiscal Sponsorship</h4>
-        <p>Zephyr becomes the sponsoring organization for <a href="{{ '/activities/modeling-mobility-conference' | relative_url }}">MoMo</a> (the Modeling Mobility Conference), an independently organized annual conference for travel modeling professionals that needed a fiscal home to handle contracts, venue booking, and funding.</p>
+        <p>Zephyr becomes the fiscal sponsor for <a href="{{ '/activities/modeling-mobility-conference' | relative_url }}">MoMo</a>, providing a nonprofit home to handle contracts, venue booking, and funding for the volunteer-organized conference.</p>
     </div>
     <div class="z-timeline-item">
         <span class="z-timeline-date">2025</span>
@@ -138,6 +142,11 @@ As Zephyr's activities and membership grew beyond what an all-volunteer Board co
     <div class="z-timeline-item">
         <span class="z-timeline-date">September 3, 2025</span>
         <p><a href="{{ '/about/leadership#executive-director' | relative_url }}">Joe Castiglione</a> was hired as Zephyr's first Executive Director to lead the organization's day-to-day work.</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">September 14&ndash;17, 2025</span>
+        <h4 class="z-timeline-title">Inaugural MoMo Conference</h4>
+        <p>The first <a href="{{ '/activities/modeling-mobility-conference' | relative_url }}">MoMo</a> (Modeling Mobility Conference) was held in Minneapolis, Minnesota, at the McNamara Alumni Center of the University of Minnesota (Twin Cities), bringing together over 300 modeling community members.</p>
     </div>
 </div>
 

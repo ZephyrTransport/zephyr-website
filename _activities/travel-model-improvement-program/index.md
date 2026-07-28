@@ -9,6 +9,9 @@ description: An online Community of Practice for the Travel Model Improvement Pr
 front: True
 permalink: /activities/travel-model-improvement-program/
 hide-title: true
+# lead: "Chair or lead's name"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 <img src="{{ '/img/logos/tmip-fmip-logo-01_crop.png' | relative_url }}" alt="TMIP / FMIP: Better Methods. Better Outcomes." class="z-tmip-page-logo mb-4"/>

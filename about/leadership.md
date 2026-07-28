@@ -60,7 +60,7 @@ Zephyr is led by a volunteer Board of Directors and an Executive Director, with 
 ### Board of Directors
 {: #board}
 
-The Zephyr Board of Directors consists of nine members dedicated to advancing the organization's mission and long-term success. The board seeks to represent the full spectrum of the transportation analytics profession—including academia, public agencies, consultants, and technology vendors—and values diverse perspectives and experiences. To provide both continuity and fresh ideas, approximately one-third of the board is elected by the [Zephyr Membership]({{ '/membership' | relative_url }}) each spring to staggered terms.
+The Zephyr Board of Directors consists of nine members dedicated to advancing the organization's mission and long-term success. The board seeks to represent the full spectrum of the transportation analytics profession—including academia, public agencies, consultants, and technology vendors—and values diverse perspectives and experiences. To provide both continuity and fresh ideas, approximately one-third of the board is elected by the [Zephyr Membership]({{ '/get-involved/membership' | relative_url }}) each spring to staggered terms.
 
 Board as of July 2026:
 

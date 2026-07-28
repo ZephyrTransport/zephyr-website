@@ -2,7 +2,7 @@
 layout: simple
 title: "Zephyr"
 subtitle: "Thank you for joining us!!"
-permalink: /membership/thankyou/
+permalink: /get-involved/membership/thankyou/
 ---
 
 <br/>

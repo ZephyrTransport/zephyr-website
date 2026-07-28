@@ -9,6 +9,9 @@ title: Learning Sessions
 description: Periodic online sessions sharing practical travel-modeling knowledge with the Zephyr community.
 front: True
 permalink: /activities/learning-sessions/
+lead: "Bill Hereth"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 Periodic online sessions sharing practical travel-modeling knowledge with the Zephyr community. Some sessions draw on work from other Zephyr programs, while others stand on their own.

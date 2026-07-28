@@ -9,6 +9,9 @@ title: Software Badging
 description: Badges recognizing open-source software tools that meet Zephyr's development and transparency criteria.
 front: True
 permalink: /activities/software-badging/
+lead: "David Ory"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 The software badging effort was [established](https://medium.com/zephyrfoundation/software-badgers-8388db3ca278) in 2018 to highlight the excellent open-source software development activities in our community. We articulated our [motivations and criteria](https://medium.com/zephyrfoundation/developing-badge-worthy-standards-52a80d89ff45) and badged our first project in late 2019.
@@ -68,7 +71,7 @@ The software badging effort was [established](https://medium.com/zephyrfoundatio
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to the Software Badging chair: [software-badging@zephyrtransport.org](mailto:software-badging@zephyrtransport.org).
+Feedback or requests to be involved can be sent to [info@zephyrtransport.org](mailto:info@zephyrtransport.org).
 
 ## Governance
 

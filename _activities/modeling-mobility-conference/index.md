@@ -10,6 +10,9 @@ description: The premier conference for professionals working with travel models
 front: True
 permalink: /activities/modeling-mobility-conference/
 hide-title: true
+# lead: "Chair or lead's name"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 <img src="{{ '/img/logos/JustMomo-trimmed.png' | relative_url }}" alt="MoMo: Modeling Mobility Conference" class="z-momo-page-logo mb-4"/>
@@ -24,4 +27,4 @@ A call for abstracts for MoMo 2027 will be announced later in 2026.
 
 ## Learn More
 
-Visit [ModelingMobility.org](https://modelingmobility.org/) for the full agenda, speakers, past conference recordings, and to sign up for notifications or volunteer to help organize. Questions? Email [modelingmobility@zephyrtransport.org](mailto:modelingmobility@zephyrtransport.org).
+Visit [ModelingMobility.org](https://modelingmobility.org/) for the full agenda, speakers, past conference recordings, and to sign up for notifications or volunteer to help organize. Questions? Email [info@zephyrtransport.org](mailto:info@zephyrtransport.org).

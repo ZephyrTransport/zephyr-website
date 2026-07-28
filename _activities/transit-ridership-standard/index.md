@@ -9,11 +9,14 @@ title: GTFS-ride
 description: A data standard for fixed-route transit ridership, revealing where and how riders actually use the system.
 front: True
 permalink: /activities/transit-ridership-standard/
+# lead: "Chair or lead's name"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 Data standards have been pivotal in creating a shared ecosystem of client-, public-, regulator- and manager-centric data discovery. Starting with Tri-Met and GTFS and more recently GBFS, data standards have made it commonplace to know how and when to use transit or other mobility services.  GTFS-ride complements LA and Santa Monica’s MDS efforts (which is currently restricted to dockless mobility) to provide a picture of where people are using the system, which can provide insight into deficiencies or opportunities to improve the experience of the travelling public.
 
-*Zephyr's coordination role on this initiative has been dormant since 2020. The GTFS-ride standard itself remains active, maintained independently by ODOT and OSU (see Progress below) — if you'd like to help restart Zephyr's involvement, [get in touch](mailto:gtfs-ride@zephyrtransport.org).*
+*Zephyr's coordination role on this initiative has been dormant since 2020. The GTFS-ride standard itself remains active, maintained independently by ODOT and OSU (see Progress below) — if you'd like to help restart Zephyr's involvement, [get in touch](mailto:info@zephyrtransport.org).*
 
 <!-- CONTENT REVIEW NEEDED: the Governance and Approach sections below were last confirmed
      circa 2019-2020. The PMG roster and project needs have been removed pending
@@ -51,4 +54,4 @@ Administratively, the project needs:
 
 ## Feedback + Involvement
 
-Feedback or requests to be involved can be sent to to the GTFS-ride chair: [gtfs-ride@zephyrtransport.org](mailto:gtfs-ride@zephyrtransport.org).
+Feedback or requests to be involved can be sent to [info@zephyrtransport.org](mailto:info@zephyrtransport.org).

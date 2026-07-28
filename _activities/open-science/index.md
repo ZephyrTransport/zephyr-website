@@ -9,6 +9,9 @@ title: Open Science
 description: Badges recognizing open, reproducible transportation research to encourage sharing of data, code, and models.
 front: True
 permalink: /activities/open-science/
+lead: "Andre Carrel"
+contact: "carrel.20@osu.edu"
+contact_url: "mailto:carrel.20@osu.edu"
 ---
 
 Badges distributed by Zephyr to recognize open and reproducible research will incentivize authors to archive and share data, code, and models associated with their research articles. This standard enables other authors to more easily build upon that research.  

@@ -21,7 +21,7 @@ hero-gap: 4rem
     {% endfor %}
 </div>
 
-<p class="z-programs-intro" data-filter-text="all">Zephyr's activities and projects span {{ pillars.size }} pillars&mdash;{{ pillars | map: "title" | array_to_sentence_string | downcase }}. Filter above to explore each.</p>
+<p class="z-programs-intro" data-filter-text="all">Zephyr's activities and projects span {{ pillars.size }} pillars&mdash;{{ pillars | map: "title" | array_to_sentence_string | downcase }}. Filter above to explore each. Prefer to get involved at the organization level instead? Check out our <a href="{{ '/about/committees' | relative_url }}">committees</a>.</p>
 {% for pillar in pillars %}
     <p class="z-programs-intro d-none" data-filter-text="{{ pillar.key }}">{{ pillar.intro }}</p>
 {% endfor %}

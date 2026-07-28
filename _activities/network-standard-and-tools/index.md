@@ -9,6 +9,9 @@ title: Network Data Standard and Management Tools
 description: Open data specifications and tools&mdash;like GMNS and NetworkWrangler&mdash;for building and sharing routable travel model networks.
 front: True
 permalink: /activities/network-standard-and-tools/
+lead: "Lisa Zorn"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 ## Network Data Standard: GMNS

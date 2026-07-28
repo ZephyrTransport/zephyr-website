@@ -9,6 +9,9 @@ title: "DMDU: Decision Making under Deep Uncertainty"
 description: A working group promoting practical approaches to travel forecasting and planning decisions under deep uncertainty.
 front: True
 permalink: /activities/decision-making-under-deep-uncertainty/
+lead: "Marty Milkovits and Flavia Tsang"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 ## Objectives

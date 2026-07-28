@@ -9,9 +9,13 @@
             {% endif %}
         </div>
     {% endif %}
-{% elsif page.section == "Zephies" %}
-    {% if page.url != '/zephies/' %}
-        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/zephies' | relative_url }}">Zephies</a></div>
+{% elsif page.section == "Awards" %}
+    {% if page.url != '/awards/' %}
+        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/awards' | relative_url }}">Zephies</a></div>
+    {% endif %}
+{% elsif page.section == "Get Involved" %}
+    {% if page.url != '/get-involved/' %}
+        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/get-involved' | relative_url }}">Get Involved</a></div>
     {% endif %}
 {% elsif page.section and page.section != "" %}
     {% assign section_tag_lower = page.section | downcase %}

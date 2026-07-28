@@ -2,7 +2,7 @@
 layout: simple
 title: "Error"
 subtitle: "There was a problem..."
-permalink: /membership/error/
+permalink: /get-involved/membership/error/
 ---
 
 <br/>

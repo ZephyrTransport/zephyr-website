@@ -9,6 +9,9 @@ title: Travel Diary Survey Working Group
 description: A working group developing shared methods and practice for travel diary survey design and analysis.
 front: True
 permalink: /activities/travel-diary-survey-working-group/
+# lead: "Chair or lead's name"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 The Travel Diary Survey Working Group develops shared methods and practice for travel diary survey design, administration, and analysis, helping agencies and researchers collect more consistent, comparable data across regions.

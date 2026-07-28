@@ -1,8 +1,8 @@
 ---
 layout: simple
 title: "Zephyr Leadership Award"
-section: Zephies
-permalink: /zephies/leadership-award/
+section: Awards
+permalink: /awards/leadership-award/
 ---
 
 {% include award-recipient.html photo="/img/zephies/zephies_2026_milkovits.jpeg" name="Marty Milkovits" year="2026" presented="January 13, 2026" %}
@@ -13,21 +13,14 @@ But Marty has also fostered a community of modelers and practitioners both withi
 
 Marty has been instrumental in spearheading efforts such as the integration into travel forecastsing the principles of “Decision Making under Deep Uncertainty”, and encourages critical discussion about future challenges in the field. Marty’s leadership extends beyond technical skills—he understands the importance of making complex models accessible to stakeholders and decision-makers, ensuring that models are communicated in clear, relatable terms.  And of course, this year Marty was one of the organizers of the incredibly successful Modeling Mobility conference, which brought together over 300 modeling community members in September of 2025, and which will reconvene in April 2027 at ASU in Tempe.
 
-The 2026 Zephyr Leadership Award Committee was:
-- Greg Erhardt
-- Susan Handy
-- Rick Donnelly
-
-Board Facilitator: Joe Castiglione
-
-Presenter at the 2026 TRB Annual Meeting Reception: Rick Donnelly
+<p class="z-award-credits">Selected by the 2026 Leadership Award Committee (Greg Erhardt, Susan Handy, Rick Donnelly) &middot; Board Facilitator: Joe Castiglione &middot; Presenter: Rick Donnelly</p>
 
 ## Past Recipients
 
-- Joe Castiglione, 2019
-- Joan Walker, 2020
-- Bill Davidson, 2021
-- Elizabeth Sall, 2022
-- Greg Erhardt, 2023
-- Susan Handy, 2024
-- Rick Donnelly, 2025
+- 2025: Rick Donnelly
+- 2024: Susan Handy
+- 2023: Greg Erhardt
+- 2022: Elizabeth Sall
+- 2021: Bill Davidson
+- 2020: Joan Walker
+- 2019: Joe Castiglione

@@ -34,18 +34,26 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="{{ '/events' | relative_url }}">Events</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="{{ '/membership' | relative_url }}">Membership</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Get Involved</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ '/get-involved' | relative_url }}">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/membership' | relative_url }}">Become a Member</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/committees' | relative_url }}">Join a Committee</a></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/activities' | relative_url }}">Join an Activity</a></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/forum' | relative_url }}">Join the Forum</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Zephies</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Awards</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ '/zephies' | relative_url }}">Overview</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards' | relative_url }}">Overview</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="{{ '/zephies/leadership-award' | relative_url }}">Leadership Award</a></li>
-                        <li><a class="dropdown-item" href="{{ '/zephies/technical-achievement-award' | relative_url }}">Technical Achievement Award</a></li>
-                        <li><a class="dropdown-item" href="{{ '/zephies/impactful-research-award' | relative_url }}">Impactful Research Award</a></li>
-                        <li><a class="dropdown-item" href="{{ '/zephies/rising-star-award' | relative_url }}">Rising Star Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/leadership-award' | relative_url }}">Leadership Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/technical-achievement-award' | relative_url }}">Technical Achievement Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/impactful-research-award' | relative_url }}">Impactful Research Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/rising-star-award' | relative_url }}">Rising Star Award</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -57,7 +65,6 @@
                         <li><a class="dropdown-item" href="{{ '/about/history' | relative_url }}">Our History</a></li>
                         <li><a class="dropdown-item" href="{{ '/about/leadership' | relative_url }}">Leadership</a></li>
                         <li><a class="dropdown-item" href="{{ '/about/committees' | relative_url }}">Committees</a></li>
-                        <li><a class="dropdown-item" href="{{ '/about/discord' | relative_url }}">Zephyr Phorum</a></li>
                         <li><a class="dropdown-item" href="{{ '/about/policies' | relative_url }}">Policies</a></li>
                     </ul>
                 </li>

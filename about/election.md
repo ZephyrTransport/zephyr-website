@@ -13,7 +13,7 @@ Zephyr is a non-profit organization and depends on its Board and members for lit
 ## Become a member to vote
 
 To be eligible to vote in the upcoming election you must be a member in good standing at the time of the election. 
-You can become a member or renew your membership at <a href="{{ '/membership/' | relative_url }}">zephyrtransport.org/membership</a>.
+You can become a member or renew your membership at <a href="{{ '/get-involved/membership/' | relative_url }}">zephyrtransport.org/get-involved/membership</a>.
 
 This election will take place on **April 21, 2026**.
 

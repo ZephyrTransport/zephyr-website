@@ -5,17 +5,15 @@ section: About
 permalink: /about/committees/
 ---
 
-Zephyr's committees are where members help shape the future of our organization and the travel modeling profession. Committees provide opportunities to build professional relationships, develop leadership skills, organize programs, and strengthen our community.
+**Great organizations are built by volunteers.**
 
-Whether you have a few hours each year or are looking to take on a larger leadership role, there's a place for you to contribute.
+Zephyr's committees bring members together to grow our community, organize events and communications, run our awards program, and guide board elections.
 
-### How Committees Work
+**How you contribute is up to you.** Committees are intentionally flexible, with members taking on roles that match their interests, skills, and availability. Example opportunities are listed with each committee below.
 
-Each committee is led by a Committee Chair appointed by the Board of Directors. As committees grow, they may also designate additional leadership positions such as a Vice Chair or Secretary.
-
-Within each committee, volunteers typically serve in functional roles based on their interests, experience, and availability. These roles are flexible and may evolve as Zephyr grows.
-
----
+<div class="z-note-callout" markdown="1">
+**Ready to get involved?** Committee participation is open to current Zephyr members. Browse the committees below to find your place, or [contact us](mailto:info@zephyrtransport.org) to get started. **Not a member yet? [Become a member]({{ '/get-involved/membership' | relative_url }}) first.**
+</div>
 
 ### Membership Committee
 
@@ -44,11 +42,15 @@ Recruits and onboards new members, improves retention, develops member benefits,
     </div></div>
 </div>
 
+<div class="z-committee-contact" markdown="1">
+**Chair:** Xinbo Mi
+</div>
+
 ---
 
 ### Community Engagement Committee
 
-Organizes webinars, workshops, and networking events, plans conference meetups, fosters engagement in the Zephyr Phorum, supports mentoring and peer learning, and encourages year-round participation.
+Organizes webinars, workshops, and networking events, plans conference meetups, fosters engagement in the Zephyr Forum, supports mentoring and peer learning, and encourages year-round participation.
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 z-name-tiles">
     <div class="col"><div class="z-name-tile z-committee-tile">
@@ -60,7 +62,7 @@ Organizes webinars, workshops, and networking events, plans conference meetups, 
         <p>Coordinates conference meetups and special events.</p>
     </div></div>
     <div class="col"><div class="z-name-tile z-committee-tile">
-        <strong>Phorum Community Moderator</strong>
+        <strong>Forum Community Moderator</strong>
         <p>Welcomes members, encourages discussions, and supports online engagement.</p>
     </div></div>
     <div class="col"><div class="z-name-tile z-committee-tile">
@@ -75,6 +77,10 @@ Organizes webinars, workshops, and networking events, plans conference meetups, 
         <strong>Volunteer Coordinator</strong>
         <p>Matches members with volunteer opportunities across Zephyr.</p>
     </div></div>
+</div>
+
+<div class="z-committee-contact" markdown="1">
+**Chair:** Bill Hereth
 </div>
 
 ---
@@ -110,6 +116,10 @@ Maintains the website, publishes newsletters, manages social media, promotes eve
     </div></div>
 </div>
 
+<div class="z-committee-contact" markdown="1">
+**Chair:** Sijia Wang
+</div>
+
 ---
 
 ### Awards Committee
@@ -133,6 +143,10 @@ Solicits and evaluates nominations, recommends recipients, coordinates award rec
         <strong>Recognition Coordinator</strong>
         <p>Assists with award announcements and presentations.</p>
     </div></div>
+</div>
+
+<div class="z-committee-contact" markdown="1">
+**Chair:** Jason Hawkins
 </div>
 
 ---
@@ -160,10 +174,12 @@ Recruits board candidates, conducts elections, ensures transparent election proc
     </div></div>
 </div>
 
+<div class="z-committee-contact" markdown="1">
+**Chair:** Joe Castiglione
+</div>
+
 ---
 
-### Interested in Serving?
-
-Committee service is one of the best ways to connect with colleagues, develop professionally, and help shape the future of Zephyr. Whether you're interested in organizing events, mentoring others, creating content, recruiting members, or supporting governance, we'd love to have you involved.
-
-[Contact the Zephyr Board of Directors](mailto:membership@zephyrtransport.org) to learn more about current committee opportunities.
+<div class="z-note-callout" markdown="1">
+**Questions about any committee, or not sure where you'd fit?** [Contact the Zephyr Board of Directors](mailto:info@zephyrtransport.org) to learn more about current opportunities.
+</div>

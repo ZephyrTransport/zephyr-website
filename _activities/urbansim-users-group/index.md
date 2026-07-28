@@ -9,6 +9,9 @@ title: UrbanSim Users Group
 description: A community of practice for planners and researchers using the UrbanSim land use modeling platform.
 front: True
 permalink: /activities/urbansim-users-group/
+lead: "Joe Castiglione"
+contact: "info@zephyrtransport.org"
+contact_url: "mailto:info@zephyrtransport.org"
 ---
 
 The UrbanSim Users Group is a community of practice and joint development effort for planners and researchers using UrbanSim, an open-source Python platform for building statistical models of cities and regions that forecast real estate development, demographics, and land use patterns under different policy scenarios.

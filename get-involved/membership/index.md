@@ -1,14 +1,8 @@
 ---
-layout: project
+layout: simple
 title: "Membership"
-subTitle: "Become a member to support Zephyr!"
-img: banners/banner-social-crowd-duotone.jpg
-img-position: center 45%
-# Original banner photo - re-enable if we revert:
-# img: banners/banner-slc-frontrunner.jpg
-# img-position: 55% 15%
-# img: banners/trees.png
-permalink: /membership/
+section: Get Involved
+permalink: /get-involved/membership/
 membership_tiers:
   - type: Standard
     price: "$200"
@@ -28,8 +22,6 @@ membership_tiers:
     note: or $10,000 / 5 yrs
 ---
 
-## Why Join Zephyr?
-
 <div class="z-inline-photo">
 <img src="{{ '/img/photos/reception.jpg' | relative_url }}" width="320px" class="img-fluid rounded"/>
 <p style="text-align:right; font-size:0.85rem; color:#666;"><i>The Zephyr reception at the TRB Annual Meeting</i></p>
@@ -40,7 +32,7 @@ Members are the heart of the Zephyr Foundation. As a member, you:
 - **Vote** in Board of Directors elections and help shape Zephyr's future.
 - **Receive** discounted registration for Zephyr conferences, workshops, and events.
 - **Connect** with a community of travel analysis professionals working together to improve the practice.
-- **Contribute** to open-source software, data standards, and community initiatives by joining a [committee]({{ '/about/committees' | relative_url }}) or an [activity]({{ '/activities' | relative_url }}).
+- **Contribute** to open-source software, data standards, and community initiatives by joining a [committee]({{ '/about/committees' | relative_url }}) or an [activity]({{ '/get-involved/activities' | relative_url }}).
 
 See the [Bylaws]({{ '/about/policies/bylaws' | relative_url }}) for governance details and the [Terms of Membership]({{ '/about/policies/terms-of-membership' | relative_url }}) for the full agreement.
 

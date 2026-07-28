@@ -10,6 +10,9 @@ description: Open-source, activity-based travel behavior modeling software built
 front: True
 permalink: /activities/activity-sim/
 hide-title: true
+lead: "Joe Castiglione"
+contact: "admin@activitysim.org"
+contact_url: "mailto:admin@activitysim.org"
 
 # domain is used for programmatic logo gathering
 # url is the link included on card
