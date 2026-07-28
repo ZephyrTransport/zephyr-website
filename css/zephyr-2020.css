@@ -927,6 +927,80 @@ a.z-zephyr-name {
   font-weight: 600;
 }
 
+.z-spotlight-carousel .z-note-callout {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.z-spotlight-tag {
+  position: absolute;
+  top: 0.85rem;
+  left: 1.25rem;
+  padding: 0.2rem 0.65rem;
+  background: var(--z-blue);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0.25rem;
+}
+
+.z-spotlight-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.z-spotlight-arrow {
+  background: none;
+  border: none;
+  padding: 0 0.25rem;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--z-blue-dark);
+  cursor: pointer;
+}
+
+.z-spotlight-arrow:hover,
+.z-spotlight-arrow:focus {
+  color: var(--z-blue);
+}
+
+.z-spotlight-dots {
+  position: static;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.z-spotlight-dots [data-bs-target] {
+  box-sizing: content-box;
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  border: 1px solid var(--z-blue);
+  border-radius: 50%;
+  background-color: transparent;
+  background-clip: padding-box;
+  opacity: 1;
+}
+
+.z-spotlight-dots [data-bs-target].active {
+  background-color: var(--z-blue);
+}
+
 .z-inline-photo {
   float: right;
   margin: 5px 0 1rem 1.5rem;

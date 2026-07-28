@@ -75,14 +75,58 @@ subTitle: Advancing Travel Analysis to Improve Society
 
     </div>
 
-    <div class="z-note-callout d-flex align-items-center gap-3 mt-4">
-        <div>
-            <p class="mb-2">
-                <strong>Spotlight: TMIP (Travel Model Improvement Program)</strong> &mdash; In partnership with the Federal Highway Administration (FHWA), Zephyr serves as steward of the TMIP community by moderating an active email discussion list connecting more than 1,600 travel demand forecasting professionals and maintaining a searchable archive spanning more than two decades of webinars, technical discussions, and community knowledge.
-            </p>
-            <div class="z-note-callout-links">
-                <a href="https://tmip.zephyrtransport.org/scripts/wa-ZEPHYRTRANS.exe?INDEX" target="_blank">Visit the active listserv &raquo;</a>
-                <a href="{{ '/activities/travel-model-improvement-program/' | relative_url }}">Explore TMIP resources &raquo;</a>
+    <div class="z-spotlight-carousel mt-4">
+        <div id="homeSpotlightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="hover">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>TMIP: Travel Model Improvement Program</strong> &mdash; In partnership with the Federal Highway Administration (FHWA), Zephyr serves as steward of the TMIP community by moderating an active email discussion list connecting more than 1,600 travel demand forecasting professionals and maintaining a searchable archive spanning more than two decades of webinars, technical discussions, and community knowledge.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://tmip.zephyrtransport.org/scripts/wa-ZEPHYRTRANS.exe?INDEX" target="_blank">Visit the active listserv &raquo;</a>
+                            <a href="{{ '/activities/travel-model-improvement-program/' | relative_url }}">Explore TMIP resources &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>Network Data Standard and Management Tools</strong> &mdash; Zephyr stewards GMNS (General Modeling Network Specification), an open data format for sharing routable travel model networks across platforms, alongside an ecosystem of open-source tools&mdash;NetworkWrangler, OSM2GMNS, and Path4GMNS&mdash;for building and working with GMNS networks.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://zephyr-data-specs.github.io/GMNS/" target="_blank">View the GMNS spec &raquo;</a>
+                            <a href="{{ '/activities/network-standard-and-tools/' | relative_url }}">Explore network standards &amp; tools &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>MoMo: Modeling Mobility Conference</strong> &mdash; Zephyr serves as the sponsoring organization behind MoMo, the premier conference for travel modeling, transportation data, and quantitative analysis, run by an all-volunteer group of public-sector, consulting, vendor, and academic professionals covering everything from activity-based modeling to emerging AI applications in transportation planning.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://modelingmobility.org/" target="_blank">Visit ModelingMobility.org &raquo;</a>
+                            <a href="{{ '/activities/modeling-mobility-conference/' | relative_url }}">Explore MoMo details &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="z-spotlight-nav">
+                <button class="z-spotlight-arrow" type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide="prev" aria-label="Previous spotlight">&lsaquo;</button>
+                <div class="carousel-indicators z-spotlight-dots">
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="TMIP spotlight"></button>
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="1" aria-label="Network Data Standard and Management Tools spotlight"></button>
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="2" aria-label="MoMo spotlight"></button>
+                </div>
+                <button class="z-spotlight-arrow" type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide="next" aria-label="Next spotlight">&rsaquo;</button>
             </div>
         </div>
     </div>

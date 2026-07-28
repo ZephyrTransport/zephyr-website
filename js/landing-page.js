@@ -35,6 +35,36 @@
     });
 })();
 
+// Give every homepage spotlight card the same height (the tallest one's)
+// so the nav dots below the carousel don't jump up/down as slides change.
+document.addEventListener('DOMContentLoaded', function () {
+    var callouts = document.querySelectorAll('.z-spotlight-carousel .carousel-item .z-note-callout');
+    if (!callouts.length) return;
+
+    function syncHeights() {
+        callouts.forEach(function (el) { el.style.minHeight = ''; });
+
+        var max = 0;
+        callouts.forEach(function (el) {
+            var item = el.closest('.carousel-item');
+            var wasActive = item.classList.contains('active');
+            if (!wasActive) item.classList.add('active');
+            max = Math.max(max, el.offsetHeight);
+            if (!wasActive) item.classList.remove('active');
+        });
+
+        callouts.forEach(function (el) { el.style.minHeight = max + 'px'; });
+    }
+
+    syncHeights();
+
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(syncHeights, 150);
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     // Smooth-scroll for same-page hash links (e.g. "/#home"). Nav items that
     // carry .page-scroll but point at a real page (e.g. "/events") have no
