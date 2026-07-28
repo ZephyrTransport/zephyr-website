@@ -4,7 +4,7 @@ title: "Mission, Vision &amp; Values"
 section: About
 permalink: /about/mission/
 vision:
-  - We envision a profession in which researchers, practitioners, and industry partners work together to develop and implement travel analysis data, methods, models, and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable&mdash;supporting decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability.
+  - We envision a profession in which researchers, practitioners, and industry partners work together to develop and implement travel analysis data, methods, models, and tools that are demonstrably valuable, credible, transparent, tractable, reproducible, and usable&mdash;supporting decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability.
 values:
   - name: Respect
     description: We treat every member with professionalism, curiosity, and respect.
