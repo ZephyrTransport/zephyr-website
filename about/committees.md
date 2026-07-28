@@ -43,8 +43,3 @@ Solicits and evaluates nominations, recommends recipients, coordinates award rec
 **Chair:** Jason Hawkins
 </div>
 
----
-
-<div class="z-note-callout" markdown="1">
-**Questions about any committee, or not sure where you'd fit?** [Contact the Zephyr Board of Directors](mailto:info@zephyrtransport.org) to learn more about current opportunities.
-</div>
