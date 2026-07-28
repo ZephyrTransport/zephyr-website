@@ -13,7 +13,7 @@ hide-title: true
 
 The **Zephyr Forum** is our online community where transportation and land use professionals ask questions, share ideas, collaborate on projects, and connect through discussion channels, direct messages, voice, and video.
 
-We're launching the Forum as a pilot. If the community finds it valuable, it will become Zephyr's primary online discussion space.
+We're launching the Forum as a **pilot**. If the community finds it valuable, it will become Zephyr's primary online discussion space.
 
 ## Why Discord?
 
