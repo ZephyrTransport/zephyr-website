@@ -47,7 +47,7 @@ Entering the Zephyr Lounge automatically connects your audio. There isn't a sepa
 ---
 <div class="text-center mt-4 mb-4">
   <a class="btn btn-lg btn-z" href="https://discord.gg/ejR8BK5uP">
-    Join the Zephyr Forum
+    Join the Zephyr Forum Pilot
   </a>
 </div>
 
