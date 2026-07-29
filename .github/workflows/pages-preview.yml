@@ -1,0 +1,63 @@
+name: Deploy branch preview to GitHub Pages
+
+# Fork-only preview deployment: builds this branch with a baseurl matching
+# the fork's project-pages subpath (https://<user>.github.io/<repo>/) so
+# every root-absolute link/asset resolves correctly there, without touching
+# the site's real _config.yml (which stays root-baseurl for production).
+#
+# Does not run automatically upstream - only fires on pushes to this branch,
+# and only takes effect on a repo where Settings > Pages > Build and
+# deployment > Source is set to "GitHub Actions".
+
+on:
+  push:
+    branches: [ restructure-2026 ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Determine baseurl from repo name
+        id: baseurl
+        run: echo "value=/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
+
+      - name: Build with Jekyll
+        env:
+          RUBYOPT: -r./.jekyll_ruby_compat_shim.rb
+        run: |
+          rm -f CNAME
+          bundle exec jekyll build --baseurl "${{ steps.baseurl.outputs.value }}"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

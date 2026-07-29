@@ -1,14 +1,15 @@
 ---
 layout: event
-category: Reception
+format: Reception
+occasion: TRB Annual Meeting
+category: General Membership
 title: Annual Zephyr Reception
-type: Reception
-day: January 10th, 2023
+day: Tuesday, January 10, 2023
 time: 8:00 - 10:00 PM EST
 place: Busyboys & Poets (450 K St, Washington DC)
 ---
 Join us for the annual Zephyr reception!  We will discuss updates to Zephyr's Strategic Plan
-and present the [2023 Zephyr Awards](/awards)
+and present the [2023 Zephyr Awards]({{ '/awards' | relative_url }})
 
 <p>Update: During this meeting, the Zephyr Board presented the following slide deck on the Zephyr's
 Strategic Plan and the Zephyr Award winners.</p>

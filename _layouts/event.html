@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
     {% include head.html %}
-    {% include nav.html %}
     <body>
+        {% include nav.html %}
         <div class="container">
             <div class="row">
-                <div class="col-sm-10 col-md-offset-1">
-                    <div class="event">
-                        <div class="event-header">
+                <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
-                            <h1 class="event-title">{{ page.title }}</h1>
+                    <div class="z-event-hero">
+                        {% if page.category or page.occasion or page.type %}
+                        <div class="z-event-badges">
+                            {% if page.category %}<span class="z-event-badge z-event-badge-static">{{ page.category }}</span>{% endif %}
+                            {% if page.occasion %}<span class="z-event-badge z-event-badge-static">{{ page.occasion }}</span>{% endif %}
+                            {% if page.type %}<span class="z-event-badge z-event-badge-alt z-event-badge-static">{{ page.type }}</span>{% endif %}
+                        </div>
+                        {% endif %}
 
-                            {% if page.day %}
-                                <h2 class="event-date">{{ page.day }}</h2>
-                            {% else %}
-                                <h2 class="event-date">{{ page.date | date: "%B %-d, %Y" }}</h2>
+                        <h1 class="z-event-hero-title">{{ page.title }}</h1>
+
+                        <div class="z-event-meta">
+                            <div class="z-event-meta-item">
+                                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                                {% if page.day %}{{ page.day }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
+                            </div>
+                            {% if page.time %}
+                            <div class="z-event-meta-item">
+                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                                {{ page.time }}
+                            </div>
                             {% endif %}
-
-                            <h2 class="event-date">{{ page.time }}</h2>
-
-                            <h2 class="event-place">{{ page.place }}</h2>
-
-                            {% if page.registration %}
-                                <a href={{ page.registration }}>
-                                    <button class="btn btn-lg btn-z" type="button">Register Now</button>
-                                </a>
+                            {% if page.place %}
+                            <div class="z-event-meta-item">
+                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                                {{ page.place }}
+                            </div>
                             {% endif %}
                         </div>
-                        <p>{{ page.summary }}
-                        </p>
+
+                        {% if page.registration %}
+                            <a href="{{ page.registration }}" class="btn btn-lg btn-z">Register Now</a>
+                        {% endif %}
+
+                        {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
+                        {% include add-to-calendar.html title=page.title date=event_date_iso time=page.time place=page.place url=page.url %}
                     </div>
+
+                    {% if page['additional-msg'] %}
+                    <div class="z-event-callout">{{ page['additional-msg'] }}</div>
+                    {% endif %}
+
+                    <hr class="z-event-divider"/>
+
+                    <div class="z-event-body">
+                        {% if page.summary %}<p class="z-event-summary">{{ page.summary }}</p>{% endif %}
+                        {{ content }}
+                    </div>
+
+                    <div class="z-event-back">
+                        <a href="{{ '/events' | relative_url }}">&laquo; Back to All Events</a>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    {{ content }}
-                </div>
-            </div>
-
         </div>
         {% include footer.html %}
         {% include js.html %}

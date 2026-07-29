@@ -1,0 +1,220 @@
+{% comment %}
+  Renders one month of the events calendar grid.
+  Params: include.year, include.month (1-12), include.is_default (bool)
+
+  Shows every real event (site.events) plus every computed occurrence of
+  each recurring series (site.events-recurring) that falls in this month. If a
+  real event's front matter has `recurring_series: <meeting key>` and
+  its date matches a computed occurrence, that occurrence is treated as
+  "promoted" -- the real event is shown (linking to its own page) and
+  the generic recurring entry is suppressed, so a specific meeting can
+  get an agenda/recording/cancellation notice without duplicating it.
+{% endcomment %}
+{% assign y = include.year | plus: 0 %}
+{% assign m = include.month | plus: 0 %}
+
+{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+{% assign month_lengths = "31,28,31,30,31,30,31,31,30,31,30,31" | split: "," %}
+{% assign dow_names = "Sun,Mon,Tue,Wed,Thu,Fri,Sat" | split: "," %}
+{% assign midx = m | minus: 1 %}
+{% assign dim = month_lengths[midx] | plus: 0 %}
+
+{% assign mod4 = y | modulo: 4 %}
+{% assign mod100 = y | modulo: 100 %}
+{% assign mod400 = y | modulo: 400 %}
+{% assign is_leap = false %}
+{% if mod4 == 0 and mod100 != 0 %}
+  {% assign is_leap = true %}
+{% elsif mod400 == 0 %}
+  {% assign is_leap = true %}
+{% endif %}
+{% if m == 2 and is_leap %}
+  {% assign dim = 29 %}
+{% endif %}
+
+{% assign first_of_month = y | append: '-' | append: m | append: '-01' %}
+{% assign first_weekday_i = first_of_month | date: '%w' | plus: 0 %}
+
+{% comment %}
+  is_today/is_past below are a build-time (server timezone) fallback for
+  when JS doesn't run. The events/index.html page script re-derives these
+  from the browser's local date via each day's data-date attribute, since
+  the build server's "now" (UTC) can be a day off from the visitor's.
+{% endcomment %}
+{% assign today_y = site.time | date: '%Y' | plus: 0 %}
+{% assign today_m = site.time | date: '%-m' | plus: 0 %}
+{% assign today_d = site.time | date: '%-d' | plus: 0 %}
+{% assign is_current_month = false %}
+{% if y == today_y and m == today_m %}
+  {% assign is_current_month = true %}
+{% endif %}
+
+{% assign mm_padded = '0' | append: m | slice: -2, 2 %}
+
+{% comment %} day-ordinal of the 1st of this month, used to gate series against their start_date {% endcomment %}
+{% capture month_start_ord_raw %}{% include day-ordinal.html y=y m=m d=1 %}{% endcapture %}
+{% assign month_start_ord = month_start_ord_raw | strip | plus: 0 %}
+
+{% assign month_list_html = "" %}
+<div class="z-calendar-month{% if include.is_default %} z-calendar-month-active{% endif %}" data-year="{{ y }}" data-month="{{ m }}"{% unless include.is_default %} style="display:none;"{% endunless %}>
+  <div class="z-event-year">{{ month_names[midx] }} {{ y }}</div>
+  <div class="z-calendar-grid">
+    {% for dow in dow_names %}
+      <div class="z-calendar-dow">{{ dow }}</div>
+    {% endfor %}
+
+    {% for i in (1..first_weekday_i) %}
+      {% unless first_weekday_i == 0 %}
+        <div class="z-calendar-day z-calendar-blank"></div>
+      {% endunless %}
+    {% endfor %}
+
+    {% for d in (1..dim) %}
+      {% assign day_weekday = first_weekday_i | plus: d | minus: 1 | modulo: 7 %}
+      {% assign day_ord = month_start_ord | plus: d | minus: 1 %}
+
+      {% comment %} -- real events on this day -- {% endcomment %}
+      {% assign day_real_events = "" | split: "" %}
+      {% for e in site.events %}
+        {% assign ey = e.date | date: '%Y' | plus: 0 %}
+        {% assign em = e.date | date: '%-m' | plus: 0 %}
+        {% assign ed = e.date | date: '%-d' | plus: 0 %}
+        {% if ey == y and em == m and ed == d %}
+          {% assign day_real_events = day_real_events | push: e %}
+        {% endif %}
+      {% endfor %}
+
+      {% comment %} -- recurring series occurrences on this day -- {% endcomment %}
+      {% assign day_series = "" | split: "" %}
+      {% for series in site.events-recurring %}
+        {% assign series_match = false %}
+
+        {% if series.cadence == "monthly_nth_weekday" %}
+          {% assign occ_offset = series.weekday | minus: first_weekday_i | plus: 7 | modulo: 7 %}
+          {% assign nth_minus_one = series.nth | minus: 1 %}
+          {% assign weeks_to_add = nth_minus_one | times: 7 %}
+          {% assign occ_day = occ_offset | plus: 1 | plus: weeks_to_add %}
+          {% if occ_day == d %}
+            {% assign series_match = true %}
+          {% endif %}
+
+        {% elsif series.cadence == "weekly" %}
+          {% if day_weekday == series.weekday %}
+            {% assign interval_weeks = series.interval_weeks | default: 1 %}
+            {% if interval_weeks <= 1 %}
+              {% assign series_match = true %}
+            {% else %}
+              {% assign sy = series.start_date | date: '%Y' | plus: 0 %}
+              {% assign sm = series.start_date | date: '%-m' | plus: 0 %}
+              {% assign sd = series.start_date | date: '%-d' | plus: 0 %}
+              {% capture start_ord_raw %}{% include day-ordinal.html y=sy m=sm d=sd %}{% endcapture %}
+              {% assign start_ord = start_ord_raw | strip | plus: 0 %}
+              {% if day_ord >= start_ord %}
+                {% assign diff = day_ord | minus: start_ord %}
+                {% assign interval_days = interval_weeks | times: 7 %}
+                {% assign remainder = diff | modulo: interval_days %}
+                {% if remainder == 0 %}
+                  {% assign series_match = true %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
+
+        {% if series_match and series.start_date %}
+          {% assign sy2 = series.start_date | date: '%Y' | plus: 0 %}
+          {% assign sm2 = series.start_date | date: '%-m' | plus: 0 %}
+          {% assign sd2 = series.start_date | date: '%-d' | plus: 0 %}
+          {% capture series_start_ord_raw %}{% include day-ordinal.html y=sy2 m=sm2 d=sd2 %}{% endcapture %}
+          {% assign series_start_ord = series_start_ord_raw | strip | plus: 0 %}
+          {% if day_ord < series_start_ord %}
+            {% assign series_match = false %}
+          {% endif %}
+        {% endif %}
+
+        {% if series_match and series.end_date %}
+          {% assign ey2 = series.end_date | date: '%Y' | plus: 0 %}
+          {% assign em2 = series.end_date | date: '%-m' | plus: 0 %}
+          {% assign ed2 = series.end_date | date: '%-d' | plus: 0 %}
+          {% capture series_end_ord_raw %}{% include day-ordinal.html y=ey2 m=em2 d=ed2 %}{% endcapture %}
+          {% assign series_end_ord = series_end_ord_raw | strip | plus: 0 %}
+          {% if day_ord > series_end_ord %}
+            {% assign series_match = false %}
+          {% endif %}
+        {% endif %}
+
+        {% if series_match %}
+          {% assign day_series = day_series | push: series %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign has_any = false %}
+      {% if day_real_events.size > 0 or day_series.size > 0 %}
+        {% assign has_any = true %}
+      {% endif %}
+
+      {% assign day_date_str = y | append: '-' | append: m | append: '-' | append: d %}
+      {% assign day_label = day_date_str | date: "%a, %b %-d" %}
+
+      {% assign is_today = false %}
+      {% assign is_past = false %}
+      {% if is_current_month %}
+        {% if d == today_d %}
+          {% assign is_today = true %}
+        {% elsif d < today_d %}
+          {% assign is_past = true %}
+        {% endif %}
+      {% endif %}
+
+      {% assign dd_padded = '0' | append: d | slice: -2, 2 %}
+      <div class="z-calendar-day{% if has_any %} has-event{% endif %}{% if is_today %} z-calendar-today{% endif %}{% if is_past %} z-calendar-past{% endif %}" data-date="{{ y }}-{{ mm_padded }}-{{ dd_padded }}">
+        <span class="z-calendar-daynum">{{ d }}</span>
+
+        {% for e in day_real_events %}
+          {% assign chip_type = "event" %}
+          {% if e.recurring_series %}
+            {% assign chip_type = "meeting" %}
+          {% endif %}
+          {% assign chip_cats = e.also_categories %}
+          {% if chip_cats == nil %}
+            {% assign chip_cats = "" | split: "" %}
+          {% endif %}
+          {% assign chip_cats = chip_cats | push: e.category | join: "|" %}
+          {% assign fmt_info = site.data.event_formats[e.format] %}
+          <a href="{{ e.url | relative_url }}" class="z-calendar-event-chip" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}" title="{{ e.format }}: {{ e.title }}">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ e.title | truncate: 24 }}</a>
+          {% capture list_row %}<div class="z-event-row" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ e.format }}"></i>{% endif %}<a href="{{ e.url | relative_url }}">{{ e.title }}</a></div></div>{% endcapture %}
+          {% assign month_list_html = month_list_html | append: list_row %}
+        {% endfor %}
+
+        {% for series in day_series %}
+          {% assign promoted = false %}
+          {% for e in day_real_events %}
+            {% if e.recurring_series == series.key %}
+              {% assign promoted = true %}
+            {% endif %}
+          {% endfor %}
+          {% unless promoted %}
+            {% assign series_cats = series.also_categories %}
+            {% if series_cats == nil %}
+              {% assign series_cats = "" | split: "" %}
+            {% endif %}
+            {% assign series_cats = series_cats | push: series.category | join: "|" %}
+            {% assign series_fmt_info = site.data.event_formats[series.format] %}
+            <a href="{{ series.url | relative_url }}" class="z-calendar-event-chip z-calendar-event-chip-recurring" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting" title="{{ series.format }}: {{ series.title }}">{% if series_fmt_info %}<i class="fa-solid {{ series_fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ series.title | truncate: 24 }}</a>
+            {% capture list_row %}<div class="z-event-row" data-category="{{ series_cats }}" data-format="{{ series.format }}" data-type="meeting"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title">{% if series_fmt_info %}<i class="fa-solid {{ series_fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ series.format }}"></i>{% endif %}<a href="{{ series.url | relative_url }}">{{ series.title }}</a></div></div>{% endcapture %}
+            {% assign month_list_html = month_list_html | append: list_row %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="z-calendar-month-list-label">This Month, Listed</div>
+  <div class="z-events-table z-calendar-month-list">
+    {% if month_list_html %}
+      {{ month_list_html }}
+    {% else %}
+      <p class="z-calendar-month-list-empty"><em>Nothing scheduled this month.</em></p>
+    {% endif %}
+  </div>
+</div>

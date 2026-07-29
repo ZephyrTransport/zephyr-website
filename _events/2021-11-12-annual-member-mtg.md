@@ -1,14 +1,14 @@
 ---
 layout: event
-category: Meeting
+format: Meeting
+category: General Membership
 title: "Zephyr Member Meeting and Board Election"
-type: Meeting
 day: Friday, November 12, 2021
 time: 2:00-3:00PM ET / 11:00AM - 12:00PM PT
 place: <a href="https://us06web.zoom.us/j/84518012649?pwd=WFRPRE5ESmZhdzRsbWE0Ni9IU0Fzdz09">Zoom</a>
 ---
 
-Join us for the annual Zephyr Member Meeting.  During this meeting, we'll meet the nominees for the upcoming <a href="/election">2021 Board Election</a>
+Join us for the annual Zephyr Member Meeting.  During this meeting, we'll meet the nominees for the upcoming <a href="{{ '/about/election' | relative_url }}">2021 Board Election</a>
 
 Join Zoom Meeting:
 [https://us06web.zoom.us/j/84518012649?pwd=WFRPRE5ESmZhdzRsbWE0Ni9IU0Fzdz09](https://us06web.zoom.us/j/84518012649?pwd=WFRPRE5ESmZhdzRsbWE0Ni9IU0Fzdz09)

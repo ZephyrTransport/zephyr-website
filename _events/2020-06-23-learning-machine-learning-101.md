@@ -1,9 +1,8 @@
 ---
 layout: event
-category: Learning
+format: Learning Session
 title: Learning Session – Machine Learning 101
-type: Learning Session
-day: June 23 & 26th
+day: June 23 & 26
 time: Presentations and References Added Below
 place: <a href='https://youtu.be/OWJK-11FjAo'>Day 1 Recording</a> – <a href='https://youtu.be/yXLRWOx9FW0'>Day 2 Recording</a>
 additional-msg:

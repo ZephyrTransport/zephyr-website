@@ -6,11 +6,25 @@ url: "https://zephyrtransport.org"
 
 title: Zephyr
 
-email: info@zephyrtransport.org
-author: Elizabeth Sall
-description: The Zephyr Foundation’s mission is to advance rigorous transportation and land use decision-making for the public good by advocating for and supporting improved travel analysis and facilitating its implementation.
+mission: We advance rigorous transportation and land use planning and decision-making for the public good by building community, expanding knowledge, and promoting standards.
 copyright: "Copyright &copy; 2016-2026 Zephyr Foundation. All Rights Reserved."
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# Pillars used to categorize/filter the activities grid at /activities/.
+# key must match a value in an activity's `pillars:` front matter list.
+activity_pillars:
+  - key: community
+    title: Build Community
+    icon: fa-users
+    intro: "We connect people across academia, public agencies, consultancies, and data and software providers to strengthen collaboration throughout the profession."
+  - key: knowledge
+    title: Expand Knowledge
+    icon: fa-book-open
+    intro: "We steward the profession's knowledge by helping the community discover, preserve, and share technical expertise and practical experience."
+  - key: standards
+    title: Promote Standards
+    icon: fa-ruler-combined
+    intro: "We improve professional practice by advancing open standards, shared tools, and best practices that make travel analysis more transparent, interoperable, and reproducible."
 
 # ----------------------- #
 #   Stripe Settings       #
@@ -19,71 +33,73 @@ post_url: https://zephyr-membership.herokuapp.com/
 stripe_key: pk_live_qT7xpgL72eNH765lj0s9EaT4
 future: true
 
+# Number of days ahead of today that count as "upcoming" on the events section
+upcoming_events_window_days: 30
+
+# Earliest year shown in the events archive year-by-year breakdown
+events_earliest_year: 2017
+
 collections:
   events:
     output: true
-  events_tmip:
+  activities:
     output: true
-    permalink: /TMIP/events/:path/
-  memberships:
-    output: false
-  projects:
+  events-recurring:
     output: true
-  trb17projects:
-    output: true
+    permalink: /events/:path/
 
-donations:
-  - amt: 5
-    color: "#b6e1f6;"
-  - amt: 10
-    color: "#b6f6e1;"
-  - amt: 25
-    color: "#d4f4b8;"
-  - amt: 50
-    color: "#ece1a9;"
-  - amt: 100
-    color: "#f4f8a3;"
-  - amt: 250
-    color: "#f7d5c0;"
-  - amt: 500
-    color: "#f4bdae;"
-  - amt: 1000
-    color: "#f4aeb4;"
-  - amt: 2500
-    color: "#f39f9f;"
-
-products:
-  - name: Standard Annual Subscription
-    price: 20000
-    price_pretty: $200.00
-    description: Annual recurring membership for regular members
-
-  - name: Standard 1-Year Membership
-    price: 20000
-    price_pretty: $200.00
-    description: One-time 1-year membership for regular members
-
-  - name: Student Annual Subscription
-    price: 2000
-    price_pretty: $20.00
-    description: Annual recurring membership for student/youth members
-
-  - name: Student 1-Year Membership
-    price: 2000
-    price_pretty: $20.00
-    description: One-time 1-year membership for student/youth members
+# _events-recurring/*.md are recurring series (Board, Committee, activity calls,
+# etc.) shown on the /events/ calendar. Each file's own content is a
+# permanent info page (Zoom link, description) that occurrences link to.
+# Front matter:
+#   key:            unique slug, matched by an _events file's
+#                   `recurring_series:` field to promote one occurrence
+#   format:         what kind of gathering this is -- Reception, Meeting,
+#                   Learning Session, Conference, Workshop, etc. This is
+#                   the same field _events/*.md files use (the site's
+#                   original `category:` field was split in two: it kept
+#                   the name `category` for topic, and format-like values
+#                   moved to this new `format:` field, since a lot of
+#                   _events/*.md files already had an unrelated `type:`
+#                   field used as a free-text subtitle badge on the event
+#                   page -- don't reuse "type" for this).
+#   category:       topic this is about -- Board, Membership, ActivitySim,
+#                   DMDU, GMNS, MoMo, Open Science, TRB, etc. Used by the
+#                   /events/ Category filter toggles.
+#   also_categories: optional list of extra topics (e.g. a learning
+#                   session that's both DMDU- and GMNS-related). Same
+#                   optional field also works on _events/*.md files.
+#   cadence:        "monthly_nth_weekday" or "weekly"
+#   weekday:        0=Sun .. 6=Sat
+#   nth:            (monthly_nth_weekday only) 1=1st, 2=2nd, etc.
+#   interval_weeks: (weekly only) 1=every week, 2=every other week
+#   start_date:     YYYY-MM-DD the series begins (also the biweekly
+#                   parity anchor -- which Wednesdays count as "every
+#                   other")
+#   end_date:       optional YYYY-MM-DD the series stops recurring after.
+#                   Omit for an ongoing series with no known end date.
+#   time, place:    displayed on the series' own info page
+#
+# The /events/ calendar's month range isn't a fixed lookahead -- it
+# renders from the current month through whichever is later: the
+# furthest `end_date` among site.events-recurring, or the furthest scheduled
+# one-off event in site.events. A series with no end_date doesn't by
+# itself extend the range; it just keeps appearing in however many
+# months something else (another series' end_date, or a real event)
+# causes to render.
+#
+# To give one specific occurrence an agenda, recording, or cancellation
+# notice, add a normal file to _events/ dated that occurrence with
+# `recurring_series: <key>` in its front matter -- it replaces the
+# generic calendar entry for that date instead of duplicating it.
 
 # ----------------------- #
 #   Look Settings         #
 # ----------------------- #
 
-top-bg-img: Muni_LRT.jpeg
-# tunnel-swoosh-bg.jpg
-bottom-bh-img: nyc-bg.jpg
+home-bg-img: banners/banner-social-lobby-duotone.jpg
+bottom-bh-img: banners/nyc-bg.jpg
 highlight-color: 0daee1 #turquoise blue
-dark-gray-color: 4e4f58 #dark gray
-background-highlight: fafafa #light gray - blueish
-highlight-text: f8f8f8 #light gray
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -93,20 +109,42 @@ highlight-text: f8f8f8 #light gray
 markdown: kramdown
 permalink: pretty
 
+plugins:
+  - jekyll-redirect-from
+
+# Retired/historical content kept in git history but not published
+exclude:
+  - archive
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
 
 social:
   - title: linkedin
+    label: LinkedIn
     url: https://www.linkedin.com/company/zephyr-foundation-for-advancing-travel-analysis
+    description: Organization updates, job postings, and professional networking.
   - title: medium
+    label: Medium
     url: https://medium.com/zephyrfoundation
+    description: Longer-form blog posts and articles from the Zephyr community.
   - title: github
+    label: GitHub
     url: https://github.com/zephyrtransport
-  - title: slack
-    url: https://zephyrtransport.org/slack
+    description: Open-source code for Zephyr's tools, standards, and this website.
+  - title: discord
+    label: Discord
+    url: https://discord.com/channels/1461710843401212022
+    description: The Zephyr Forum &mdash; real-time discussion, questions, and the Zephyr Lounge.
   - title: x-twitter
+    label: X (Twitter)
     url: https://twitter.com/zephyrtransport
+    description: Quick updates, announcements, and event reminders.
   - title: youtube
+    label: YouTube
     url: https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA
+    description: Recorded webinars, presentations, and other video content.

@@ -1,0 +1,76 @@
+{% comment %}
+  Renders "Add to Google Calendar" + "Download .ics" links.
+  All events render as all-day entries -- front matter only carries a
+  free-text `time` string (e.g. "2 PM Eastern (1 PM Central...)"), not
+  a structured/timezone-aware start time, so there's no reliable way
+  to build a precise timed calendar slot. The human-readable time
+  still shows in the calendar entry's description.
+
+  Params:
+    include.title
+    include.date    YYYY-MM-DD (or a Date/Time value), first/only occurrence
+    include.time    optional free-text time, shown in the description
+    include.place   optional location text (may contain HTML -- stripped)
+    include.url     page url (relative_url'd already or not, either works)
+    include.rrule   optional recurrence rule value, no "RRULE:" prefix
+                     e.g. "FREQ=WEEKLY;INTERVAL=2"
+    include.until   optional YYYY-MM-DD the recurrence stops after
+{% endcomment %}
+{% assign cal_title = include.title | strip_html %}
+{% assign cal_time = include.time | strip_html %}
+{% assign cal_place = include.place | strip_html %}
+{% assign cal_url = include.url | absolute_url %}
+
+{% assign date_norm = include.date | date: "%Y-%m-%d" %}
+{% assign start_compact = date_norm | date: "%Y%m%d" %}
+{% assign start_ts = date_norm | date: "%s" %}
+{% assign end_ts = start_ts | plus: 86400 %}
+{% assign end_compact = end_ts | date: "%Y%m%d" %}
+{% assign uid_slug = include.url | slugify %}
+
+{% assign rrule_line = "" %}
+{% if include.rrule %}
+    {% assign rrule_line = include.rrule %}
+    {% if include.until %}
+        {% assign until_compact = include.until | date: "%Y%m%d" %}
+        {% assign rrule_line = rrule_line | append: ";UNTIL=" | append: until_compact %}
+    {% endif %}
+{% endif %}
+
+{% assign enc_title = cal_title | url_encode %}
+{% assign enc_time = cal_time | url_encode %}
+{% assign enc_place = cal_place | url_encode %}
+{% assign enc_recur = rrule_line | prepend: "RRULE:" | url_encode %}
+
+{% assign gcal_url = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" | append: enc_title %}
+{% assign gcal_url = gcal_url | append: "&dates=" | append: start_compact | append: "/" | append: end_compact %}
+{% if rrule_line != "" %}
+    {% assign gcal_url = gcal_url | append: "&recur=" | append: enc_recur %}
+{% endif %}
+{% if cal_time %}
+    {% assign gcal_url = gcal_url | append: "&details=" | append: enc_time %}
+{% endif %}
+{% if cal_place %}
+    {% assign gcal_url = gcal_url | append: "&location=" | append: enc_place %}
+{% endif %}
+
+{% capture ics_content %}BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zephyr Foundation//Events//EN
+BEGIN:VEVENT
+UID:{{ uid_slug }}@zephyrtransport.org
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;VALUE=DATE:{{ start_compact }}
+DTEND;VALUE=DATE:{{ end_compact }}
+SUMMARY:{{ cal_title }}
+{% if cal_time %}DESCRIPTION:{{ cal_time }}
+{% endif %}{% if cal_place %}LOCATION:{{ cal_place }}
+{% endif %}{% if rrule_line != "" %}RRULE:{{ rrule_line }}
+{% endif %}URL:{{ cal_url }}
+END:VEVENT
+END:VCALENDAR{% endcapture %}
+
+<div class="z-add-to-cal">
+    <a href="{{ gcal_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-plus" aria-hidden="true"></i> Add to Google Calendar</a>
+    <a href="data:text/calendar;charset=utf8,{{ ics_content | url_encode }}" download="{{ uid_slug }}.ics"><i class="fa-solid fa-download" aria-hidden="true"></i> Download .ics</a>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning
+format: Learning Session
 title: Panel on Race and Gender Lenses in Modeling and Data Collection.
 type: Panel
 time: 2:00-3:30 PM ET/11:00-12:30 PT

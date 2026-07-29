@@ -1,5 +1,4 @@
 _site
 .jekyll-cache/*
 .DS_Store
-gemfile
-Gemfile.lock
+.claude/scheduled_tasks.lock

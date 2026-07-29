@@ -1,8 +1,8 @@
 ---
 layout: event
-category: Learning Session
+format: Learning Session
+category: GMNS
 title: "GMNS Learning Session: NetworkWrangler"
-type: Reception
 day: Thursday, October 15, 2026
 time: 2:00 PM - 3:00 PM EDT
 place: <a href="https://us06web.zoom.us/meeting/register/5gdlg7mqSlGoKIx8DR6TeA">Zoom Registration</a>

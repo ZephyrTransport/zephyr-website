@@ -1,8 +1,8 @@
 ---
 layout: event
-category: Reception
+format: Learning Session
+category: GMNS
 title: "GMNS Learning Session: Assignment Tools"
-type: Reception
 day: Thursday, August 20, 2026
 time: 2:00 PM - 3:00 PM EDT
 place: <a href="https://us06web.zoom.us/meeting/register/_1-GoCW7Q_mOHWyysKeVIw">Zoom Registration</a>

@@ -1,11 +1,12 @@
 ---
 layout: event
-category: Reception
+format: Reception
+occasion: TRB Annual Meeting
+category: General Membership
 title: Annual Zephyr Reception
-type: Reception
 day: Tuesday, January 7, 2025
 time: 8:00 - 10:00 PM EST
 place: Busboys & Poets (450 K St, Washington DC)
 ---
 Join us for the annual Zephyr reception!  We will discuss 2024 Zephyr activities, 2025 plans, 
-and present the [2025 Zephyr Awards](/awards)
+and present the [2025 Zephyr Awards]({{ '/awards' | relative_url }})

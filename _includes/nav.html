@@ -1,47 +1,76 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-expand-md fixed-top" role="navigation">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-                <a href="/#home">
-                    <img alt="zephyr logo" class="d-inline-block align-top z-logo" height="30" src="/img/logo-small.png" width="30">
-                </a>
-                <a class="zephyr page-scroll z-zephyr-name" href="/#home">{{ site.title }}</a>
-            </div>
+        <div class="navbar-brand">
+            <a href="{{ '/' | relative_url }}">
+                <img alt="zephyr logo" class="d-inline-block align-top z-logo" height="30" src="{{ '/img/logos/logo-small.png' | relative_url }}" width="30">
+            </a>
+            <a class="zephyr page-scroll z-zephyr-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="/about">About</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Activities</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ '/activities' | relative_url }}">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/activity-sim' | relative_url }}">ActivitySim</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/decision-making-under-deep-uncertainty' | relative_url }}">DMDU: Decision Making under Deep Uncertainty</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/transit-ridership-standard' | relative_url }}">GTFS-Ride</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/learning-sessions' | relative_url }}">Learning Sessions</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/modeling-mobility-conference' | relative_url }}">MoMo: Modeling Mobility</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/network-standard-and-tools' | relative_url }}">Network Data Standard and Management Tools</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/open-science' | relative_url }}">Open Science</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/software-badging' | relative_url }}">Software Badging</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/travel-model-improvement-program' | relative_url }}">TMIP: Travel Model Improvement Program</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/travel-diary-survey-working-group' | relative_url }}">Travel Diary Survey Working Group</a></li>
+                        <li><a class="dropdown-item" href="{{ '/activities/urbansim-users-group' | relative_url }}">UrbanSim Users Group</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/TMIP">TMIP</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="{{ '/events' | relative_url }}">Events</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/#activities">Activities</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Get Involved</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ '/get-involved' | relative_url }}">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/membership' | relative_url }}">Become a Member</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/committees' | relative_url }}">Join a Committee</a></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/activities' | relative_url }}">Join an Activity</a></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved/forum' | relative_url }}">Join the Zephyr Forum</a></li>
+                        <li><a class="dropdown-item" href="{{ '/get-involved' | relative_url }}#follow-on-social-media">Connect with Zephyr</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/events">Events</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Awards</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ '/awards' | relative_url }}">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/leadership-award' | relative_url }}">Leadership Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/technical-achievement-award' | relative_url }}">Technical Achievement Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/impactful-research-award' | relative_url }}">Impactful Research Award</a></li>
+                        <li><a class="dropdown-item" href="{{ '/awards/rising-star-award' | relative_url }}">Rising Star Award</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/awards">Awards</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">About</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="{{ '/about' | relative_url }}">Overview</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{{ '/about/mission' | relative_url }}">Mission, Vision &amp; Values</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/history' | relative_url }}">Our History</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/leadership' | relative_url }}">Leadership</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/committees' | relative_url }}">Committees</a></li>
+                        <li><a class="dropdown-item" href="{{ '/about/policies' | relative_url }}">Policies</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/stars">Stars</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="https://medium.com/zephyrfoundation" target="_blank">Blog</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/membership">Membership</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/search' | relative_url }}" aria-label="Search"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>

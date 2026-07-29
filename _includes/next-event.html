@@ -1,0 +1,182 @@
+{% comment %}
+  Builds the "Next Event" / "Also Coming Up" banner from two sources:
+  one-off site.events, and computed occurrences of non-internal
+  site.events-recurring series (e.g. Forum First Fridays). Series
+  flagged `internal: true` (e.g. Board, Board Officers) are excluded
+  so routine governance meetings don't crowd out public-facing events.
+
+  Liquid can't build real hash objects, so each match found while
+  scanning forward day-by-day is captured as a delimited record
+  (url|~|title|~|date_iso|~|day_label|~|time|~|category) and the
+  records are split back apart at render time.
+{% endcomment %}
+{% assign fsep = "|~|" %}
+{% assign rsep = "@@REC@@" %}
+
+{% assign events_by_date = site.events | where_exp: "e", "e.internal != true" | where_exp: "e", "e.time != 'TBD'" | group_by_exp: "e", "e.date | date: '%Y-%m-%d'" %}
+
+{% assign promoted_list = "" %}
+{% for e in site.events %}
+    {% if e.recurring_series %}
+        {% assign edate = e.date | date: '%Y-%m-%d' %}
+        {% assign promoted_list = promoted_list | append: e.recurring_series | append: '@' | append: edate | append: ',' %}
+    {% endif %}
+{% endfor %}
+
+{% assign today_ts = site.time | date: "%s" %}
+{% assign scan_days = 95 %}
+{% assign hits = "" %}
+
+{% for offset in (0..scan_days) %}
+    {% assign offset_seconds = offset | times: 86400 %}
+    {% assign day_ts = today_ts | plus: offset_seconds %}
+    {% assign day_date_str = day_ts | date: '%Y-%m-%d' %}
+    {% assign dy = day_date_str | date: '%Y' | plus: 0 %}
+    {% assign dm = day_date_str | date: '%-m' | plus: 0 %}
+    {% assign dd = day_date_str | date: '%-d' | plus: 0 %}
+    {% assign dow = day_date_str | date: '%w' | plus: 0 %}
+    {% capture day_ord_raw %}{% include day-ordinal.html y=dy m=dm d=dd %}{% endcapture %}
+    {% assign day_ord = day_ord_raw | strip | plus: 0 %}
+    {% assign day_label = day_date_str | date: "%B %-d, %Y" %}
+
+    {% assign day_group = events_by_date | where: "name", day_date_str | first %}
+    {% if day_group %}
+        {% for e in day_group.items %}
+            {% assign e_url = e.url | relative_url %}
+            {% assign e_day_label = e.day | default: day_label %}
+            {% assign record = e_url | append: fsep | append: e.title | append: fsep | append: day_date_str | append: fsep | append: e_day_label | append: fsep | append: e.time | append: fsep | append: e.category %}
+            {% assign hits = hits | append: record | append: rsep %}
+        {% endfor %}
+    {% endif %}
+
+    {% for series in site.events-recurring %}
+        {% if series.internal != true and series.time != 'TBD' %}
+            {% assign series_match = false %}
+
+            {% if series.cadence == "monthly_nth_weekday" %}
+                {% if dow == series.weekday %}
+                    {% assign occurrence_number = dd | minus: 1 | divided_by: 7 | plus: 1 %}
+                    {% if occurrence_number == series.nth %}
+                        {% assign series_match = true %}
+                    {% endif %}
+                {% endif %}
+            {% elsif series.cadence == "weekly" %}
+                {% if dow == series.weekday %}
+                    {% assign interval_weeks = series.interval_weeks | default: 1 %}
+                    {% if interval_weeks <= 1 %}
+                        {% assign series_match = true %}
+                    {% else %}
+                        {% assign sy = series.start_date | date: '%Y' | plus: 0 %}
+                        {% assign sm = series.start_date | date: '%-m' | plus: 0 %}
+                        {% assign sd = series.start_date | date: '%-d' | plus: 0 %}
+                        {% capture start_ord_raw %}{% include day-ordinal.html y=sy m=sm d=sd %}{% endcapture %}
+                        {% assign start_ord = start_ord_raw | strip | plus: 0 %}
+                        {% if day_ord >= start_ord %}
+                            {% assign diff = day_ord | minus: start_ord %}
+                            {% assign interval_days = interval_weeks | times: 7 %}
+                            {% assign remainder = diff | modulo: interval_days %}
+                            {% if remainder == 0 %}
+                                {% assign series_match = true %}
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+
+            {% if series_match and series.start_date %}
+                {% assign sy2 = series.start_date | date: '%Y' | plus: 0 %}
+                {% assign sm2 = series.start_date | date: '%-m' | plus: 0 %}
+                {% assign sd2 = series.start_date | date: '%-d' | plus: 0 %}
+                {% capture series_start_ord_raw %}{% include day-ordinal.html y=sy2 m=sm2 d=sd2 %}{% endcapture %}
+                {% assign series_start_ord = series_start_ord_raw | strip | plus: 0 %}
+                {% if day_ord < series_start_ord %}
+                    {% assign series_match = false %}
+                {% endif %}
+            {% endif %}
+
+            {% if series_match and series.end_date %}
+                {% assign ey2 = series.end_date | date: '%Y' | plus: 0 %}
+                {% assign em2 = series.end_date | date: '%-m' | plus: 0 %}
+                {% assign ed2 = series.end_date | date: '%-d' | plus: 0 %}
+                {% capture series_end_ord_raw %}{% include day-ordinal.html y=ey2 m=em2 d=ed2 %}{% endcapture %}
+                {% assign series_end_ord = series_end_ord_raw | strip | plus: 0 %}
+                {% if day_ord > series_end_ord %}
+                    {% assign series_match = false %}
+                {% endif %}
+            {% endif %}
+
+            {% if series_match %}
+                {% assign promo_key = series.key | append: '@' | append: day_date_str %}
+                {% if promoted_list contains promo_key %}
+                    {% assign series_match = false %}
+                {% endif %}
+            {% endif %}
+
+            {% if series_match %}
+                {% assign series_url = series.url | relative_url %}
+                {% assign record = series_url | append: fsep | append: series.title | append: fsep | append: day_date_str | append: fsep | append: day_label | append: fsep | append: series.time | append: fsep | append: series.category %}
+                {% assign hits = hits | append: record | append: rsep %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% assign hit_lines = hits | split: rsep %}
+{% assign next_hit = hit_lines | first %}
+{% assign next_fields = next_hit | split: fsep %}
+
+{% if include.compact %}
+    {% if next_hit %}
+    <div class="z-next-event-banner">
+        <div class="container">
+            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            <strong>Next Event:</strong>
+            <a href="{{ next_fields[0] }}">{{ next_fields[1] }}</a>
+            <span class="z-next-event-banner-date">&mdash; {{ next_fields[3] }}</span>
+        </div>
+    </div>
+    {% endif %}
+{% else %}
+    {% assign window_days = site.upcoming_events_window_days | default: 30 %}
+    {% assign window_seconds = window_days | times: 86400 %}
+    {% assign window_end = today_ts | plus: window_seconds | date: "%Y%m%d" %}
+    {% assign rest_hits = hit_lines | slice: 1, 20 %}
+
+    {% if next_hit %}
+    <div class="z-events-section-heading">Next Event</div>
+    <div class="z-next-event">
+        {% if next_fields[5] != "" %}<span class="z-event-badge">{{ next_fields[5] }}</span>{% endif %}
+        <h3 class="z-next-event-title"><a href="{{ next_fields[0] }}">{{ next_fields[1] }}</a></h3>
+        <div class="z-next-event-meta">
+            <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ next_fields[3] }}</span>
+            {% if next_fields[4] != "" %}<span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ next_fields[4] }}</span>{% endif %}
+        </div>
+        <a class="btn btn-z" href="{{ next_fields[0] }}">View Details</a>
+    </div>
+    {% endif %}
+
+    {% assign upcoming_count = 0 %}
+    {% capture upcoming_rows %}
+        {% for line in rest_hits %}
+            {% assign fields = line | split: fsep %}
+            {% assign postdate = fields[2] | remove: "-" %}
+            {% if postdate <= window_end %}
+                {% assign upcoming_count = upcoming_count | plus: 1 %}
+                <div class="z-upcoming-tile">
+                    <div class="z-event-date">{{ fields[3] }}</div>
+                    <div class="z-event-title"><a href="{{ fields[0] }}">{{ fields[1] }}</a></div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign upcoming_rows = upcoming_rows | strip %}
+
+    {% if upcoming_rows != "" %}
+    <div class="z-upcoming-month">
+        <div class="z-upcoming-month-label">Also Coming Up in the Next {{ window_days }} Days</div>
+        <div class="z-upcoming-tiles{% if upcoming_count == 1 %} single{% endif %}">
+            {{ upcoming_rows }}
+        </div>
+    </div>
+    {% endif %}
+{% endif %}

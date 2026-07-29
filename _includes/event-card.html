@@ -1,0 +1,14 @@
+{% if include.post %}
+<div class="z-next-event">
+    {% if include.eyebrow %}<div class="z-next-event-eyebrow">{{ include.eyebrow }}</div>{% endif %}
+    {% if include.post.category %}<span class="z-event-badge">{{ include.post.category }}</span>{% endif %}
+    <h3 class="z-next-event-title"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h3>
+    <div class="z-next-event-meta">
+        <span><i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            {% if include.post.day %}{{ include.post.day }}{% else %}{{ include.post.date | date: "%B %-d, %Y" }}{% endif %}
+        </span>
+        {% if include.post.time %}<span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ include.post.time }}</span>{% endif %}
+    </div>
+    <a class="btn btn-z" href="{{ include.post.url | relative_url }}">View Details</a>
+</div>
+{% endif %}

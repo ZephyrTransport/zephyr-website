@@ -1,8 +1,8 @@
 ---
 layout: event
-category: TRB
+occasion: TRB Annual Meeting
 title: "Zephyr Member Meeting and 'Morning of Zephyr'"
-type: Meeting
+format: Meeting
 time: 10:00a - 12:00p
 place: Hilton Portland Downtown - Parlor B/C
 registration: https://www.eventbrite.com/e/2019-zephyr-summer-member-meeting-tickets-61667117007

@@ -1,29 +1,15 @@
-<div class="z-upcoming-events">
-    <div>
-        <h3>Upcoming events</h3>
+{% assign limit = include.count | default: 3 %}
+{% assign matches = site.events | where_exp: "e", "e.format == include.format" | where_exp: "e", "e.time != 'TBD'" | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+{% assign shown = matches | slice: 0, limit %}
 
-        <div class="z-events-table">
-            {% for post in site.events %}
-                {% unless post.time == 'TBD' %}
-                    {% capture postdate %}{{post.date | date: "%Y%m%d" | plus: 1}}{%endcapture%}
-                    {% capture today %}{{site.time | date: "%Y%m%d" | plus: 0}}{%endcapture%}
-                    {% if postdate >= today %}
-                        {% include one-event.html post=post %}
-                    {% endif %}
-                {% endunless %}
-            {% endfor %}
-        </div>
-    </div>
-    <div>
-
-        {% assign tbd = site.events | where: "time","TBD" %}
-
-        <h3>In development</h3>
-        <div class="z-events-table">
-            {% for post in tbd %}
-                {% include one-event.html post=post %}
-            {% endfor %}
-        </div>
-    </div>
-
-</div>
+{% if shown.size > 0 %}
+    {% for post in shown %}
+        {% if forloop.first %}
+            {% include event-card.html post=post eyebrow=include.eyebrow %}
+        {% else %}
+            {% include event-card.html post=post %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    <p class="z-empty-state"><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
+{% endif %}

@@ -1,8 +1,8 @@
 ---
 layout: event
-category: Learning
+format: Learning Session
+category: DMDU
 title: Prospective and retrospective views of uncertainty in travel forecasting
-type: Learning Session
 time: 1:00-2:30 PM EDT / 10:00 AM-11:30 PM PDT
 place: <a href="https://youtu.be/gw_FIKCFYiI">Session Recording</a>
 additional-msg: .

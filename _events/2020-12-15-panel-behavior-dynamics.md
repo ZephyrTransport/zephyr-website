@@ -1,6 +1,6 @@
 ---
 layout: event
-category: Learning
+format: Learning Session
 title: Panel on Behavior Dynamics – The Future...Accelerated.
 type: Panel
 time: Recording and Presentations

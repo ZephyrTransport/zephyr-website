@@ -4,95 +4,135 @@ title: Zephyr
 subTitle: Advancing Travel Analysis to Improve Society
 ---
 
-<!-- Introducing Zephyr Section -->
-<section class="content-section text-left" id="mission" style="padding: 2rem 2rem 6rem 2rem; ">
-    <div class="row">
-
-        <div class="col-lg-12">
-            <h1 class="text-left z-section-title">Zephyr Foundation</h1>
-            <p class="z-section-title" style="color: #717171;">
-                a 501(c)3 non-profit
-                <hr class="section-heading-spacer"/>
-                <div class="row">
-
-                    <div class="col-md-12 z-section-title">
-                        <h2 style="line-height: 4.5rem; color: #717171; font-weight: normal;">Zephyr’s mission: advancing rigorous
-                            <span style="color: #335;">transportation and land use decision-making</span>
-                            for the public good by advocating for and supporting
-                            <span style="color: #335;">improved travel analysis</span>, and facilitating its implementation.
-                        </h2>
-                    </div>
-
-                    <div class="col-md-11" style="margin-top: 4rem;">
-                        <div>
-                            <hr/>
-                            <h3>Vision</h3>
-                            <p>Our vision is to become the primary venue through which leading researchers and practitioners seek to develop and implement travel analysis methods and tools that are demonstrably more valuable, credible, transparent, tractable, reproducible, and usable.</p>
-                            <p>We strive for those methods and tools to support decision-making that is inclusive and promotes equitable outcomes, shared prosperity, and sustainability.
-                            </p>
-                        </div>
-
-                        <div class="">
-                            <h3>More About Zephyr</h3>
-                            <p>Read up
-                                <a href="/about">About Zephyr</a>
-                                to find more on the nonprofit's
-                            </p>
-                            <ul>
-                                <li>goals</li>
-                                <li>leadership</li>
-                                <li>membership</li>
-                                <li>and fine print such as 501(c)3 status, governance, and bylaws.</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </p>
-        </div>
+<section class="z-member-banner">
+    <div class="container">
+        <p><strong>Become a Member</strong> &mdash; help advance the transportation analytics profession, save on events, and vote in board elections.</p>
+        <a class="btn btn-z" href="{{ '/get-involved/membership' | relative_url }}">Join Zephyr</a>
     </div>
 </section>
 
+<section id="home">
+    <div class="intro-header hero-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                    <div class="hero-home-content">
 
-<!-- Programs and Projects -->
-<section class="content-section text-left" id="activities" style="padding: 2rem 2rem 6rem 2rem; background: #f4f4f4;">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="text-left z-section-title">Programs and Projects</h1>
+                        <h1 class="zephyr">Zephyr Foundation</h1>
 
-            <p class="z-section-title">This is a list of Zephyr's projects and programs.</p>
+                        <p>
+                            {{ site.mission }}
+                        </p>
 
-            <div class="z-programs-list">
-                <!-- TMIP first but it's not technically a project -->
-                <div class="z-program-entry z-section-title" style="text-align: center;">
-                    <img src="/img/TMIP_wheel_bw_transparent.png" width="100px"/>
-                    <h3 class="section-heading" style="margin-bottom: 1rem;">
-                        <a href="/TMIP">TMIP</a>
-                    </h3>
-                    <div class="lead">An integrated online Community of Practice for the Travel Model Improvement Program (TMIP).</div>
-                </div>
-
-                <!-- ActivitySim second for now; expecting multiple pages in the future -->
-                <div class="z-program-entry z-section-title" style="text-align: center;">
-                    <img src="/img/activitysim_logo_light.jpg" width="100px"/>
-                    <h3 class="section-heading" style="margin-bottom: 1rem;">
-                        <a href="/ActivitySim">ActivitySim</a>
-                    </h3>
-                    <div class="lead">Create and maintain advanced, open-source, activity-based travel behavior modeling software based on best software development practices for distribution at no charge to the public.</div>
-                </div>
-
-                {% for project in site.projects %}
-                    <div class="z-program-entry z-section-title" style="text-align: center;">
-                        {% if project.icon != 'none' %}
-                            <i aria-hidden="true" class="fa {{ project.icon }} fa-5x"></i>
-                        {% endif %}
-                        <h3 class="section-heading" style="margin-bottom: 1rem;">
-                            <a href={{ site.baseurl }} {{ project.url }}>{{ project.title }}</a>
-                        </h3>
-                        <div class="lead">{{ project.description }}</div>
                     </div>
-                {% endfor %}
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+{% include next-event.html compact=true %}
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+
+<section class="home-section">
+
+    <h2 class="text-center mb-4">How We Advance the Profession</h2>
+
+    <div class="row g-4">
+
+        {% assign pillar_community = site.activity_pillars | where: "key", "community" | first %}
+        <div class="col-md-4">
+            <div class="focus-pillar position-relative">
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_community.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_community.title }}</h3>
+                <p>{{ pillar_community.intro }}</p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#community' | relative_url }}" class="stretched-link">Explore Community Activities &raquo;</a></p>
+            </div>
+        </div>
+
+        {% assign pillar_knowledge = site.activity_pillars | where: "key", "knowledge" | first %}
+        <div class="col-md-4">
+            <div class="focus-pillar position-relative">
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_knowledge.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_knowledge.title }}</h3>
+                <p>{{ pillar_knowledge.intro }}</p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#knowledge' | relative_url }}" class="stretched-link">Explore Knowledge Activities &raquo;</a></p>
+            </div>
+        </div>
+
+        {% assign pillar_standards = site.activity_pillars | where: "key", "standards" | first %}
+        <div class="col-md-4">
+            <div class="focus-pillar position-relative">
+                <div class="focus-pillar-icon"><i class="fa-solid {{ pillar_standards.icon }}" aria-hidden="true"></i></div>
+                <h3>{{ pillar_standards.title }}</h3>
+                <p>{{ pillar_standards.intro }}</p>
+                <p class="focus-pillar-hint"><a href="{{ '/activities/#standards' | relative_url }}" class="stretched-link">Explore Standards Activities &raquo;</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="z-spotlight-carousel mt-4">
+        <div id="homeSpotlightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="hover">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>TMIP: Travel Model Improvement Program</strong> &mdash; In partnership with the Federal Highway Administration (FHWA), Zephyr serves as steward of the TMIP community by moderating an active email discussion list connecting more than 1,600 travel demand forecasting professionals and maintaining a searchable archive spanning more than two decades of webinars, technical discussions, and community knowledge.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://tmip.zephyrtransport.org/scripts/wa-ZEPHYRTRANS.exe?INDEX" target="_blank">Visit the active listserv &raquo;</a>
+                            <a href="{{ '/activities/travel-model-improvement-program/' | relative_url }}">Explore TMIP resources &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>Network Data Standard and Management Tools</strong> &mdash; Zephyr stewards GMNS (General Modeling Network Specification), an open data format for sharing routable travel model networks across platforms, alongside an ecosystem of open-source tools&mdash;NetworkWrangler, OSM2GMNS, and Path4GMNS&mdash;for building and working with GMNS networks.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://zephyr-data-specs.github.io/GMNS/" target="_blank">View the GMNS spec &raquo;</a>
+                            <a href="{{ '/activities/network-standard-and-tools/' | relative_url }}">Explore network standards &amp; tools &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="z-note-callout">
+                        <span class="z-spotlight-tag">Spotlight</span>
+                        <p class="mb-2">
+                            <strong>MoMo: Modeling Mobility Conference</strong> &mdash; Zephyr serves as the sponsoring organization behind MoMo, the premier conference for travel modeling, transportation data, and quantitative analysis, run by an all-volunteer group of public-sector, consulting, vendor, and academic professionals covering everything from activity-based modeling to emerging AI applications in transportation planning.
+                        </p>
+                        <div class="z-note-callout-links">
+                            <a href="https://modelingmobility.org/" target="_blank">Visit ModelingMobility.org &raquo;</a>
+                            <a href="{{ '/activities/modeling-mobility-conference/' | relative_url }}">Explore MoMo details &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="z-spotlight-nav">
+                <button class="z-spotlight-arrow" type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide="prev" aria-label="Previous spotlight">&lsaquo;</button>
+                <div class="carousel-indicators z-spotlight-dots">
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="TMIP spotlight"></button>
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="1" aria-label="Network Data Standard and Management Tools spotlight"></button>
+                    <button type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide-to="2" aria-label="MoMo spotlight"></button>
+                </div>
+                <button class="z-spotlight-arrow" type="button" data-bs-target="#homeSpotlightCarousel" data-bs-slide="next" aria-label="Next spotlight">&rsaquo;</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</div>
+</div>
+</div>

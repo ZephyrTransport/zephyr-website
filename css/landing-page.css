@@ -11,37 +11,61 @@ body,
 html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
-body,
-h5,
-h6 {
-  font-weight: 300;
+body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #2a2a35;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "DM Sans", "Open Sans", "Libre Franklin", "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.01em;
+  color: #171734;
 }
 
 h1,
-h2,
-h3,
-h4 {
-/*  font-family: "Lora";
-  font-weight: 600; */ 
-font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600;  
+h2 {
+  font-weight: 700;
 }
 
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
 
-body {
-  font-size: 19px;
-  /* line-height: 2.5rem; */
+/* h1 is the page title, handled by its own container's top padding
+   (#home-simple, .intro-message); h2-h6 are in-content section headers
+   and need breathing room above them after the preceding paragraph. */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1.05rem;
 }
 
 a {
@@ -52,65 +76,153 @@ a {
   font-size: 85%;
 }
 
-.caption {
-  font-size: 14px;
-  color: #f8f8f8;
-}
-
 .btn-z {
-  font-family: "Cabin", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   color: white;
-  background: #0daee1;
-  letter-spacing: 6px;
+  background: var(--z-btn-blue);
+  border: none;
+  border-radius: 0.4rem;
+  letter-spacing: 1.5px;
   margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(13, 174, 225, 0.35);
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-z:hover,
+.btn-z:focus {
+  background: var(--z-btn-blue-hover);
+  color: white;
+  box-shadow: 0 4px 14px rgba(13, 174, 225, 0.45);
 }
 
 .zephyr {
-  font-family: "Cabin", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 12px;
+  letter-spacing: 3px;
 }
 
 .event-header {
   text-align: center;
+  position: relative;
 }
 
-.event-title {
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 4px;
-  font-weight: 700;
-}
-
-.event-date {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 4px;
-  color: #0daee1;
-}
-
-.event-place {
-  text-transform: uppercase;
-  font-size: 14px;
+.z-event-hero {
   text-align: center;
-  letter-spacing: 4px;
-  color: #0daee1;
+  padding-top: 140px;
+  padding-bottom: 1rem;
 }
 
-.event {
-  padding: 10px;
-  margin-top: 65px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  margin-bottom: 15px;
-  border-top: 2px solid #0daee1;
-  border-bottom: 2px solid #0daee1;
-  background: #f8f8f8;
+.z-event-badges {
+  text-align: center;
+  margin-bottom: 0.75rem;
 }
 
-.event-img {
-  margin-top: 65px;
-  height: 200px;
+.z-event-badge {
+  display: inline-block;
+  background: #eaf8fb;
+  color: #0a7d99;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  margin: 0 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease-in-out;
+}
+
+a.z-event-badge:hover {
+  background: #d5f0f7;
+  color: #0a7d99;
+}
+
+.z-event-badge-alt {
+  background: #eef0f7;
+  color: #171734;
+}
+
+.z-event-badge-static {
+  background: transparent;
+  border: 1px solid currentColor;
+  padding: 0.2rem 0.7rem;
+}
+
+.z-event-hero-title {
+  margin-top: 0.5rem;
+}
+
+.z-event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 2rem;
+  margin: 1.25rem 0 1.5rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.z-event-meta-item i {
+  color: #0da5d3;
+  margin-right: 0.4rem;
+}
+
+.z-page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  margin: -0.5rem 0 1.5rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.z-add-to-cal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0.75rem 0 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.z-add-to-cal a {
+  color: #0da5d3;
+  text-decoration: none;
+}
+
+.z-add-to-cal a:hover {
+  text-decoration: underline;
+}
+
+.z-add-to-cal i {
+  margin-right: 0.3rem;
+}
+
+.z-event-callout {
+  background: #eaf8fb;
+  border-left: 4px solid #0da5d3;
+  border-radius: 0.4rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.z-event-divider {
+  border-top: 1px solid #e5e5e5;
+  margin: 1.5rem 0;
+}
+
+.z-event-summary {
+  font-size: 1.15rem;
+  color: #444;
+}
+
+.z-event-back {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .project-title h1 {
@@ -124,44 +236,23 @@ a {
   font-weight: 400;
 }
 
-.highlight-text-block {
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #2f4f4f;
-  background: #fafafa;
-  background-size: cover;
-}
-
 .highlight-text {
   color: #0daee1;
-}
-
-.gray-text {
-  color: #d3d3d3;
-}
-
-.sidebar {
-  padding-top: 15px;
 }
 
 .intro-header {
   padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 0px;
   text-align: center;
-  color: #f8f8f8;
-  background: url("../img/{{ site.top-bg-img }}") no-repeat center center;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  border-bottom: 2px solid #00aced;
 }
 
 .intro-message {
   position: relative;
-  padding-top: 100px;
+  padding-top: 140px;
   padding-bottom: 100px;
 }
 
@@ -192,12 +283,6 @@ a {
   font-size: 5em;
 }
 
-.intro-divider {
-  width: 400px;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 .intro-message > h3 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
@@ -213,34 +298,10 @@ a {
     font-size: 3em;
   }
 
-  ul.intro-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
-  }
-
-  .intro-divider {
-    width: 100%;
-  }
-
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
-  }
-
-  ul.banner-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0;
   }
 
   /* chrome mobile is placing nav button wrongly
@@ -249,54 +310,14 @@ a {
     } */
 }
 
-.network-name {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.content-section-a {
-  padding: 10px 10px;
-  /* background-color: #f8f8f8; */
-}
-
-.content-section-b {
-  padding: 10px 10px;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-}
-
-.section-divider {
-  border-top: 2px solid #00aced;
-}
-
 .section-heading {
   margin-bottom: 30px;
 }
 
-.project-heading-spacer-left {
-  float: left;
-  width: 200px;
-  border-top: 3px solid #00aced;
-}
-
-.project-heading-spacer-right {
-  float: right;
-  width: 200px;
-  border-top: 3px solid #00aced;
-}
-
-.section-heading-spacer-center {
-  float: center;
-  width: 300px;
-  border-top: 3px solid #e7e7e7;
-  padding: 20px 20px 20px 20px;
-}
-
 .sub-section-heading-spacer {
-  float: center;
   width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   border-top: 2px solid #e7e7e7;
   padding: 10px 10px 10px 10px;
 }
@@ -308,12 +329,6 @@ a {
   background-size: cover;
 }
 
-.discuss-banner {
-  padding: 40px 0;
-  color: #c0c0c0;
-  background-size: cover;
-}
-
 .banner h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -321,26 +336,8 @@ a {
   text-align: left;
 }
 
-.discuss-banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
-  text-align: right;
-}
-
 .banner ul {
   margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  width: 100%;
-}
-
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    float: right;
-    margin-top: 15px;
-  }
 }
 
 footer {
@@ -378,48 +375,47 @@ p.copyright {
 }
 
 /***
-* Cards
+* Stripe product/donation tiles (membership.md, donate.md) - a custom card
+* convention that predates and is unrelated to Bootstrap's own .card
+* component; namespaced under .z-product-card to avoid colliding with it.
 */
-.card .card-image {
+.z-product-card .z-product-card-image {
   overflow: hidden;
 }
 
-.card {
+.z-product-card {
   margin: 20px 20px 20px 0px;
   position: relative;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(23, 23, 52, 0.1);
 }
 
-.card .card-content {
+.z-product-card .z-product-card-content {
   padding: 10px;
 }
 
-.card .card-content .card-title {
+.z-product-card .z-product-card-content .z-product-card-title {
   display: block;
   font-size: 24px;
 }
 
-.card .card-content .card-subtitle {
+.z-product-card .z-product-card-content .z-product-card-subtitle {
   display: block;
   font-size: 14px;
 }
 
-.card .card-action {
+.z-product-card .z-product-card-action {
   padding: 20px;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
 }
 
-.card .card-action a {
+.z-product-card .z-product-card-action a {
   font-size: 15px;
   text-transform: uppercase;
   margin-right: 20px;
 }
 
-.card .card-action a:hover {
+.z-product-card .z-product-card-action a:hover {
   text-decoration: none;
 }
 
@@ -460,33 +456,11 @@ td {
   padding: 10px;
 }
 
-.terms-form {
-  display: none;
-}
-
 #home-simple {
-  font-family: "Cabin", sans-serif;
-  padding-top: 72px;
+  font-family: "Manrope", sans-serif;
+  padding-top: 140px;
   padding-left: 15px;
   padding-bottom: 10px;
+  position: relative;
 }
 
-.holds-the-slack-iframe {
-}
-
-/* Control buttons  */
-#opportunities-carousel .carousel-control {
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 60px;
-}
-/* Previous button  */
-#opportunities-carousel .carousel-control.left {
-  left: -12px;
-}
-/* Next button  */
-#opportunities-carousel .carousel-control.right {
-  right: -12px !important;
-}

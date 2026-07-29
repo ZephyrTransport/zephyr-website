@@ -1,0 +1,45 @@
+{% assign page_title_lower = page.title | downcase %}
+
+{% if page.section == "About" %}
+    {% if page.url != '/about/' %}
+        <div class="z-event-badges">
+            <a class="z-event-badge" href="{{ '/about' | relative_url }}">About</a>
+            {% if page.subsection == "Policies" and page.url != '/about/policies/' %}
+                <a class="z-event-badge" href="{{ '/about/policies' | relative_url }}">Policies</a>
+            {% endif %}
+        </div>
+    {% endif %}
+{% elsif page.section == "Awards" %}
+    {% if page.url != '/awards/' %}
+        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/awards' | relative_url }}">Zephies</a></div>
+    {% endif %}
+{% elsif page.section == "Get Involved" %}
+    {% if page.url != '/get-involved/' %}
+        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/get-involved' | relative_url }}">Get Involved</a></div>
+    {% endif %}
+{% elsif page.section and page.section != "" %}
+    {% assign section_tag_lower = page.section | downcase %}
+    {% if section_tag_lower != page_title_lower %}
+        <div class="z-event-badges"><span class="z-event-badge">{{ page.section }}</span></div>
+    {% endif %}
+{% else %}
+    {% assign program_hub = nil %}
+    {% for p in site.activities %}
+        {% if p.category == "Activities" and p.front and page.url != p.url %}
+            {% assign hub_len = p.url | size %}
+            {% assign page_prefix = page.url | slice: 0, hub_len %}
+            {% if page_prefix == p.url %}
+                {% assign program_hub = p %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if program_hub %}
+        <div class="z-event-badges">
+            <a class="z-event-badge" href="{{ '/activities' | relative_url }}">Activities</a>
+            <a class="z-event-badge" href="{{ program_hub.url | relative_url }}">{{ program_hub.title }}</a>
+        </div>
+    {% elsif page.category == "Activities" and page.front %}
+        <div class="z-event-badges"><a class="z-event-badge" href="{{ '/activities' | relative_url }}">Activities</a></div>
+    {% endif %}
+{% endif %}

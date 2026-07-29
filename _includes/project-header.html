@@ -1,55 +1,9 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-                <a href="/#home">
-                    <img alt="zephyr logo" class="d-inline-block align-top z-logo" height="30" src="/img/logo-small.png" width="30">
-                </a>
-                <a class="zephyr page-scroll z-zephyr-name" href="/#home">{{ site.title }}</a>
-            </div>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="/about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/TMIP">TMIP</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#activities">Activities</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/events">Events</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/stars">Stars</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="https://medium.com/zephyrfoundation" target="_blank">Blog</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/membership">Membership</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+{% include nav.html %}
 
 <section id="home">
     <!-- Header -->
-    <div class="event-header img" style="margin-bottom: 4rem; background:url('/img/{{ page.img }}' ) no-repeat center center; background-size: cover;">
+    <div class="event-header img" style="margin-bottom: {% if page.hero-gap %}{{ page.hero-gap }}{% else %}8rem{% endif %}; background:url('{{ '/img/' | append: page.img | relative_url }}' ) no-repeat {{ page.img-position | default: 'center center' }}; background-size: cover;">
 
         <div class="container">
 
@@ -62,7 +16,8 @@
                 <div class="col-md-12 z-section-title">
                     <div class="intro-message">
                         <div class="z-header-readable">
-                            <h2 class="project-title zephyr z-section-title">{{ page.title }}</h2>
+                            {% include section-tag.html %}
+                            {% unless page.hide-title %}<h2 class="project-title zephyr z-section-title">{{ page.title }}</h2>{% endunless %}
                         </div>
                     </div>
                 </div>

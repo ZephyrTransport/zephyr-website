@@ -1,0 +1,28 @@
+{% if page.time or page.place %}
+<div class="z-page-meta">
+    {% if page.time %}
+    <div class="z-event-meta-item">
+        <i class="fa-regular fa-clock" aria-hidden="true"></i>
+        {{ page.time }}
+    </div>
+    {% endif %}
+    {% if page.place %}
+    <div class="z-event-meta-item">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        {{ page.place }}
+    </div>
+    {% endif %}
+</div>
+
+{% if page.collection == "events-recurring" and page.cadence %}
+    {% assign dow_codes = "SU,MO,TU,WE,TH,FR,SA" | split: "," %}
+    {% assign cal_rrule = "" %}
+    {% if page.cadence == "monthly_nth_weekday" %}
+        {% assign cal_rrule = "FREQ=MONTHLY;BYDAY=" | append: page.nth | append: dow_codes[page.weekday] %}
+    {% elsif page.cadence == "weekly" %}
+        {% assign cal_interval = page.interval_weeks | default: 1 %}
+        {% assign cal_rrule = "FREQ=WEEKLY;INTERVAL=" | append: cal_interval %}
+    {% endif %}
+    {% include add-to-calendar.html title=page.title date=page.start_date time=page.time place=page.place url=page.url rrule=cal_rrule until=page.end_date %}
+{% endif %}
+{% endif %}

@@ -1,0 +1,55 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+{% assign first_item = true %}
+{% for p in site.pages %}
+  {% if p.title and p.title != "" and p.unlisted != true and p.url != "/404.html" %}
+    {% unless first_item %},{% endunless %}
+    {% assign first_item = false %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "section": {{ p.section | default: "" | jsonify }},
+      "content": {{ p.content | strip_html | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+{% for p in site.activities %}
+  {% if p.title and p.unlisted != true %}
+    {% unless first_item %},{% endunless %}
+    {% assign first_item = false %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "section": "Activities",
+      "content": {{ p.content | strip_html | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+{% for p in site.events %}
+  {% if p.title and p.unlisted != true %}
+    {% unless first_item %},{% endunless %}
+    {% assign first_item = false %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "section": "Events",
+      "content": {{ p.content | strip_html | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+{% for p in site.events-recurring %}
+  {% if p.title and p.unlisted != true %}
+    {% unless first_item %},{% endunless %}
+    {% assign first_item = false %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "section": "Events",
+      "content": {{ p.content | strip_html | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+]
