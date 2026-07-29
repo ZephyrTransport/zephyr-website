@@ -10,7 +10,7 @@ description: The premier conference for professionals working with travel models
 front: True
 permalink: /activities/modeling-mobility-conference/
 hide-title: true
-# lead: "Chair or lead's name"
+ lead: "Peter Bosa"
 contact: "info@zephyrtransport.org"
 contact_url: "mailto:info@zephyrtransport.org"
 ---
