@@ -1058,6 +1058,48 @@ a.z-zephyr-name {
   color: var(--z-blue);
 }
 
+.z-social-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  background: #ffffff;
+  border: 1px solid var(--z-border-gray);
+  border-radius: 0.4rem;
+  padding: 0.85rem 1rem;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(23, 23, 52, 0.05);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.z-social-list-item:hover {
+  box-shadow: 0 6px 20px rgba(23, 23, 52, 0.12);
+  transform: translateY(-2px);
+  color: inherit;
+}
+
+.z-social-list-icon {
+  font-size: 1.6rem;
+  color: var(--z-blue);
+  flex: 0 0 auto;
+  margin-top: 0.15rem;
+}
+
+.z-social-list-item strong {
+  display: block;
+  font-family: "Manrope", sans-serif;
+  color: var(--z-navy);
+  font-size: 0.95rem;
+}
+
+.z-social-list-desc {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 0.15rem;
+}
+
 h3.z-hero-subtitle {
   padding: 0.5rem 0;
   margin: 2rem auto;
@@ -1437,6 +1479,10 @@ h3.z-hero-subtitle {
 }
 
 #community, #education, #standards {
+  scroll-margin-top: 90px;
+}
+
+#follow-on-social-media {
   scroll-margin-top: 90px;
 }
 

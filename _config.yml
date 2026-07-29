@@ -125,14 +125,26 @@ exclude:
 
 social:
   - title: linkedin
+    label: LinkedIn
     url: https://www.linkedin.com/company/zephyr-foundation-for-advancing-travel-analysis
+    description: Organization updates, job postings, and professional networking.
   - title: medium
+    label: Medium
     url: https://medium.com/zephyrfoundation
+    description: Longer-form blog posts and articles from the Zephyr community.
   - title: github
+    label: GitHub
     url: https://github.com/zephyrtransport
+    description: Open-source code for Zephyr's tools, standards, and this website.
   - title: discord
+    label: Discord
     url: https://discord.com/channels/1461710843401212022
+    description: The Zephyr Forum &mdash; real-time discussion, questions, and the Zephyr Lounge.
   - title: x-twitter
+    label: X (Twitter)
     url: https://twitter.com/zephyrtransport
+    description: Quick updates, announcements, and event reminders.
   - title: youtube
+    label: YouTube
     url: https://www.youtube.com/channel/UCfF4RLUrg0vsZtoBUUFzkxA
+    description: Recorded webinars, presentations, and other video content.

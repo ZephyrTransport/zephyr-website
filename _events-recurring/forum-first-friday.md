@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: "Forum First Friday"
+title: "First Fridays in the Forum"
 key: forum-first-fridays
 format: Social
 category: Zephyr Forum
@@ -14,7 +14,7 @@ place: '<a href="https://discord.com/channels/1461710843401212022/15269673555680
 
 A casual, no-agenda video chat in the Zephyr Lounge on the first Friday of every month. Stop by to say hello, ask a question, or talk shop with other travel modelers.
 
-Zephyr members get a say in the theme: a few days beforehand, we run a quick poll in the members channel, and whatever wins becomes that month's loose topic. Everyone's still welcome to just show up, no membership required.
+Zephyr members help shape the conversation: a few days before each First Friday, we'll ask members in the members-only channel whether there's a topic they'd like to discuss. Everyone is still welcome to join the conversation—no membership required.
 
 This is a prototype, so the day, time, and format may change as we learn what works.
 

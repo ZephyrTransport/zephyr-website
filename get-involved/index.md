@@ -54,6 +54,35 @@ permalink: /get-involved/
                     </div>
                 </div>
             </div>
+
+            <div class="row mt-5" id="follow-on-social-media">
+                <div class="col-lg-12">
+                    <h2>Connect with Zephyr</h2>
+                    <p>Prefer to follow along rather than sign up? Here's where Zephyr shows up online.</p>
+                    <div class="row row-cols-1 row-cols-sm-2 g-3">
+                        {% for social in site.social %}
+                        <div class="col">
+                            <a href="{{ social.url }}" class="z-social-list-item" target="_blank" rel="noopener">
+                                <i class="fab fa-{{ social.title }} z-social-list-icon" aria-hidden="true"></i>
+                                <span>
+                                    <strong>{{ social.label }}</strong>
+                                    <span class="z-social-list-desc">{{ social.description }}</span>
+                                </span>
+                            </a>
+                        </div>
+                        {% endfor %}
+                        <div class="col">
+                            <a href="http://eepurl.com/ccQL7z" class="z-social-list-item" target="_blank" rel="noopener">
+                                <i class="fa fa-envelope z-social-list-icon" aria-hidden="true"></i>
+                                <span>
+                                    <strong>Email Newsletter</strong>
+                                    <span class="z-social-list-desc">Occasional email updates on Zephyr news and events.</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
