@@ -35,6 +35,12 @@
 {% assign first_of_month = y | append: '-' | append: m | append: '-01' %}
 {% assign first_weekday_i = first_of_month | date: '%w' | plus: 0 %}
 
+{% comment %}
+  is_today/is_past below are a build-time (server timezone) fallback for
+  when JS doesn't run. The events/index.html page script re-derives these
+  from the browser's local date via each day's data-date attribute, since
+  the build server's "now" (UTC) can be a day off from the visitor's.
+{% endcomment %}
 {% assign today_y = site.time | date: '%Y' | plus: 0 %}
 {% assign today_m = site.time | date: '%-m' | plus: 0 %}
 {% assign today_d = site.time | date: '%-d' | plus: 0 %}
@@ -42,6 +48,8 @@
 {% if y == today_y and m == today_m %}
   {% assign is_current_month = true %}
 {% endif %}
+
+{% assign mm_padded = '0' | append: m | slice: -2, 2 %}
 
 {% comment %} day-ordinal of the 1st of this month, used to gate series against their start_date {% endcomment %}
 {% capture month_start_ord_raw %}{% include day-ordinal.html y=y m=m d=1 %}{% endcapture %}
@@ -158,7 +166,8 @@
         {% endif %}
       {% endif %}
 
-      <div class="z-calendar-day{% if has_any %} has-event{% endif %}{% if is_today %} z-calendar-today{% endif %}{% if is_past %} z-calendar-past{% endif %}">
+      {% assign dd_padded = '0' | append: d | slice: -2, 2 %}
+      <div class="z-calendar-day{% if has_any %} has-event{% endif %}{% if is_today %} z-calendar-today{% endif %}{% if is_past %} z-calendar-past{% endif %}" data-date="{{ y }}-{{ mm_padded }}-{{ dd_padded }}">
         <span class="z-calendar-daynum">{{ d }}</span>
 
         {% for e in day_real_events %}

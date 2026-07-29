@@ -22,9 +22,18 @@ latest-update: ""
 
 <hr/>
 
+{% comment %}
+  Both the category and format lists below are built from upcoming/current
+  one-off events (plus all recurring series, which are ongoing by
+  definition) rather than the full event history, so stale values with no
+  recent activity -- e.g. a category last used years ago -- don't clutter
+  the filter bars.
+{% endcomment %}
+{% assign upcoming_events = site.events | where_exp: "e", "e.date >= site.time" %}
+
 {% comment %} Category list includes each item's primary `category` plus any `also_categories`. {% endcomment %}
 {% assign categories = "" | split: "" %}
-{% for e in site.events %}
+{% for e in upcoming_events %}
     {% if e.category %}
         {% unless categories contains e.category %}
             {% assign categories = categories | push: e.category %}
@@ -50,9 +59,13 @@ latest-update: ""
 {% endfor %}
 {% assign categories = categories | sort %}
 
-{% comment %} Format list -- what kind of gathering (Reception, Meeting, Learning Session, etc). {% endcomment %}
+{% comment %}
+  Format list -- what kind of gathering (Reception, Meeting, Learning Session,
+  etc). E.g. Workshop, last used in 2017, is excluded since nothing upcoming
+  uses that format.
+{% endcomment %}
 {% assign formats = "" | split: "" %}
-{% for e in site.events %}
+{% for e in upcoming_events %}
     {% if e.format %}
         {% unless formats contains e.format %}
             {% assign formats = formats | push: e.format %}
@@ -210,6 +223,27 @@ document.addEventListener('DOMContentLoaded', function () {
     var nextEventBtn = document.getElementById('z-cal-next-event');
     var emptyOverlay = document.getElementById('z-cal-empty-overlay');
     var emptyMsg = document.getElementById('z-cal-empty-msg');
+
+    // The calendar's today/past day classes are pre-rendered at build time
+    // using the build server's (UTC) date, which can be off by a day from
+    // the visitor's local date. Recompute them here from the browser's
+    // actual local date so "today" always matches the viewer's timezone.
+    function applyLocalToday() {
+        function pad(n) { return (n < 10 ? '0' : '') + n; }
+        var now = new Date();
+        var todayStr = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+
+        document.querySelectorAll('.z-calendar-day[data-date]').forEach(function (day) {
+            var dateStr = day.getAttribute('data-date');
+            day.classList.remove('z-calendar-today', 'z-calendar-past');
+            if (dateStr === todayStr) {
+                day.classList.add('z-calendar-today');
+            } else if (dateStr < todayStr) {
+                day.classList.add('z-calendar-past');
+            }
+        });
+    }
+    applyLocalToday();
 
     function activeIndex() {
         for (var i = 0; i < monthBlocks.length; i++) {
