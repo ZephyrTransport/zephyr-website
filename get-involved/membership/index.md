@@ -29,10 +29,11 @@ membership_tiers:
 
 Members are the heart of the Zephyr Foundation. As a member, you:
 
-- **Vote** in Board of Directors elections and help shape Zephyr's future.
-- **Receive** discounted registration for Zephyr conferences, workshops, and events.
+- **Advance** the transportation analytics profession through collaboration as we navigate a changing landscape.
 - **Connect** with a community of travel analysis professionals working together to improve the practice.
 - **Contribute** to open-source software, data standards, and community initiatives by joining a [committee]({{ '/about/committees' | relative_url }}) or an [activity]({{ '/get-involved/activities' | relative_url }}).
+- **Receive** discounted registration for Zephyr conferences, workshops, and events.
+- **Vote** in Board of Directors elections and help shape Zephyr's future.
 
 See the [Bylaws]({{ '/about/policies/bylaws' | relative_url }}) for governance details and the [Terms of Membership]({{ '/about/policies/terms-of-membership' | relative_url }}) for the full agreement.
 

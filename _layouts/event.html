@@ -40,6 +40,9 @@
                         {% if page.registration %}
                             <a href="{{ page.registration }}" class="btn btn-lg btn-z">Register Now</a>
                         {% endif %}
+
+                        {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
+                        {% include add-to-calendar.html title=page.title date=event_date_iso time=page.time place=page.place url=page.url %}
                     </div>
 
                     {% if page['additional-msg'] %}

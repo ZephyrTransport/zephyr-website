@@ -93,12 +93,6 @@ latest-update: ""
     </div>
 </div>
 
-<div class="z-event-filter-group">
-    <span class="z-event-filter-label">Recurring</span>
-    <div class="z-event-type-bar" role="group" aria-label="Toggle recurring meetings">
-        <button type="button" class="z-event-type-btn" id="z-hide-recurring-btn" aria-pressed="false"><span class="z-event-type-check">&#10003;</span> Hide Recurring Meetings</button>
-    </div>
-</div>
 
 {% assign this_year = 'now' | date: '%Y' | plus: 0 %}
 {% assign this_month = 'now' | date: '%-m' | plus: 0 %}
@@ -206,10 +200,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var categoryButtons = document.querySelectorAll('.z-event-category-btn');
     var formatButtons = document.querySelectorAll('.z-event-format-btn');
     var formatFilterGroup = document.getElementById('z-format-filter-group');
-    var hideRecurringBtn = document.getElementById('z-hide-recurring-btn');
     var activeCategory = 'all';
     var activeFormat = 'all';
-    var hideRecurring = false;
     var monthBlocks = Array.prototype.slice.call(document.querySelectorAll('.z-calendar-month'));
     var jumpSelect = document.getElementById('z-cal-jump-select');
     var prevBtn = document.getElementById('z-cal-prev');
@@ -303,12 +295,11 @@ document.addEventListener('DOMContentLoaded', function () {
         var cats = (el.getAttribute('data-category') || '').split('|');
         var categoryOk = activeCategory === 'all' || cats.indexOf(activeCategory) !== -1;
         var formatOk = activeFormat === 'all' || el.getAttribute('data-format') === activeFormat;
-        var recurringOk = !(hideRecurring && el.getAttribute('data-type') === 'meeting');
-        return categoryOk && formatOk && recurringOk;
+        return categoryOk && formatOk;
     }
 
     function updateVisibility() {
-        var isDefault = activeCategory === 'all' && activeFormat === 'all' && !hideRecurring;
+        var isDefault = activeCategory === 'all' && activeFormat === 'all';
 
         var chips = document.querySelectorAll('.z-calendar-event-chip');
         chips.forEach(function (chip) {
@@ -376,13 +367,6 @@ document.addEventListener('DOMContentLoaded', function () {
             activeFormat = btn.getAttribute('data-filter');
             updateVisibility();
         });
-    });
-
-    hideRecurringBtn.addEventListener('click', function () {
-        hideRecurring = !hideRecurring;
-        hideRecurringBtn.classList.toggle('active', hideRecurring);
-        hideRecurringBtn.setAttribute('aria-pressed', hideRecurring ? 'true' : 'false');
-        updateVisibility();
     });
 });
 </script>

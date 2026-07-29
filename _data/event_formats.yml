@@ -16,3 +16,6 @@ Conference:
 Reception:
   icon: fa-champagne-glasses
   color: "#e34948"
+Social:
+  icon: fa-comments
+  color: "#c2185b"

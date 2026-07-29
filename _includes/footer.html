@@ -22,11 +22,7 @@
                 <h5>Connect with Zephyr</h5>
                 <div class="z-social-buttons">
                     {% for social in site.social %}
-                        {% if social.title == 'discord' %}
-                            <a href="{{ '/get-involved/forum' | relative_url }}"><i class="fab fa-discord fa-lg"></i></a>
-                        {% else %}
-                            <a href="{{ social.url }}"><i class="fab fa-{{ social.title }} fa-lg"></i></a>
-                        {% endif %}
+                        <a href="{{ social.url }}"><i class="fab fa-{{ social.title }} fa-lg"></i></a>
                     {% endfor %}
                     <a href="http://eepurl.com/ccQL7z"><i class="fa fa-envelope fa-lg"></i></a>
                 </div>

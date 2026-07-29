@@ -10,7 +10,15 @@
 <div id="simple-layout" class="row">
 <div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
 
+{% include page-meta.html %}
+
 {{ content }}
+
+{% if page.collection == "events-recurring" %}
+<div class="z-event-back">
+    <a href="{{ '/events' | relative_url }}">&laquo; Back to All Events</a>
+</div>
+{% endif %}
 
 {% include program-hub-link.html %}
 

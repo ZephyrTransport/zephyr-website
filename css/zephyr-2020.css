@@ -1815,6 +1815,22 @@ footer a:hover {
   border-color: var(--z-blue);
 }
 
+.z-calendar-day.z-calendar-today {
+  border: 2px solid var(--z-wine-mid);
+}
+
+.z-calendar-day.z-calendar-today .z-calendar-daynum {
+  color: var(--z-wine-mid);
+}
+
+.z-calendar-day.z-calendar-past {
+  opacity: 0.5;
+}
+
+.z-calendar-day.z-calendar-past .z-calendar-daynum {
+  text-decoration: line-through;
+}
+
 .z-calendar-daynum {
   display: block;
   font-weight: bold;
@@ -1915,6 +1931,19 @@ footer a:hover {
   padding: 0.35rem 1.1rem;
   font-size: 0.8rem;
   margin-top: 0;
+}
+
+.z-member-banner-link {
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.z-member-banner-link:hover,
+.z-member-banner-link:focus {
+  color: #fff;
+  opacity: 0.85;
 }
 
 .focus-pillar {

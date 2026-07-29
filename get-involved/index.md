@@ -45,7 +45,7 @@ permalink: /get-involved/
                         <div class="col">
                             <div class="card h-100 z-program-card">
                                 <div class="card-body text-center position-relative">
-                                    <h3 class="card-title h5"><a href="{{ '/get-involved/forum' | relative_url }}" class="stretched-link">Join the Forum Pilot</a></h3>
+                                    <h3 class="card-title h5"><a href="{{ '/get-involved/forum' | relative_url }}" class="stretched-link">Join the Zephyr Forum</a></h3>
                                     <p class="card-text">Ask questions and connect with the community on Discord</p>
                                     <p class="z-program-card-hint">Click for details &raquo;</p>
                                 </div>

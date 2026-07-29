@@ -1,10 +1,10 @@
 ---
 layout: simple
 title: "Board Meeting"
-permalink: /events/meetings/board/
 key: board
 format: Meeting
 category: Board
+internal: true # true: don't show in upcoming events lists
 cadence: weekly
 weekday: 2
 interval_weeks: 2

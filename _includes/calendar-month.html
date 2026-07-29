@@ -35,6 +35,14 @@
 {% assign first_of_month = y | append: '-' | append: m | append: '-01' %}
 {% assign first_weekday_i = first_of_month | date: '%w' | plus: 0 %}
 
+{% assign today_y = site.time | date: '%Y' | plus: 0 %}
+{% assign today_m = site.time | date: '%-m' | plus: 0 %}
+{% assign today_d = site.time | date: '%-d' | plus: 0 %}
+{% assign is_current_month = false %}
+{% if y == today_y and m == today_m %}
+  {% assign is_current_month = true %}
+{% endif %}
+
 {% comment %} day-ordinal of the 1st of this month, used to gate series against their start_date {% endcomment %}
 {% capture month_start_ord_raw %}{% include day-ordinal.html y=y m=m d=1 %}{% endcapture %}
 {% assign month_start_ord = month_start_ord_raw | strip | plus: 0 %}
@@ -140,7 +148,17 @@
       {% assign day_date_str = y | append: '-' | append: m | append: '-' | append: d %}
       {% assign day_label = day_date_str | date: "%a, %b %-d" %}
 
-      <div class="z-calendar-day{% if has_any %} has-event{% endif %}">
+      {% assign is_today = false %}
+      {% assign is_past = false %}
+      {% if is_current_month %}
+        {% if d == today_d %}
+          {% assign is_today = true %}
+        {% elsif d < today_d %}
+          {% assign is_past = true %}
+        {% endif %}
+      {% endif %}
+
+      <div class="z-calendar-day{% if has_any %} has-event{% endif %}{% if is_today %} z-calendar-today{% endif %}{% if is_past %} z-calendar-past{% endif %}">
         <span class="z-calendar-daynum">{{ d }}</span>
 
         {% for e in day_real_events %}

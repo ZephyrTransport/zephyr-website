@@ -1,10 +1,10 @@
 ---
 layout: simple
 title: "Board Officers Meeting"
-permalink: /events/meetings/board-officers/
 key: board-officers
 format: Meeting
 category: Board
+internal: true # true: don't show in upcoming events lists
 cadence: weekly
 weekday: 5
 interval_weeks: 2

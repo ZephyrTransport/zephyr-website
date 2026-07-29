@@ -46,6 +46,7 @@ collections:
     output: true
   events-recurring:
     output: true
+    permalink: /events/:path/
 
 # _events-recurring/*.md are recurring series (Board, Committee, activity calls,
 # etc.) shown on the /events/ calendar. Each file's own content is a
@@ -130,7 +131,7 @@ social:
   - title: github
     url: https://github.com/zephyrtransport
   - title: discord
-    url: https://zephyrtransport.org/about/discord
+    url: https://discord.com/channels/1461710843401212022
   - title: x-twitter
     url: https://twitter.com/zephyrtransport
   - title: youtube
