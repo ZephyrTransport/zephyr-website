@@ -31,7 +31,7 @@ Yes, it's the app gamers made famous. These days it's also where many technical 
 
 - Ask questions and get technical advice.
 - Share ideas, resources, and projects.
-- Visit the *Zephyr Lounge* anytime to chat with fellow community members by voice or video.
+- Visit the **Zephyr Lounge** anytime to chat with fellow community members by voice or video.
 - Connect with transportation professionals throughout the community.
 
 ## Forum First Fridays
