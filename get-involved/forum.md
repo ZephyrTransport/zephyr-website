@@ -8,7 +8,7 @@ hide-title: true
 ---
 
 <div class="text-center mb-4">
-<img src="{{ '/img/logos/zephyr-forum-logo.png' | relative_url }}" class="img-fluid" alt="Zephyr Forum: An Online Community Built by Travel Modelers. Connect, Learn, Contribute, Advance." style="max-width:min(480px, 100%);"/>
+<img src="{{ '/img/logos/zephyr-forum-logo.png' | relative_url }}" class="img-fluid" alt="Zephyr Forum: An Online Community Built by Travel Modelers. Connect, Learn, Contribute, Advance." style="max-width:min(560px, 100%);"/>
 </div>
 
 The **Zephyr Forum** is our online community where transportation and land use professionals ask questions, share ideas, collaborate on projects, and connect through discussion channels, direct messages, voice, and video. *You don't have to be a Zephyr member to join.*
