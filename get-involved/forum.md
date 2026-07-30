@@ -34,7 +34,7 @@ Yes, it's the app gamers made famous. These days it's also where many technical 
 - Visit the **Zephyr Lounge** anytime to chat with fellow community members by voice or video.
 - Connect with transportation professionals throughout the community.
 
-## Forum First Fridays
+## First Fridays in the Forum
 
 We're trying out a casual video chat in the **Zephyr Lounge** on the first Friday of every month, starting at **2 PM Eastern** (1 PM Central / 12 PM Mountain / 11 AM Pacific). No agenda, no presentation. Just stop by to say hello, ask a question, or talk shop with other travel modelers.
 
