@@ -13,4 +13,4 @@ time: "1:00 - 2:00 PM ET"
 place: "Video call — link shared with public agency Travel Diary Survey Working group members"
 ---
 
-The Travel Diary Survey Working Group is comprised of public agency staff collaborating to advance travel diary survey methods and open-source pipeline tools, to deliver reliable, reproducible, and representative data to support evidence-based planning and policy.  The group meets on the last Tuesday of each month, starting at 10:00 aM Pacific.
+The Travel Diary Survey Working Group is comprised of public agency staff collaborating to advance travel diary survey methods and open-source pipeline tools, to deliver reliable, reproducible, and representative data to support evidence-based planning and policy.  The group meets on the last Tuesday of each month, starting at 10:00 AM Pacific.
