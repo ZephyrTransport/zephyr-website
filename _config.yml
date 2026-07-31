@@ -72,6 +72,9 @@ collections:
 #   cadence:        "monthly_nth_weekday" or "weekly"
 #   weekday:        0=Sun .. 6=Sat
 #   nth:            (monthly_nth_weekday only) 1=1st, 2=2nd, etc.
+#                   Negative counts from the end of the month instead:
+#                   -1=last, -2=second-to-last, etc. (e.g. weekday=2,
+#                   nth=-1 is "last Tuesday of the month")
 #   interval_weeks: (weekly only) 1=every week, 2=every other week
 #   start_date:     YYYY-MM-DD the series begins (also the biweekly
 #                   parity anchor -- which Wednesdays count as "every
