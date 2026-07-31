@@ -39,6 +39,23 @@
     {% assign day_ord = day_ord_raw | strip | plus: 0 %}
     {% assign day_label = day_date_str | date: "%B %-d, %Y" %}
 
+    {% comment %} days in this day's month, used to resolve negative `nth` (last/second-to-last weekday) {% endcomment %}
+    {% assign dmonth_lengths = "31,28,31,30,31,30,31,31,30,31,30,31" | split: "," %}
+    {% assign dmidx = dm | minus: 1 %}
+    {% assign ddim = dmonth_lengths[dmidx] | plus: 0 %}
+    {% assign dmod4 = dy | modulo: 4 %}
+    {% assign dmod100 = dy | modulo: 100 %}
+    {% assign dmod400 = dy | modulo: 400 %}
+    {% assign dis_leap = false %}
+    {% if dmod4 == 0 and dmod100 != 0 %}
+        {% assign dis_leap = true %}
+    {% elsif dmod400 == 0 %}
+        {% assign dis_leap = true %}
+    {% endif %}
+    {% if dm == 2 and dis_leap %}
+        {% assign ddim = 29 %}
+    {% endif %}
+
     {% assign day_group = events_by_date | where: "name", day_date_str | first %}
     {% if day_group %}
         {% for e in day_group.items %}
@@ -55,9 +72,19 @@
 
             {% if series.cadence == "monthly_nth_weekday" %}
                 {% if dow == series.weekday %}
-                    {% assign occurrence_number = dd | minus: 1 | divided_by: 7 | plus: 1 %}
-                    {% if occurrence_number == series.nth %}
-                        {% assign series_match = true %}
+                    {% if series.nth < 0 %}
+                        {% comment %} negative nth counts from the end of the month: -1 = last, -2 = second-to-last, etc. {% endcomment %}
+                        {% assign remaining_days = ddim | minus: dd %}
+                        {% assign remaining_count = remaining_days | divided_by: 7 | plus: 1 %}
+                        {% assign nth_abs = series.nth | abs %}
+                        {% if remaining_count == nth_abs %}
+                            {% assign series_match = true %}
+                        {% endif %}
+                    {% else %}
+                        {% assign occurrence_number = dd | minus: 1 | divided_by: 7 | plus: 1 %}
+                        {% if occurrence_number == series.nth %}
+                            {% assign series_match = true %}
+                        {% endif %}
                     {% endif %}
                 {% endif %}
             {% elsif series.cadence == "weekly" %}

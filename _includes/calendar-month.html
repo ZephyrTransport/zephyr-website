@@ -90,10 +90,19 @@
         {% assign series_match = false %}
 
         {% if series.cadence == "monthly_nth_weekday" %}
-          {% assign occ_offset = series.weekday | minus: first_weekday_i | plus: 7 | modulo: 7 %}
-          {% assign nth_minus_one = series.nth | minus: 1 %}
-          {% assign weeks_to_add = nth_minus_one | times: 7 %}
-          {% assign occ_day = occ_offset | plus: 1 | plus: weeks_to_add %}
+          {% if series.nth < 0 %}
+            {% comment %} negative nth counts from the end of the month: -1 = last, -2 = second-to-last, etc. {% endcomment %}
+            {% assign last_weekday_i = first_weekday_i | plus: dim | minus: 1 | modulo: 7 %}
+            {% assign wd_diff = last_weekday_i | minus: series.weekday | plus: 7 | modulo: 7 %}
+            {% assign nth_abs = series.nth | abs %}
+            {% assign back_weeks = nth_abs | minus: 1 | times: 7 %}
+            {% assign occ_day = dim | minus: wd_diff | minus: back_weeks %}
+          {% else %}
+            {% assign occ_offset = series.weekday | minus: first_weekday_i | plus: 7 | modulo: 7 %}
+            {% assign nth_minus_one = series.nth | minus: 1 %}
+            {% assign weeks_to_add = nth_minus_one | times: 7 %}
+            {% assign occ_day = occ_offset | plus: 1 | plus: weeks_to_add %}
+          {% endif %}
           {% if occ_day == d %}
             {% assign series_match = true %}
           {% endif %}
