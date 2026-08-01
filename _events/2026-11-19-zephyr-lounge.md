@@ -15,3 +15,5 @@ Join us in the Zephyr Lounge after the learning session for an informal meetup. 
 The Zephyr Lounge is always open in the Zephyr Forum, so feel free to stop by anytime—not just after learning sessions.
 
 **Note:** You'll need access to the Zephyr Forum Discord server to join the Lounge.
+
+Not in the Forum yet? [Join the Zephyr Forum]({{ '/get-involved/forum' | relative_url }}) to get access to the Zephyr Lounge.
