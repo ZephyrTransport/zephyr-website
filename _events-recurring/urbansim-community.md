@@ -9,7 +9,9 @@ cadence: monthly_nth_weekday
 weekday: 4
 nth: 3
 start_date: 2026-08-20
-time: "12:00 - 1:00 PM ET"
+start_time: "12:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: "Video call — link shared with UrbanSim Community public agency staff"
 ---
 

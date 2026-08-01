@@ -9,6 +9,9 @@ weekday: 5
 nth: 1
 start_date: 2026-08-07
 time: "2 PM Eastern (1 PM Central / 12 PM Mountain / 11 AM Pacific)"
+start_time: "14:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: '<a href="https://discord.com/channels/1461710843401212022/1526967355568034002">Zephyr Lounge</a> on the Zephyr Forum (Discord)'
 ---
 

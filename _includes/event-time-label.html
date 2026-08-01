@@ -1,0 +1,47 @@
+{% comment %}
+  Renders a human-readable time range + zone name from structured
+  start_time/duration_minutes/timezone fields, e.g.
+  "2:00 PM - 3:00 PM Eastern Time". Used as the display fallback when
+  a page doesn't set its own free-text `time` (which stays available
+  for events needing multi-zone or otherwise free-form text).
+
+  Deliberately uses the zone's common name ("Eastern Time") rather
+  than a DST-aware abbreviation ("EDT"/"EST") -- picking the correct
+  abbreviation for a given date needs the same DST-transition math
+  add-to-calendar.html avoids doing in Liquid, and "Eastern Time" is
+  already how this is said colloquially regardless of the time of year.
+
+  Params:
+    include.start_time         24-hour local time, "HH:MM"
+    include.duration_minutes   integer minutes
+    include.timezone           IANA zone, must match a case below --
+                                keep in sync with _config.yml and
+                                add-to-calendar.html's VTIMEZONE cases
+{% endcomment %}
+{% assign start_hm = include.start_time | split: ":" %}
+{% assign start_hour = start_hm[0] | plus: 0 %}
+{% assign start_min = start_hm[1] | plus: 0 %}
+{% assign start_hour_str = start_hour | prepend: "0" | slice: -2, 2 %}
+{% assign start_min_str = start_min | prepend: "0" | slice: -2, 2 %}
+{% assign start_label = "2000-01-01 " | append: start_hour_str | append: ":" | append: start_min_str | date: "%-I:%M %p" %}
+
+{% assign total_start_min = start_hour | times: 60 | plus: start_min %}
+{% assign total_end_min = total_start_min | plus: include.duration_minutes %}
+{% assign end_min = total_end_min | modulo: 60 %}
+{% assign end_hour = total_end_min | divided_by: 60 | modulo: 24 %}
+{% assign end_hour_str = end_hour | prepend: "0" | slice: -2, 2 %}
+{% assign end_min_str = end_min | prepend: "0" | slice: -2, 2 %}
+{% assign end_label = "2000-01-01 " | append: end_hour_str | append: ":" | append: end_min_str | date: "%-I:%M %p" %}
+
+{% assign zone_name = include.timezone %}
+{% case include.timezone %}
+{% when "America/New_York" %}{% assign zone_name = "Eastern Time" %}
+{% when "America/Chicago" %}{% assign zone_name = "Central Time" %}
+{% when "America/Denver" %}{% assign zone_name = "Mountain Time" %}
+{% when "America/Los_Angeles" %}{% assign zone_name = "Pacific Time" %}
+{% when "Australia/Sydney" %}{% assign zone_name = "Sydney Time" %}
+{% when "Australia/Brisbane" %}{% assign zone_name = "Brisbane Time" %}
+{% when "Australia/Adelaide" %}{% assign zone_name = "Adelaide Time" %}
+{% when "Australia/Perth" %}{% assign zone_name = "Perth Time" %}
+{% endcase %}
+{{ start_label }} - {{ end_label }} {{ zone_name }}

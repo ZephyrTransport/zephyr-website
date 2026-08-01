@@ -5,6 +5,9 @@ category: DMDU
 title: "International Perspectives on Uncertainty Planning"
 day: Thursday, November 19, 2026
 time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT
+start_time: "12:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">Zoom Registration</a>
 ---
 

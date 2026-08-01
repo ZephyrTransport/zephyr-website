@@ -9,7 +9,9 @@ cadence: weekly
 weekday: 5
 interval_weeks: 2
 start_date: 2026-07-10
-time: "11:30 - 12:00 AM ET"
+start_time: "11:30"
+duration_minutes: 30
+timezone: "America/New_York"
 place: "Video call — link shared with Board Officers"
 ---
 

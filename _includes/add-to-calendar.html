@@ -1,20 +1,33 @@
 {% comment %}
   Renders "Add to Google Calendar" + "Download .ics" links.
-  All events render as all-day entries -- front matter only carries a
-  free-text `time` string (e.g. "2 PM Eastern (1 PM Central...)"), not
-  a structured/timezone-aware start time, so there's no reliable way
-  to build a precise timed calendar slot. The human-readable time
-  still shows in the calendar entry's description.
+  Events render as all-day entries by default -- front matter only
+  carries a free-text `time` string (e.g. "2 PM Eastern (1 PM
+  Central...)"), not a structured/timezone-aware start time, so
+  there's no reliable way to build a precise timed calendar slot from
+  it alone. The human-readable time still shows in the calendar
+  entry's description either way.
+
+  Passing start_time + duration_minutes + timezone (all three)
+  switches to a real timed VEVENT instead, using an IANA timezone so
+  recurring events stay correct across Daylight Saving changes.
 
   Params:
     include.title
-    include.date    YYYY-MM-DD (or a Date/Time value), first/only occurrence
-    include.time    optional free-text time, shown in the description
-    include.place   optional location text (may contain HTML -- stripped)
-    include.url     page url (relative_url'd already or not, either works)
-    include.rrule   optional recurrence rule value, no "RRULE:" prefix
-                     e.g. "FREQ=WEEKLY;INTERVAL=2"
-    include.until   optional YYYY-MM-DD the recurrence stops after
+    include.date              YYYY-MM-DD (or a Date/Time value), first/only occurrence
+    include.time               optional free-text time, shown in the description
+    include.place              optional location text (may contain HTML -- stripped)
+    include.url                page url (relative_url'd already or not, either works)
+    include.rrule               optional recurrence rule value, no "RRULE:" prefix
+                                 e.g. "FREQ=WEEKLY;INTERVAL=2"
+    include.until               optional YYYY-MM-DD the recurrence stops after
+    include.start_time          optional 24-hour local time, "HH:MM" (e.g. "14:00")
+    include.duration_minutes    optional integer meeting length in minutes
+    include.timezone            optional IANA zone, e.g. "America/New_York" --
+                                 see _config.yml for the list of supported zones
+                                 (must match a case below). start_time,
+                                 duration_minutes, and timezone must all be
+                                 given together to produce a timed event; any
+                                 one missing falls back to all-day.
 {% endcomment %}
 {% assign cal_title = include.title | strip_html %}
 {% assign cal_time = include.time | strip_html %}
@@ -28,12 +41,46 @@
 {% assign end_compact = end_ts | date: "%Y%m%d" %}
 {% assign uid_slug = include.url | slugify %}
 
+{% assign is_timed = false %}
+{% if include.start_time and include.duration_minutes and include.timezone %}
+    {% assign is_timed = true %}
+{% endif %}
+
+{% if is_timed %}
+    {% assign start_hm = include.start_time | split: ":" %}
+    {% assign start_hour = start_hm[0] | plus: 0 %}
+    {% assign start_min = start_hm[1] | plus: 0 %}
+    {% assign start_hour_str = start_hour | prepend: "0" | slice: -2, 2 %}
+    {% assign start_min_str = start_min | prepend: "0" | slice: -2, 2 %}
+    {% assign start_datetime_compact = start_compact | append: "T" | append: start_hour_str | append: start_min_str | append: "00" %}
+
+    {% assign total_start_min = start_hour | times: 60 | plus: start_min %}
+    {% assign total_end_min = total_start_min | plus: include.duration_minutes %}
+    {% assign end_min = total_end_min | modulo: 60 %}
+    {% assign end_hour_total = total_end_min | divided_by: 60 %}
+    {% assign end_hour = end_hour_total | modulo: 24 %}
+    {% assign end_hour_str = end_hour | prepend: "0" | slice: -2, 2 %}
+    {% assign end_min_str = end_min | prepend: "0" | slice: -2, 2 %}
+
+    {% assign day_overflow = end_hour_total | divided_by: 24 %}
+    {% assign end_date_ts = start_ts %}
+    {% if day_overflow > 0 %}
+        {% assign end_date_ts = start_ts | plus: 86400 %}
+    {% endif %}
+    {% assign end_date_compact_timed = end_date_ts | date: "%Y%m%d" %}
+    {% assign end_datetime_compact = end_date_compact_timed | append: "T" | append: end_hour_str | append: end_min_str | append: "00" %}
+{% endif %}
+
 {% assign rrule_line = "" %}
 {% if include.rrule %}
     {% assign rrule_line = include.rrule %}
     {% if include.until %}
         {% assign until_compact = include.until | date: "%Y%m%d" %}
-        {% assign rrule_line = rrule_line | append: ";UNTIL=" | append: until_compact %}
+        {% if is_timed %}
+            {% assign rrule_line = rrule_line | append: ";UNTIL=" | append: until_compact | append: "T235959Z" %}
+        {% else %}
+            {% assign rrule_line = rrule_line | append: ";UNTIL=" | append: until_compact %}
+        {% endif %}
     {% endif %}
 {% endif %}
 
@@ -41,9 +88,15 @@
 {% assign enc_time = cal_time | url_encode %}
 {% assign enc_place = cal_place | url_encode %}
 {% assign enc_recur = rrule_line | prepend: "RRULE:" | url_encode %}
+{% assign enc_timezone = include.timezone | url_encode %}
 
 {% assign gcal_url = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" | append: enc_title %}
-{% assign gcal_url = gcal_url | append: "&dates=" | append: start_compact | append: "/" | append: end_compact %}
+{% if is_timed %}
+    {% assign gcal_url = gcal_url | append: "&dates=" | append: start_datetime_compact | append: "/" | append: end_datetime_compact %}
+    {% assign gcal_url = gcal_url | append: "&ctz=" | append: enc_timezone %}
+{% else %}
+    {% assign gcal_url = gcal_url | append: "&dates=" | append: start_compact | append: "/" | append: end_compact %}
+{% endif %}
 {% if rrule_line != "" %}
     {% assign gcal_url = gcal_url | append: "&recur=" | append: enc_recur %}
 {% endif %}
@@ -54,15 +107,164 @@
     {% assign gcal_url = gcal_url | append: "&location=" | append: enc_place %}
 {% endif %}
 
+{% comment %}
+  Standard, evergreen VTIMEZONE blocks (fixed DST transition rules --
+  no yearly maintenance needed). Add a case here to support another
+  zone; keep the list in _config.yml in sync.
+{% endcomment %}
+{% assign vtimezone_block = "" %}
+{% if is_timed %}
+    {% case include.timezone %}
+    {% when "America/New_York" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% when "America/Chicago" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% when "America/Denver" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% when "America/Los_Angeles" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% when "Australia/Sydney" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+TZNAME:AEST
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+TZNAME:AEDT
+DTSTART:19701004T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+END:VTIMEZONE
+{% endcapture %}
+    {% when "Australia/Adelaide" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:Australia/Adelaide
+BEGIN:STANDARD
+TZOFFSETFROM:+1030
+TZOFFSETTO:+0930
+TZNAME:ACST
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0930
+TZOFFSETTO:+1030
+TZNAME:ACDT
+DTSTART:19701004T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+END:VTIMEZONE
+{% endcapture %}
+    {% when "Australia/Brisbane" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:Australia/Brisbane
+BEGIN:STANDARD
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1000
+TZNAME:AEST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% when "Australia/Perth" %}
+        {% capture vtimezone_block %}BEGIN:VTIMEZONE
+TZID:Australia/Perth
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:AWST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+{% endcapture %}
+    {% endcase %}
+{% endif %}
+
 {% capture ics_content %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Zephyr Foundation//Events//EN
-BEGIN:VEVENT
+{% if vtimezone_block != "" %}{{ vtimezone_block }}{% endif %}BEGIN:VEVENT
 UID:{{ uid_slug }}@zephyrtransport.org
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
-DTSTART;VALUE=DATE:{{ start_compact }}
+{% if is_timed %}DTSTART;TZID={{ include.timezone }}:{{ start_datetime_compact }}
+DTEND;TZID={{ include.timezone }}:{{ end_datetime_compact }}
+{% else %}DTSTART;VALUE=DATE:{{ start_compact }}
 DTEND;VALUE=DATE:{{ end_compact }}
-SUMMARY:{{ cal_title }}
+{% endif %}SUMMARY:{{ cal_title }}
 {% if cal_time %}DESCRIPTION:{{ cal_time }}
 {% endif %}{% if cal_place %}LOCATION:{{ cal_place }}
 {% endif %}{% if rrule_line != "" %}RRULE:{{ rrule_line }}

@@ -9,7 +9,9 @@ cadence: weekly
 weekday: 1
 interval_weeks: 2
 start_date: 2026-07-13
-time: "1:30 - 2:00 PM ET"
+start_time: "13:30"
+duration_minutes: 30
+timezone: "America/New_York"
 place: "Video call — link shared with UrbanSim modernization agency contributors"
 ---
 

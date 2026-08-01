@@ -9,7 +9,9 @@ cadence: monthly_nth_weekday
 weekday: 2
 nth: 4
 start_date: 2026-07-28
-time: "7:00 - 8:00 PM ET"
+start_time: "19:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: "Video call — link shared with ActivitySim consortium members and consultants"
 ---
 

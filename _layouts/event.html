@@ -18,15 +18,23 @@
 
                         <h1 class="z-event-hero-title">{{ page.title }}</h1>
 
+                        {% assign display_time = page.time %}
+                        {% unless page.time %}
+                            {% if page.start_time and page.duration_minutes and page.timezone %}
+                                {% capture display_time %}{% include event-time-label.html start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}{% endcapture %}
+                                {% assign display_time = display_time | strip %}
+                            {% endif %}
+                        {% endunless %}
+
                         <div class="z-event-meta">
                             <div class="z-event-meta-item">
                                 <i class="fa-regular fa-calendar" aria-hidden="true"></i>
                                 {% if page.day %}{{ page.day }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
                             </div>
-                            {% if page.time %}
+                            {% if display_time %}
                             <div class="z-event-meta-item">
                                 <i class="fa-regular fa-clock" aria-hidden="true"></i>
-                                {{ page.time }}
+                                {{ display_time }}
                             </div>
                             {% endif %}
                             {% if page.place %}
@@ -42,7 +50,7 @@
                         {% endif %}
 
                         {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
-                        {% include add-to-calendar.html title=page.title date=event_date_iso time=page.time place=page.place url=page.url %}
+                        {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
                     </div>
 
                     {% if page['additional-msg'] %}

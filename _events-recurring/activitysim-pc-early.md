@@ -9,7 +9,9 @@ cadence: weekly
 weekday: 2
 interval_weeks: 6
 start_date: 2026-08-04
-time: "2:00 - 3:00 PM ET"
+start_time: "14:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: "Video call — link shared with ActivitySim consortium members and consultants"
 ---
 

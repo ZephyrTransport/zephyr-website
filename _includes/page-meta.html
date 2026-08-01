@@ -1,9 +1,17 @@
-{% if page.time or page.place %}
+{% assign display_time = page.time %}
+{% unless page.time %}
+    {% if page.start_time and page.duration_minutes and page.timezone %}
+        {% capture display_time %}{% include event-time-label.html start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}{% endcapture %}
+        {% assign display_time = display_time | strip %}
+    {% endif %}
+{% endunless %}
+
+{% if display_time or page.place %}
 <div class="z-page-meta">
-    {% if page.time %}
+    {% if display_time %}
     <div class="z-event-meta-item">
         <i class="fa-regular fa-clock" aria-hidden="true"></i>
-        {{ page.time }}
+        {{ display_time }}
     </div>
     {% endif %}
     {% if page.place %}
@@ -23,6 +31,6 @@
         {% assign cal_interval = page.interval_weeks | default: 1 %}
         {% assign cal_rrule = "FREQ=WEEKLY;INTERVAL=" | append: cal_interval %}
     {% endif %}
-    {% include add-to-calendar.html title=page.title date=page.start_date time=page.time place=page.place url=page.url rrule=cal_rrule until=page.end_date %}
+    {% include add-to-calendar.html title=page.title date=page.start_date time=display_time place=page.place url=page.url rrule=cal_rrule until=page.end_date start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
 {% endif %}
 {% endif %}

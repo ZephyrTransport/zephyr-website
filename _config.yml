@@ -82,6 +82,23 @@ collections:
 #   end_date:       optional YYYY-MM-DD the series stops recurring after.
 #                   Omit for an ongoing series with no known end date.
 #   time, place:    displayed on the series' own info page
+#   start_time, duration_minutes, timezone: optional, structured
+#                   companions to `time` used only to build a real
+#                   timed "Add to Google Calendar" / .ics entry
+#                   instead of an all-day one. All three must be
+#                   given together (any one missing falls back to
+#                   all-day). start_time is 24-hour local time
+#                   "HH:MM"; duration_minutes is an integer; timezone
+#                   must be one of the following (must match a
+#                   {% case %} branch in _includes/add-to-calendar.html):
+#                     America/New_York    (US Eastern)
+#                     America/Chicago     (US Central)
+#                     America/Denver      (US Mountain)
+#                     America/Los_Angeles (US Pacific)
+#                     Australia/Sydney    (AU Eastern, DST-observing)
+#                     Australia/Brisbane  (AU Eastern, no DST)
+#                     Australia/Adelaide  (AU Central, DST-observing)
+#                     Australia/Perth     (AU Western, no DST)
 #
 # The /events/ calendar's month range isn't a fixed lookahead -- it
 # renders from the current month through whichever is later: the

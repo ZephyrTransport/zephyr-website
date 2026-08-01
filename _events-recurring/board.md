@@ -10,6 +10,9 @@ weekday: 2
 interval_weeks: 2
 start_date: 2026-07-14
 time: "4:00 PM EDT"
+start_time: "16:00"
+duration_minutes: 60
+timezone: "America/New_York"
 place: "Video call — link shared with Board members"
 ---
 
