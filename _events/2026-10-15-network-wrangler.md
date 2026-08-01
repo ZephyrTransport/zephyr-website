@@ -8,6 +8,7 @@ start_time: "14:00"
 duration_minutes: 60
 timezone: "America/New_York"
 place: <a href="https://us06web.zoom.us/meeting/register/5gdlg7mqSlGoKIx8DR6TeA">Zoom Registration</a>
+requires_registration: true
 ---
 
 Join us for a learning session on the NetworkWrangler tool, led by Lisa Zorn.

@@ -9,6 +9,7 @@ start_time: "12:00"
 duration_minutes: 60
 timezone: "America/New_York"
 place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">Zoom Registration</a>
+requires_registration: true
 ---
 
 Please join us for a discussion of international perspectives on uncertainty planning, led by Amy Armstrong, Department for Transport, UK and Naomi Stein, EBP.

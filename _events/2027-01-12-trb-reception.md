@@ -9,5 +9,6 @@ start_time: "20:00"
 duration_minutes: 120
 timezone: "America/New_York"
 place: Location TBD (Washington DC) - past receptions have been held at Busboys & Poets (450 K St)
+calendar_summary: "The Zephyr Foundation's annual TRB reception in Washington, DC, recapping 2026 activities, previewing 2027 plans, and presenting the 2027 Zephyr Awards."
 ---
 Join us for the annual Zephyr reception!  We will discuss 2026 Zephyr activities, 2027 plans, and present the [2027 Zephyr Awards]({{ '/awards' | relative_url }})

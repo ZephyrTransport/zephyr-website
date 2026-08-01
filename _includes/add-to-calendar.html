@@ -14,7 +14,14 @@
   Params:
     include.title
     include.date              YYYY-MM-DD (or a Date/Time value), first/only occurrence
-    include.time               optional free-text time, shown in the description
+    include.time               optional free-text time, included in the calendar
+                                description; the on-page display of `time` is
+                                unaffected either way
+    include.calendar_summary     optional plain-text event description, included
+                                  in the calendar description below include.time
+                                  when both are given. Deliberately separate from
+                                  page.summary, which renders on the page itself
+                                  (_layouts/event.html) -- this one is calendar-only.
     include.place              optional location text (may contain HTML -- stripped)
     include.url                page url (relative_url'd already or not, either works)
     include.rrule               optional recurrence rule value, no "RRULE:" prefix
@@ -33,6 +40,19 @@
 {% assign cal_time = include.time | strip_html %}
 {% assign cal_place = include.place | strip_html %}
 {% assign cal_url = include.url | absolute_url %}
+
+{% assign cal_summary = include.calendar_summary | strip_html %}
+{% assign cal_description = "" %}
+{% if cal_time and cal_summary %}
+    {% capture cal_description %}{{ cal_time }}
+
+{{ cal_summary }}{% endcapture %}
+    {% assign cal_description = cal_description | strip %}
+{% elsif cal_summary %}
+    {% assign cal_description = cal_summary %}
+{% elsif cal_time %}
+    {% assign cal_description = cal_time %}
+{% endif %}
 
 {% assign date_norm = include.date | date: "%Y-%m-%d" %}
 {% assign start_compact = date_norm | date: "%Y%m%d" %}
@@ -85,7 +105,7 @@
 {% endif %}
 
 {% assign enc_title = cal_title | url_encode %}
-{% assign enc_time = cal_time | url_encode %}
+{% assign enc_description = cal_description | url_encode %}
 {% assign enc_place = cal_place | url_encode %}
 {% assign enc_recur = rrule_line | prepend: "RRULE:" | url_encode %}
 {% assign enc_timezone = include.timezone | url_encode %}
@@ -100,8 +120,8 @@
 {% if rrule_line != "" %}
     {% assign gcal_url = gcal_url | append: "&recur=" | append: enc_recur %}
 {% endif %}
-{% if cal_time %}
-    {% assign gcal_url = gcal_url | append: "&details=" | append: enc_time %}
+{% if cal_description %}
+    {% assign gcal_url = gcal_url | append: "&details=" | append: enc_description %}
 {% endif %}
 {% if cal_place %}
     {% assign gcal_url = gcal_url | append: "&location=" | append: enc_place %}
@@ -254,6 +274,15 @@ END:VTIMEZONE
     {% endcase %}
 {% endif %}
 
+{% comment %}
+  RFC 5545 TEXT escaping for the .ics DESCRIPTION value: backslash
+  first (so it doesn't double-escape the backslashes this introduces),
+  then semicolon and comma, then actual newlines -> literal "\n".
+{% endcomment %}
+{% capture newline_char %}
+{% endcapture %}
+{% assign ics_description = cal_description | replace: "\", "\\" | replace: ";", "\;" | replace: ",", "\," | replace: newline_char, "\n" %}
+
 {% capture ics_content %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Zephyr Foundation//Events//EN
@@ -265,14 +294,26 @@ DTEND;TZID={{ include.timezone }}:{{ end_datetime_compact }}
 {% else %}DTSTART;VALUE=DATE:{{ start_compact }}
 DTEND;VALUE=DATE:{{ end_compact }}
 {% endif %}SUMMARY:{{ cal_title }}
-{% if cal_time %}DESCRIPTION:{{ cal_time }}
+{% if cal_description %}DESCRIPTION:{{ ics_description }}
 {% endif %}{% if cal_place %}LOCATION:{{ cal_place }}
 {% endif %}{% if rrule_line != "" %}RRULE:{{ rrule_line }}
 {% endif %}URL:{{ cal_url }}
 END:VEVENT
 END:VCALENDAR{% endcapture %}
 
+{% comment %}
+  A data: URI's payload is generic percent-encoding (RFC 3986), where
+  "+" has no special meaning -- unlike a URL query string, it does NOT
+  mean space there. Liquid's url_encode is CGI.escape-style and turns
+  spaces into literal "+", which is correct for gcal_url's query
+  string above but would leave literal "+" characters (instead of
+  spaces) in the downloaded .ics file. Every "+" url_encode produces
+  here came from an encoded space (a literal "+" in the source would
+  itself have been escaped to "%2B"), so this replace is safe.
+{% endcomment %}
+{% assign ics_data_uri = ics_content | url_encode | replace: "+", "%20" %}
+
 <div class="z-add-to-cal">
     <a href="{{ gcal_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-plus" aria-hidden="true"></i> Add to Google Calendar</a>
-    <a href="data:text/calendar;charset=utf8,{{ ics_content | url_encode }}" download="{{ uid_slug }}.ics"><i class="fa-solid fa-download" aria-hidden="true"></i> Download .ics</a>
+    <a href="data:text/calendar;charset=utf8,{{ ics_data_uri }}" download="{{ uid_slug }}.ics"><i class="fa-solid fa-download" aria-hidden="true"></i> Download .ics</a>
 </div>

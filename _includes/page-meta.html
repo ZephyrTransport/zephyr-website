@@ -23,14 +23,23 @@
 </div>
 
 {% if page.collection == "events-recurring" and page.cadence %}
-    {% assign dow_codes = "SU,MO,TU,WE,TH,FR,SA" | split: "," %}
-    {% assign cal_rrule = "" %}
-    {% if page.cadence == "monthly_nth_weekday" %}
-        {% assign cal_rrule = "FREQ=MONTHLY;BYDAY=" | append: page.nth | append: dow_codes[page.weekday] %}
-    {% elsif page.cadence == "weekly" %}
-        {% assign cal_interval = page.interval_weeks | default: 1 %}
-        {% assign cal_rrule = "FREQ=WEEKLY;INTERVAL=" | append: cal_interval %}
-    {% endif %}
-    {% include add-to-calendar.html title=page.title date=page.start_date time=display_time place=page.place url=page.url rrule=cal_rrule until=page.end_date start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+    {% comment %}
+      internal: true already means the real join link is shared
+      privately with members/consultants rather than posted publicly
+      (see each series' `place` text) -- the actual invite comes from
+      that private channel, not this page, so there's nothing correct
+      to put in a public calendar download here either.
+    {% endcomment %}
+    {% unless page.requires_registration or page.internal %}
+        {% assign dow_codes = "SU,MO,TU,WE,TH,FR,SA" | split: "," %}
+        {% assign cal_rrule = "" %}
+        {% if page.cadence == "monthly_nth_weekday" %}
+            {% assign cal_rrule = "FREQ=MONTHLY;BYDAY=" | append: page.nth | append: dow_codes[page.weekday] %}
+        {% elsif page.cadence == "weekly" %}
+            {% assign cal_interval = page.interval_weeks | default: 1 %}
+            {% assign cal_rrule = "FREQ=WEEKLY;INTERVAL=" | append: cal_interval %}
+        {% endif %}
+        {% include add-to-calendar.html title=page.title date=page.start_date time=display_time calendar_summary=page.calendar_summary place=page.place url=page.url rrule=cal_rrule until=page.end_date start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+    {% endunless %}
 {% endif %}
 {% endif %}

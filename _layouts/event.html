@@ -49,8 +49,16 @@
                             <a href="{{ page.registration }}" class="btn btn-lg btn-z">Register Now</a>
                         {% endif %}
 
-                        {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
-                        {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+                        {% comment %}
+                          requires_registration: true hides the calendar links --
+                          a one-click calendar invite for an event people still
+                          need to separately register for risks giving a false
+                          sense they're set without registering.
+                        {% endcomment %}
+                        {% unless page.requires_registration %}
+                            {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
+                            {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+                        {% endunless %}
                     </div>
 
                     {% if page['additional-msg'] %}
