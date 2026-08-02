@@ -20,7 +20,7 @@ Zephyr's committees bring members together to grow our community, organize event
 Organizes learning sessions, workshops, and networking events, plans conference meetups, fosters engagement in the Zephyr Forum, supports mentoring and peer learning, and encourages year-round participation.
 
 <div class="z-committee-contact" markdown="1">
-**Chair:** Bill Hereth
+**Chair:** Bill Hereth (<a href="mailto:chair@zephyrtransport.org">email</a>)
 </div>
 
 ---
