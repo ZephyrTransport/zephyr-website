@@ -1873,10 +1873,6 @@ footer a:hover {
   opacity: 0.5;
 }
 
-.z-calendar-day.z-calendar-past .z-calendar-daynum {
-  text-decoration: line-through;
-}
-
 .z-calendar-daynum {
   display: block;
   font-weight: bold;
