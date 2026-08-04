@@ -1743,7 +1743,7 @@ footer a:hover {
 .z-calendar-empty-content {
   text-align: center;
   pointer-events: auto;
-  background: #fff;
+  background: var(--z-blue-tint);
   border: 1px solid var(--z-border-gray);
   padding: 1.25rem 1.75rem;
   border-radius: 0.5rem;
@@ -1754,6 +1754,13 @@ footer a:hover {
   color: #55595f;
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
+}
+
+.z-calendar-empty-actions {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .z-calendar-empty-btn {

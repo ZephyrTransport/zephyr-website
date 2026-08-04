@@ -164,15 +164,20 @@ latest-update: ""
 {% assign num_months_minus_one = num_months | minus: 1 %}
 
 {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+{% assign start_year = start_index | divided_by: 12 %}
+{% assign end_year = end_index | divided_by: 12 %}
 
 <div class="z-calendar-nav">
     <button type="button" class="z-calendar-nav-btn" id="z-cal-prev" aria-label="Previous month">&laquo;</button>
-    <select id="z-cal-jump-select" aria-label="Jump to month">
-        {% for offset in (0..num_months_minus_one) %}
-            {% assign idx = start_index | plus: offset %}
-            {% assign yy = idx | divided_by: 12 %}
-            {% assign mi = idx | modulo: 12 %}
-            <option value="{{ offset }}"{% if idx == current_index %} selected{% endif %}>{{ month_names[mi] }} {{ yy }}</option>
+    <select id="z-cal-month-select" aria-label="Jump to month">
+        {% for mi in (0..11) %}
+            {% assign mval = mi | plus: 1 %}
+            <option value="{{ mval }}"{% if mval == this_month %} selected{% endif %}>{{ month_names[mi] }}</option>
+        {% endfor %}
+    </select>
+    <select id="z-cal-year-select" aria-label="Jump to year">
+        {% for yy in (start_year..end_year) %}
+            <option value="{{ yy }}"{% if yy == this_year %} selected{% endif %}>{{ yy }}</option>
         {% endfor %}
     </select>
     <button type="button" class="z-calendar-nav-btn" id="z-cal-next" aria-label="Next month">&raquo;</button>
@@ -183,7 +188,10 @@ latest-update: ""
     <div class="z-calendar-empty-overlay" id="z-cal-empty-overlay" style="display:none;">
         <div class="z-calendar-empty-content">
             <p class="z-calendar-empty-msg" id="z-cal-empty-msg">Nothing scheduled this month.</p>
-            <button type="button" class="z-calendar-today-btn z-calendar-empty-btn" id="z-cal-next-event">Next Event/Meeting &raquo;</button>
+            <div class="z-calendar-empty-actions">
+                <button type="button" class="z-calendar-today-btn z-calendar-empty-btn" id="z-cal-prev-event">&laquo; Previous Event/Meeting</button>
+                <button type="button" class="z-calendar-today-btn z-calendar-empty-btn" id="z-cal-next-event">Next Event/Meeting &raquo;</button>
+            </div>
         </div>
     </div>
     {% for offset in (0..num_months_minus_one) %}
@@ -241,11 +249,13 @@ document.addEventListener('DOMContentLoaded', function () {
     var activeCategory = 'all';
     var activeFormat = 'all';
     var monthBlocks = Array.prototype.slice.call(document.querySelectorAll('.z-calendar-month'));
-    var jumpSelect = document.getElementById('z-cal-jump-select');
+    var monthSelect = document.getElementById('z-cal-month-select');
+    var yearSelect = document.getElementById('z-cal-year-select');
     var prevBtn = document.getElementById('z-cal-prev');
     var nextBtn = document.getElementById('z-cal-next');
     var todayBtn = document.getElementById('z-cal-today');
     var nextEventBtn = document.getElementById('z-cal-next-event');
+    var prevEventBtn = document.getElementById('z-cal-prev-event');
     var emptyOverlay = document.getElementById('z-cal-empty-overlay');
     var emptyMsg = document.getElementById('z-cal-empty-msg');
 
@@ -287,10 +297,46 @@ document.addEventListener('DOMContentLoaded', function () {
         monthBlocks.forEach(function (block, i) {
             block.style.display = i === index ? '' : 'none';
         });
-        jumpSelect.value = index;
+        var block = monthBlocks[index];
+        monthSelect.value = block.getAttribute('data-month');
+        yearSelect.value = block.getAttribute('data-year');
         prevBtn.disabled = index === 0;
         nextBtn.disabled = index === monthBlocks.length - 1;
         updateNextEventBtnVisibility();
+    }
+
+    function findIndexForYearMonth(year, month) {
+        for (var i = 0; i < monthBlocks.length; i++) {
+            if (parseInt(monthBlocks[i].getAttribute('data-year'), 10) === year &&
+                parseInt(monthBlocks[i].getAttribute('data-month'), 10) === month) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    function jumpToSelectedMonthYear() {
+        var year = parseInt(yearSelect.value, 10);
+        var month = parseInt(monthSelect.value, 10);
+        var idx = findIndexForYearMonth(year, month);
+        if (idx === -1) {
+            // Combination isn't in the rendered range (e.g. a month before/after
+            // the first/last year's partial range) -- snap to the closest month.
+            var target = (year * 12) + (month - 1);
+            var best = 0;
+            var bestDiff = Infinity;
+            monthBlocks.forEach(function (block, i) {
+                var by = parseInt(block.getAttribute('data-year'), 10);
+                var bm = parseInt(block.getAttribute('data-month'), 10);
+                var diff = Math.abs(((by * 12) + (bm - 1)) - target);
+                if (diff < bestDiff) {
+                    bestDiff = diff;
+                    best = i;
+                }
+            });
+            idx = best;
+        }
+        showMonth(idx);
     }
 
     function currentFilterLabel() {
@@ -302,6 +348,20 @@ document.addEventListener('DOMContentLoaded', function () {
         return 'matching events';
     }
 
+    function findNextWithEvents(fromIndex) {
+        for (var i = fromIndex; i < monthBlocks.length; i++) {
+            if (monthBlocks[i].querySelector('.z-calendar-day.has-event')) return i;
+        }
+        return -1;
+    }
+
+    function findPrevWithEvents(fromIndex) {
+        for (var i = fromIndex; i >= 0; i--) {
+            if (monthBlocks[i].querySelector('.z-calendar-day.has-event')) return i;
+        }
+        return -1;
+    }
+
     function updateNextEventBtnVisibility() {
         var idx = activeIndex();
         var block = monthBlocks[idx];
@@ -309,13 +369,14 @@ document.addEventListener('DOMContentLoaded', function () {
         block.classList.toggle('z-calendar-month-dimmed', isBlank);
 
         var nextIdx = -1;
+        var prevIdx = -1;
         if (isBlank) {
             nextIdx = findNextWithEvents(idx + 1);
+            prevIdx = findPrevWithEvents(idx - 1);
             var label = currentFilterLabel();
 
-            if (nextIdx !== -1) {
-                var nextMonthLabel = monthBlocks[nextIdx].querySelector('.z-event-year').textContent;
-                emptyMsg.textContent = 'No ' + label + ' this month — next one is in ' + nextMonthLabel + '.';
+            if (nextIdx !== -1 || prevIdx !== -1) {
+                emptyMsg.textContent = 'No ' + label + ' this month.';
             } else {
                 var hasPastMatches = Array.prototype.some.call(
                     document.querySelectorAll('.z-event-row'),
@@ -330,28 +391,36 @@ document.addEventListener('DOMContentLoaded', function () {
             emptyOverlay.style.display = 'none';
         }
 
-        nextEventBtn.style.display = nextIdx !== -1 ? '' : 'none';
+        if (prevIdx !== -1) {
+            prevEventBtn.textContent = '« ' + monthBlocks[prevIdx].querySelector('.z-event-year').textContent;
+            prevEventBtn.style.display = '';
+        } else {
+            prevEventBtn.style.display = 'none';
+        }
+        if (nextIdx !== -1) {
+            nextEventBtn.textContent = monthBlocks[nextIdx].querySelector('.z-event-year').textContent + ' »';
+            nextEventBtn.style.display = '';
+        } else {
+            nextEventBtn.style.display = 'none';
+        }
     }
 
     prevBtn.addEventListener('click', function () { showMonth(activeIndex() - 1); });
     nextBtn.addEventListener('click', function () { showMonth(activeIndex() + 1); });
     todayBtn.addEventListener('click', function () { showMonth(defaultIndex); });
 
-    function findNextWithEvents(fromIndex) {
-        for (var i = fromIndex; i < monthBlocks.length; i++) {
-            if (monthBlocks[i].querySelector('.z-calendar-day.has-event')) return i;
-        }
-        return -1;
-    }
+    prevEventBtn.addEventListener('click', function () {
+        var idx = findPrevWithEvents(activeIndex() - 1);
+        if (idx !== -1) showMonth(idx);
+    });
 
     nextEventBtn.addEventListener('click', function () {
         var idx = findNextWithEvents(activeIndex() + 1);
         if (idx !== -1) showMonth(idx);
     });
 
-    jumpSelect.addEventListener('change', function () {
-        showMonth(parseInt(jumpSelect.value, 10));
-    });
+    monthSelect.addEventListener('change', jumpToSelectedMonthYear);
+    yearSelect.addEventListener('change', jumpToSelectedMonthYear);
 
     showMonth(defaultIndex);
 
