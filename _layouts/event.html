@@ -54,8 +54,36 @@
                           a one-click calendar invite for an event people still
                           need to separately register for risks giving a false
                           sense they're set without registering.
+
+                          hide_calendar_links: true hides them too, as a manual
+                          override for cases the auto is_past_event check below
+                          doesn't cover.
+
+                          is_past_event hides them once the event is more than
+                          one calendar day in the past -- the one-day buffer
+                          covers the build server's UTC "today" running ahead
+                          of a visitor's local date, so the links don't vanish
+                          while it's still technically the event day somewhere.
                         {% endcomment %}
-                        {% unless page.requires_registration %}
+                        {% assign today_y = site.time | date: '%Y' | plus: 0 %}
+                        {% assign today_m = site.time | date: '%-m' | plus: 0 %}
+                        {% assign today_d = site.time | date: '%-d' | plus: 0 %}
+                        {% capture today_ord_raw %}{% include day-ordinal.html y=today_y m=today_m d=today_d %}{% endcapture %}
+                        {% assign today_ord = today_ord_raw | strip | plus: 0 %}
+
+                        {% assign event_y = page.date | date: '%Y' | plus: 0 %}
+                        {% assign event_m = page.date | date: '%-m' | plus: 0 %}
+                        {% assign event_d = page.date | date: '%-d' | plus: 0 %}
+                        {% capture event_ord_raw %}{% include day-ordinal.html y=event_y m=event_m d=event_d %}{% endcapture %}
+                        {% assign event_ord = event_ord_raw | strip | plus: 0 %}
+
+                        {% assign is_past_event = false %}
+                        {% assign past_event_cutoff_ord = today_ord | minus: 1 %}
+                        {% if event_ord < past_event_cutoff_ord %}
+                            {% assign is_past_event = true %}
+                        {% endif %}
+
+                        {% unless page.requires_registration or page.hide_calendar_links or is_past_event %}
                             {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
                             {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
                         {% endunless %}
