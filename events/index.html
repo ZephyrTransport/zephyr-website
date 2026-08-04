@@ -135,7 +135,32 @@ latest-update: ""
     {% endif %}
 {% endfor %}
 
-{% assign num_months = end_index | minus: current_index | plus: 1 %}
+{% comment %} Range also extends back to the earliest one-off event... {% endcomment %}
+{% assign start_index = current_index %}
+{% assign all_events_sorted = site.events | sort: "date" %}
+{% if all_events_sorted.size > 0 %}
+    {% assign earliest_event = all_events_sorted.first %}
+    {% assign eey = earliest_event.date | date: '%Y' | plus: 0 %}
+    {% assign eem = earliest_event.date | date: '%-m' | plus: 0 %}
+    {% assign eeidx = eey | times: 12 | plus: eem | minus: 1 %}
+    {% if eeidx < start_index %}
+        {% assign start_index = eeidx %}
+    {% endif %}
+{% endif %}
+
+{% comment %} ...or the earliest recurring series start_date, whichever is earlier. {% endcomment %}
+{% for series in site.events-recurring %}
+    {% if series.start_date %}
+        {% assign ssy = series.start_date | date: '%Y' | plus: 0 %}
+        {% assign ssm = series.start_date | date: '%-m' | plus: 0 %}
+        {% assign ssidx = ssy | times: 12 | plus: ssm | minus: 1 %}
+        {% if ssidx < start_index %}
+            {% assign start_index = ssidx %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign num_months = end_index | minus: start_index | plus: 1 %}
 {% assign num_months_minus_one = num_months | minus: 1 %}
 
 {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
@@ -144,10 +169,10 @@ latest-update: ""
     <button type="button" class="z-calendar-nav-btn" id="z-cal-prev" aria-label="Previous month">&laquo;</button>
     <select id="z-cal-jump-select" aria-label="Jump to month">
         {% for offset in (0..num_months_minus_one) %}
-            {% assign idx = current_index | plus: offset %}
+            {% assign idx = start_index | plus: offset %}
             {% assign yy = idx | divided_by: 12 %}
             {% assign mi = idx | modulo: 12 %}
-            <option value="{{ offset }}">{{ month_names[mi] }} {{ yy }}</option>
+            <option value="{{ offset }}"{% if idx == current_index %} selected{% endif %}>{{ month_names[mi] }} {{ yy }}</option>
         {% endfor %}
     </select>
     <button type="button" class="z-calendar-nav-btn" id="z-cal-next" aria-label="Next month">&raquo;</button>
@@ -162,11 +187,11 @@ latest-update: ""
         </div>
     </div>
     {% for offset in (0..num_months_minus_one) %}
-        {% assign idx = current_index | plus: offset %}
+        {% assign idx = start_index | plus: offset %}
         {% assign cy = idx | divided_by: 12 %}
         {% assign cm = idx | modulo: 12 | plus: 1 %}
         {% assign is_default = false %}
-        {% if offset == 0 %}
+        {% if idx == current_index %}
             {% assign is_default = true %}
         {% endif %}
         {% include calendar-month.html year=cy month=cm is_default=is_default %}
@@ -245,6 +270,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     applyLocalToday();
 
+    var defaultIndex = monthBlocks.findIndex(function (b) {
+        return b.classList.contains('z-calendar-month-active');
+    });
+    if (defaultIndex === -1) defaultIndex = 0;
+
     function activeIndex() {
         for (var i = 0; i < monthBlocks.length; i++) {
             if (monthBlocks[i].style.display !== 'none') return i;
@@ -305,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     prevBtn.addEventListener('click', function () { showMonth(activeIndex() - 1); });
     nextBtn.addEventListener('click', function () { showMonth(activeIndex() + 1); });
-    todayBtn.addEventListener('click', function () { showMonth(0); });
+    todayBtn.addEventListener('click', function () { showMonth(defaultIndex); });
 
     function findNextWithEvents(fromIndex) {
         for (var i = fromIndex; i < monthBlocks.length; i++) {
@@ -323,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showMonth(parseInt(jumpSelect.value, 10));
     });
 
-    showMonth(0);
+    showMonth(defaultIndex);
 
     function matches(el) {
         var cats = (el.getAttribute('data-category') || '').split('|');
