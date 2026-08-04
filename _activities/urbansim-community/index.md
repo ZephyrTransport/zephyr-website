@@ -19,7 +19,7 @@ The UrbanSim Users Community is composed of public agency planners and managers 
 
 ### Request for Qualifications
 
-The Zephyr Foundation is releasing a Request for Qualifications (RFQ) to build a Consultant Bench for maintenance and development of the open-source UrbanSim codebase. UrbanSim is an open-source platform for modeling urban development and land use change, used by agencies worldwide for long-range transportation and land use planning. The codebase is available at [github.com/UDST/](https://github.com/UDST/).  Through this RFQ, Zephyr and the UrbanSim Community are seeking qualified consultants to provide as-needed software development, feature implementation, and related technical work under task orders.  The RFQ is available upon request sent to: [admin@zephyrtransport.org](mailto:admin@zephyrtransport.org)
+The Zephyr Foundation is releasing a Request for Qualifications ([available here](https://zephyrtransport.org/assets/rfp/UrbanSim-Open-Source-Development-RFQ.pdf)) to establish a Consultant Bench for maintenance and development of the open source UrbanSim codebase. UrbanSim was originally developed as an open source platform for modeling urban development and land use change, used by agencies worldwide for long-range transportation and land use planning. The codebase is available at [github.com/UDST/](https://github.com/UDST/).  Through this RFQ, Zephyr and the UrbanSim Community are seeking qualified consultants to provide as-needed open source software development, feature implementation, and related technical work under task orders.
 
 ### Contact
 
