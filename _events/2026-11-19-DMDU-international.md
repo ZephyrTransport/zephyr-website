@@ -9,6 +9,7 @@ start_time: "12:00"
 duration_minutes: 60
 timezone: "America/New_York"
 place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">Zoom Registration</a>
+place_own_line: true
 requires_registration: true
 ---
 

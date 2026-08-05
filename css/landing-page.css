@@ -172,6 +172,11 @@ a.z-event-badge:hover {
   margin-right: 0.4rem;
 }
 
+.z-event-meta-item-full {
+  flex-basis: 100%;
+  text-align: center;
+}
+
 .z-page-meta {
   display: flex;
   flex-wrap: wrap;

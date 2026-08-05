@@ -38,7 +38,7 @@
                             </div>
                             {% endif %}
                             {% if page.place %}
-                            <div class="z-event-meta-item">
+                            <div class="z-event-meta-item{% if page.place_own_line %} z-event-meta-item-full{% endif %}">
                                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                                 {{ page.place }}
                             </div>
