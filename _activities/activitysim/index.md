@@ -8,7 +8,7 @@ order: 20
 title: ActivitySim
 description: Open-source, activity-based travel behavior modeling software built and maintained by a consortium of planning agencies.
 front: True
-permalink: /activities/activity-sim/
+permalink: /activities/activitysim/
 hide-title: true
 lead: "Joe Castiglione"
 contact: "admin@activitysim.org"
@@ -17,46 +17,49 @@ contact_url: "mailto:admin@activitysim.org"
 # domain is used for programmatic logo gathering
 # url is the link included on card
 activitysim_members:
-  - name: Atlanta Regional Commission (ARC)
+  - name: Atlanta Regional Commission (Atlanta)
     domain: atlantaregional.org
     url: https://atlantaregional.org/
-  - name: Central Transportation Planning Staff (CTPS Boston)
+  - name: Central Transportation Planning Staff (Boston)
     domain: ctps.org
     url: https://www.ctps.org/
-  - name: Chicago Metropolitan Agency for Planning (CMAP)
+  - name: Chicago Metropolitan Agency for Planning (Chicago)
     domain: cmap.illinois.gov
     url: https://www.cmap.illinois.gov/
-  - name: Maricopa Association of Governments (MAG)
+  - name: Maricopa Association of Governments (Phoenix)
     domain: azmag.gov
     url: https://azmag.gov/
-  - name: Metropolitan Council
+  - name: Metropolitan Council (Minneapolis/St.Paul)
     domain: metrocouncil.org
     url: https://metrocouncil.org/
-  - name: Metropolitan Transportation Commission (MTC)
+  - name: Metropolitan Transportation Commission (San Francisco Bay Area)
     domain: mtc.ca.gov
     url: https://mtc.ca.gov/
-  - name: National Capital Region Transportation Planning Board (Washington, D.C.)
+  - name: National Capital Region Transportation Planning Board (Washington, DC)
     domain: mwcog.org
     url: https://www.mwcog.org/tpb/
-  - name: Puget Sound Regional Council (PSRC)
+  - name: Metro (Portland, OR)
+    domain: metro.org
+    url: https://www.oregonmetro.gov//
+  - name: Puget Sound Regional Council (Seattle)
     domain: psrc.org
     url: https://www.psrc.org/
-  - name: San Diego Association of Governments (SANDAG)
+  - name: San Diego Association of Governments (San Diego)
     domain: sandag.org
     url: https://www.sandag.org/
-  - name: San Francisco County Transportation Authority (SFCTA)
+  - name: San Francisco County Transportation Authority (San Francisco)
     domain: sfcta.org
     url: https://www.sfcta.org/
-  - name: Southeast Michigan Council of Governments (SEMCOG)
+  - name: Southeast Michigan Council of Governments (Detroit)
     domain: semcog.org
     url: https://www.semcog.org/
-  - name: TransLink (Vancouver)
+  - name: TransLink (Vancouver, BC)
     domain: translink.ca
     url: https://www.translink.ca/
-  - name: Transport for New South Wales (Sydney)
+  - name: Transport for New South Wales (Sydney, NSW)
     domain: transport.nsw.gov.au
     url: https://www.transport.nsw.gov.au/
-  - name: Victoria Department of Transport and Planning (Melbourne)
+  - name: Victoria Department of Transport and Planning (Melbourne, VIC)
     domain: vic.gov.au
     url: https://www.vic.gov.au/department-transport-and-planning
 ---
@@ -81,7 +84,7 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 
 Please visit ActivitySim’s [Github page](https://github.com/ActivitySim/activitysim). This page captures ongoing work and development plus decisions and conversations related to the development of ActivitySim. The GitHub issues and milestones are commonly tied to development work and are linked when possible to programmed work efforts. You can also check out our industry presentations and affiliated packages.
 
-Also visit our [FAQ page]({{ '/activities/activity-sim/activitysim-faq' | relative_url }}).
+Also visit our [FAQ page]({{ '/activities/activitysim/activitysim-faq' | relative_url }}).
 
 ## ActivitySim Implementations
 
@@ -91,7 +94,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
     <div class="col">
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
-                <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-1' | relative_url }}" class="stretched-link">Production &amp; Near-Production Implementations</a></h3>
+                <h3 class="card-title h5"><a href="{{ '/activities/activitysim/activitysim-example-1' | relative_url }}" class="stretched-link">Production &amp; Near-Production Implementations</a></h3>
                 <p class="card-text">SANDAG, SEMCOG</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
@@ -100,7 +103,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
     <div class="col">
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
-                <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-2' | relative_url }}" class="stretched-link">Legacy Model Transitions</a></h3>
+                <h3 class="card-title h5"><a href="{{ '/activities/activitysim/activitysim-example-2' | relative_url }}" class="stretched-link">Legacy Model Transitions</a></h3>
                 <p class="card-text">Atlanta Regional Commission, National Capital Region Transportation Planning Board</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
@@ -109,7 +112,7 @@ ActivitySim is already being put to work across the U.S. and around the world as
     <div class="col">
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
-                <h3 class="card-title h5"><a href="{{ '/activities/activity-sim/activitysim-example-3' | relative_url }}" class="stretched-link">Statewide &amp; Multi-Agency Collaboratives</a></h3>
+                <h3 class="card-title h5"><a href="{{ '/activities/activitysim/activitysim-example-3' | relative_url }}" class="stretched-link">Statewide &amp; Multi-Agency Collaboratives</a></h3>
                 <p class="card-text">State of Oregon</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>

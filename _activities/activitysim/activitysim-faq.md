@@ -5,7 +5,7 @@ icon: logos/activitysim_logo_light.jpg
 title: ActivitySim FAQs
 description: Frequently asked questions.
 front: True
-permalink: /activities/activity-sim/activitysim-faq/
+permalink: /activities/activitysim/activitysim-faq/
 ---
 
 ## ActivitySim Frequently Asked Questions

@@ -15,7 +15,7 @@ contact_url: "mailto:info@zephyrtransport.org"
 ---
 ### Objective
 
-The UrbanSim Community is composed of public agency planners and managers using UrbanSim.  Similar in spirit to the [ActivitySim]({{ '/activities/activity-sim' | relative_url }}) consortium, the group brings together agencies to share experience, coordinate development priorities, and jointly support the maintenance and development of the open source UrbanSim codebase at [github.com/UDST/](https://github.com/UDST/).
+The UrbanSim Community is composed of public agency planners and managers using UrbanSim.  Similar in spirit to the [ActivitySim]({{ '/activities/activitysim' | relative_url }}) consortium, the group brings together agencies to share experience, coordinate development priorities, and jointly support the maintenance and development of the open source UrbanSim codebase at [github.com/UDST/](https://github.com/UDST/).
 
 ### Request for Qualifications
 

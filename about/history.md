@@ -137,7 +137,7 @@ As Zephyr's activities and membership grew beyond what an all-volunteer Board co
     <div class="z-timeline-item">
         <span class="z-timeline-date">2025</span>
         <h4 class="z-timeline-title">ActivitySim Transition</h4>
-        <p>Zephyr becomes the new administrative home for <a href="{{ '/activities/activity-sim' | relative_url }}">ActivitySim</a>, taking over from AMPO and overseeing a $490,000 budget and 14 participating agencies across the US, Australia, and Canada.</p>
+        <p>Zephyr becomes the new administrative home for <a href="{{ '/activities/activitysim' | relative_url }}">ActivitySim</a>, taking over from AMPO and overseeing a $490,000 budget and 14 participating agencies across the US, Australia, and Canada.</p>
     </div>
     <div class="z-timeline-item">
         <span class="z-timeline-date">September 3, 2025</span>

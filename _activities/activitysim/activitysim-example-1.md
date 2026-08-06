@@ -5,7 +5,7 @@ icon: logos/activitysim_logo_light.jpg
 title: "Production & Near-Production Implementations"
 description: SANDAG and SEMCOG's ActivitySim implementations.
 front: True
-permalink: /activities/activity-sim/activitysim-example-1/
+permalink: /activities/activitysim/activitysim-example-1/
 ---
 
 ## San Diego Association of Governments

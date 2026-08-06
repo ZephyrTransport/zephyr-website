@@ -5,7 +5,7 @@ icon: logos/activitysim_logo_light.jpg
 title: "Statewide & Multi-Agency Collaboratives"
 description: Oregon's statewide, multi-MPO joint ActivitySim estimation effort.
 front: True
-permalink: /activities/activity-sim/activitysim-example-3/
+permalink: /activities/activitysim/activitysim-example-3/
 ---
 
 ## State of Oregon
