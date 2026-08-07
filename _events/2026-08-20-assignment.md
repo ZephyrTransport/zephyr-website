@@ -18,7 +18,7 @@ You must <a href="https://us06web.zoom.us/meeting/register/_1-GoCW7Q_mOHWyysKeVI
 
 This session will feature insights from a leading researcher who will demonstrate practical GMNS assignment workflow from roadway-network conversion, demand preparation, and equilibrium assignment to validation and scenario comparison. 
 
-GMNS enables seamless integration of tools, datasets, and workflows in travel demand modeling, while also supporting collaboration across disciplines. It provides a uniform, open, and extensible format for sharing routable network data that is both human-readable and machine-readable. Read more https://zephyrtransport.org/activities/network-standard-and-tools//
+GMNS enables seamless integration of tools, datasets, and workflows in travel demand modeling, while also supporting collaboration across disciplines. It provides a uniform, open, and extensible format for sharing routable network data that is both human-readable and machine-readable. Read more at https://zephyrtransport.org/activities/network-standard-and-tools//
 
 <h3>Session Topic</h3>
 
