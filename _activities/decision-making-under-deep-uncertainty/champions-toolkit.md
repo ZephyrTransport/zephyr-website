@@ -23,27 +23,29 @@ permalink: /activities/decision-making-under-deep-uncertainty/champions-toolkit/
 Do you have slides, white papers, or other content that has been useful to describe planning under uncertainty? Share them here!
 
 ### Decisions for the Decade
-https://www.climatecentre.org/games/2520/decisions-for-the-decade/
 
-This game has been presented in several conferences and at individual agencies to great success. Example slides and summaries are below. 
+This [game](https://www.climatecentre.org/games/2520/decisions-for-the-decade/) has been presented in several conferences and at individual agencies to great success. Example slides and summaries are below. 
 
 ### TRB 2024 Annual Meeting - Future Uncertain Workshop
 
-Participants: >100
-Slides: https://drive.google.com/file/d/1rvsSMSE-Z0hVVUc05ax5iH79AQmPo2h0/view
-Discussion / Findings: 
+ - Participants: >100
+ - Slides:
+   - [Future Uncertain Workshop Slides](https://drive.google.com/file/d/1rvsSMSE-Z0hVVUc05ax5iH79AQmPo2h0/view)
 
-### Momo 2025 - Uncertainty Workshop
 
-Participants: 60
-Slides: 
-Discussion / Findings: 
+### MoMo 2025 - Uncertainty Workshop
+
+ - Participants: 60
+ - Slides: 
+   - [Decision Making Under Deep Uncertainty Presentation](https://zephyrtransport.org/assets/dmdu/MoMo25-DMDU.pdf)
+   - [Decisions for the Decade Game Presentation](https://zephyrtransport.org/assets/dmdu/MoMo25-Decisions-For-The-Decade-Game.pdf)
+
 
 ### Boston MPO Uncertainty
+Coming soon...
 
 ### WFRC Uncertainty
-
+Coming soon...
 
 ## Software
-
-<link back to Active Learning software users group?>
+Coming soon...

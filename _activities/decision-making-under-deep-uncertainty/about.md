@@ -14,7 +14,7 @@ The initiative is led by Marty Milkovits, Director of Modeling at the Boston Reg
 
 
 ## Initiative Origins
-The Zephyr DMDU Initiative originated as the Uncertainty / DMDU initiative under the TRB AEP50 Travel Forecasting Committee. For now, the committee website is available here: https://sites.google.com/view/trbtravelforecasting/dmdu. 
+The Zephyr DMDU Initiative originated as the Uncertainty / DMDU initiative under the TRB AEP50 Travel Forecasting Committee. For now, the committee website continues to be available here: https://sites.google.com/view/trbtravelforecasting/dmdu. 
 
 The AEP50 DMDU initiative identified the following core challenge areas: 
  - Identifying uncertainty areas and ranges

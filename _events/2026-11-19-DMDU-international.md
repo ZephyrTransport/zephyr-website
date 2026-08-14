@@ -13,7 +13,7 @@ place_own_line: true
 requires_registration: true
 ---
 
-Please join us for a discussion of international perspectives on uncertainty planning, led by Amy Armstrong, Department for Transport, UK and Naomi Stein, EBP.
+Please join us for a discussion of international perspectives on uncertainty planning, led by Amy Anderson, Department for Transport, UK and Naomi Stein, EBP.
 
 You must <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">register</a> in advance for this meeting.
 
