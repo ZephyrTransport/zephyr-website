@@ -14,7 +14,7 @@ contact: "info@zephyrtransport.org"
 contact_url: "mailto:info@zephyrtransport.org"
 ---
 
-<img src="{{ '/img/logos/tmip-fmip-logo-01_crop.png' | relative_url }}" alt="TMIP / FMIP: Better Methods. Better Outcomes." class="z-tmip-page-logo mb-4"/>
+<img src="{{ '/img/logos/TMIP_logo_small.png' | relative_url }}" alt="Travel Model Improvement Program." class="z-tmip-page-logo mb-4"/>
 
 The Travel Model Improvement Program (TMIP) Community of Practice was created to advance the state of the practice of travel modeling by advancing research and building the technical capabilities of an array of stakeholders, including regional planning agencies, state department of transportation (DOT), universities, nonprofits and private sectors.  TMIP is built upon the fundamental principle that sharing information benefits everyone in the modeling community.
 
