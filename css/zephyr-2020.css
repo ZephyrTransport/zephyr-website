@@ -1474,11 +1474,7 @@ h3.z-hero-subtitle {
   padding: 60px 0;
 }
 
-#board, #stakeholders, #instigators, #executive-director, #committees {
-  scroll-margin-top: 90px;
-}
-
-#community, #education, #standards {
+h2[id], h3[id], h4[id] {
   scroll-margin-top: 90px;
 }
 

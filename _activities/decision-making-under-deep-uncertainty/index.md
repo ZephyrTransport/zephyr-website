@@ -27,7 +27,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
  - Facilitate an adaptive planning process where multiple futures are considered and immediate steps are taken to maintain flexibility and resiliency
 
 ## Community Engagement
- - Sign up for our [email list](mailto:dmdu+subscribe@zephyrtransport.org)
+ - To join the group, please contact us.
 
 ## Upcoming Events
 
