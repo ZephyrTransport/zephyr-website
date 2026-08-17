@@ -2048,6 +2048,10 @@ footer a:hover {
   line-height: 1.5;
 }
 
+.z-pillars-note {
+  color: #222;
+}
+
 @media (max-width: 576px) {
   .z-member-banner {
     padding-top: 80px;
