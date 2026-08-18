@@ -62,7 +62,7 @@ Entering the Zephyr Lounge automatically connects your audio. Depending on how y
 
 ---
 <div class="text-center mt-4 mb-4">
-  <a class="btn btn-lg btn-z" href="https://discord.gg/ejR8BK5uP">
+  <a class="btn btn-lg btn-z" href="https://discord.gg/9PhrebhyEs">
     Join the Zephyr Forum on Discord
   </a>
 </div>
