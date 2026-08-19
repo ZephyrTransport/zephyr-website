@@ -33,7 +33,7 @@ Dr. Xuesong (Simon) Zhou is a Professor of Transportation Systems at Arizona Sta
 <h4>Ashkan Gholamialam</h4>
 <img src="{{ '/img/photos/ashkan_gholamialam.jpg' | relative_url }}" style="width: 30%;" alt="Ashkan Gholamialam">
 
-Ashkan Gholamialam is a Regional Transportation Modeler at Northern Virginia Transportation Authority (NVTA), specializing in travel demand models, network optimization, and traffic analysis.
+Ashkan is a transportation modeling professional with experience in regional and corridor-level travel demand modeling including development, calibration, and validation of large-scale travel models using tools such as Cube, VISUM, TransCAD and Dynameq. Ashkan is a licensed Professional Engineer (PE) in multiple states and a certified Professional Traffic Operations Engineer (PTOE).
 
 <h4>Guy Rousseau</h4>
 <img src="{{ '/img/photos/guy_rousseau.jpg' | relative_url }}" style="width: 30%;" alt="Guy Rousseau">
