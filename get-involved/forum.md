@@ -56,7 +56,7 @@ The Forum works in any web browser, but we recommend **[installing the Discord d
 
 **Zephyr Lounge Tip**
 
-Entering the Zephyr Lounge automatically connects your audio. Depending on how you connect, there may not be a separate **Join Call** button, so mute your microphone, or be ready to say hello, before entering.
+Depending on how you enter the Zephyr Lounge, your audio may automatically connect. There may not be a separate **Join Call** button. So, please mute your microphone, or be ready to say hello, before entering.
 
 </div>
 
