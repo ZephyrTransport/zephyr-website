@@ -30,6 +30,21 @@ Zephyr Learning Session: GMNS and Multimodal Assignment
 
 Dr. Xuesong (Simon) Zhou is a Professor of Transportation Systems at Arizona State University and Director of the ASU Transportation+AI Laboratory. He leads the development of open-source transportation modeling tools, including DTALite, NeXTA, and OSM2GMNS.
 
+<h4>Ashkan Gholamialam</h4>
+<img src="{{ '/img/photos/ashkan_gholamialam.jpg' | relative_url }}" style="width: 30%;" alt="Ashkan Gholamialam">
+
+Ashkan is a transportation modeling professional with experience in regional and corridor-level travel demand modeling including development, calibration, and validation of large-scale travel models using tools such as Cube, VISUM, TransCAD and Dynameq. Ashkan is a licensed Professional Engineer (PE) in multiple states and a certified Professional Traffic Operations Engineer (PTOE).
+
+<h4>Guy Rousseau</h4>
+<img src="{{ '/img/photos/guy_rousseau.jpg' | relative_url }}" style="width: 30%;" alt="Guy Rousseau">
+
+Guy Rousseau is the Transportation Models & Travel Surveys Manager for the Atlanta Regional Commission (ARC), the MPO for Atlanta, Georgia, which he joined in 1998. He is responsible for model development activities and travel surveys. Before coming to ARC, he was the Principal Traffic Engineer for the City of Atlanta Department of Public Works, with responsibilities for travel modeling and traffic simulation. Mr. Rousseau has also been a transportation modeler for the MPOs in Dayton, Ohio, and Tulsa, Oklahoma, and for Jefferson Parish, Louisiana. 
+
+<h4>Mohammad Abbasi</h4>
+<img src="{{ '/img/photos/mohammad_abbasi.jpg' | relative_url }}" style="width: 30%;" alt="Mohammad Abbasi">
+
+Mohammad Abbasi is a doctoral researcher at Arizona State University specializing in scalable transportation modeling and data analysis.
+
 <h3>Facilitator</h3>
 <h4>Dave Schmitt</h4>
 <img src="{{ '/img/photos/dave_schmitt.jpg' | relative_url }}" style="width: 30%;" alt="Dave_schmitt">
