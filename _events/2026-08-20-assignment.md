@@ -7,7 +7,7 @@ day: Thursday, August 20, 2026
 start_time: "14:00"
 duration_minutes: 60
 timezone: "America/New_York"
-place: <a href="https://us06web.zoom.us/meeting/register/_1-GoCW7Q_mOHWyysKeVIw">Zoom Registration</a>
+place: <a href='https://youtu.be/uEMnsLqSAhg'>Recording</a> <br><br> <a href="/assets/learning-sessions/GMNS-Assignment-Intro-Schmitt.pdf">Slides - David Schmitt</a> - <a href="/assets/learning-sessions/GMNS-Assignment-NVTA-Gholamialam.pdf">Slides - Ashkan Gholamialam</a> - <a href="/assets/learning-sessions/GMNS-Assignment-ARC-Rousseau-Abbasi.pdf">Slides - Guy Rousseau & Mohammad Abassi</a>
 place_own_line: true
 requires_registration: true
 ---
