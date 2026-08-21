@@ -51,7 +51,7 @@ The Forum works in any web browser, but we recommend **[installing the Discord d
 **Before you join**
 
 - Access requires administrator approval.
-- Please use your real name so others know who they're talking with.
+- Please use your real name so others know who they're talking with. Zephyr will format your server nickname as `Name | Organization`.
 - Zephyr may establish community guidelines and manage access to maintain a welcoming and professional environment.
 
 **Zephyr Lounge Tip**
