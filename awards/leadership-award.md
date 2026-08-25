@@ -17,10 +17,33 @@ Marty has been instrumental in spearheading efforts such as the integration into
 
 ## Past Recipients
 
-- 2025: Rick Donnelly
-- 2024: Susan Handy
-- 2023: Greg Erhardt
-- 2022: Elizabeth Sall
-- 2021: Bill Davidson
-- 2020: Joan Walker
-- 2019: Joe Castiglione
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2025</span>
+        <p>Rick Donnelly</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2024</span>
+        <p>Susan Handy</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2023</span>
+        <p>Greg Erhardt</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2022</span>
+        <p>Elizabeth Sall</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2021</span>
+        <p>Bill Davidson</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2020</span>
+        <p>Joan Walker</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2019</span>
+        <p>Joe Castiglione</p>
+    </div>
+</div>

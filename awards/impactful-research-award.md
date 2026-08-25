@@ -19,7 +19,21 @@ Received the award on the behalf of the project team:
 
 ## Past Recipients
 
-- 2025: [R5 Team](https://github.com/conveyal/r5)
-- 2023: [STOPS - Simplified Trips-on-Project Software](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)
-- 2021: Kai Nagel, Kay Axhausen, and all of the [MATSim](https://matsim.org) development team
-- 2020: Michel Bierlaire, for [Biogeme](https://biogeme.epfl.ch/)
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2025</span>
+        <p><a href="https://github.com/conveyal/r5">R5 Team</a></p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2023</span>
+        <p><a href="https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops">STOPS - Simplified Trips-on-Project Software</a></p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2021</span>
+        <p>Kai Nagel, Kay Axhausen, and all of the <a href="https://matsim.org">MATSim</a> development team</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2020</span>
+        <p>Michel Bierlaire, for <a href="https://biogeme.epfl.ch/">Biogeme</a></p>
+    </div>
+</div>

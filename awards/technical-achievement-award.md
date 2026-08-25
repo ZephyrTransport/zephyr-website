@@ -24,9 +24,29 @@ This paper applied a new approach of using propensity mapping to better control 
 ## Past Recipients
 Note: In 2023, the award updated/clarified to focus on a *project*.
 
-- 2025: OSMnx
-- 2024: AequilibraE
-- 2023: Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)
-- 2022: Peter Vovsha
-- 2021: VisonEval Team
-- 2020: SACOG Technical Team
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2025</span>
+        <p>OSMnx</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2024</span>
+        <p>AequilibraE</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2023</span>
+        <p>Travel Model Improvement Program Exploratory Modeling and Analysis Tool (TMIP-EMAT)</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2022</span>
+        <p>Peter Vovsha</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2021</span>
+        <p>VisonEval Team</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2020</span>
+        <p>SACOG Technical Team</p>
+    </div>
+</div>

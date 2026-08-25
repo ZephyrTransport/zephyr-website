@@ -17,7 +17,21 @@ permalink: /awards/rising-star-award/
 
 Note: This award was previously called the Outstanding Contributor Award. In 2023, the award was renamed and updated to focus on an *individual early in their career*.
 
-- 2022: Dr. Johanna Zmud
-- 2021: Patricia Mokhtarian
-- 2020: Michael Mahut
-- 2019: Julie Dunbar
+<div class="z-timeline">
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2022</span>
+        <p>Dr. Johanna Zmud</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2021</span>
+        <p>Patricia Mokhtarian</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2020</span>
+        <p>Michael Mahut</p>
+    </div>
+    <div class="z-timeline-item">
+        <span class="z-timeline-date">2019</span>
+        <p>Julie Dunbar</p>
+    </div>
+</div>
