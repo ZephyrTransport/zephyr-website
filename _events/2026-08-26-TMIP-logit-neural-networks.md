@@ -7,7 +7,7 @@ day: Wednesday, August 26, 2026
 start_time: "13:30"
 duration_minutes: 90
 timezone: "America/New_York"
-place: <a href="https://us06web.zoom.us/webinar/register/WN_XgSkwVk6T42bv_KtvACWpg">Zoom Registration</a>
+place: <a href='https://youtu.be/4thZm7asbXk'>Recording</a> <br><br> <a href="/assets/learning-sessions/TMIP-AI-4-TB-ResNets-Wang.pdf">Slides - Shenhao Wang</a> - <a href="/assets/learning-sessions/TMIP-AI-4-Deep-Learning-Mishra.pdf">Slides - Sabya Mishra</a>
 place_own_line: true
 requires_registration: true
 ---
