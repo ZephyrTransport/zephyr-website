@@ -20,6 +20,10 @@ The Travel Model Improvement Program (TMIP) Community of Practice was created to
 
 Zephyr is supporting TMIP by moderating a community-wide mailing list and archive, and by maintaining a library of two decades of webinars and other resources.
 
+## Upcoming Events
+
+{% include upcoming-events.html category="TMIP" count=3 empty_message="No upcoming TMIP webinars scheduled right now." %}
+
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 z-resource-list">
     <div class="col">
         <div class="card h-100 z-program-card z-resource-card">
@@ -41,7 +45,7 @@ Zephyr is supporting TMIP by moderating a community-wide mailing list and archiv
                 <h3 class="card-title h5">Webinars</h3>
                 <p class="card-text">Two decades of expert-led webinars and learning sessions on travel modeling methods, tools, and practice.</p>
                 <div class="z-resource-card-links mt-auto">
-                    <a href="{{ '/activities/travel-model-improvement-program/events' | relative_url }}">Recent TMIP webinars&nbsp;&raquo;</a>
+                    <a href="{{ '/activities/travel-model-improvement-program/events' | relative_url }}">Past TMIP webinars&nbsp;&raquo;</a>
                     <a href="{{ '/activities/travel-model-improvement-program/archive/#/webinars' | relative_url }}">Browse the full archive (2007&ndash;2023)&nbsp;&raquo;</a>
                 </div>
             </div>

@@ -1,10 +1,9 @@
 ---
 layout: event
-tmip_event: true
-permalink: /activities/travel-model-improvement-program/events/2026-06-10-TMIP-intro-ai-travel-forecasting/
-category: Learning
+redirect_from: /activities/travel-model-improvement-program/events/2026-06-10-TMIP-intro-ai-travel-forecasting/
+category: TMIP
+format: Learning Session
 title: "TMIP Webinar: Introduction to AI in Travel Forecasting"
-type: Webinar
 time: 1:30 PM - 3:00 PM EDT
 place: <a href='https://youtu.be/axxlBHTwmbc'>Recording Part 1</a> - <a href='https://youtu.be/cK_q_Kj0mPA'>Recording Part 2</a> - <a href='https://drive.google.com/file/d/14utnYsbx6PuL1127Df5TOi6_CcwgDL8B/view?usp=share_link'>Presentation</a>
 ---

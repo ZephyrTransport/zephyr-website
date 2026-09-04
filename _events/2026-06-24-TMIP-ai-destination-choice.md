@@ -1,10 +1,9 @@
 ---
 layout: event
-tmip_event: true
-permalink: /activities/travel-model-improvement-program/events/2026-06-24-TMIP-ai-destination-choice/
-category: Learning
+redirect_from: /activities/travel-model-improvement-program/events/2026-06-24-TMIP-ai-destination-choice/
+category: TMIP
+format: Learning Session
 title: "TMIP Webinar: AI in Destination Choice: The Reno Case Study"
-type: Webinar
 time: 1:30 PM - 3:00 PM EDT
 place: <a href='https://youtu.be/rA9lqwRabNo'>Recording</a> - <a href='https://drive.google.com/file/d/1usUHu6bFOjRXIDvyEQFpinvqvdh_4Jqr/view?usp=share_link'>Presentation</a>
 ---
@@ -20,4 +19,3 @@ The Reno, Nevada, metropolitan area was chosen to serve as a case study for the 
 Vince Bernardin, PhD, Vice President at Caliper Corporation, is one of the nation’s foremost experts on the incorporation of both big data and AI in the practice of travel modeling. He was the first to use big data for statewide modeling (2010) and activity-based modeling (2016), and the first to incorporate machine learning/AI methods including boosting (2017) and decision trees (2021).  He is serving as Project Manager/Principal Investigator for this project. 
  
 Andrew Rohne, is a Senior Transportation Planner at Caliper Corporation.  He has over twenty years of experience with over a decade in both the public and private sectors developing, calibrating, and applying both trip and activity-based models.  He led the implementation of MWCOG, CMAP, and MetCouncil’s ActivitySim models and also has deep experience with CT-RAMP2 from his time leading OKI’s modeling team.  Prior to the current project for FHWA, Andrew had collaborated with Vince using machine learning with big data for commercial vehicle modeling for the Indianapolis MPO. 
-

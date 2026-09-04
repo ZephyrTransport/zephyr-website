@@ -1,10 +1,9 @@
 ---
 layout: event
-tmip_event: true
-permalink: /activities/travel-model-improvement-program/events/2026-06-17-TMIP-machine-learning-trip-generation/
-category: Learning
+redirect_from: /activities/travel-model-improvement-program/events/2026-06-17-TMIP-machine-learning-trip-generation/
+category: TMIP
+format: Learning Session
 title: "TMIP Webinar: Machine Learning in Trip Generation"
-type: Webinar
 time: 1:30 PM - 3:00 PM EDT
 place: <a href='https://youtu.be/jWtK_ltinKk'>Recording</a> - <a href='https://drive.google.com/file/d/1roAZoabztoRgniQ6ppHPvOLJW3gdqbJH/view?usp=share_link'>Presentation</a>
 ---
@@ -20,4 +19,3 @@ Hadi Sadr, PhD, is a Senior Manager at Iteris with over 15 years of experience s
 
 <h4>Si Shi</h4>
 Si Shi, is a Research Scholar at the Institute for Transportation Research and Education at North Carolina State University where she is the lead modeler for the Triangle Regional Model in the Research Triangle Region of North Carolina. In the past 10 years she has played with various travel models and enjoyed using data and models to inform decision making. She has a master’s degree from UNC Chapel Hill in City and Regional Planning.
-

@@ -23,27 +23,40 @@ latest-update: ""
 <hr/>
 
 {% comment %}
-  Both the category and format lists below are built from upcoming/current
-  one-off events (plus all recurring series, which are ongoing by
-  definition) rather than the full event history, so stale values with no
-  recent activity -- e.g. a category last used years ago -- don't clutter
-  the filter bars.
+  Both the category and format lists below are built from one-off events
+  dated within the past year through the future (plus all recurring series,
+  which are ongoing by definition) rather than the full event history, so
+  stale values with no recent or upcoming activity -- e.g. a category last
+  used years ago -- don't clutter the filter bars. A category/format stays
+  visible for a year after its last occurrence rather than disappearing the
+  day the event passes.
 {% endcomment %}
-{% assign upcoming_events = site.events | where_exp: "e", "e.date >= site.time" %}
+{% assign now_epoch = site.time | date: "%s" | plus: 0 %}
+{% assign one_year_ago_epoch = now_epoch | minus: 31536000 %}
+{% assign one_year_ago = one_year_ago_epoch | date: "%Y-%m-%d" %}
 
 {% comment %} Category list includes each item's primary `category` plus any `also_categories`. {% endcomment %}
 {% assign categories = "" | split: "" %}
-{% for e in upcoming_events %}
-    {% if e.category %}
-        {% unless categories contains e.category %}
-            {% assign categories = categories | push: e.category %}
-        {% endunless %}
+{% assign formats = "" | split: "" %}
+{% for e in site.events %}
+    {% assign e_date_str = e.date | date: "%Y-%m-%d" %}
+    {% if e_date_str >= one_year_ago %}
+        {% if e.category %}
+            {% unless categories contains e.category %}
+                {% assign categories = categories | push: e.category %}
+            {% endunless %}
+        {% endif %}
+        {% for c in e.also_categories %}
+            {% unless categories contains c %}
+                {% assign categories = categories | push: c %}
+            {% endunless %}
+        {% endfor %}
+        {% if e.format %}
+            {% unless formats contains e.format %}
+                {% assign formats = formats | push: e.format %}
+            {% endunless %}
+        {% endif %}
     {% endif %}
-    {% for c in e.also_categories %}
-        {% unless categories contains c %}
-            {% assign categories = categories | push: c %}
-        {% endunless %}
-    {% endfor %}
 {% endfor %}
 {% for m in site.events-recurring %}
     {% if m.category %}
@@ -56,29 +69,13 @@ latest-update: ""
             {% assign categories = categories | push: c %}
         {% endunless %}
     {% endfor %}
-{% endfor %}
-{% assign categories = categories | sort %}
-
-{% comment %}
-  Format list -- what kind of gathering (Reception, Meeting, Learning Session,
-  etc). E.g. Workshop, last used in 2017, is excluded since nothing upcoming
-  uses that format.
-{% endcomment %}
-{% assign formats = "" | split: "" %}
-{% for e in upcoming_events %}
-    {% if e.format %}
-        {% unless formats contains e.format %}
-            {% assign formats = formats | push: e.format %}
-        {% endunless %}
-    {% endif %}
-{% endfor %}
-{% for m in site.events-recurring %}
     {% if m.format %}
         {% unless formats contains m.format %}
             {% assign formats = formats | push: m.format %}
         {% endunless %}
     {% endif %}
 {% endfor %}
+{% assign categories = categories | sort %}
 {% assign formats = formats | sort %}
 
 <div class="z-event-filter-group">

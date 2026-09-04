@@ -1,5 +1,11 @@
 {% assign limit = include.count | default: 3 %}
-{% assign matches = site.events | where_exp: "e", "e.format == include.format" | where_exp: "e", "e.time != 'TBD'" | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+{% assign matches = site.events | where_exp: "e", "e.time != 'TBD'" | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+{% if include.format %}
+    {% assign matches = matches | where_exp: "e", "e.format == include.format" %}
+{% endif %}
+{% if include.category %}
+    {% assign matches = matches | where_exp: "e", "e.category == include.category" %}
+{% endif %}
 {% assign shown = matches | slice: 0, limit %}
 
 {% if shown.size > 0 %}
@@ -11,5 +17,5 @@
         {% endif %}
     {% endfor %}
 {% else %}
-    <p class="z-empty-state"><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
+<p class="z-empty-state"><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
 {% endif %}

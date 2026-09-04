@@ -1,4 +1,10 @@
-{% assign past_events = site.events | where_exp: "e", "e.format == include.format" | where_exp: "e", "e.date < site.time" | sort: "date" | reverse %}
+{% assign past_events = site.events | where_exp: "e", "e.date < site.time" | sort: "date" | reverse %}
+{% if include.format %}
+    {% assign past_events = past_events | where_exp: "e", "e.format == include.format" %}
+{% endif %}
+{% if include.category %}
+    {% assign past_events = past_events | where_exp: "e", "e.category == include.category" %}
+{% endif %}
 
 {% if past_events.size > 0 %}
 <div class="z-search-box">
