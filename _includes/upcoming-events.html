@@ -1,21 +1,53 @@
+{% comment %}
+  Shows up to `count` upcoming site.events, optionally filtered by
+  `format` and/or `category`, as event-card.html-style cards. Params:
+  count, format, category, eyebrow (shown above the first card only),
+  empty_message.
+
+  Server-side filtering here only needs a generous lower bound (site.time
+  minus a buffer) so the page doesn't ship its entire multi-year event
+  history to the browser -- the real "is this actually still upcoming"
+  decision, same as _includes/next-event.html, happens client-side in
+  js/upcoming-events.js using the visitor's real current date. Without
+  this, a page left unbuilt for a few days (Jekyll only rebuilds on
+  push) would go on showing an event that's already passed, since its
+  date would still satisfy the stale site.time cutoff baked in at the
+  last build.
+{% endcomment %}
 {% assign limit = include.count | default: 3 %}
-{% assign matches = site.events | where_exp: "e", "e.time != 'TBD'" | where_exp: "e", "e.date >= site.time" | sort: "date" %}
+{% assign now_epoch = site.time | date: "%s" | plus: 0 %}
+{% assign lookback_epoch = now_epoch | minus: 1209600 %}
+{% assign lookback_date = lookback_epoch | date: "%Y-%m-%d" %}
+
+{% assign fsep = "|~|" %}
+{% assign rsep = "@@REC@@" %}
+{% assign records = "" %}
+
+{% assign matches = site.events | where_exp: "e", "e.time != 'TBD'" | sort: "date" %}
 {% if include.format %}
     {% assign matches = matches | where_exp: "e", "e.format == include.format" %}
 {% endif %}
 {% if include.category %}
     {% assign matches = matches | where_exp: "e", "e.category == include.category" %}
 {% endif %}
-{% assign shown = matches | slice: 0, limit %}
 
-{% if shown.size > 0 %}
-    {% for post in shown %}
-        {% if forloop.first %}
-            {% include event-card.html post=post eyebrow=include.eyebrow %}
-        {% else %}
-            {% include event-card.html post=post %}
-        {% endif %}
-    {% endfor %}
-{% else %}
-<p class="z-empty-state"><em>{{ include.empty_message | default: "No upcoming sessions scheduled right now." }}</em></p>
-{% endif %}
+{% for e in matches %}
+    {% assign e_date_str = e.date | date: "%Y-%m-%d" %}
+    {% if e_date_str >= lookback_date %}
+        {% assign e_url = e.url | relative_url %}
+        {% assign e_day_label = e.day | default: e_date_str %}
+        {% unless e.day %}{% assign e_day_label = e.date | date: "%B %-d, %Y" %}{% endunless %}
+        {% assign record = e_url | append: fsep | append: e.title | append: fsep | append: e_date_str | append: fsep | append: e_day_label | append: fsep | append: e.time | append: fsep | append: e.category %}
+        {% assign records = records | append: record | append: rsep %}
+    {% endif %}
+{% endfor %}
+{% assign records_safe = records | replace: "</", "<\/" %}
+
+{% capture uid %}{% increment upcoming_events_uid %}{% endcapture %}
+{% assign uid = uid | strip %}
+{% assign empty_message = include.empty_message | default: "No upcoming sessions scheduled right now." %}
+
+<script type="application/json" id="z-upcoming-events-data-{{ uid }}" data-fsep="{{ fsep }}" data-rsep="{{ rsep }}" data-count="{{ limit }}" data-eyebrow="{{ include.eyebrow }}" data-empty-message="{{ empty_message }}">{{ records_safe }}</script>
+<div id="z-upcoming-events-mount-{{ uid }}" class="z-upcoming-events-mount"></div>
+
+<script src="{{ '/js/upcoming-events.js' | relative_url }}" defer></script>

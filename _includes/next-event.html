@@ -148,62 +148,28 @@
     {% endfor %}
 {% endfor %}
 
-{% assign hit_lines = hits | split: rsep %}
-{% assign next_hit = hit_lines | first %}
-{% assign next_fields = next_hit | split: fsep %}
+{% comment %}
+  Which record is actually "next" depends on the viewer's real calendar
+  date, not the date this page happened to last get built -- a static
+  Jekyll build only re-runs on push, so a page left unbuilt for a few
+  days would otherwise go on showing an event that's already passed
+  (site.time frozen at the last build). So instead of picking "next"
+  here in Liquid, every candidate found by the scan above is handed to
+  js/next-event.js as data, and the browser -- using its own current
+  date -- picks and renders the right one at view time. This mirrors
+  the same fix already used for "today" on the /events/ calendar
+  (see applyLocalToday in events/index.html).
+{% endcomment %}
+{% assign window_days = site.upcoming_events_window_days | default: 30 %}
+{% assign hits_safe = hits | replace: "</", "<\/" %}
+
+<script type="application/json" id="z-next-event-data" data-fsep="{{ fsep }}" data-rsep="{{ rsep }}" data-window-days="{{ window_days }}" data-compact="{{ include.compact | default: false }}">{{ hits_safe }}</script>
 
 {% if include.compact %}
-    {% if next_hit %}
-    <div class="z-next-event-banner">
-        <div class="container">
-            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-            <strong>Next Event:</strong>
-            <a href="{{ next_fields[0] }}">{{ next_fields[1] }}</a>
-            <span class="z-next-event-banner-date">&mdash; {{ next_fields[3] }}</span>
-        </div>
-    </div>
-    {% endif %}
+<div id="z-next-event-banner-mount"></div>
 {% else %}
-    {% assign window_days = site.upcoming_events_window_days | default: 30 %}
-    {% assign window_seconds = window_days | times: 86400 %}
-    {% assign window_end = today_ts | plus: window_seconds | date: "%Y%m%d" %}
-    {% assign rest_hits = hit_lines | slice: 1, 20 %}
-
-    {% if next_hit %}
-    <div class="z-events-section-heading">Next Event</div>
-    <div class="z-next-event">
-        {% if next_fields[5] != "" %}<span class="z-event-badge">{{ next_fields[5] }}</span>{% endif %}
-        <h3 class="z-next-event-title"><a href="{{ next_fields[0] }}">{{ next_fields[1] }}</a></h3>
-        <div class="z-next-event-meta">
-            <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ next_fields[3] }}</span>
-            {% if next_fields[4] != "" %}<span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ next_fields[4] }}</span>{% endif %}
-        </div>
-        <a class="btn btn-z" href="{{ next_fields[0] }}">View Details</a>
-    </div>
-    {% endif %}
-
-    {% assign upcoming_count = 0 %}
-    {% capture upcoming_rows %}
-        {% for line in rest_hits %}
-            {% assign fields = line | split: fsep %}
-            {% assign postdate = fields[2] | remove: "-" %}
-            {% if postdate <= window_end %}
-                {% assign upcoming_count = upcoming_count | plus: 1 %}
-                <div class="z-upcoming-tile">
-                    <div class="z-event-date">{{ fields[3] }}</div>
-                    <div class="z-event-title"><a href="{{ fields[0] }}">{{ fields[1] }}</a></div>
-                </div>
-            {% endif %}
-        {% endfor %}
-    {% endcapture %}
-    {% assign upcoming_rows = upcoming_rows | strip %}
-
-    {% if upcoming_rows != "" %}
-    <div class="z-upcoming-month">
-        <div class="z-upcoming-month-label">Also Coming Up in the Next {{ window_days }} Days</div>
-        <div class="z-upcoming-tiles{% if upcoming_count == 1 %} single{% endif %}">
-            {{ upcoming_rows }}
-        </div>
-    </div>
-    {% endif %}
+<div id="z-next-event-mount"></div>
+<div id="z-upcoming-mount"></div>
 {% endif %}
+
+<script src="{{ '/js/next-event.js' | relative_url }}" defer></script>
