@@ -36,7 +36,7 @@ Yes, it's the app gamers made famous. These days it's also where many technical 
 
 ## First Fridays in the Forum
 
-We're trying out a casual video chat in the **Zephyr Lounge** on the first Friday of every month, starting at **2 PM Eastern** (1 PM Central / 12 PM Mountain / 11 AM Pacific). No agenda, no presentation. Just stop by to say hello, ask a question, or talk shop with other travel modelers.
+We're trying out a casual video chat in the **Zephyr Lounge** on the first Friday of every month, from **2:15 to 2:45 PM Eastern** (1:15 - 1:45 PM Central / 12:15 - 12:45 PM Mountain / 11:15 - 11:45 AM Pacific). No agenda, no presentation. Just stop by to say hello, ask a question, or talk shop with other travel modelers.
 
 Zephyr members help shape the conversation: a few days before each First Friday, we'll ask members in the members-only channel whether there's a topic they'd like to discuss. Everyone is still welcome to join the conversation. *No membership required.*
 
