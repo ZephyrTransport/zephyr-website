@@ -8,92 +8,106 @@ description: An overview of the Oregon DOT DMDU case study
 front: False
 permalink: /activities/decision-making-under-deep-uncertainty/case-studies-oregon-DOT/
 ---
-## Part 1: High-Level Summary
- - **Agency / Organization:** Oregon Department of Transportation (ODOT) – Transportation Emissions / Climate Office.
- - **The Headline:** ODOT pioneered a dual-modeling paradigm for its 2023 Long Range Plan, coupling the strategic model VisionEval with TMIP-EMAT to stress-test thousands of futures. This explicitly decoupled exploratory "what-if" visioning from rigid, tactical project funding—establishing a formal institutional strategy to "plan to learn".
- - **Decisions Supported:** The 2023 Oregon Transportation Plan (OTP) Update (looking out to 2050), the Statewide Transportation Strategy (STS) for GHG Reduction, and the multi-agency Every Mile Counts initiative.
- - **Uncertainties Considered:**
-   - Market dynamics (fuel and electricity price volatility, ride-hailing/ridesharing costs).
-   - Technological adoption rates (highly connected and fully autonomous vehicle market penetration).
-   - Socio-economic and behavioral shifts (teleworking permanence, demographic shifts, and regional income growth).
-   - Programmatic policy effectiveness.
- - **Models / Tools Used:**
-   - **VisionEval** (VE-State and VE-RSPM) integrated with
-   - **TMIP-EMAT** (Exploratory Modeling and Analysis Tool).
-- **Status / Year:** Adopted July 2023 (With ongoing operational monitoring through 2026).
 
-## Part 2: The Detailed Brief
- - **The Challenge / Context**
-ODOT is faced with aggressive, legislatively mandated targets to slash transportation greenhouse gas emissions to 80% below 1990 levels by 2050. Concurrently, they must address deep funding deficits and prioritize multi-modal investments across starkly different urban and rural landscapes.
+## Oregon DOT Policy Group uses DMDU to flip the script amid financial realities
 
-   Traditional "predict-then-act" forecasting models fell short because they rely heavily on a single, deterministic baseline for economic growth and travel behavior. In an era disrupted by explosive telecommuting shifts, rapid electric vehicle (EV) transitions, and autonomous vehicle (AV) ambiguity, building a 25-year plan around a single "most likely" future risked making multi-billion-dollar infrastructure investments fragile and highly vulnerable to real-world volatility.
- - **Securing Stakeholder Buy-In**
-The ultimate catalyst occurred around 2018 when empirical data revealed Oregon was significantly off-track from meeting its mid-century climate mandates. This triggering event forced leadership to acknowledge that status-quo planning assumptions were no longer viable.
+### Summary
 
-   To "sell" DMDU to non-technical stakeholders and executives, the technical team reframed the narrative from predicting a single future to managing risk and institutional flexibility. They introduced a clear separation between Strategic Models (designed for open scenario screening and identifying systemic uncertainty) and Tactical Models (designed for project-level facility detail, legal certifications, and immediate dollar allocation). To make the math tangible, ODOT utilized "Transportation Personas," which quantified and visualized how individual households across various demographics would realistically experience these uncertain futures.
+By conducting a wide array of model runs to inform long-range planning, ODOT was able to tie its efforts to definite metrics and provide insights into funding decisions with robust solutions for each. This approach relied heavily on institutional knowledge and trust, a history of working with a strategic model platform, and an engaged consultant looking to develop the practice. As a result, the conversation has changed and the “script has been flipped”; however, there are still challenges uncertainty regarding the ability to continue planning for uncertainty. While ODOT is working to establish the necessary skills and models in-house, they have proven that times of great fiscal uncertainty are best met with a strong planning effort.
 
-<blockquote class="z-pullquote">
-Discussion Question:
-“When you explicitly divided the analysis into 'Strategic' vs 'Tactical' frameworks, did that immediately ease tensions with board members who are traditionally anxious to see specific local highway projects on a map? How hard was it to get leadership to accept that a strategic model must intentionally sacrifice local granular detail to achieve scenario breadth?”
-</blockquote>
+### Introduction
+Oregon DOT is a vanguard, for better and for worse. 
 
- - **The DMDU Approach (Methodology)**
-ODOT shifted away from a single "preferred alternative" to a highly interactive, exploratory sandbox. While a strict XLRM framework wasn’t explicitly advertised under that name, the approach mirrored its principles:
+Oregon DOT has been leading the practice on using strategic models to study climate policy impacts. The open-source model VisionEval arose from ODOT tools and has been in use for ten years to monitor adherence to Oregon’s strict GHG targets. It was through this monitoring that ODOT identified Oregon was significantly off-track from meeting its mid-century climate mandates. 
 
-   - **Exogenous Uncertainties (X):** AV/CV deployment speeds, long-term telework rates, energy pricing, and ride-hailing economics.
-   - **Policy Levers (L):** Land-use density, pricing strategies, active travel/transit supply expansion, intelligent transportation systems (ITS), and travel demand management (TDM).
-   - **Metrics (M):** Per capita Vehicle Miles Traveled (VMT), GHG emissions, household transit operating costs, and a custom Statewide Equity Index.
-Instead of relying purely on a handful of static, qualitative narrative scenarios, ODOT utilized computational exploratory modeling via TMIP-EMAT to automate and assess thousands of parameter combinations, identifying the boundary conditions where their policies would succeed or fail.
- - **Technical Implementation**
-The technical heavy lifting was handled by the open-source VisionEval framework. Structurally, VisionEval relies on a "disaggregate demand/aggregate supply" setup. Because it processes synthetic populations but handles travel without requiring computationally intensive, explicit network routing, its runtimes are exceptionally fast. This speed allowed the team to seamlessly overlay the TMIP-EMAT interface, executing a massive exploratory sweep of thousands of scenarios that would be impossible with a traditional, cumbersome travel demand model.
+<img src="{{ '/img/dmdu/case_studies_ODOT_1.jpg' | relative_url }}" style="width: 80%;" alt="DMDU ODOT Case Study">
 
-<blockquote class="z-pullquote">
-Discussion Question:
-“Many agencies struggle with the technical learning curve of TMIP-EMAT. Did you face computing, staffing, or data extraction bottlenecks when analyzing thousands of runs? If you were advising another DOT on scaling up VisionEval + EMAT, what is the one data pipeline lesson you wish you knew before starting?”
-</blockquote>
+*Source: ODOT Statewide Transportation Strategy (STS) Monitoring, 2018*
 
- - **Results & Outcomes**
-The exploratory sweep yielded a major finding: under baseline trend conditions, the potential range of future GHG emissions under deep uncertainty did not encompass the targets established by the state's Statewide Transportation Strategy (STS) Vision. This empirical gap proved that passive adaptation would fail, prompting the formal adoption of aggressive, legally backed targets in the 2023 OTP—including a mandated 20% reduction in passenger VMT per capita and a 77% reduction in $CO_2e$ per mile by 2050.
+On top of this, Oregon faces an unsustainable revenue forecast, characterized by an absence of a sales tax, no general fund support for transportation, and constitutional limitations that prevent road fees from being used for bicycle or walking infrastructure. This financial landscape makes their resource allocation decisions particularly critical, especially in the face of reduced gas taxes.  
 
-Crucially, it changed the institutional conversation by transforming the long-range plan into an adaptive "plan to learn" document. By setting up strategic monitoring benchmarks at the operational level, the agency can now explicitly flag when an uncertainty is drifting outside anticipated bounds, signaling exactly when to refine policy levers.
+This confluence of challenges led leadership to acknowledge that status-quo planning assumptions were no longer viable and to support staff in trying something new. Fortunately, the ODOT staff and their consultant support were ready and willing to take that risk for the 2023 Oregon Transportation Plan. 
 
-<blockquote class="z-pullquote">
-Discussion Question:
-“We are in 2026, roughly three years post-adoption of the OTP. Has this 'plan to learn' and 'monitoring at the operational level' strategy triggered any real-world policy pivots yet? How are you tracking and feeding real-world emissions and VMT data back into the strategic loop?”
-</blockquote>
+### Background
+Leading into this work, ODOT benefited from several key advantages. The agency had long led the industry in the use of strategic models (e.g.., GreenStep, Regional Strategic Planning Model), which have since evolved into VisionEval. Furthermore, ODOT served as a beta-tester for TMIP-EMAT, integrating it with their new Activity-Based Model. Their OTP consultant was eager to advance industry practices in planning under uncertainty and two long-standing staff members, Tara and Alex, had earned the trust of DOT leadership through their established reputations for delivering high-quality work.
 
- - **Resources & Links**
-   - [Oregon Transportation Emissions Website](https://www.oregontransportationemissions.com/)
-   - [2023 Oregon Transportation Plan (OTP) Hub](https://www.oregon.gov/odot/planning/pages/plans.aspx)
-   - [VisionEval Open Source Project Documentation](https://visioneval.github.io/docs/conceptprimer.html)
-   - [Oregon Greenhouse Gas White Paper (ODOT Modeling Steering Committee)](https://www.google.com/search?q=https%3A%2F%2Fwww.oregon.gov%2Fodot%2FPlanning%2FDocuments%2FGreenhouse_Gas_White_Paper.pdf)
-   - [Tara’s presentation at TRB AM Future Uncertain workshop](https://drive.google.com/file/d/1xpsCb92Btyq-YlEV2iNT5clwl3r6D6TF/view)
+In addition to funding challenges, ODOT faced a 'curse of success' with its VisionEval model. VisionEval is a great tool for flexible, creative policy analysis, and for ODOT the tool became essential for meeting statutory targets and reporting requirements. This created a double-edged sword: while the model is now rigorously maintained to meet legal standards, any changes to it carry significant implications, requiring careful deliberation. Yet, this same stability and confidence have also empowered the agency to leverage the tool for increasingly expansive applications.
 
-## Part 3: Community Assessment & Retrospective
- - **What Worked Well (The Wins)**
-The lightning-fast execution speed of VisionEval was an undeniable win, enabling the deployment of computational exploratory modeling at a true statewide scale. Furthermore, translating abstract statistical uncertainty into granular "Transportation Personas" was highly effective for public engagement and executive digestion, preventing stakeholders from getting bogged down in defensive modeling arguments.
- - **Current Limitations (The Hurdles)**
-Because VisionEval sacrifices spatial and explicit network routing detail to preserve rapid scenario runtimes, it cannot evaluate facility-level bottlenecks or specific corridor project configurations. This creates an ongoing analytical handoff challenge when moving from macro-level "low-regret" strategic policy findings down to project-specific tactical funding selections.
+### Doing The Work
+#### Agency Buy-in
+The initial scope for the 2023 Oregon Transportation Plan followed a traditional path, but ODOT decided to push the boundaries by leveraging their deep experience with VisionEval and a 2019 trial of TMIP-EMAT. Thanks to the established tenure and reputations of Alex and Tara, and bolstered by the enthusiastic support of the RSG consultant team led by Jonathan Slason, the team secured the backing of ODOT leadership to explore these new methods. This support provided the freedom and flexibility to utilize their model in innovative ways without the pressure of rigid expectations beyond the traditional plan. Their familiarity with the tools significantly reduced the risk of failing to meet basic planning needs, and they recognized the internal benefits of running the model numerous times across a wide range of inputs.
 
-<blockquote class="z-pullquote">
-Discussion Question:
-“What has been the hardest part of managing the analytical handoff between your strategic exploratory insights (VisionEval) and your tactical travel demand models (like SWIM) when regional planners request project-level backing? Do the two datasets ever feel like they are speaking different languages to local stakeholders?”
-</blockquote>
+#### Modeling
+The modeling approach utilized the XLRM framework to structure the analysis. 
+ - This included identifying Exogenous Uncertainties (X), such as AV/CV deployment speeds, long-term telework rates, energy pricing, and ride-hailing economics. 
+ - To address these, the team applied various Policy Levers (L), which encompassed Preservation & Adaptation, Strategic additions to road network, ITS/Operations, Electrification, Transportation options (TDM), Active Transportation, and Transit. 
+ - The outcomes were measured through specific Metrics (M), including per capita Vehicle Miles Traveled (VMT), GHG emissions, household transportation ownership and operating costs, number of serious and fatal crashes, funding capacity for maintaining the system, and a custom Statewide Equity Index. 
+ - Finally, the Relationships (R) within the model were governed by VisionEval, which was calibrated to household survey data for consistency with ten years of agency use, while highway disinvestment impacts were derived from Oregon's Statewide Integrated Model investigations and prior applications. The disinvestment relationship formed an important post-process wrapper to the core Visioneval model allowing for a financially constrained optimization.
 
- - **The Next Frontier** 
-ODOT's next milestone is refining the operational monitoring feedback loop to ensure that real-world trend variances automatically trigger pre-planned strategic policy shifts. Additionally, while the 2023 update introduced a Statewide Equity Index to map demographic vulnerability, deeply embedding and automating complex equity and distributional metrics directly into the automated TMIP-EMAT exploratory sweep remains a top priority for future iterations.
+<img src="{{ '/img/dmdu/case_studies_ODOT_2.jpg' | relative_url }}" style="width: 80%;" alt="DMDU ODOT Case Study">
 
-## ODOT Interview Guide: 5 Strategic Questions for Alex & Tara
-1. **Navigating the "Strategic vs. Tactical" Dynamic**
-“In your initial notes, you highlighted a critical distinction between strategic models (which sacrifice detail to run more scenarios) and tactical models (which are required for funding allocation and legal certifications). How did you structurally introduce this two-tiered framework to leadership, and did it help reduce friction with stakeholders who are traditionally anxious to see hyper-local project details on a map?”
-2. **Operationalizing the "Plan to Learn" Concept**
-“A foundational pillar of your approach is establishing an explicit learning step by monitoring performance at the operational level to directly identify and refine policies as uncertainties unfold. Now that we are a few years past the July 2023 adoption of the Oregon Transportation Plan Update, how is this monitoring loop functioning in practice? Have any real-world indicators triggered a policy pivot or model refinement yet?”
-3. **Confronting the Emissions Gap**
-“The exploratory modeling demonstrated that the potential range of future GHG emissions under deep uncertainty did not actually encompass the targets in the STS Vision. When you presented this empirical gap to decision-makers, how did they respond? Did it spark defensive skepticism about the models, or did it successfully catalyze the conversation around more aggressive, low-regret policy levers?”
-4. **Scaling VisionEval for Deep Uncertainty**
-“You utilized VisionEval as your core strategic model to test against market, socio-economic, and program effectiveness uncertainties. For other state DOTs looking to replicate your success, what were the primary data-pipeline or staffing constraints you encountered when scaling VisionEval to explore such a wide envelope of scenarios?”
-5. **Institutionalizing DMDU for Future Planning Cycles**
-“Looking back at the entire process for the 2023 Oregon Transportation Plan Update, what has been the biggest institutional win regarding how ODOT views risk? Is exploratory modeling now seen as a permanent fixture for future planning cycles, or is there still work to be done to fully embed DMDU into the agency's core culture?”
+*Source: Oregon Transportation Plan: Case Studies of Utilizing Scenario Planning in an Era of Rapid Change and Uncertainty* 
 
-**Pro-Tip for the Conversation**
-Use Question 1 as your icebreaker. Agencies all over the country struggle with engineers wanting to use massive, slow travel demand models for high-level exploratory planning. Hearing exactly how ODOT drew the boundary line between "strategic scenario exploration" and "tactical project delivery" will yield an incredibly valuable case study for the entire DMDU community.
+Creating this crosswalk between the OTP Goals with specific policy objectives that fall under those goals and the specific model outputs was critical to the success of this effort. 
+
+#### VisionEval
+For the most part, VisionEval provided the level of detail for the policy questions at hand. The agency’s extensive experience with the tool, which allows for higher-level inputs that translate easily into different funding policies, was instrumental. Combining VisionEval with TMIP-EMAT allowed ODOT to "flip the script," starting with their goals and giving an efficient method to search through hundreds of possible future outcome scenarios to find the policy mix that best satisfied those objectives within existing constraints. 
+
+***Tara: "Traditional scenario planning starts with a few scenarios that pull certain levers and evaluate the outcomes  against our goals. What we did this time instead, is we flipped it and said what our goals are. We ran a ton of scenarios and filtered them for which ones best achieved our goals.”***
+
+The tool proved particularly effective for evaluating funding mixes, as dollar amounts could be more readily translated into VisionEval inputs compared to network-based travel models that require significant detail, e.g., specific transit service routes, stops, and frequency changes. Structurally, VisionEval utilizes a "disaggregate demand/aggregate supply" setup; by processing synthetic populations without requiring computationally intensive network routing, it retains disaggregated household detail, while achieving exceptionally fast runtimes. Furthermore, the agency finds value in "stacking" their work over time, using a consistent abstraction layer to compare results from different models and create a reliable, long-term narrative. This includes incorporating road disinvestment functionality from another tool, recognizing and offsetting any specific tool limitations.
+
+#### Interpretation and Presentation
+In presenting their findings, the team distinguished between data intended for technical experts and insights meant for a broader audience. Not all numbers were included in figures and tables; many were translated into qualitative insights within the plan.The use of TMIP-EMAT allows variables to be explored as a continuous measure, rather than discrete runs of high-medium-low values. Without EMAT, the number of scenarios to more comprehensively cover the continuous space across multiple dimensions would create an unruly number of model runs. EMAT makes this manageable. 
+
+The TMIP-EMAT interface provides easy to interpret charts that can show relationships between two to three variables as well as quickly communicate the strength of the relationship between specific inputs and outputs. The OTP team partnered with staff throughout the agency to align on a financially constrained approach and used transportation funding as the common denominator when discussing plan actions with policy makers. 
+
+Recognizing that these complex tools are not designed for the general public, the planners and modelers took on the challenge of innovating ways to take advantage of the model’s strengths in communication. One example was the use of "Transportation Personas," which quantified and visualized how individual households across various demographics (from the model’s synthetic household results) would realistically experience different uncertain futures. Dashboards were developed to allow users to select the level of transportation funding (with the associated road user fees specified) and then select from the various investment buckets. Outcomes were shown to the user to demonstrate how performance measures change based on the investment selections. It became evident to the stakeholders using the tool that tradeoffs and tough decisions are necessary. 
+
+### Outcomes
+The ODOT team met their obligation to develop the Oregon Transportation Plan and provided several benefits to the planning process, discussion of transportation challenges, and the transportation planning and modeling practice.  
+
+***Alex B: "I walked away from this work very happy... the agency is talking in ways that are in my mind new and a different foundation... [the previous plan] was very traditional. This work said more than if you have more money things are better. It only allowed you to understand the tradeoffs including the benefits of spending the revenue that you had raised under higher fees. And showed how the higher per mile fees would help keep growth in VMT in check, with associated benefits to the environment, safety, road growth, etc..***
+
+#### A Win-Win-Win 
+The first win from this work is useful insights into implications of funding scenarios. At each funding level, the scenarios that best met the goal was different. This led to a different recommended mix of what to fund (bar charts below). Much of the agency's current work continues to point back to these core scenarios, which were finalized in 2023. They serve as a foundational starting point for subsequent efforts, including the upcoming highway plan. Having the scenarios robustly analyzed builds confidence in the findings and provides a solid foundation for future work.
+
+<img src="{{ '/img/dmdu/case_studies_ODOT_3.jpg' | relative_url }}" style="width: 80%;" alt="DMDU ODOT Case Study">
+
+A second key win is the advancement of the transportation planning and modeling practice, particularly the use of VisionEval and TMIP-EMAT.  ODOT’s organization of strategic models in a planning process along with the key monitoring feedback grounds the use of these tools, ensuring their accuracy, providing policy makers confidence in using less specified models to inform long-range policy decisions. 
+
+<img src="{{ '/img/dmdu/case_studies_ODOT_4.jpg' | relative_url }}" style="width: 80%;" alt="DMDU ODOT Case Study">
+
+Most importantly, this work enabled leadership to clearly distinguish between controllable factors and external pressures. The future is inherently uncertain. By working with tools that can account for a wide range of that uncertainty and still provide guidance to policy makers is a unique strength that brought tremendous value to the OTP. 
+
+The iceberg metaphor illustrates this dynamic: while the agency’s direct influence remains visible above the waterline, a vast, submerged mass of uncontrollable forces continues to shape the future.
+
+<img src="{{ '/img/dmdu/case_studies_ODOT_5.jpg' | relative_url }}" style="width: 80%;" alt="DMDU ODOT Case Study">
+
+An example of how the robust analysis enabled the plan to be direct in raising the awareness (and alarm) is captured in this quote about the difficult decisions to be made, including disinvestment in the transportation system:
+
+***“With insufficient resources the OTP becomes more important than ever to help ensure that what little money is available is directed in ways that can best support the movement of people and goods. Unprecedentedly difficult tradeoffs lay in front of Oregonians. The long-term impacts of deferred maintenance are now no longer avoidable and Oregon is in a current state of disinvestment in its transportation system. What this means in the upcoming years and throughout the OTP’s planning horizon is that, while there will be some gains and investment in some areas, there will also be nearly impossible trade-off discussions which will have significant impacts on people’s lives,  communities, and the economy.” https://www.oregon.gov/odot/Planning/Documents/Oregon_Transportation_Plan_with_Appendices.pdf***
+
+### Future Work
+ODOT is actively working to build in-house capabilities to continue use of VisionEval and TMIP-EMAT to address new questions and maintain an "uncertainty heartbeat" for their ongoing planning work. Currently, ODOT continues to be a driving force behind the future development of VisionEval and a key supporter of the Pooled Fund partnership, as they encounter more complex questions and build corresponding capabilities within the tool. The team recognizes the critical need to establish internal expertise for testing purposes so they can adjust models without relying solely on external consultants, though they currently face resource and staff limitations in achieving this goal.
+
+Looking ahead, ODOT acknowledges that while bringing together existing tools was an expedient solution, it arrived with inherent limitations. ODOT is focused on a near-term solution to replicate the work in-house to update the guidance as the funding outlook evolves and new uncertainties unfold. The challenge to make smart funding recommendations and ensure funding is accountable to achieving the agency goals continues. 
+
+***Jonathan: “This work represents an exploration of a wide range of unknown knowns with one model framework. It could be reasonable to also develop some alternative versions of the core equations that estimate household travel demand. Using the TMIP-EMAT framework, we could call that alternative(s) package and that would even further give us a greater range of future experiments. This would take it further along the DMDU pathway and actually start using not only changes in the inputs, but actually the relationship model.”***
+
+More broadly, the work could eventually move toward a system of models—a "model universe"—that allows insights from a disparate set of analytical tools to be integrated without the need to resolve their individual outcomes. Such a system, perhaps utilizing a system dynamics model, could transcend current challenges while preserving the valuable contributions of earlier work that were so vital to the success of the 2023 plan. More research and conceptualization are needed to turn this vision of an integrated modeling environment into a reality.
+
+### Conclusion
+The success of this initiative relied heavily on ODOT’s long-standing expertise with VisionEval and TMIP-EMAT, the established reputations of Tara and Alex, and RSG’s willingness to push the boundaries of standard planning. By leveraging a conventional project, the team effectively advanced the agency’s modeling practice. While significant work remains to institutionalize these methods, the momentum is strong: ODOT is supported by a robust VisionEval community, the ongoing commitment of its key internal experts, and a leadership team now accustomed to deeper, more data-driven insights into the implications of their decisions.
+
+### References
+ - [Oregon Transportation Emissions Website](https://www.oregontransportationemissions.com/)
+ - [2023 Oregon Transportation Plan (OTP) Hub](https://www.oregon.gov/odot/planning/pages/plans.aspx)
+ - [VisionEval Open Source Project Documentation](https://visioneval.github.io/docs/conceptprimer.html)
+   - [VisionEval Pooled Fund](https://pooledfund.org/Details/Solicitation/1651)
+ - [Oregon Greenhouse Gas White Paper (ODOT Modeling Steering Committee)](https://www.google.com/search?q=https%3A%2F%2Fwww.oregon.gov%2Fodot%2FPlanning%2FDocuments%2FGreenhouse_Gas_White_Paper.pdf)
+ - [Tara’s presentation at TRB AM Future Uncertain workshop](https://drive.google.com/file/d/1xpsCb92Btyq-YlEV2iNT5clwl3r6D6TF/view)
+
+
+*Disclaimer*
+*The statements included are the personal opinions of those quoted and do not represent the official policy or position of Oregon DOT.*
