@@ -3,10 +3,10 @@ layout: simple
 img: none
 icon: none
 category: Activities
-title: DMDU Archive
-description: This is the DMDU Archive 
+title: DMDU Past Events
+description: This is the DMDU past events page
 front: True
-permalink: /activities/decision-making-under-deep-uncertainty/archive/
+permalink: /activities/decision-making-under-deep-uncertainty/past-events/
 ---
 
 - [Workshops](#workshops)

@@ -26,14 +26,27 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
  - Promote use of models in concert with decision makers and stakeholders
  - Facilitate an adaptive planning process where multiple futures are considered and immediate steps are taken to maintain flexibility and resiliency
 
-## Community Engagement
- - To join the group, please contact us.
+## Grounded in Broader Decision Science
+
+While Zephyr’s activity focuses specifically on travel demand modeling, DMDU itself is a mature, multidisciplinary decision science developed over decades across climate adaptation, water resources, defense, and economic planning. We do not claim to have invented these methodologies; rather, our working group adapts established DMDU frameworks—such as Exploratory Modeling, Robust Decision Making (RDM), and Dynamic Adaptive Policy Pathways (DAPP)—to the specific tools, workflows, and policy challenges of travel forecasting.
+
+## External Resources & Connections
+
+ - **Society for Decision Making under Deep Uncertainty (DMDU Society)**: The global, multidisciplinary network of researchers and practitioners advancing DMDU methods across public and private sectors. (Note: Zephyr draws on these open decision-science concepts specifically for travel modeling; we operate independently of the DMDU Society.)
+ - **FHWA**: Transportation Planning in Uncertain Times Report
+Federal Highway Administration guide (FHWA-HEP-22-031) highlighting how MPOs and state DOTs can incorporate exploratory scenario analysis and DMDU principles into regional planning processes.
 
 ## Upcoming Events
 
 {% assign dmdu_event = site.events | where: "title", "International Perspectives on Uncertainty Planning" | first %}
 {% include event-card.html post=dmdu_event %}
 
+## Join the Conversation / Shape the Practice
+
+ - [Join our Google Group](https://groups.google.com/u/1/a/zephyrtransport.org/g/dmdu) to keep up on the latest from the DMDU activity. *Note: You need to be logged into a Google account to join the Google group.*  
+
+ - Reach out to Marty and Flavia to help advance the activity! *dmdu@zephyrtransport.org*
+ 
 
 ## Resources
 
@@ -50,8 +63,8 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
     <div class="col">
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
-                <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/challenge-areas' | relative_url }}" class="stretched-link">Challenge Areas</a></h3>
-                <p class="card-text">Case studies and tools for DMDU challenge areas</p>
+                <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/case-studies' | relative_url }}" class="stretched-link">Case Studies</a></h3>
+                <p class="card-text">Case studies and tools for DMDU</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
@@ -68,7 +81,7 @@ We are modelers, so this initiative takes a model-centric view of DMDU, but a bi
     <div class="col">
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
-                <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/archive' | relative_url }}" class="stretched-link">Archive</a></h3>
+                <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/past-events' | relative_url }}" class="stretched-link">Past Activities</a></h3>
                 <p class="card-text">Past DMDU events and resources</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>

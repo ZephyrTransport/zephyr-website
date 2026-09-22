@@ -3,10 +3,10 @@ layout: simple
 img: none
 icon: none
 category: Activities
-title: DMDU Challenge Areas
-description: Case studies and tools for DMDU challenge areas
+title: DMDU Case Studies
+description: Case studies and tools for DMDU
 front: True
-permalink: /activities/decision-making-under-deep-uncertainty/challenge-areas/
+permalink: /activities/decision-making-under-deep-uncertainty/case-studies/
 ---
 
 ## Case Studies
