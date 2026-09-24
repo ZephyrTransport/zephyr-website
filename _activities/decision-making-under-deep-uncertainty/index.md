@@ -32,8 +32,8 @@ While Zephyr’s activity focuses specifically on travel demand modeling, DMDU i
 
 ## External Resources & Connections
 
- - **Society for Decision Making under Deep Uncertainty (DMDU Society)**: The global, multidisciplinary network of researchers and practitioners advancing DMDU methods across public and private sectors. (Note: Zephyr draws on these open decision-science concepts specifically for travel modeling; we operate independently of the DMDU Society.)
- - **FHWA**: Transportation Planning in Uncertain Times Report
+ - [**Society for Decision Making under Deep Uncertainty (DMDU Society)**](https://www.deepuncertainty.org/?utm_source=gemini): The global, multidisciplinary network of researchers and practitioners advancing DMDU methods across public and private sectors. (Note: Zephyr draws on these open decision-science concepts specifically for travel modeling; we operate independently of the DMDU Society.)
+ - [**FHWA**](https://rosap.ntl.bts.gov/view/dot/64646?utm_source=gemini): Transportation Planning in Uncertain Times Report
 Federal Highway Administration guide (FHWA-HEP-22-031) highlighting how MPOs and state DOTs can incorporate exploratory scenario analysis and DMDU principles into regional planning processes.
 
 ## Upcoming Events
@@ -64,7 +64,7 @@ Federal Highway Administration guide (FHWA-HEP-22-031) highlighting how MPOs and
         <div class="card h-100 z-program-card">
             <div class="card-body text-center position-relative">
                 <h3 class="card-title h5"><a href="{{ '/activities/decision-making-under-deep-uncertainty/case-studies' | relative_url }}" class="stretched-link">Case Studies</a></h3>
-                <p class="card-text">Case studies and tools for DMDU</p>
+                <p class="card-text">DMDU case studies</p>
                 <p class="z-program-card-hint">Click for details &raquo;</p>
             </div>
         </div>
