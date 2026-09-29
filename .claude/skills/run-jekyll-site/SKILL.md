@@ -7,12 +7,14 @@ description: Launch and preview this Jekyll site locally (bundle exec jekyll ser
 
 This repo is a Jekyll site pinned to old gems (`github-pages` gem pins
 `jekyll` 3.9.0 / `liquid` 4.0.3) via the Gemfile. The installed Ruby on
-this machine is 4.0, which removed `Object#tainted?`. Old `liquid`
-still calls `obj.tainted?` on every variable render, so a plain
+this machine is 4.0, which removed `Object#tainted?`, `#taint`, and
+`#untaint`. Old `liquid` still calls `obj.tainted?` on every variable
+render (and `.untaint` in filters like `escape`), so a plain
 `bundle exec jekyll serve` or `build` crashes immediately with:
 
 ```
 Liquid Exception: undefined method 'tainted?' for an instance of String in /_layouts/event.html
+Liquid Exception: undefined method 'untaint' for an instance of String in .../learning-sessions/index.md
 ```
 
 This is a local-toolchain issue, not a bug in the site's own code —
@@ -32,9 +34,9 @@ which reliably runs before anything else:
 ```bash
 cat > /tmp/taint_shim.rb << 'EOF'
 class Object
-  def tainted?
-    false
-  end unless method_defined?(:tainted?)
+  def tainted?; false; end unless method_defined?(:tainted?)
+  def untaint; self; end unless method_defined?(:untaint)
+  def taint; self; end unless method_defined?(:taint)
 end
 EOF
 
