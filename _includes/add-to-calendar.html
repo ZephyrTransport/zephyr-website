@@ -22,6 +22,9 @@
                                   when both are given. Deliberately separate from
                                   page.summary, which renders on the page itself
                                   (_layouts/event.html) -- this one is calendar-only.
+    include.hide_time          optional; when true, leaves include.time out of the
+                                calendar description (e.g. for timed events whose
+                                multi-zone time string is redundant with the slot)
     include.place              optional location text (may contain HTML -- stripped)
     include.url                page url (relative_url'd already or not, either works)
     include.rrule               optional recurrence rule value, no "RRULE:" prefix
@@ -38,6 +41,7 @@
 {% endcomment %}
 {% assign cal_title = include.title | strip_html %}
 {% assign cal_time = include.time | strip_html %}
+{% if include.hide_time %}{% assign cal_time = nil %}{% endif %}
 {% assign cal_place = include.place | strip_html %}
 {% assign cal_url = include.url | absolute_url %}
 

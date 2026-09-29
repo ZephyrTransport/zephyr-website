@@ -85,7 +85,7 @@
 
                         {% unless page.requires_registration or page.hide_calendar_links or is_past_event %}
                             {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
-                            {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+                            {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary hide_time=page.calendar_hide_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
                         {% endunless %}
                     </div>
 

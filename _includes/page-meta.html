@@ -39,7 +39,7 @@
             {% assign cal_interval = page.interval_weeks | default: 1 %}
             {% assign cal_rrule = "FREQ=WEEKLY;INTERVAL=" | append: cal_interval %}
         {% endif %}
-        {% include add-to-calendar.html title=page.title date=page.start_date time=display_time calendar_summary=page.calendar_summary place=page.place url=page.url rrule=cal_rrule until=page.end_date start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+        {% include add-to-calendar.html title=page.title date=page.start_date time=display_time calendar_summary=page.calendar_summary hide_time=page.calendar_hide_time place=page.place url=page.url rrule=cal_rrule until=page.end_date start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
     {% endunless %}
 {% endif %}
 {% endif %}
