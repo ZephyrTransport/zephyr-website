@@ -12,7 +12,10 @@ time: "2:15 - 2:45 PM Eastern (1:15 - 1:45 PM Central / 12:15 - 12:45 PM Mountai
 start_time: "14:15"
 duration_minutes: 30
 timezone: "America/New_York"
-calendar_summary: "Monthly informal conversation in the Zephyr Lounge (https://discord.com/channels/1461710843401212022/1526967355568034002)"
+calendar_summary: |-
+  Join us on the first Friday of each month at 2:15 PM Eastern for casual conversation with fellow travel modelers. No agenda—just drop in, connect, and chat!
+
+  Zephyr Lounge: https://discord.com/channels/1461710843401212022/1526967355568034002
 calendar_hide_time: true
 place: '<a href="https://discord.com/channels/1461710843401212022/1526967355568034002">Zephyr Lounge</a> on the Zephyr Forum (Discord)'
 ---
