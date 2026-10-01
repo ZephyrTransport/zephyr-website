@@ -5,17 +5,17 @@ key: community-engagement-committee
 format: Meeting
 category: Committee
 internal: true # true: don't show in upcoming events lists
-cadence: monthly_nth_weekday
-weekday: 5
-nth: 5
-start_date: 2026-08-01
-end_date: 2027-08-01
+cadence: weekly
+weekday: 4
+interval_weeks: 1
+start_date: 2026-10-08
+end_date: 2026-11-12
 start_time: "10:00"
-duration_minutes: 30
-timezone: "America/Denver"
-place: "Zephyr Community Engagement Room voice channel on the Zephyr Forum (Discord) — Committee members only"
+duration_minutes: 60
+timezone: "America/Los_Angeles"
+place: "Zoom — invite shared with Committee members"
 ---
 
-The Zephyr Community Engagement Committee meets on 5th Fridays — whenever a month has one — at 10:00 AM Mountain Time.
+The Zephyr Community Engagement Committee meets every Thursday from October 8 through November 12, 2026, from 10:00 to 11:00 AM Pacific Time.
 
-Committee members: join the Zephyr Community Engagement Room voice channel on the Zephyr Forum (Discord).
+Committee members: join via the Zoom invite sent to you.
