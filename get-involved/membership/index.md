@@ -3,6 +3,7 @@ layout: simple
 title: "Membership"
 section: Get Involved
 permalink: /get-involved/membership/
+redirect_from: /membership
 membership_tiers:
   - type: Standard
     price: "$200"
