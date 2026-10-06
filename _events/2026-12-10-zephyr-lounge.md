@@ -3,8 +3,8 @@ layout: event
 format: Social
 category: Zephyr Forum
 title: "Zephyr Lounge (After the Learning Session)"
-day: Thursday, October 15, 2026
-start_time: "15:00"
+day: Thursday, December 10, 2026
+start_time: "16:00"
 duration_minutes: 15
 timezone: "America/New_York"
 place: '<a href="https://discord.com/channels/1461710843401212022/1526967355568034002">Zephyr Lounge</a> on the Zephyr Forum (Discord)'
