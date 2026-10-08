@@ -116,6 +116,11 @@ The success of this initiative relied heavily on ODOT’s long-standing expertis
  - [Oregon Greenhouse Gas White Paper (ODOT Modeling Steering Committee)](https://www.google.com/search?q=https%3A%2F%2Fwww.oregon.gov%2Fodot%2FPlanning%2FDocuments%2FGreenhouse_Gas_White_Paper.pdf)
  - [Tara’s presentation at TRB AM Future Uncertain workshop](https://drive.google.com/file/d/1xpsCb92Btyq-YlEV2iNT5clwl3r6D6TF/view)
 
+### Acknowledgments
+The authors would like to acknowledge the following people for their contributions, guidance and review of this case study
+ - Alex Bettinardi, P.E., Senior Transportation Modeler, Oregon Department of Transportation
+ - [Jonathan Slason,	Managing Consultant, RSG](https://rsginc.com/about-rsg/team/jonathan-slason/)
+ - Tara Weidner, Climate Impact Program Lead. Oregon Department of Transportation Climate Office
 
 *Disclaimer*
 *The statements included are the personal opinions of those quoted and do not represent the official policy or position of Oregon DOT.*
