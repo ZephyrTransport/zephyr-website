@@ -14,6 +14,10 @@ contact: "info@zephyrtransport.org"
 contact_url: "mailto:info@zephyrtransport.org"
 ---
 
+## Upcoming Events
+
+{% include upcoming-events.html category="DMDU" count=1 eyebrow="Next DMDU Session" empty_message="No upcoming DMDU sessions scheduled right now." %}
+
 ## Mission Statement
 
 To advance the methods, tools, and practice of decision-making under deep uncertainty in transportation planning, enabling more robust and responsible decisions in a rapidly changing world.
@@ -35,11 +39,6 @@ While Zephyr’s activity focuses specifically on travel demand modeling, DMDU i
  - [**Society for Decision Making under Deep Uncertainty (DMDU Society)**](https://www.deepuncertainty.org/?utm_source=gemini): The global, multidisciplinary network of researchers and practitioners advancing DMDU methods across public and private sectors. (Note: Zephyr draws on these open decision-science concepts specifically for travel modeling; we operate independently of the DMDU Society.)
  - [**FHWA**](https://rosap.ntl.bts.gov/view/dot/64646?utm_source=gemini): Transportation Planning in Uncertain Times Report
 Federal Highway Administration guide (FHWA-HEP-22-031) highlighting how MPOs and state DOTs can incorporate exploratory scenario analysis and DMDU principles into regional planning processes.
-
-## Upcoming Events
-
-{% assign dmdu_event = site.events | where: "title", "International Perspectives on Uncertainty Planning" | first %}
-{% include event-card.html post=dmdu_event %}
 
 ## Join the Conversation / Shape the Practice
 

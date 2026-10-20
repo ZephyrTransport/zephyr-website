@@ -15,7 +15,7 @@ requires_registration: true
 
 Please join us for a discussion exploring international approaches to planning for uncertainty, featuring presentations by Amy Anderson from the UK Department for Transport and Naomi Stein from EBP US.
 
-The session will be hosted by Zephyr’s Decision Making Under Uncertainty (DMDU) co-leads, Marty Milkovits of the Boston Region Metropolitan Planning Organization and Flavia Tsang of the Metropolitan Transportation Commission.
+The session will be hosted by Zephyr’s Decision Making Under Uncertainty (DMDU) co-lead Flavia Tsang of the Metropolitan Transportation Commission and Zephyr Foundation Board member Mark Bradley.
 
 You must <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ">register</a> in advance for this meeting.
 
