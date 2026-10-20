@@ -66,12 +66,9 @@ activitysim_members:
 
 <img src="{{ '/img/logos/activitysim_logo_light.jpg' | relative_url }}" alt="ActivitySim" class="z-activitysim-page-logo mb-4"/>
 
+## Mission
+
 The mission of the ActivitySim project is to create and maintain advanced, open-source, activity-based travel behavior modeling software based on best software development practices. 
-
-## Request for Qualifications
-
-The Zephyr Foundation is releasing a updated Request for Qualifications available here ([clean](https://zephyrtransport.org/assets/rfp/ActivitySim-Bench-RFQ-Amended.pdf); [redline](https://zephyrtransport.org/assets/rfp/ActivitySim-Bench-RFQ-Amended-Redline.pdf)) to establish a Consultant Bench for continued ActivitySim software development.  Responses to pre-submittal questions are [available here](https://zephyrtransport.org/assets/rfp/ActivitySim-Pre-Submittal-Q&A.pdf).
-
 
 The goal of the ActivitySim project is to improve activity-based modeling practice and to reduce the overall costs of activity-based model development and maintenance by developing a shared software platform, community, and knowledge base.  The codebase is available at [github.com/ActivitySim/](https://github.com/ActivitySim/).  Through this RFQ, Zephyr is seeking qualified consultants to provide as-needed software development, feature implementation, and related technical work under task orders. Interested firms are invited to submit a Statement of Qualifications per the criteria in the RFQ.
 
