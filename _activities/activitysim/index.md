@@ -33,6 +33,10 @@ activitysim_members:
     city: Phoenix, AZ, USA
     domain: azmag.gov
     url: https://azmag.gov/
+  - name: Metro
+    city: Portland, OR, USA
+    domain: metro.org
+    url: https://www.oregonmetro.gov/
   - name: Metropolitan Council
     city: Minneapolis/St. Paul, MN, USA
     domain: metrocouncil.org
@@ -45,10 +49,6 @@ activitysim_members:
     city: Washington, DC, USA
     domain: mwcog.org
     url: https://www.mwcog.org/tpb/
-  - name: Oregon Metro
-    city: Portland, OR, USA
-    domain: metro.org
-    url: https://www.oregonmetro.gov/
   - name: Puget Sound Regional Council
     city: Seattle, WA, USA
     domain: psrc.org
