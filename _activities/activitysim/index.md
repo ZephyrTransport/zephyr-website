@@ -17,49 +17,64 @@ contact_url: "mailto:admin@activitysim.org"
 # domain is used for programmatic logo gathering
 # url is the link included on card
 activitysim_members:
-  - name: Atlanta Regional Commission (Atlanta)
+  - name: Atlanta Regional Commission
+    city: Atlanta, GA, USA
     domain: atlantaregional.org
     url: https://atlantaregional.org/
-  - name: Central Transportation Planning Staff (Boston)
+  - name: Central Transportation Planning Staff
+    city: Boston, MA, USA
     domain: ctps.org
     url: https://www.ctps.org/
-  - name: Chicago Metropolitan Agency for Planning (Chicago)
+  - name: Chicago Metropolitan Agency for Planning
+    city: Chicago, IL, USA
     domain: cmap.illinois.gov
     url: https://www.cmap.illinois.gov/
-  - name: Maricopa Association of Governments (Phoenix)
+  - name: Maricopa Association of Governments
+    city: Phoenix, AZ, USA
     domain: azmag.gov
     url: https://azmag.gov/
-  - name: Metropolitan Council (Minneapolis/St.Paul)
+  - name: Metropolitan Council
+    city: Minneapolis/St. Paul, MN, USA
     domain: metrocouncil.org
     url: https://metrocouncil.org/
-  - name: Metropolitan Transportation Commission (San Francisco Bay Area)
+  - name: Metropolitan Transportation Commission
+    city: San Francisco Bay Area, CA, USA
     domain: mtc.ca.gov
     url: https://mtc.ca.gov/
-  - name: National Capital Region Transportation Planning Board (Washington, DC)
+  - name: National Capital Region Transportation Planning Board
+    city: Washington, DC, USA
     domain: mwcog.org
     url: https://www.mwcog.org/tpb/
-  - name: Metro (Portland, OR)
+  - name: Metro
+    city: Portland, OR, USA
     domain: metro.org
     url: https://www.oregonmetro.gov/
-  - name: Puget Sound Regional Council (Seattle)
+  - name: Puget Sound Regional Council
+    city: Seattle, WA, USA
     domain: psrc.org
     url: https://www.psrc.org/
-  - name: San Diego Association of Governments (San Diego)
+  - name: San Diego Association of Governments
+    city: San Diego, CA, USA
     domain: sandag.org
     url: https://www.sandag.org/
-  - name: San Francisco County Transportation Authority (San Francisco)
+  - name: San Francisco County Transportation Authority
+    city: San Francisco, CA, USA
     domain: sfcta.org
     url: https://www.sfcta.org/
-  - name: Southeast Michigan Council of Governments (Detroit)
+  - name: Southeast Michigan Council of Governments
+    city: Detroit, MI, USA
     domain: semcog.org
     url: https://www.semcog.org/
-  - name: TransLink (Vancouver, BC)
+  - name: TransLink
+    city: Vancouver, BC, Canada
     domain: translink.ca
     url: https://www.translink.ca/
-  - name: Transport for New South Wales (Sydney, NSW)
+  - name: Transport for New South Wales
+    city: Sydney, NSW, Australia
     domain: transport.nsw.gov.au
     url: https://www.transport.nsw.gov.au/
-  - name: Victoria Department of Transport and Planning (Melbourne, VIC)
+  - name: Victoria Department of Transport and Planning
+    city: Melbourne, VIC, Australia
     domain: vic.gov.au
     url: https://www.vic.gov.au/department-transport-and-planning
 ---
@@ -80,7 +95,7 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
 
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 z-member-list">
     {% for member in page.activitysim_members %}
-    <div class="col"><div class="z-member-tile"><img class="z-member-tile-logo" src="https://www.google.com/s2/favicons?sz=128&domain={{ member.domain }}" alt="" onerror="this.remove()">{{ member.name }}<a class="z-member-tile-www" href="{{ member.url }}" target="_blank" rel="noopener" aria-label="{{ member.name }} website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a></div></div>
+    <div class="col"><div class="z-member-tile"><img class="z-member-tile-logo" src="https://www.google.com/s2/favicons?sz=128&domain={{ member.domain }}" alt="" onerror="this.remove()"><span class="z-member-tile-name">{{ member.name }}</span><span class="z-member-tile-city">{{ member.city }}</span><a class="z-member-tile-www" href="{{ member.url }}" target="_blank" rel="noopener" aria-label="{{ member.name }} website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a></div></div>
     {% endfor %}
 </div>
 

@@ -878,6 +878,18 @@ a.z-zephyr-name {
   object-fit: contain;
 }
 
+.z-member-tile-name {
+  display: block;
+}
+
+.z-member-tile-city {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--z-text-gray, #6c757d);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
 .z-member-tile-www {
   position: absolute;
   bottom: 0.6rem;
