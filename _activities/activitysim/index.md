@@ -45,7 +45,7 @@ activitysim_members:
     city: Washington, DC, USA
     domain: mwcog.org
     url: https://www.mwcog.org/tpb/
-  - name: Metro
+  - name: Oregon Metro
     city: Portland, OR, USA
     domain: metro.org
     url: https://www.oregonmetro.gov/
