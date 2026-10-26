@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var fsep = dataEl.getAttribute('data-fsep');
         var rsep = dataEl.getAttribute('data-rsep');
-        var count = parseInt(dataEl.getAttribute('data-count'), 10) || 3;
+        var countAttr = dataEl.getAttribute('data-count');
+        var count = countAttr === 'all' ? Infinity : (parseInt(countAttr, 10) || 3);
         var eyebrow = dataEl.getAttribute('data-eyebrow') || '';
         var emptyMessage = dataEl.getAttribute('data-empty-message') || 'No upcoming sessions scheduled right now.';
         var raw = dataEl.textContent.trim();

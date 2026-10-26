@@ -1,8 +1,8 @@
 {% comment %}
   Shows up to `count` upcoming site.events, optionally filtered by
   `format` and/or `category`, as event-card.html-style cards. Params:
-  count, format, category, eyebrow (shown above the first card only),
-  empty_message.
+  count (a number, or "all" to show every upcoming match), format,
+  category, eyebrow (shown above the first card only), empty_message.
 
   Server-side filtering here only needs a generous lower bound (site.time
   minus a buffer) so the page doesn't ship its entire multi-year event

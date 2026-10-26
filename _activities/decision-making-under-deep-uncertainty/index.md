@@ -16,7 +16,7 @@ contact_url: "mailto:info@zephyrtransport.org"
 
 ## Upcoming Events
 
-{% include upcoming-events.html category="DMDU" count=1 eyebrow="Next DMDU Session" empty_message="No upcoming DMDU sessions scheduled right now." %}
+{% include upcoming-events.html category="DMDU" count="all" eyebrow="Next DMDU Session" empty_message="No upcoming DMDU sessions scheduled right now." %}
 
 ## Mission Statement
 
