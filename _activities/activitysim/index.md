@@ -99,6 +99,28 @@ The ActivitySim project is led by a consortium of Metropolitan Planning Organiza
     {% endfor %}
 </div>
 
+<script>
+(function () {
+  function equalizeMemberTiles() {
+    var tiles = document.querySelectorAll('.z-member-tile');
+    if (!tiles.length) return;
+    tiles.forEach(function (t) { t.style.height = 'auto'; });
+    var max = 0;
+    tiles.forEach(function (t) { max = Math.max(max, t.offsetHeight); });
+    tiles.forEach(function (t) { t.style.height = max + 'px'; });
+  }
+  window.addEventListener('load', equalizeMemberTiles);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(equalizeMemberTiles);
+  }
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(equalizeMemberTiles, 150);
+  });
+})();
+</script>
+
 ## Open-Source Code
 
 Please visit ActivitySim’s [Github page](https://github.com/ActivitySim/activitysim). This page captures ongoing work and development plus decisions and conversations related to the development of ActivitySim. The GitHub issues and milestones are commonly tied to development work and are linked when possible to programmed work efforts. You can also check out our industry presentations and affiliated packages.

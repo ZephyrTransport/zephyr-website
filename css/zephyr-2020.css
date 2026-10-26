@@ -859,7 +859,7 @@ a.z-zephyr-name {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 180px;
+  min-height: 80px;
   padding: 0.75rem 1rem 2.5rem 1rem;
   border: 1px solid var(--z-border-gray);
   border-top: 3px solid var(--z-blue);
