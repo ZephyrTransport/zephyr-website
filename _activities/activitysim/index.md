@@ -38,7 +38,7 @@ activitysim_members:
     domain: metrocouncil.org
     url: https://metrocouncil.org/
   - name: Metropolitan Transportation Commission
-    city: San Francisco Bay Area, CA, USA
+    city: San Francisco, CA, USA
     domain: mtc.ca.gov
     url: https://mtc.ca.gov/
   - name: National Capital Region Transportation Planning Board
