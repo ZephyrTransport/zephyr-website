@@ -3,7 +3,7 @@ layout: event
 format: Social
 category: Zephyr Forum
 title: "DMDU Launch Party"
-day: Friday, October 30, 2026
+day: Friday, November 6, 2026
 start_time: "14:15"
 duration_minutes: 30
 timezone: "America/New_York"
@@ -16,7 +16,7 @@ Building on years of foundational work established across prior national committ
 
 Come learn what the DMDU activity is all about, play a fun round of DMDU Jeopardy!, and explore ways to get involved. Whether you’re new to DMDU or already putting it into practice, we’d love to have you join us!
 
-Friday, October 30, at 2:15 PM Eastern / 11:15 AM Pacific in the Zephyr Lounge on Discord.
+Friday, November 6, at 2:15 PM Eastern / 11:15 AM Pacific in the Zephyr Lounge on Discord.
 
 **Note:** You'll need access to the Zephyr Forum Discord server to join the Lounge.
 
