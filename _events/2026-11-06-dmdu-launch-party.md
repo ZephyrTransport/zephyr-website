@@ -1,7 +1,7 @@
 ---
 layout: event
 format: Social
-category: Zephyr Forum
+category: DMDU
 title: "DMDU Launch Party"
 day: Friday, November 6, 2026
 start_time: "14:15"
