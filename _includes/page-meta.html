@@ -7,7 +7,7 @@
 {% endunless %}
 
 {% if display_time or page.place %}
-<div class="z-page-meta">
+<div class="z-page-meta{% if page.collection == "events-recurring" %} justify-content-center{% endif %}">
     {% if display_time %}
     <div class="z-event-meta-item">
         <i class="fa-regular fa-clock" aria-hidden="true"></i>
