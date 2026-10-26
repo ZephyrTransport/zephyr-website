@@ -100,10 +100,6 @@
                         {{ content }}
                     </div>
 
-                    {% unless page.requires_registration or page.hide_calendar_links or is_past_event %}
-                        {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary hide_time=page.calendar_hide_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
-                    {% endunless %}
-
                     <div class="z-event-back">
                         <a href="{{ '/events' | relative_url }}">&laquo; Back to All Events</a>
                     </div>
