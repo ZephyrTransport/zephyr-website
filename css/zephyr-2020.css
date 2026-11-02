@@ -1804,6 +1804,14 @@ footer a:hover {
   color: var(--z-blue-dark);
 }
 
+/* Non-first days of a multi-day event (end_date set in front matter) --
+   same chip, softened, so the span reads as a continuation rather than
+   a second distinct event. */
+.z-calendar-event-chip-continues {
+  opacity: 0.6;
+  font-weight: 500;
+}
+
 /* Format color-coding: each format gets a fixed accent color, applied
    via the existing data-format attribute so no extra markup is needed
    beyond the icon. Colors chosen from the validated categorical palette

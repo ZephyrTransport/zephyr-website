@@ -64,6 +64,9 @@
                           covers the build server's UTC "today" running ahead
                           of a visitor's local date, so the links don't vanish
                           while it's still technically the event day somewhere.
+                          For a multi-day event (page.end_date set), this is
+                          judged against its last day, not its first, so the
+                          links stay up for the whole run.
                         {% endcomment %}
                         {% assign today_y = site.time | date: '%Y' | plus: 0 %}
                         {% assign today_m = site.time | date: '%-m' | plus: 0 %}
@@ -71,9 +74,10 @@
                         {% capture today_ord_raw %}{% include day-ordinal.html y=today_y m=today_m d=today_d %}{% endcapture %}
                         {% assign today_ord = today_ord_raw | strip | plus: 0 %}
 
-                        {% assign event_y = page.date | date: '%Y' | plus: 0 %}
-                        {% assign event_m = page.date | date: '%-m' | plus: 0 %}
-                        {% assign event_d = page.date | date: '%-d' | plus: 0 %}
+                        {% assign event_last_day = page.end_date | default: page.date %}
+                        {% assign event_y = event_last_day | date: '%Y' | plus: 0 %}
+                        {% assign event_m = event_last_day | date: '%-m' | plus: 0 %}
+                        {% assign event_d = event_last_day | date: '%-d' | plus: 0 %}
                         {% capture event_ord_raw %}{% include day-ordinal.html y=event_y m=event_m d=event_d %}{% endcapture %}
                         {% assign event_ord = event_ord_raw | strip | plus: 0 %}
 
@@ -85,7 +89,7 @@
 
                         {% unless page.requires_registration or page.hide_calendar_links or is_past_event %}
                             {% assign event_date_iso = page.date | date: "%Y-%m-%d" %}
-                            {% include add-to-calendar.html title=page.title date=event_date_iso time=display_time calendar_summary=page.calendar_summary hide_time=page.calendar_hide_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
+                            {% include add-to-calendar.html title=page.title date=event_date_iso end_date=page.end_date time=display_time calendar_summary=page.calendar_summary hide_time=page.calendar_hide_time place=page.place url=page.url start_time=page.start_time duration_minutes=page.duration_minutes timezone=page.timezone %}
                         {% endunless %}
                     </div>
 

@@ -73,13 +73,32 @@
       {% assign day_weekday = first_weekday_i | plus: d | minus: 1 | modulo: 7 %}
       {% assign day_ord = month_start_ord | plus: d | minus: 1 %}
 
-      {% comment %} -- real events on this day -- {% endcomment %}
+      {% comment %}
+        -- real events on this day --
+        A multi-day event (e.g. a conference) sets `end_date` in its
+        front matter to its last day; the event then matches every day
+        in [date, end_date] inclusive, so it shows a chip across its
+        whole span rather than only on its first day. end_date defaults
+        to date for ordinary single-day events.
+      {% endcomment %}
       {% assign day_real_events = "" | split: "" %}
       {% for e in site.events %}
         {% assign ey = e.date | date: '%Y' | plus: 0 %}
         {% assign em = e.date | date: '%-m' | plus: 0 %}
         {% assign ed = e.date | date: '%-d' | plus: 0 %}
-        {% if ey == y and em == m and ed == d %}
+        {% if e.end_date %}
+          {% comment %} multi-day event -- only this (rare) path pays for the day-ordinal includes, so ordinary single-day events stay on the cheap equality check below {% endcomment %}
+          {% capture e_start_ord_raw %}{% include day-ordinal.html y=ey m=em d=ed %}{% endcapture %}
+          {% assign e_start_ord = e_start_ord_raw | strip | plus: 0 %}
+          {% assign eey = e.end_date | date: '%Y' | plus: 0 %}
+          {% assign eem = e.end_date | date: '%-m' | plus: 0 %}
+          {% assign eed = e.end_date | date: '%-d' | plus: 0 %}
+          {% capture e_end_ord_raw %}{% include day-ordinal.html y=eey m=eem d=eed %}{% endcapture %}
+          {% assign e_end_ord = e_end_ord_raw | strip | plus: 0 %}
+          {% if day_ord >= e_start_ord and day_ord <= e_end_ord %}
+            {% assign day_real_events = day_real_events | push: e %}
+          {% endif %}
+        {% elsif ey == y and em == m and ed == d %}
           {% assign day_real_events = day_real_events | push: e %}
         {% endif %}
       {% endfor %}
@@ -190,9 +209,26 @@
           {% endif %}
           {% assign chip_cats = chip_cats | push: e.category | join: "|" %}
           {% assign fmt_info = site.data.event_formats[e.format] %}
-          <a href="{{ e.url | relative_url }}" class="z-calendar-event-chip" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}" title="{{ e.format }}: {{ e.title }}">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ e.title | truncate: 24 }}</a>
-          {% capture list_row %}<div class="z-event-row" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}"><div class="z-event-date">{{ day_label }}</div><div class="z-event-title">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ e.format }}"></i>{% endif %}<a href="{{ e.url | relative_url }}">{{ e.title }}</a></div></div>{% endcapture %}
-          {% assign month_list_html = month_list_html | append: list_row %}
+
+          {% comment %} only the event's first day counts as its "start day" -- used to avoid repeating its list row below on every day of a multi-day span {% endcomment %}
+          {% assign e_ey = e.date | date: '%Y' | plus: 0 %}
+          {% assign e_em = e.date | date: '%-m' | plus: 0 %}
+          {% assign e_ed = e.date | date: '%-d' | plus: 0 %}
+          {% assign e_is_start_day = false %}
+          {% if e_ey == y and e_em == m and e_ed == d %}
+            {% assign e_is_start_day = true %}
+          {% endif %}
+
+          <a href="{{ e.url | relative_url }}" class="z-calendar-event-chip{% unless e_is_start_day %} z-calendar-event-chip-continues{% endunless %}" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}" title="{{ e.format }}: {{ e.title }}">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true"></i>{% endif %}{{ e.title | truncate: 24 }}</a>
+          {% if e_is_start_day %}
+            {% assign row_date_label = day_label %}
+            {% if e.end_date %}
+              {% assign e_end_short = e.end_date | date: "%b %-d" %}
+              {% assign row_date_label = day_label | append: " – " | append: e_end_short %}
+            {% endif %}
+            {% capture list_row %}<div class="z-event-row" data-category="{{ chip_cats }}" data-format="{{ e.format }}" data-type="{{ chip_type }}"><div class="z-event-date">{{ row_date_label }}</div><div class="z-event-title">{% if fmt_info %}<i class="fa-solid {{ fmt_info.icon }} z-format-icon" aria-hidden="true" title="{{ e.format }}"></i>{% endif %}<a href="{{ e.url | relative_url }}">{{ e.title }}</a></div></div>{% endcapture %}
+            {% assign month_list_html = month_list_html | append: list_row %}
+          {% endif %}
         {% endfor %}
 
         {% for series in day_series %}

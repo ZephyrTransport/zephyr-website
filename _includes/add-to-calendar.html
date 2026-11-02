@@ -14,6 +14,11 @@
   Params:
     include.title
     include.date              YYYY-MM-DD (or a Date/Time value), first/only occurrence
+    include.end_date           optional YYYY-MM-DD, the LAST day of a multi-day
+                                all-day event (inclusive), e.g. a conference
+                                running date..end_date. Ignored for timed events
+                                (start_time/duration_minutes/timezone); omit for
+                                ordinary single-day events.
     include.time               optional free-text time, included in the calendar
                                 description; the on-page display of `time` is
                                 unaffected either way
@@ -61,7 +66,17 @@
 {% assign date_norm = include.date | date: "%Y-%m-%d" %}
 {% assign start_compact = date_norm | date: "%Y%m%d" %}
 {% assign start_ts = date_norm | date: "%s" %}
-{% assign end_ts = start_ts | plus: 86400 %}
+{% comment %}
+  All-day DTEND/gcal "dates=" end is exclusive, so a multi-day span's
+  end_date (its last inclusive day) needs +1 day added, same as the
+  single-day case does from its start.
+{% endcomment %}
+{% if include.end_date %}
+    {% assign end_date_norm = include.end_date | date: "%Y-%m-%d" %}
+    {% assign end_ts = end_date_norm | date: "%s" | plus: 86400 %}
+{% else %}
+    {% assign end_ts = start_ts | plus: 86400 %}
+{% endif %}
 {% assign end_compact = end_ts | date: "%Y%m%d" %}
 {% assign uid_slug = include.url | slugify %}
 
