@@ -11,7 +11,12 @@ body,
 html {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* `clip` (not `hidden`) avoids a CSS quirk where a non-"visible"
+     overflow-x with no explicit overflow-y promotes overflow-y to
+     "auto" on both html and body, turning each into its own
+     same-height scroll container -- i.e. a double vertical scrollbar
+     on any page long enough for both to need one. */
+  overflow-x: clip;
 }
 
 body {
