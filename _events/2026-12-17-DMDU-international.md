@@ -3,7 +3,7 @@ layout: event
 format: Learning Session
 category: DMDU
 title: "Planning for an Uncertain Future: US and UK Approaches to Long-Range Planning (Postponed)"
-day: Thursday, November 19, 2026
+day: Thursday, December 17, 2026
 time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT
 start_time: "12:00"
 duration_minutes: 60
@@ -12,8 +12,6 @@ place: <a href="https://us06web.zoom.us/meeting/register/ok9ndr3cR4K5a4evt06QdQ"
 place_own_line: true
 requires_registration: true
 ---
-
-**This session has been postponed. More information to follow.**
 
 Please join us for a discussion exploring international approaches to planning for uncertainty, featuring presentations by Amy Anderson from the UK Department for Transport and Naomi Stein from EBP US.
 
