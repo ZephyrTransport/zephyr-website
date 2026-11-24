@@ -2,7 +2,7 @@
 layout: event
 format: Learning Session
 category: DMDU
-title: "Planning for an Uncertain Future: US and UK Approaches to Long-Range Planning (Postponed)"
+title: "Planning for an Uncertain Future: US and UK Approaches to Long-Range Planning"
 day: Thursday, December 17, 2026
 time: 9:00 AM PST / 12:00 PM EST / 5:00 PM GMT
 start_time: "12:00"
